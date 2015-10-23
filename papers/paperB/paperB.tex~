@@ -1,0 +1,17 @@
+	\section{Introduction}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/Introduction.tex}
+	\section{Existence and uniqueness of the solution}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/ExistenceAndUniqueness}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/sssmConstruction}
+	\section{Construction of the SSLS method}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/sssmConstruction}
+	\section{Higham-Mao-Stuart technique for the proof of convergence under non-global Lipschitz condition}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/HighamConvergenceTechnique}
+	\section{Strong Convergence of SSLS}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/sssmBm}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/ContinuousExtAndBound}
+	\section{Local Convergence Rates with a non-globally Lipschitz Condition}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/LocalConvergenceRates}
+	\section{Almost sure Stability}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/AlmosSureStability}
+	\todo{Put here the stochastic extension of the Bone Remodeling model.}

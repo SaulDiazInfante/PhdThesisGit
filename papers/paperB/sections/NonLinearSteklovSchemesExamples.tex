@@ -1,0 +1,439 @@
+\documentclass[review]{elsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{breqn}
+%\usepackage{epsfig}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{caption}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage[labelfont=bf,textfont={sl,bf},lofdepth,lotdepth]{subfig}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                  MODIFICACIONES                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\oddsidemargin=1cm
+\textwidth=14cm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 FORMATOS                                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\newtheorem{dfn}{Definition}
+\newtheorem{thm}{ THEOREM}[section]
+\newtheorem{pro}{ PROPOSITION}[section]
+\newtheorem{lem}{ LEMMA}[section]
+\newtheorem{definition}{ DEFINITION}[section]
+\newtheorem{corollary}{ COROLLARY}[section]
+\newtheorem{consequence}{ CONSEQUENCE}[section]
+\newtheorem{remark}{ REMARK}[section]
+\newtheorem{example}{\bf Example}[section]
+\newtheorem{proof}{\bf Proof}[section]
+\newproof{pf}{Proof}
+
+\newcommand{\fin}{\vrule height3pt width3pt depth2pt}
+\newcommand{\normL}[1]{\left[\mathbb{E}\left|#1\right|^2\right]^{1/2}}
+\newcommand{\ms}[1]{\mathbb{E}\left|#1\right|^2}
+\newcommand{\mep}[1]{\mathbb{E}|#1|^p}
+\newcommand{\m}[1]{\mathbb{E}#1}
+\newcommand{\meanp}[2]{\mathbb{E}\left|#1\right|^{#2}}
+\newcommand{\condexp}[2]{\mathbb{E}\left[#1|#2\right]}
+\newcommand{\lftrght}[3]{\left#2 #1\right #3}\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\diag}{diag}
+%opening
+\title{Important Simulation Examples for the Stochastic Steklov Scheme}
+\author[sj]{S. D\'{\i}az-Infante}
+\ead{sauld@cimat.mx}
+\author[sj]{S. Jerez}
+\ead{jerez@cimat.mx}
+
+\begin{document}
+	\begin{frontmatter}
+		\title{Convergence and Asymptotic Stability  of  the Explicit
+		Steklov Method for Stochastic Differential Equations 
+		\tnoteref{t1}
+		}%,t2}}
+		\tnotetext[t1]{This work has been partially
+		supported by CONACYT project *****
+		}
+		\author[sj]{S. D\'{\i}az-Infante}
+		\ead{sauld@cimat.mx}
+		\author[sj]{S. Jerez}
+		\ead{jerez@cimat.mx}
+		%\context[cor1]{Corresponding author. Tel.: +52 473 732 7155; fax: +52 473 732 5749.}
+		\address[sj]{
+		Department of Applied Mathematics, CIMAT, Guanajuato, Gto., Mexico,
+		36240.
+		}
+		\begin{abstract}
+			In this document, we develop a set of examples where the Steklov Schemes can be applied
+			with good results. The examples was taken from common and variated application areas.
+		\end{abstract}
+		\begin{keyword}
+			stochastic differential equations, Steklov average,
+			explicit methods, convergence, asymptotic stability,
+		\end{keyword}
+	\end{frontmatter}
+
+	\section{Steklov Scheme Construction for SDE Systems }
+		Consider the vector SDE
+		\begin{equation}\label{eqn:SDESystem}
+			dX_t = f(X_t)dt + g(X_t)dW_t, \qquad X_0 = x_0,
+		\end{equation}
+		where $f:\mathbb{R}^d \to \mathbb{R}^d$, $g:\mathbb{R}^d \to \mathbb{R}^{d \times m}$, 
+		$W$ is a standandard $m$-dimensional Brownian motion.
+		Assuming that $f =(f^{(1)},\dots f^{(d)})^T$ and $g = (g^{(1)}, \dots g^{(m)}) $ satisfy
+		the usual conditions for existence and uniqueness of solutions to \eqref{eqn:SDESystem}, 
+		and 
+		$H: U\subset \mathbb{R} \to \mathbb{R}$ defined by
+		\begin{equation}
+			H^j(u) = \int \frac{du}{
+				f(X^{(1)}_{0}, \dots, X^{(j-1)}_{0}, u, X^{{(j+1)}}_{0}, \dots,  X^{(d)}_{0})
+			}
+		\end{equation}
+		is integrable for all fixed $X_0 \in U$, and have inverse $[H^j]^{-1}$. We will construct a 
+		Steklov shcme as follows.
+		
+		For each component equation solves the associated determinisitc problem
+		$$
+			\frac{dx^{(j)}}{dt} = f^{(j)}(x), \qquad X_0= x_0^j, \qquad j = 1, \dots, d
+		$$
+		with the following scheme
+		\begin{align}
+			\frac{x^{(j)}_{k+1} - x^{(j)}_{k} }{h}	&= \varphi_{f^{(j)}}(x^{(j)}_{k}, x^{(j)}_{k+1})	\\
+			\varphi_{f^{(j)}} \left(x^{(j)}_{k}, x^{(j)}_{k+1} \right) &= 
+				\frac{x^{(j)}_{k+1} - x^{(j)}_{k} }{H(x^{(j)}_{k+1}) -H(x^{(j)}_{k})},	\\
+				H^j(u) &= 
+					\int 
+						\frac{du}{
+							f(x^{(1)}_{k+1}, \dots, x^{(j-1)}_{k+1}, u, x^{(j+1)}_{k}, \dots, x^{(d)}_{k})
+						},
+		\end{align}
+		here, $x^{{(1)}}_{k+1}, \dots, x^{{(j-1)}}_{k+1}$ are calculated from the first
+		$j-1$ schemes. In this way we get the explicit recurrence for each $j\in \{ 1,\dots d\}$
+		\begin{equation}
+			x_{k+1}^{j} = 
+				[H^{(j)}]^{-1}
+				\left(
+					h + H^{(j)}\left(x_k^{(j)}\right)
+				\right).
+		\end{equation}
+		Finally add the approximation of the diffussion term with a Euler-Maruyama scheme to get
+		\begin{equation}
+			X_{k+1}^{j} = 
+				[H^{(j)}]^{-1}
+				\left(
+					h + H^{(j)}
+					\left(
+						X_k^{(j)}
+					\right)
+				\right)
+			+ g \left(X_k^{(j)} \right) \Delta W_k^{(j)}.
+		\end{equation}
+	\section{Alternative Construction}
+		Now suppose that for ecah $j \in \{1, \dots, d \}$ there is functions 
+		$a_1^{(j)}:\mathbb{R}^{d} \to \mathbb{R}$,\qquad 
+		$a_2^{(j)}:\mathbb{R}^{d-1} \to \mathbb{R}$ such that 
+		$$
+			f^{(j)}(y) = a_1^{(j)}(y)y^{(j)} + a_2^{(j)}(y^{(-j)}), \qquad
+			y^{(-j)} = (y^{(1)}, \dots ,y^{(j-1)}, y^{(j+1)}, \dots, y^{(d)}).
+		$$
+		Under this assumptions we propose the following scheme. For each component equation let
+		\begin{align*}
+			H^{(j)}(u)	&= \int \frac{du}{a_1^{(j)} u + a_2^{(j)}} 
+				= \ln \left( a_1^{(j)} u + a_2^{(j)} \right),\\
+			\left[H^{(j)}\right]^{(-1)} (v) & = \frac{\exp(a_1 v ) - a_2}{a_1}\\
+			a_1^{(j)} &=
+				a_1^{(j)}
+					\left(
+						x^{(1)}_{k+1}, \dots, x^{(j-1)}_{k+1},
+						x^{(j)}_{k} , x^{(j+1)}_{k},\dots,x^{(d)}_{k}
+					\right),
+					\\
+			a_2^{(j)} &=
+				a_2^{(j)}
+					\left(
+						x^{(1)}_{k+1}, \dots, x^{(j-1)}_{k+1},
+						x^{(j+1)}_{k},\dots,x^{(d)}_{k}
+					\right).
+		\end{align*}
+		With this notation, and using the scheme (*) follows
+		\begin{align}
+			x_{k+1} &= \left[ H^{(j)}\right ]^{(-1)} ( H^{(j)}(x_k) + h ) \notag	\\
+					&=
+					\left(
+						x_k^{(j)} + 
+						\frac{a_2^{(j)}}{a_1^{(j)}}
+					\right) 
+					\exp\left(
+							a_1^{(j)}h
+						\right) -\frac{a_2^{(j)}}{a_1^{(j)}}.
+		\end{align}
+		\begin{example}
+			Consider a stochastic Lotka Volterrra model proposal in \cite{Arnold1979}
+		\end{example}
+		\begin{example}
+			Consider a stochastic Duffin Van Der Pol eqaution studied in \cite{Schenk-Hoppe1996a}
+		\end{example}
+	\section{Linear Oscillator}
+		This model was studied in \cite{Melbo2004}.
+		Melbø Aslaug, H. Strømmen, Higham Desmond. 
+		Numerical simulation of a linear stochastic oscillator with additive noise
+			\begin{align}
+				dx(t) &= y(t)dt\\
+				dy(t) &= -x(t)+h dW(t) \qquad h>0
+			\end{align}6
+		The Steklov Scheme is under construction.
+	
+	\section{Simplifiyed Duffing Van Der Pol Equation}
+		This mode is proposal in the classic Kloeden's Book. \\ 
+		Peter Kloeden \& Eckhard Platen. Numerical Solution of Stochastic Differential Equations.
+		$$
+			\ddot{x}+\dot{x}-(\alpha-x^2)x=\sigma \varepsilon
+		$$
+		\begin{align*}
+			dX_t^{(1)}&= X_t^{(2)} dt\\
+			dX_t^{(2)}&=
+				\left\{
+				X_t^{(1)}
+				\left(
+					\alpha-(X_t^{(1)})^2
+				\right)
+				-X_t^{(2)}
+			\right\}dt
+			+\sigma X_t^{(1)} dW_t
+		\end{align*}
+		The Steklov Scheme:
+		\begin{align*}
+			X^{(1)}_{k+1} &= X^{(1)}_{k} + h X^{(2)}_{k} \\
+			X^{(2)}_{k+1} & =a\left(X^{(1)}_{k},X^{(1)}_{k+1}\right)
+				\left(
+					1 - \exp(-h)
+				\right)
+				+ \exp(-h) X^{(2)}_{k} + \sigma X^{(1)}_{k} \Delta W_k
+		\end{align*}
+		Gives good results.
+		
+	\section{Stochastic Duffin Van Der Pol Equation}
+	
+		\subsection{Model Proposal by Schenk-Hoppé, K. R}
+			This SDE was studied in the Work \cite{Schenk-Hoppe1996a}:\\
+			Schenk-Hoppé Bifurcation scenarios of the noisy duffing-van der pol oscillator
+			\begin{align*}
+				dX_t^{(1)}
+					&= X_t^{(2)} dt\\
+				dX_t^{(2)} &=
+				\left\{
+					\alpha X_t^{(1)} 
+					- \left( X_t ^ {(1)} \right) ^ 3
+					- \left( X_t ^ {(1)} \right) ^ 2 X_t ^ {(2)}
+					+\beta X_t^{(2)}
+				\right\}dt
+				+ \left( \alpha+\sigma_1 dW_1 \right)X_t^{(1)}
+				+ \sigma_2 dW_2
+			\end{align*}
+			The Steklov Scheme is sitl under construction.
+	
+		\subsection{Generalized Van der Pol Oscillator with multiplicative noise}
+			This Generalized Van Der Pol was proposal by Schurz in \cite{Schurz2003}:\\
+			Schurz, H. General Theorems for Numerical Approximations of Stochastic Processes on the Hilbert 
+			Space $H_2([0,T], \mu, \mathbb{R}^d).$
+			
+			\begin{align*}
+				dX_t^{(1)}	&= X_t^{(2)} dt \\
+				dX_t^{(2)}	&=
+					\left[
+						-\omega^2 X_t^{(1)} 
+						+\sigma 
+						\left(
+							1 - \mu_1 \left( X_t^{(1)} \right)^2
+							- \mu_2 \left( X_t^{(2)} \right)^2
+						\right)
+						X_t^{(2)}
+					\right]dt
+				+\sigma X_t^{(2)} dW_t
+			\end{align*}
+			Right now we had constructed the following Linearized Steklov Schme:
+			\begin{align*}
+				a_1(x)&		:= -\omega^2 x, \qquad
+				a_2(x,y)	:= \gamma (1-\mu_1 x_k x - \mu_2 y ),	\\
+				X_{k+1} &= X_k + h Y_k,								\\
+				Y_{k+1} &= \frac{a_1(X_k)}{a_2(X_k, Y_k)}
+						\left(
+							\exp(a_2(X_k, Y_k) h) - 1
+						\right)
+						+ \exp(a_2(X_k, Y_k) h) Y_k
+			\end{align*}
+			This scheme follows almost the same profile of numerical solutions of the Partial Linear
+			Implicit proposal by Schurz.
+	\section{Stochastic Lorenz Equation}
+		We want to compare the performance of the Steklov Scheme with simulations of the Stochastic
+		Lorenz System proposal in \cite{Keller1996}.
+		H. Keller. Attractors and bifurcations of the stochastic Lorenz system.
+		\begin{align*}
+			du &= (-Au - B(u) + f)dt +C(u)dW(t)\\
+			A & = 
+			\begin{bmatrix}
+				\sigma	&-\sigma	&0\\
+				\sigma	&1			&0\\
+				0		&0			&\beta
+			\end{bmatrix}, 
+			\qquad
+			B(u) = 
+			\begin{bmatrix}
+				0\\
+				xz\\
+				-xy
+			\end{bmatrix},
+			\qquad
+			f=
+			\begin{bmatrix}
+				0\\
+				0\\
+				-\beta(r+\sigma)
+			\end{bmatrix}\\
+			C(u) &: \mathbb{R} \to \mathbb{M}_{3 \times m}(\mathbb{R}), \qquad
+			\|C(u)\|^2 = \tr\left(C(u)C(u)^T\right)\leq K^2(1+ \|u\|^2).
+		\end{align*}
+		In this work, the simulations was performed with $C(u)=\sqrt{q}u$.
+		Apparently, the following Steklov scheme gives good results.
+		\begin{align*}
+			a_1(y) &= \sigma y, \qquad a_2(x,z) = -x (\sigma +z) \qquad 
+			a_3(x,y) = x y -\beta(\sigma +r)	\\
+			X_{k+1} &= \exp(-\sigma h) X_{k} 
+				+\frac{a_1(Y_k)}{\sigma}
+				(1-\exp(-\sigma h))				\\
+			Y_{k+1} &= a_2(X_{k+1},Z_{k}) (1-\exp(-h))
+				+Y_k \exp(-h)\\
+			Z_{k+1} &= \frac{a_3(X_{k+1}, Y_{k+1})}{\beta} (1- \exp(-\beta h))
+				+Z_{k} \exp(-\beta h)			\\
+			u_{k+1} &= (X_{k+1},Y_{k+1},Z_{k+1})^T + \sqrt{q} \Delta W_k (X_{k},Y_{k},Z_{k})^T
+		\end{align*}
+
+	\section{Stochastic Lotka-Volterra}
+		We are interested in model paths and stationary distribution of the Stochastic Lotka-Volterra model.
+		First, considering two interact species, we will simulate an reproduce the results of a Model 
+		perturbed with multiplicative white noise proposed in the Arnold's  ed. al. paper \cite{Arnold1979}:\\
+		Arnold, L. Horsthemke, W. Stucki, J. W. The Influence of External Real and White Noise on the 
+		LOTKA-VOLTERRA Model.
+		\begin{align*}
+			dX_t &= (\lambda X_t - k X_t Y_t ) dt +\sigma X_t dW_t\\
+			dY_t &= (k X_t Y_t -mY_t) dt
+		\end{align*}
+		A recent similar models was presented in \cite{Yagi2011}.\\
+		Atsushi Yagi, Ta Viet Ton.
+		Dynamic of a stochastic predator–prey population
+		\begin{align*}
+			dx_t &= 
+				\left[
+					a_1(t) - b_1(t) x_t
+					-\frac{c1(t) y_t}{\alpha(t) + \beta(t) x_t + \gamma(t) y_t  }
+				\right] x_t dt
+				+\sigma_1(t) x_t dW_t	\\
+			dy_t &= 
+				\left[
+					-a_2(t) - b_2(t) x_t
+					-\frac{c1(t) y_t}{\alpha(t) + \beta(t) x_t + \gamma(t) y_t  }
+				\right] y_t dt
+				+\sigma_2(t) y_t dW_t	\\
+		\end{align*}
+		However, neither mentioned work present Numerical simulations. Because of this we we will compare
+		our Steklov Scheme with the numerical results for the following system presented in the paper
+		\cite{Mao2002}:\\
+		Xuerong Mao, Glenn Marion , Eric Renshaw.Environmental Brownian noise suppresses explosions in 
+		population dynamics.
+		\begin{align*}
+			dx_1(t) &= 
+				x1 (1 - x_1 + 2 x_2 )dt + \varepsilon x_1^2 d\omega_1(t), \\
+			dx_2(t) &= 
+				x2 (1 - 2 x_2 + 2 x_1 )dt + \varepsilon x_2^2 d\omega_2(t)	
+		\end{align*}
+		We get two Stklov Schemes. The first is the Matus average version and the second is 
+		a Linearized version.
+		\begin{align*}
+			X_{k+1} &=	\frac{\exp(h a_1(Y_k)) X_k }{ a_1(Y_k) + X_k (\exp(h a_1(y_k)))}	\\
+			Y_{k+1} &=	\frac{\exp(2 h a_2(X_{k+1})) Y_k }{ a_2(X_{k+1}) + Y_k( \exp(2h a_2( X_{k+1})))}
+		\end{align*}
+
+		This reference present results for the SDE  
+		$$
+			\diag(x_1(t),\dots, x_n(t))
+			\left[
+				f(x)dt + g(x)d\omega (t)
+			\right]
+		$$
+		where $\omega(t) = (\omega_1(t),\dots, \omega_m(t))^T$ is a $m-$dimensional Brownian motion,
+		$f: \mathbb{R}^n_+ \to \mathbb{R}^n$ and $g: \mathbb{R}^n_+ \to \mathbb{R}^{n \times m}$.
+		
+		However, we want to study the same model considering more species, at least 3 and 4. In this 
+		direction we will follow the work \cite{Dobrinevski2012}: \\
+		Dobrinevski, Alexander, Frey, Erwin.
+		Extinction in neutrally stable stochastic Lotka-Volterra models.
+		Physical Review E.
+		In this paper, the author develope a SDE whose statistical average is the same that the deterministic
+		associated Lotka Volterra system. 
+		However the formulation in my opinion is not clearly enough.
+		
+	\section{Stochastic SIS}
+		This stochastic Model was proposal in \cite{Gray2011}:
+		Gray, Mao. A Stochastic Differential Equation SIS Epidemic Model
+		\begin{equation}
+			dI(t) = I(t)
+				\left[
+					\left(
+						\beta N - \mu -\gamma - \beta I(t) 
+					\right)
+					dt
+					+ \sigma (N -I(t)) dB(t)
+				\right] 
+		\end{equation}
+		Steklov scheme:
+		\begin{align*}
+			X_{k+1} &= \frac{a \exp(a  h) X_k}{a + b X_k  (1 - \ exp(a h))}
+			+ \sigma (N - X_k) X_k \Delta W_k\\
+			a &= \beta N - \mu -\gamma\\
+			b &= -\beta
+		\end{align*}
+	\section{Stochastic AIDS}
+		We want to contruct a Stochastic Steklov Scheme for the model proposal by Dalal, Nirav
+		Greenhalgh, David, Mao, Xuerong, in \cite{Dalal2007}\\
+		A stochastic model of AIDS and condom use.
+		\begin{align*}
+			\frac{dx_1(t)}{dt} & = \lambda_1 - \mu x_1(t)		\\
+			dx_2(t) & =
+				\left[
+					D_{21} x_4(t) - (\mu + \sigma) x_2(t)
+				\right]
+				dt
+				- \sigma_1 x_2(t)dB(t)							\\
+			\frac{dx_3(t)}{dt} &= 
+				\lambda_2 - \beta c \alpha_2^2  x_4(t) \frac{x_3(t)}{T(t)} 
+				- \mu x_3(t)									\\
+			dx_4(t) &= 
+				\left[
+					\beta c \alpha_2^2  x_4(t) \frac{x_3(t)}{T(t)}
+					-(\mu +\sigma + D_{21}) x_4(t)
+				\right]
+				- \sigma_1 x_4(t) dB(t).
+		\end{align*}
+		Where $T(t): = x_1(t)+ x_2(t)+ x_3(t)+ x_4(t)$.
+		\\
+		A most simplifiyed model is proposal in \cite{Ding2008}:
+		\begin{equation*}
+			dZ = 
+			\left[
+				(p-1) \beta Z
+				+ (\beta C -\alpha )(1-Z)Z
+			\right]dt
+			+
+			\left[
+				\rho C (1-Z)Z
+			\right]dW
+		\end{equation*}
+		Steklov Schemes are under construction.
+		
+		
+		
+	\bibliographystyle{model2-names}
+	\bibliography{library}
+\end{document}

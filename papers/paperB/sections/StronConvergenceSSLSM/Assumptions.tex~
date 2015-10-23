@@ -1,0 +1,111 @@
+%\begin{assumption}\label{as:OSLC}
+%	The coefficient functions $f$ and $g$ satisfies.
+%	\begin{enumerate}
+%		\item	
+%		There is a function $a_1:\R \to \R$ of class $C^1(\R)$ and a constant $a_2$ such that
+%		$$
+%		f(x) =a_1(x)x + a_2
+%		$$
+%		\item 
+%		\textbf{One-sided Lipschitz} condition. There is a positive constant $L$ such that
+%		$$
+%		\innerprod{x-y}{ f(x)- f(y)} \leq L |x-y|^2, \qquad \forall x,y \in \mathbb{R}.
+%		$$
+%		\item  
+%		The function $g$ is \textbf{locally Lipschitz}, \ie, for each integer $m$ there is a constant L(m)
+%		$$
+%		|g(x)-g(y)|^2 \leq L|x-y|^2 \qquad \forall x,y \in \mathbb{R} , \qquad |x|\vee|y|\leq m.
+%		$$ 
+%	\end{enumerate}
+%\end{assumption}
+%From above Assumption, Cauchy-Schwartz, and Young inequality it follows that
+%$$
+%\innerprod{x}{f(x)}=
+%\innerprod{f(x)-f(0)}{x}
+%+\innerprod{f(0)}{x} 
+%\leq L|x|^2 +|f(0)||x|
+%\leq \frac{1}{2}
+%|f(0)|^2 +\left(L+\frac{1}{2}\right)|x|^2
+%$$
+%
+%and 
+%$$
+%|g(x)|^2 \leq 2|g(0)|^2 + 2|g(x)-g(0)|^2 \leq 2|g(0)|^2 + 2L|x|^2
+%$$
+%So, taking 
+%
+%$$
+%\alpha:= \frac{1}{2} |f(0)|^2 \vee 2|g(0)|^2  \qquad 
+%\beta := \left(L + \frac{1}{2} \right) \vee 2L
+%$$ 
+%we deduce that
+%\begin{equation}\label{eqn:MonotoneBound}
+%\innerprod{f(x)}{x} \vee
+%|g(x)|^2
+%\leq \alpha +\beta |x|^2 \qquad \forall x \in \mathbb{R}.
+%\end{equation}
+%Moreover, since $f(x)=a_1(x)x$ is one-sided Lipschitz it follows that
+%\begin{align}\label{eqn:a1Bound}
+%\innerprod{x}{a_1(x)x}
+%&\leq L|x|^2 \quad \text{then} \quad
+%a_1(x)\leq L \quad \forall x\in \mathbb{R},
+%\end{align}
+%that is, the function $a_1(x)$ is upper bounded.
+%
+%
+\begin{assumption}\label{as:OSLC}
+	The following assumption will be needed throughout the paper.
+	\begin{enumerate}[({A}-1)]
+		\item
+		There is a function $a_1:\R \to \R$ of class $C^1(\R)$ and a constant $a_2$ such that
+			$$
+			f(x) =a_1(x)x  + a_2
+			$$
+		\item
+			The functions $f,g$ are of class $C^{1}(\R)$.
+		\item
+			\textbf{Local Lipschitz condition}. For each integer $m$ there is a positive constant $L(m)$
+			such that 
+			$$
+				|f(x)-f(y)|\vee|g(x)-g(y)|^2 
+				\leq L|x-y|^2 \qquad \forall x,y \in \mathbb{R}, \qquad |x|\vee|y|\leq m.
+			$$ 
+		\item
+			\textbf{Monotone condition.} There exist positive constants $\alpha$, $\beta$ such that
+			\begin{equation}\label{eqn:MonotoneCondition}
+				\innerprod{x}{f(x)} +\frac{1}{2}|g(x)|^2
+				\leq \alpha +\beta |x|^2, \qquad \forall x \in \R
+			\end{equation}
+	\end{enumerate}
+\end{assumption}
+\begin{lem}\label{lem:a1Bound}
+	Suppose \Cref{as:OSLC}. Then, there is a positive constant $L_a$ such that
+	\begin{equation}
+		a_1(x)< L_a, \qquad \forall x \in \R.
+	\end{equation}
+\end{lem}
+\begin{Proof}
+	We will divide the proof in two cases.
+	First suppose $|x|>1$. Then from the monotone condition \eqref{eqn:MonotoneCondition}
+	there is a positive constant $K\geq\max\{\alpha, \beta\}$ such that
+	\begin{align*}
+		\innerprod{x}{xa_1(x)}\leq K
+		\left(
+			1+|x|^2
+		\right).
+	\end{align*}
+	Thus, we can deduce that 
+	$$
+		a_1(x)\leq 
+			\left(
+			1+ \frac{1}{|x|^2}
+		\right)
+		\leq 2K.
+	$$
+	, suppose that $0\leq|x|\leq 1$. In this case, by the continuity of $a_1$ and since $[-1,1]$ is a 
+	compact set, we see that there is  $x^\star \in [-1,1]$ such that
+	$$
+		a_1(x)\leq a_1(x^\star), \qquad \forall x\in[-1,1].
+	$$
+	Hence, taking $L_a:=\max\{2K,a_1(x^\star))\}$ the upper bound is proved. \qed
+\end{Proof}

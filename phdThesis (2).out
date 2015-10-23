@@ -1,0 +1,47 @@
+\BOOKMARK [0][-]{label:frontpage.0}{Front page}{}% 1
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 2
+\BOOKMARK [0][-]{label:contents.0}{Contents}{}% 3
+\BOOKMARK [1][-]{section*.3}{List of Figures}{label:contents.0}% 4
+\BOOKMARK [1][-]{section*.4}{List of Tables}{label:contents.0}% 5
+\BOOKMARK [0][-]{chapter*.6}{Thesis Details}{}% 6
+\BOOKMARK [0][-]{chapter.1}{1 Introduction and main results}{}% 7
+\BOOKMARK [1][-]{section.1.1}{1.1 Introduction}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{1.2 Main Results}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{1.3 Outline}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{2 Preliminaries}{}% 11
+\BOOKMARK [1][-]{section.2.1}{2.1 Probability theory and Stochastic Processes}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Stopping time}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Conditional Expectation}{section.2.1}% 14
+\BOOKMARK [1][-]{section.2.2}{2.2 Stochastic Calculus and SDEs}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.3}{2.3 Numerical Methods of SDEs}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Explicit and implicit schemes}{section.2.3}% 17
+\BOOKMARK [1][-]{section.2.4}{2.4 Theorycal Properties of Numerical Methods}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Strong consistency and convergence}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Higham-Mao-Stuart proof convergence technique}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Numerical Stability}{section.2.4}% 21
+\BOOKMARK [0][-]{chapter.3}{3 Steklov method for scalar SDEs with Globally Lipschitz coefficients}{}% 22
+\BOOKMARK [1][-]{section.3.1}{3.1 Steklov Method}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{3.2 Strong consistency and convergence}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{3.3 Linear Stability}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Multiplicative noise}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Additive noise}{section.3.3}% 27
+\BOOKMARK [1][-]{section.3.4}{3.4 Nonlinear Stability}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Multiplicative Noise}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Additive noise}{section.3.4}% 30
+\BOOKMARK [1][-]{section.3.5}{3.5 Numerical Results}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.5.1}{3.5.1 Linear SDE}{section.3.5}% 32
+\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 Logistic equation}{section.3.5}% 33
+\BOOKMARK [2][-]{subsection.3.5.3}{3.5.3 Langevin equation in Brownian dynamics}{section.3.5}% 34
+\BOOKMARK [0][-]{chapter.4}{4 Steklov Method for SDEs with Non-Globally Lipschitz Continuous Drift}{}% 35
+\BOOKMARK [1][-]{section.4.1}{4.1 Introduction}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.2}{4.2 General Settings}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.3}{4.3 Construction of the LS Method}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{4.4 Strong Convergence of LS}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.5}{4.5 Convergence Rate}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.6}{4.6 Almost Sure Stability}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.7}{4.7 Numerical Simulations}{chapter.4}% 42
+\BOOKMARK [0][-]{chapter.5}{5 Conclusions and future work}{}% 43
+\BOOKMARK [1][-]{section.5.1}{5.1 Conclusions}{chapter.5}% 44
+\BOOKMARK [0][-]{Appendix.a.A}{Appendix A Useful Inequalities}{}% 45
+\BOOKMARK [0][-]{equation.a.A.0.9}{Bibliography}{}% 46
+\BOOKMARK [1][-]{section*.32}{References}{equation.a.A.0.9}% 47

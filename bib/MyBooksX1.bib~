@@ -1,0 +1,4304 @@
+@comment{x-kbibtex-personnameformatting=<%l><, %f><, %s>}
+
+%%%Calibre catalog
+%%%490 entries in catalog
+
+@book{StevenH.Strogatz1994-03-15,
+	author = "Strogatz, Steven H.",
+	isbn = "978-07-3820-453-6",
+	month = "mar",
+	publisher = "Westview Press",
+	title = "{Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering}",
+	year = "1994"
+}
+
+@book{StevenH.Strogatz1994-04-20,
+	author = "Strogatz, Steven H.",
+	isbn = "978-02-0154-344-5",
+	month = "abr",
+	publisher = "Westview Press",
+	title = "{Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry and Engineering}",
+	year = "1994"
+}
+
+@book{RichardP.Feynman1963-06-15,
+	author = "Feynman, Richard P. and Leighton, Robert P. and Sands, Matthew",
+	isbn = "978-02-0102-010-6",
+	month = "jun",
+	publisher = "Addison-Wesley",
+	title = "{The Feynman Lectures on Physics}",
+	year = "1963"
+}
+
+@book{MarekCapi{\'n}ski2004-09-15,
+	author = "Capi{\'n}ski, Marek and Kopp, P. E.",
+	isbn = "978-18-5233-781-0",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Measure, Integral and Probability}",
+	year = "2004"
+}
+
+@book{KonradKnopp1956-01-15,
+	author = "Knopp, Konrad",
+	isbn = "978-04-8660-153-3",
+	month = "ene",
+	publisher = "Dover Publications",
+	title = "{Infinite Sequences and Series}",
+	year = "1956"
+}
+
+@book{SaberElaydi2005-03-29,
+	author = "Elaydi, Saber",
+	isbn = "978-03-8723-059-7",
+	month = "mar",
+	publisher = "Springer",
+	title = "{An Introduction to Difference Equations}",
+	year = "2005"
+}
+
+@book{LawrenceCraigEvans1992-04-15,
+	author = "Evans, Lawrence Craig and Gariepy, Ronald F.",
+	isbn = "978-08-4937-157-8",
+	month = "abr",
+	publisher = "CRC PressINC",
+	title = "{Measure Theory and Fine Properties of Functions}",
+	year = "1992"
+}
+
+@misc{BrooksLandon2012-02-23,
+	author = "Landon, Brooks",
+	month = "feb",
+	title = "{Building Great Sentences: Exploring the Writer's Craft}",
+	year = "2012"
+}
+
+@book{ThomasMikosch1998-08-15,
+	author = "Mikosch, Thomas",
+	isbn = "978-98-1023-543-7",
+	month = "ago",
+	publisher = "World Scientific",
+	title = "{Elementary Stochastic Calculus With Finance in View}",
+	year = "1998"
+}
+
+@book{KarenSaxe2002-01-02,
+	author = "Saxe, Karen",
+	isbn = "978-03-8795-224-6",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Beginning Functional Analysis}",
+	year = "2002"
+}
+
+@book{ErnstHairer1993-01-15,
+	author = "Hairer, Ernst and N{\o}rsett, Syvert Paul and Wanner, Gerhard",
+	isbn = "978-35-4056-670-0",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Solving Ordinary Differential Equations: Nonstiff Problems}",
+	year = "1993"
+}
+
+@book{ErnstHairer1993-05-15,
+	author = "Hairer, Ernst and Wanner, Gerhard",
+	isbn = "978-35-4060-452-5",
+	month = "may",
+	publisher = "Springer",
+	title = "{Solving Ordinary Differential Equations II: Stiff and Differential-Algebraic Problems}",
+	year = "1993"
+}
+
+@book{LeonidShaikhet2011-06-09,
+	author = "Shaikhet, Leonid",
+	isbn = "978-08-5729-684-9",
+	month = "jun",
+	publisher = "Springer",
+	title = "{Lyapunov Functionals and Stability of Stochastic Difference Equations}",
+	year = "2011"
+}
+
+@book{RobertB.Ash1972-09-15,
+	author = "Ash, Robert B.",
+	month = "sep",
+	publisher = "Academic Press",
+	title = "{Measure, Integration, and Functional Analysis}",
+	year = "1972"
+}
+
+@book{RobertB.Ash1970-01-02,
+	author = "Ash, Robert B.",
+	isbn = "978-04-8646-628-6",
+	month = "ene",
+	publisher = "Dover Publications",
+	title = "{Basic Probability Theory}",
+	year = "1970"
+}
+
+@book{RobertB.Ash2000-09-15,
+	author = "Ash, Robert B. and Dol{\'e}ans-Dade, Catherine",
+	isbn = "978-01-2065-202-0",
+	month = "sep",
+	publisher = "Academic Press",
+	title = "{Probability and Measure Theory}",
+	year = "2000"
+}
+
+@book{Hui-HsiungKuo2006-01-02,
+	author = "Kuo, Hui-Hsiung",
+	isbn = "978-03-8728-720-1",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Introduction to Stochastic Integration}",
+	year = "2006"
+}
+
+@book{LawrenceC.Evans2002-01-01,
+	author = "Evans, Lawrence C.",
+	isbn = "978-08-2184-974-3",
+	month = "ene",
+	publisher = "American Mathematical Soc.",
+	title = "{Partial Differential Equations}",
+	year = "2002"
+}
+
+@book{RamiShakarchi1997-12-19,
+	author = "Shakarchi, Rami",
+	isbn = "978-03-8798-235-9",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Problems and Solutions for Undergradute Analysis}",
+	year = "1997"
+}
+
+@book{DouglasHenderson2011-02-18,
+	author = "Henderson, Douglas",
+	isbn = "978-09-7815-904-7",
+	month = "feb",
+	title = "{Stochastic Differentioal equations in science and engineering}",
+	year = "2011"
+}
+
+@book{J.M.McNamee2007-08-30,
+	author = "McNamee, J. M.",
+	isbn = "978-04-4452-729-5",
+	month = "ago",
+	publisher = "Elsevier",
+	title = "{Numerical Methods for Roots of Polynomials}",
+	year = "2007"
+}
+
+@book{Jean-PhilippeChancelier2007-02-14,
+	author = "Chancelier, Jean-Philippe and Delebecque, F. and Gomez, C. and Goursat, M and Nikoukhah, R and Steer, S",
+	isbn = "978-22-8725-247-1",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Introduction {\`a} SCILAB}",
+	year = "2007"
+}
+
+@book{DavidF.Griffiths2010-12-03,
+	author = "Griffiths, David F. and Higham, Desmond J.",
+	isbn = "978-08-5729-147-9",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Numerical Methods for Ordinary Differential Equations: Initial Value Problems}",
+	year = "2010"
+}
+
+@book{SamuelJamesTaylor1973-12-28,
+	author = "Taylor, Samuel James",
+	isbn = "978-05-2109-804-5",
+	month = "dic",
+	publisher = "CUP Archive",
+	title = "{Introduction to Measure and Integration}",
+	year = "1973"
+}
+
+@book{ZeevSchuss1980-10-15,
+	author = "Schuss, Zeev",
+	isbn = "978-04-7104-394-2",
+	month = "oct",
+	publisher = "Wiley",
+	title = "{Theory and Applications of Stochastic Differential Equations}",
+	year = "1980"
+}
+
+@book{ZeevSchuss2009-12-22,
+	author = "Schuss, Zeev",
+	isbn = "978-14-4191-604-4",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Theory and Applications of Stochastic Processes: An Analytical Approach}",
+	year = "2009"
+}
+
+@misc{PhilippK.Janert2012-01-31,
+	author = "Janert, Philipp K.",
+	isbn = "978-19-3398-839-9",
+	month = "ene",
+	title = "{Gnuplot In Action: Understanding data with graphs (Manning; 2010)}",
+	year = "2012"
+}
+
+@book{KurtJacobs2010-02-18,
+	author = "Jacobs, Kurt",
+	isbn = "978-05-2176-542-8",
+	month = "feb",
+	publisher = "Cambridge University Press",
+	title = "{Stochastic Processes for Physicists: Understanding Noisy Systems}",
+	year = "2010"
+}
+
+@book{C.C.Lin1974-01-01,
+	author = "Lin, C. C. and Segel, L. A.",
+	isbn = "978-08-9871-229-2",
+	month = "ene",
+	publisher = "SIAM",
+	title = "{Mathematics Applied to Deterministic Problems in the Natural Sciences}",
+	year = "1974"
+}
+
+@book{M.B.Monagan2003-06-15,
+	author = "Monagan, M. B.",
+	isbn = "978-18-9451-144-5",
+	month = "jun",
+	publisher = "Maplesoft",
+	title = "{Maple 9: Advanced Programming Guide}",
+	year = "2003"
+}
+
+@book{WilliamK.Zinsser2001-09-06,
+	author = "Zinsser, William K.",
+	isbn = "978-00-6000-664-8",
+	month = "sep",
+	publisher = "Quill",
+	title = "{On Writing Well: The Classic Guide to Writing Nonfiction}",
+	year = "2001"
+}
+
+@book{ArnulfJentzen2011-11-18,
+	author = "Jentzen, Arnulf and Kloeden, Peter",
+	isbn = "978-16-1197-200-9",
+	month = "nov",
+	publisher = "SIAM",
+	title = "{Taylor Approximations for Stochastic Partial Differential Equations}",
+	year = "2011"
+}
+
+@book{FrankJones1992-01-02,
+	author = "Jones, Frank",
+	isbn = "978-07-6371-708-7",
+	month = "ene",
+	publisher = "Jones \& Bartlett Learning",
+	title = "{Lebesgue Integration on Euclidean Space}",
+	year = "1992"
+}
+
+@book{RafailKhasminskii2011-09-20,
+	author = "Khasminskii, Rafail and Milstein, Grigori Noah",
+	isbn = "978-36-4223-279-4",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Stochastic Stability of Differential Equations}",
+	year = "2011"
+}
+
+@book{C.W.Gardiner1985-01-02,
+	author = "Gardiner, C. W. and Gardiner, Crispin W. and Gardiner",
+	isbn = "978-35-4061-634-4",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Handbook of Stochastic Methods: For Physics, Chemistry and Natural Sciences}",
+	year = "1985"
+}
+
+@book{AleksandrAndreevi\v{c}Samarskij2001-01-15,
+	author = "Samarskij, Aleksandr Andreevi\v{c}",
+	isbn = "978-08-2470-468-1",
+	month = "ene",
+	publisher = "CRC Press",
+	title = "{The Theory of Diference Schemes}",
+	year = "2001"
+}
+
+@book{S.R.S.Varadhan1980-12-02,
+	author = "Varadhan, S. R. S. and Muthuramalingam, P. and Nanda, T. R.",
+	isbn = "978-35-4008-773-1",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Lectures on Diffusion Problems and Partial Differential Equations (Tata Institute Lectures on Mathematics and Physics)}",
+	year = "1980"
+}
+
+@book{RobertGardnerBartle2001-08-15,
+	author = "Bartle, Robert Gardner",
+	isbn = "978-08-2180-845-0",
+	month = "ago",
+	publisher = "American Mathematical Soc.",
+	title = "{A modern theory of integration}",
+	year = "2001"
+}
+
+@book{FrederickS.Hillier2001-11-15,
+	author = "Hillier, Frederick S. and Lieberman, Gerald J.",
+	isbn = "978-00-7232-169-2",
+	month = "nov",
+	publisher = "McGraw-Hill",
+	title = "{Introduction to Operations Research}",
+	year = "2001"
+}
+
+@book{A.N.1957-03-15,
+	author = "N., A. and Kolmogorov, S. V. Fomin",
+	month = "mar",
+	publisher = "Graylock,",
+	title = "{Elements of the Theory of Functions and Functional Analysis. Volume 1: Metric and Normed Spaces.}",
+	year = "1957"
+}
+
+@book{MartinBecker1964-09-14,
+	author = "Becker, Martin",
+	isbn = "978-02-6202-009-1",
+	month = "sep",
+	publisher = "M.I.T. Press",
+	title = "{Principles and Applications of Variational Methods}",
+	year = "1964"
+}
+
+@book{HalseyRoyden2010-01-15,
+	author = "Royden, Halsey and Fitzpatrick, Patrick",
+	isbn = "978-01-3143-747-0",
+	month = "ene",
+	publisher = "Pearson",
+	title = "{Real Analysis}",
+	year = "2010"
+}
+
+@book{StefanoM.Iacus2008-05-05,
+	author = "Iacus, Stefano M.",
+	isbn = "978-03-8775-838-1",
+	month = "may",
+	publisher = "Springer",
+	title = "{Simulation and Inference for Stochastic Differential Equations: With R Examples}",
+	year = "2008"
+}
+
+@book{A.F.Timan1963-02-15,
+	author = "Timan, A. F.",
+	isbn = "978-04-8667-830-6",
+	month = "feb",
+	publisher = "Dover Publications",
+	title = "{Theory of Approximation of Functions of a Real Variable}",
+	year = "1963"
+}
+
+@book{YuanShihChow1978-01-02,
+	author = "Chow, Yuan Shih and Teicher, Henry",
+	isbn = "978-03-8740-607-7",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Probability Theory}",
+	year = "1978"
+}
+
+@book{GeorgeGr{\"a}tzer1995-11-29,
+	author = "Gr{\"a}tzer, George",
+	isbn = "978-08-1763-805-4",
+	month = "nov",
+	publisher = "Birkh{\"a}user",
+	title = "{Math Into Latex: A Introduction to LATEX and AMS-LaTEX}",
+	year = "1995"
+}
+
+@book{GermundDahlquist2008-09-04,
+	author = "Dahlquist, Germund and Bj{\"o}rck, {\AA}ke",
+	isbn = "978-08-9871-644-3",
+	month = "sep",
+	publisher = "SIAM",
+	title = "{Numerical Methods in Scientific Computing:}",
+	year = "2008"
+}
+
+@book{GermundDahlquist2003-04-25,
+	author = "Dahlquist, Germund and Bjorck, Ake and Mathematics",
+	isbn = "978-04-8642-807-9",
+	month = "abr",
+	publisher = "Dover Publications",
+	title = "{Numerical Methods}",
+	year = "2003"
+}
+
+@misc{MichaelVanCanneyt2011-02-18,
+	author = "Canneyt, Michael Van",
+	month = "feb",
+	title = "{User's Guide}",
+	year = "2011"
+}
+
+@book{S.K.Godunov1987-04-15,
+	author = "Godunov, S. K. and Ryabenkii, V. S.",
+	isbn = "978-04-4470-233-3",
+	month = "abr",
+	publisher = "Elsevier Science Ltd",
+	title = "{Difference Schemes: An Introduction to the Underlying Theory}",
+	year = "1987"
+}
+
+@book{D.W.Stroock1982-11-15,
+	author = "Stroock, D. W. and Karmakar, S.",
+	isbn = "978-35-4011-549-6",
+	month = "nov",
+	publisher = "Springer",
+	title = "{Lectures on Topics in Stochastic Differential Equations}",
+	year = "1982"
+}
+
+@book{PhilippeBlanchard1982-01-01,
+	author = "Blanchard, Philippe and Bruning, Erwin",
+	isbn = "978-03-8716-190-7",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Variational Methods in Mathematical Physics: A Unified Approach}",
+	year = "1982"
+}
+
+@book{D.Kannan2001-10-23,
+	author = "Kannan, D. and Lakshmikantham, V.",
+	isbn = "978-08-2470-660-9",
+	month = "oct",
+	publisher = "CRC Press",
+	title = "{Handbook of Stochastic Analysis and Applications}",
+	year = "2001"
+}
+
+@book{G.B.Folland1999-03-24,
+	author = "Folland, G. B.",
+	isbn = "978-04-7131-716-6",
+	month = "mar",
+	publisher = "Wiley",
+	series = "{Applied Mathematical Sciences}",
+	title = "{Real Analysis: Modern Techniques and Their Applications}",
+	year = "1999"
+}
+
+@book{J.L.Doob1990-01-25,
+	author = "Doob, J. L.",
+	isbn = "978-04-7152-369-7",
+	month = "ene",
+	publisher = "Wiley-Interscience",
+	title = "{Stochastic Processes}",
+	year = "1990"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{64938972-Introduction-to-Analysis-Problems-and-Solutions}",
+	year = "100"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{[S. Hartman, J. Mikusinski] The Theory of Lebesgue(BookFi.org)}",
+	year = "100"
+}
+
+@misc{Unknown2011-12-19,
+	author = "Unknown",
+	month = "dic",
+	title = "{Mathematical writing An undergra(BookFi.org)}",
+	year = "2011"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{[George G. Lorentz] Approximation of functions(BookFi.org)}",
+	year = "100"
+}
+
+@book{SidneyResnick1998-12-23,
+	author = "Resnick, Sidney",
+	isbn = "978-08-1764-055-2",
+	month = "dic",
+	publisher = "Springer",
+	title = "{A Probability Path}",
+	year = "1998"
+}
+
+@book{ErnestoSabato1991-09-13,
+	author = "Sabato, Ernesto",
+	isbn = "978-01-4196-405-8",
+	month = "sep",
+	publisher = "Ballantine Books",
+	title = "{The Tunnel}",
+	year = "1991"
+}
+
+@book{WilliamCoffey2004-01-01,
+	author = "Coffey, William and Kalmykov, Yu. P. and Waldron, J. T.",
+	isbn = "978-98-1238-462-1",
+	month = "ene",
+	publisher = "World Scientific",
+	title = "{The Langevin Equation: With Applications to Stochastic Problems in Physics, Chemistry and Electrical Engineering}",
+	year = "2004"
+}
+
+@misc{Toeplitz2011-02-18,
+	author = "Toeplitz and Matrices, Circulant",
+	month = "feb",
+	title = "{Gray}",
+	year = "2011"
+}
+
+@book{KiyosiIt{\^o}1984-03-15,
+	author = "It{\^o}, Kiyosi",
+	isbn = "978-08-9871-193-6",
+	month = "mar",
+	publisher = "SIAM",
+	title = "{Foundations of stochastic differential equations in infinite dimensional spaces}",
+	year = "1984"
+}
+
+@book{A.Zygmund2003-02-06,
+	author = "Zygmund, A. and Fefferman, Robert",
+	isbn = "978-05-2189-053-3",
+	month = "feb",
+	publisher = "Cambridge University Press",
+	title = "{Trigonometric Series}",
+	year = "2003"
+}
+
+@book{VadimS.Anishchenko2007-02-09,
+	author = "Anishchenko, Vadim S. and Astakhov, Vladimir and Neiman, Alexander and Vadivasova, Tatjana and Schimansky-Geier, Lutz",
+	isbn = "978-35-4038-164-8",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Nonlinear Dynamics of Chaotic and Stochastic Systems: Tutorial and Modern Developments}",
+	year = "2007"
+}
+
+@book{SergejRjasanow2005-05-20,
+	author = "Rjasanow, Sergej and Wagner, Wolfgang",
+	isbn = "978-35-4025-268-9",
+	month = "may",
+	publisher = "Springer",
+	title = "{Stochastic Numerics for the Boltzmann Equation}",
+	year = "2005"
+}
+
+@book{HerbertAmann1999-01-02,
+	author = "Amann, Herbert and Escher, Joachim",
+	isbn = "978-37-6437-472-3",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Analysis II}",
+	year = "1999"
+}
+
+@book{VladimirI.Bogachev2006-11-16,
+	author = "Bogachev, Vladimir I.",
+	isbn = "978-35-4034-513-8",
+	month = "nov",
+	publisher = "Springer",
+	title = "{Measure Theory}",
+	year = "2006"
+}
+
+@book{ElliottH.Lieb2001-09-15,
+	author = "Lieb, Elliott H. and Loss, Michael",
+	isbn = "08-2182-783-9",
+	month = "sep",
+	publisher = "American Mathematical Soc.",
+	title = "{Analysis}",
+	year = "2001"
+}
+
+@book{BettySchrampferAzar1999-08-15,
+	author = "Azar, Betty Schrampfer",
+	isbn = "978-01-3958-703-0",
+	month = "ago",
+	publisher = "Longman Publishing Group",
+	title = "{Understanding and Using English Grammar: A Reference Grammar}",
+	year = "1999"
+}
+
+@book{BettySchrampferAzar2001-08-15,
+	author = "Azar, Betty Schrampfer",
+	isbn = "978-01-3958-679-8",
+	month = "ago",
+	publisher = "Longman Publishing Group",
+	title = "{Understanding and Using English Grammar: Teacher's Guide}",
+	year = "2001"
+}
+
+@book{L.F.Shampine2003-04-28,
+	author = "Shampine, L. F. and Gladwell, I. and Thompson, S.",
+	isbn = "978-05-2153-094-1",
+	month = "abr",
+	publisher = "Cambridge University Press",
+	title = "{Solving ODEs With MATLAB}",
+	year = "2003"
+}
+
+@book{EdwardAllen2007-03-08,
+	author = "Allen, Edward",
+	isbn = "978-14-0205-953-7",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Modeling With It{\^o} Stochastic Differential Equations}",
+	year = "2007"
+}
+
+@book{RichardM.Crownover1995-01-15,
+	author = "Crownover, Richard M.",
+	isbn = "978-08-6720-464-3",
+	month = "ene",
+	publisher = "Jones and Bartlett",
+	title = "{Introduction to Fractals and Chaos}",
+	year = "1995"
+}
+
+@book{GeoffreyGrimmett2001-08-02,
+	author = "Grimmett, Geoffrey and Stirzaker, David",
+	isbn = "978-01-9857-221-3",
+	month = "ago",
+	publisher = "Oxford University Press, USA",
+	title = "{One Thousand Exercises in Probability}",
+	year = "2001"
+}
+
+@book{J.Yeh2006-02-15,
+	author = "Yeh, J.",
+	isbn = "978-98-1256-654-6",
+	month = "feb",
+	publisher = "World Scientific",
+	title = "{Real Analysis: Theory of Measure and Integration}",
+	year = "2006"
+}
+
+@book{KarlR.Stromberg1981-01-30,
+	author = "Stromberg, Karl R.",
+	isbn = "978-05-3498-012-2",
+	month = "ene",
+	publisher = "Wadsworth, Inc.",
+	title = "{Introduction to Classical Real Analysis}",
+	year = "1981"
+}
+
+@misc{CarlD.Meyer2011-02-18,
+	author = "Meyer, Carl D.",
+	month = "feb",
+	title = "{Matrix Analysis \& Applied Linear Algebra}",
+	year = "2011"
+}
+
+@book{PatrickBillingsley1976-01-01,
+	author = "Billingsley, Patrick",
+	isbn = "978-04-7180-478-9",
+	month = "ene",
+	publisher = "Wiley",
+	title = "{Probability and Measure}",
+	year = "1976"
+}
+
+@book{WolfgangWalter1998-05-15,
+	author = "Walter, Wolfgang and Thompson, R.",
+	isbn = "978-03-8798-459-9",
+	month = "may",
+	publisher = "Springer",
+	title = "{Ordinary Differential Equations}",
+	year = "1998"
+}
+
+@book{AnirbanDasgupta2008-03-07,
+	author = "Dasgupta, Anirban",
+	isbn = "978-03-8775-970-8",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Asymptotic Theory of Statistics and Probability}",
+	year = "2008"
+}
+
+@book{MonaganGeddesHealLabahnVorkoetterMcCarronDeMarco2008-06-15,
+	author = "Monagan, Geddes Heal Labahn Vorkoetter McCarron DeMarco",
+	isbn = "978-18-9731-046-5",
+	month = "jun",
+	publisher = "Maplesoft",
+	title = "{Maple 12: Introductory Programming Guide}",
+	year = "2008"
+}
+
+@book{KazimierzKuratowski1961-06-26,
+	author = "Kuratowski, Kazimierz",
+	month = "jun",
+	publisher = "Limusa-Wiley",
+	title = "{Introduction to Calculus}",
+	year = "1961"
+}
+
+@misc{SoongT.T.0101-01-01,
+	author = "Soong, T.T.",
+	month = "dic",
+	title = "{Random Differential Equations in Science and Engineering}",
+	year = "100"
+}
+
+@book{RichardCourant2010-06-12,
+	author = "Courant, Richard and Mcshane, Edward James and Sloan, Sam and Greenberg, Marvin Jay",
+	isbn = "978-48-7187-838-8",
+	month = "jun",
+	publisher = "Ishi Press",
+	title = "{Differential and Integral Calculus, Vol. One}",
+	year = "2010"
+}
+
+@book{RichardCourant2005-06-30,
+	author = "Courant, Richard and John, Fritz",
+	isbn = "978-96-8180-640-8",
+	month = "jun",
+	publisher = "Limusa",
+	title = "{Introducci{\'o}n al c{\'a}lculo y al an{\'a}lisis matem{\'a}tico}",
+	year = "2005"
+}
+
+@book{RichardCourant1989-02-15,
+	author = "Courant, Richard and Hilbert, David",
+	isbn = "978-04-7150-447-4",
+	month = "feb",
+	publisher = "Wiley",
+	title = "{Methods of mathematical physics}",
+	year = "1989"
+}
+
+@book{MustafaR.S.Kulenovi{\'c}2002-01-15,
+	author = "Kulenovi{\'c}, Mustafa R. S. and Merino, Orlando",
+	isbn = "978-15-8488-287-9",
+	month = "ene",
+	publisher = "Chapman \& Hall/CRC",
+	title = "{Discrete Dynamical Systems and Difference Equations With Mathematica}",
+	year = "2002"
+}
+
+@misc{casidiablo2011-02-18,
+	author = "casidiablo",
+	month = "feb",
+	title = "{ProgramacinCsobrelinux}",
+	year = "2011"
+}
+
+@book{WilliamFeller1968-01-02,
+	author = "Feller, William",
+	isbn = "978-04-7125-709-7",
+	month = "ene",
+	publisher = "Wiley",
+	title = "{An Introduction to Probability Theory and Its Applications, Vol. 2, 3rd Edition}",
+	year = "1968"
+}
+
+@book{WilliamFeller1968-08-15,
+	author = "Feller, William",
+	isbn = "978-04-7125-708-0",
+	month = "ago",
+	publisher = "Wiley",
+	title = "{An Introduction to Probability Theory and Its Applications, Vol. 1, 3rd Edition}",
+	year = "1968"
+}
+
+@book{MarkI.Freidlin1998-01-01,
+	author = "Freidlin, Mark I. and Wentzell, Alexander D. and Sz{\"u}cs, J.",
+	isbn = "978-03-8798-362-2",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Random Perturbations of Dynamical Systems}",
+	year = "1998"
+}
+
+@book{SheldonMRoss2010-01-01,
+	author = "Ross, Sheldon M",
+	isbn = "978-01-2381-446-3",
+	month = "ene",
+	publisher = "Academic Press",
+	title = "{Introduction to Probability Models, Student Solutions Manual (E-Only): Introduction to Probability Models 10th Edition}",
+	year = "2010"
+}
+
+@book{IosifMoiseevichRyzhik1990-01-02,
+	author = "Ryzhik, Iosif Moiseevich and Jeffrey, Alan and Zwillinger, Daniel",
+	isbn = "978-01-2373-637-6",
+	month = "ene",
+	publisher = "Academic Press",
+	title = "{Table of Integrals, Series and Products}",
+	year = "1990"
+}
+
+@book{AvnerFriedman1975-09-15,
+	author = "Friedman, Avner",
+	isbn = "978-01-2268-201-8",
+	month = "sep",
+	publisher = "Academic Press",
+	title = "{Stochastic Differential Equations and Applications}",
+	year = "1975"
+}
+
+@book{GeneHAutorGolub1996-09-15,
+	author = "Golub, Gene H Autor and van Loan, Charles F Autor",
+	isbn = "978-08-0185-413-2",
+	month = "sep",
+	publisher = "Johns Hopkins University Press",
+	title = "{Matrix Computations}",
+	year = "1996"
+}
+
+@book{HerbertGoldstein1980-10-15,
+	author = "Goldstein, Herbert",
+	isbn = "978-02-0102-918-5",
+	month = "oct",
+	publisher = "Addison-Wesley",
+	title = "{Classical Mechanics}",
+	year = "1980"
+}
+
+@book{WernerGreub1978-08-23,
+	author = "Greub, Werner",
+	isbn = "978-03-8790-284-5",
+	month = "ago",
+	publisher = "Springer",
+	title = "{Multilinear Algebra}",
+	year = "1978"
+}
+
+@book{RobertDalang2008-10-21,
+	author = "Dalang, Robert and Khoshnevisan, Davar and Mueller, Carl and Nualart, David and Xiao, Yimin and Rassoul-Agha, Firas",
+	isbn = "978-35-4085-993-2",
+	month = "oct",
+	publisher = "Springer",
+	title = "{A Minicourse on Stochastic Partial Differential Equations}",
+	year = "2008"
+}
+
+@book{SamuelaEckstut2000-05-02,
+	author = "Eckstut, Samuela",
+	isbn = "978-02-0134-687-9",
+	month = "may",
+	publisher = "Addison Wesley Longman ELT Division",
+	title = "{Focus on Grammar Workbook}",
+	year = "2000"
+}
+
+@book{SamuelaEckstut2003-03-15,
+	author = "Eckstut, Samuela",
+	isbn = "978-01-3111-781-5",
+	month = "mar",
+	publisher = "Pearson Education",
+	title = "{Focus on Grammar Introductory Workbook}",
+	year = "2003"
+}
+
+@book{A.I.Borisenko2012-08-28,
+	author = "Borisenko, A. I. and Tarapov, I. E.",
+	isbn = "978-04-8613-190-0",
+	month = "ago",
+	publisher = "Courier Dover Publications",
+	title = "{Vector and Tensor Analysis With Applications}",
+	year = "2012"
+}
+
+@book{M.P.Allen1987-06-15,
+	author = "Allen, M. P. and Tildesley, D. J.",
+	isbn = "978-01-9855-375-5",
+	month = "jun",
+	publisher = "Clarendon Press",
+	title = "{Computer Simulation of Liquids}",
+	year = "1987"
+}
+
+@book{A.Iserles1996-01-26,
+	author = "Iserles, A.",
+	isbn = "978-05-2155-376-6",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{A First Course in the Numerical Analysis of Differential Equations}",
+	year = "1996"
+}
+
+@book{CameronSmith1995-06-15,
+	author = "Smith, Cameron",
+	isbn = "978-02-0182-656-2",
+	month = "jun",
+	publisher = "Addison-Wesley",
+	title = "{The Mathematica Graphics Guidebook}",
+	year = "1995"
+}
+
+@book{AlanJ.Weir1973-09-15,
+	author = "Weir, Alan J.",
+	isbn = "05-2108-728-7",
+	month = "sep",
+	publisher = "University Press",
+	title = "{Lebesgue Integration and Measure}",
+	year = "1973"
+}
+
+@book{TomApostol1994-02-01,
+	author = "Apostol, Tom",
+	isbn = "978-96-8670-810-3",
+	month = "feb",
+	publisher = "Revert{\'e}",
+	title = "{Calculo}",
+	year = "1994"
+}
+
+@book{JeanJacod2002-12-16,
+	author = "Jacod, Jean and Shiryaev, Albert",
+	isbn = "978-35-4043-932-5",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Limit Theorems for Stochastic Processes}",
+	year = "2002"
+}
+
+@book{HalSmith2010-10-07,
+	author = "Smith, Hal",
+	isbn = "978-14-4197-645-1",
+	month = "oct",
+	publisher = "Springer",
+	title = "{An Introduction to Delay Differential Equations With Applications to the Life Sciences (Texts in Applied Mathematics)}",
+	year = "2010"
+}
+
+@book{ProskuriakovI.V2002-01-01,
+	author = "{Proskuriakov I.}, V",
+	isbn = "978-84-2915-109-1",
+	month = "ene",
+	publisher = "Revert{\'e}",
+	title = "{2000 Problemas De {\'A}lgebra Lineal}",
+	year = "2002"
+}
+
+@book{DavidPoole2005-01-24,
+	author = "Poole, David",
+	isbn = "978-05-3499-845-5",
+	month = "ene",
+	publisher = "Brooks Cole",
+	title = "{Linear Algebra: A Modern Introduction}",
+	year = "2005"
+}
+
+@book{JohnDavidJackson1998-08-10,
+	author = "Jackson, John David",
+	isbn = "978-04-7130-932-1",
+	month = "ago",
+	publisher = "Wiley",
+	title = "{Classical Electrodynamics}",
+	year = "1998"
+}
+
+@book{LeonardGillman1987-01-15,
+	author = "Gillman, Leonard",
+	isbn = "978-08-8385-443-3",
+	month = "ene",
+	publisher = "Mathematical Assn of Amer",
+	title = "{Writing Mathematics Well}",
+	year = "1987"
+}
+
+@book{MurrayH.Protter1998-10-16,
+	author = "Protter, Murray H.",
+	isbn = "978-03-8798-479-7",
+	month = "oct",
+	publisher = "Springer",
+	title = "{Basic Elements of Real Analysis}",
+	year = "1998"
+}
+
+@book{MurrayH.Protter1977-01-02,
+	author = "Protter, Murray H. and Morrey, Charles Bradfield",
+	isbn = "978-03-8797-437-8",
+	month = "ene",
+	publisher = "Springer",
+	title = "{A First Course in Real Analysis}",
+	year = "1977"
+}
+
+@book{VojislavMaric2000-04-26,
+	author = "Maric, Vojislav",
+	isbn = "978-35-4067-160-2",
+	month = "abr",
+	publisher = "Springer",
+	title = "{Regular Variation and Differential Equations}",
+	year = "2000"
+}
+
+@book{PaulKree1995-04-15,
+	author = "Kree, Paul and Wedig, W.",
+	isbn = "978-35-4060-214-9",
+	month = "abr",
+	publisher = "Springer",
+	title = "{Probabilistic Methods in Applied Physics}",
+	year = "1995"
+}
+
+@book{PaulS.P.Cowpertwait2009-06-09,
+	author = "Cowpertwait, Paul S. P. and Metcalfe, Andrew V.",
+	isbn = "978-03-8788-697-8",
+	month = "jun",
+	publisher = "Springer",
+	title = "{Introductory Time Series With R}",
+	year = "2009"
+}
+
+@book{RichardCourant1953-01-01,
+	author = "Courant, Richard and Hilbert, D.",
+	isbn = "978-04-7150-439-9",
+	month = "ene",
+	publisher = "Wiley-VCH",
+	title = "{Methods of Mathematical Physics, Vol. 2}",
+	year = "1953"
+}
+
+@misc{RichardCourant2011-01-21,
+	author = "Courant, Richard and Mcshane, Edward James and Sloan, Sam",
+	month = "ene",
+	title = "{Differential and Integral Calculus, Vol. 2}",
+	year = "2011"
+}
+
+@book{RichardCourant1974-05-15,
+	author = "Courant, Richard and John, Fritz",
+	isbn = "978-04-7117-862-0",
+	month = "may",
+	publisher = "Wiley Interscience",
+	title = "{Introduction to Calculus and Analysis: 2}",
+	year = "1974"
+}
+
+@book{DavidG.Costa2007-02-15,
+	author = "Costa, David G.",
+	isbn = "978-08-1764-535-9",
+	month = "feb",
+	publisher = "Birkh{\"a}user",
+	title = "{An invitation to variational methods in differential equations}",
+	year = "2007"
+}
+
+@book{PaulMalliavin1995-09-15,
+	author = "Malliavin, Paul",
+	isbn = "978-03-8794-409-8",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Integration and Probability}",
+	year = "1995"
+}
+
+@book{Ikeda1980-12-31,
+	author = "Ikeda and Watanabe",
+	isbn = "978-04-4486-172-6",
+	month = "dic",
+	publisher = "North Holland",
+	title = "{Stochastic Differential Equations and Diffusion Processes}",
+	year = "1980"
+}
+
+@book{DanielRevuz1999-01-15,
+	author = "Revuz, Daniel and Yor, Marc",
+	isbn = "978-35-4064-325-8",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Continuous Martingales and Brownian Motion}",
+	year = "1999"
+}
+
+@book{KaiLaiChung2001-09-15,
+	author = "Chung, Kai Lai",
+	isbn = "978-01-2174-151-8",
+	month = "sep",
+	publisher = "Academic Press",
+	title = "{A Course in Probability Theory}",
+	year = "2001"
+}
+
+@book{K.R.Matthews1991-09-15,
+	author = "Matthews, K. R. and Mathematics, University Of Queesland. Department Of",
+	month = "sep",
+	publisher = "Department of Mathematics, University of Queesland",
+	title = "{Elementary Linear Algebra}",
+	year = "1991"
+}
+
+@book{IanChivers2012-02-09,
+	author = "Chivers, Ian and Sleightholme, Jane",
+	isbn = "978-08-5729-232-2",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Introduction to Programming With Fortran: With Coverage of Fortran 90, 95, 2003, 2008 and 77}",
+	year = "2012"
+}
+
+@book{StevenGeorgeKrantz1996-12-16,
+	author = "Krantz, Steven George",
+	isbn = "978-08-2180-635-7",
+	month = "dic",
+	publisher = "American Mathematical Soc.",
+	title = "{A Primer of Mathematical Writing: Being a Disquisition on Having Your Ideas Recorded, Typeset, Published, Read \& Appreciated}",
+	year = "1996"
+}
+
+@book{C.Costara2003-09-29,
+	author = "Costara, C. and Popa, D.",
+	isbn = "978-14-0201-560-1",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Exercises in Functional Analysis}",
+	year = "2003"
+}
+
+@book{AthanasiosPapoulis1991-02-02,
+	author = "Papoulis, Athanasios",
+	isbn = "978-00-7048-477-1",
+	month = "feb",
+	publisher = "Mcgraw-Hill College",
+	title = "{Probability, Random Variables and Stochastic Processes}",
+	year = "1991"
+}
+
+@book{HenkC.Tijms2003-04-28,
+	author = "Tijms, Henk C.",
+	isbn = "978-04-7149-880-3",
+	month = "abr",
+	publisher = "Wiley",
+	title = "{A First Course in Stochastic Models}",
+	year = "2003"
+}
+
+@book{N.Bourbaki1998-08-03,
+	author = "Bourbaki, N.",
+	isbn = "978-35-4064-563-4",
+	month = "ago",
+	publisher = "Springer",
+	title = "{General Topology: Chapters 5-10}",
+	year = "1998"
+}
+
+@book{W.J.Kaczor2000-03-29,
+	author = "Kaczor, W. J. and Nowak, M. T.",
+	isbn = "978-08-2182-050-6",
+	month = "mar",
+	publisher = "American Mathematical Soc.",
+	title = "{Problems in Mathematical Analysis}",
+	year = "2000"
+}
+
+@book{W.J.Kaczor2000-03-29,
+	author = "Kaczor, W. J. and Nowak, M. T. and Society, American Mathematical",
+	isbn = "08-2183-298-0",
+	month = "mar",
+	publisher = "American Mathematical Soc.",
+	series = "{Student mathematical library}",
+	title = "{Problems in Mathematical Analysis III}",
+	year = "2000"
+}
+
+@book{PeterLancaster1986-02-11,
+	author = "Lancaster, Peter and \u{S}alkauskas, Kȩstutis",
+	isbn = "978-01-2436-060-0",
+	month = "feb",
+	publisher = "Academic Press",
+	title = "{Curve \& Surface Fitting}",
+	year = "1986"
+}
+
+@misc{Administrator0101-01-01,
+	author = "Administrator",
+	month = "dic",
+	title = "{A Comprehensive Introduction to Differential Geometry Volume 1 Third Edition.djvu}",
+	year = "100"
+}
+
+@book{EckhardPlaten2010-10-08,
+	author = "Platen, Eckhard and Bruti-Liberati, Nicola",
+	isbn = "978-36-4212-057-2",
+	month = "oct",
+	publisher = "Springer",
+	title = "{Numerical Solution of Stochastic Differential Equations With Jumps in Finance}",
+	year = "2010"
+}
+
+@book{GeorgeB.Arfken2005-06-21,
+	author = "Arfken, George B. and Weber, Hans J. and Harris, Frank E.",
+	isbn = "978-01-2059-876-2",
+	month = "jun",
+	publisher = "Elsevier",
+	title = "{Mathematical Methods for Physicists}",
+	year = "2005"
+}
+
+@book{KarlE.Petersen1989-01-02,
+	author = "Petersen, Karl E.",
+	isbn = "978-05-2123-632-4",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{Ergodic Theory}",
+	year = "1989"
+}
+
+@book{HeinzBauer2001-01-15,
+	author = "Bauer, Heinz and Burckel, Robert B.",
+	isbn = "978-31-1016-719-1",
+	month = "ene",
+	publisher = "de Gruyter",
+	title = "{Measure and Integration Theory}",
+	year = "2001"
+}
+
+@book{S.Watanabe1984-01-15,
+	author = "Watanabe, S. and Watanabe, Shinzō and Rajeev, B.",
+	isbn = "978-35-4012-897-7",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Lectures on Stochastic Differential Equations and Malliavin Calculus}",
+	year = "1984"
+}
+
+@book{SheldonAxler1996-01-01,
+	author = "Axler, Sheldon",
+	isbn = "978-03-8798-259-5",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Linear Algebra Done Right}",
+	year = "1996"
+}
+
+@book{SheldonAxler1997-09-15,
+	author = "Axler, Sheldon",
+	month = "sep",
+	publisher = "Springer, New York",
+	title = "{Linear Algebra Done Right Second Edition}",
+	year = "1997"
+}
+
+@book{ClaudiodeJ.PitaRuiz1995-10-01,
+	author = "Ruiz, Claudio de J. Pita",
+	isbn = "978-96-8880-529-9",
+	month = "oct",
+	publisher = "Prentice Hall Hispanoamericana, S.A.",
+	title = "{C{\'a}lculo vectorial}",
+	year = "1995"
+}
+
+@book{PeterKloeden1992-03-15,
+	author = "Kloeden, Peter and Platen, Eckhard",
+	isbn = "978-03-8754-062-7",
+	month = "mar",
+	publisher = "Springer-Verlag",
+	title = "{Numerical Solution of Stochastic Differential Equations}",
+	year = "1992"
+}
+
+@book{KeithS.Folse2007-09-15,
+	author = "Folse, Keith S. and Solomon, Elena Vestri and Tortorella, Donna M.",
+	isbn = "978-06-1848-105-7",
+	month = "sep",
+	publisher = "CENGAGE Learning",
+	title = "{Top 10: Great Grammar for Great Writing}",
+	year = "2007"
+}
+
+@book{KeithS.Folse2010-04-15,
+	author = "Folse, Keith S. and Muchmore-Vokoun, April and Solomon, Elena Vestri",
+	isbn = "978-14-2407-112-8",
+	month = "abr",
+	publisher = "Heinle Cengage Learning",
+	title = "{Great Writing 2: Great Paragraphs}",
+	year = "2010"
+}
+
+@misc{WaveletsApproximation2011-02-18,
+	author = "Wavelets, Approximation and Applications, Statistical",
+	month = "feb",
+	title = "{H{\"a}rdle, Kerkyacharian, Picard, Tsybakov}",
+	year = "2011"
+}
+
+@book{JohnLamperti1977-09-14,
+	author = "Lamperti, John",
+	isbn = "978-03-8790-275-3",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Stochastic Processes: A Survey of the Mathematical Theory}",
+	year = "1977"
+}
+
+@book{ThomasHawkins1975-05-15,
+	author = "Hawkins, Thomas",
+	isbn = "978-08-2840-282-8",
+	month = "may",
+	publisher = "Chelsea Pub Co",
+	title = "{Lebesgue's Theory of Integration: Its Origins and Development}",
+	year = "1975"
+}
+
+@book{ErnestoVel{\'a}zquezMontes2007-09-15,
+	author = "Montes, Ernesto Vel{\'a}zquez and Rinc{\'o}n, Luis and de Ciencias, Universidad Nacional Aut{\'o}noma de M{\'e}xico. Facultad",
+	isbn = "978-97-0324-269-6",
+	month = "sep",
+	publisher = "UNAM, Facultad de Ciencias",
+	title = "{Curso Intermedio De Probabilidad}",
+	year = "2007"
+}
+
+@book{StevenG.Krantz2004-01-19,
+	author = "Krantz, Steven G.",
+	isbn = "978-08-1764-329-4",
+	month = "ene",
+	publisher = "Springer",
+	title = "{A Handbook of Real Variables: With Applications to Differential Equations and Fourier Analysis}",
+	year = "2004"
+}
+
+@book{StevenG.Krantz2004-11-15,
+	author = "Krantz, Steven G.",
+	isbn = "978-15-8488-483-5",
+	month = "nov",
+	publisher = "Taylor \& Francis",
+	title = "{Real Analysis and Foundations, Second Edition}",
+	year = "2004"
+}
+
+@book{JanK.G.Dhont1996-05-20,
+	author = "Dhont, Jan K. G.",
+	isbn = "978-04-4482-009-9",
+	month = "may",
+	publisher = "Elsevier",
+	title = "{An Introduction to Dynamics of Colloids}",
+	year = "1996"
+}
+
+@misc{A.N.KolmogorovyS.V.Fomin0101-01-01,
+	author = "Fomin, A.N. Kolmogorov y S.V.",
+	month = "dic",
+	title = "{Elementos de la Teor{\'i}a de Funciones y del An{\'a}lisis Funcional}",
+	year = "100"
+}
+
+@misc{DustyPhillips2011-03-07,
+	author = "Phillips, Dusty",
+	month = "mar",
+	title = "{Python 3 Object Oriented Programming}",
+	year = "2011"
+}
+
+@book{StanleyFish2011-01-25,
+	author = "Fish, Stanley",
+	month = "ene",
+	publisher = "Harper Collins, Inc.",
+	title = "{How to Write a Sentence: And How to Read One}",
+	year = "2011"
+}
+
+@book{Courant2004-01-01,
+	author = "Courant",
+	isbn = "978-81-8128-168-5",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Introduction to Calculus and Analysis}",
+	year = "2004"
+}
+
+@book{PaulRichardHalmos1974-01-02,
+	author = "Halmos, Paul Richard",
+	isbn = "978-35-4090-685-8",
+	month = "ene",
+	publisher = "Springer-Verlag",
+	title = "{A Hilbert Space Problem Book}",
+	year = "1974"
+}
+
+@book{DimitriP.Bertsekas2003-10-15,
+	author = "Bertsekas, Dimitri P. and Nedi{\'c}, Angelia and Ozdaglar, Asuman E.",
+	isbn = "978-18-8652-945-8",
+	month = "oct",
+	publisher = "Athena Scientific",
+	title = "{Convex Analysis and Optimization}",
+	year = "2003"
+}
+
+@book{I.M.Gelfand1963-01-01,
+	author = "Gelfand, I. M. and Fomin, S. V.",
+	isbn = "978-04-8641-448-5",
+	month = "ene",
+	publisher = "Dover Publications",
+	title = "{Calculus of Variations}",
+	year = "1963"
+}
+
+@book{M.Braun1991-12-02,
+	author = "Braun, M.",
+	isbn = "978-03-8790-806-9",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Differential Equations and Their Applications: An Introduction to Applied Mathematics}",
+	year = "1991"
+}
+
+@book{StrunkWilliam2011-06-27,
+	author = "Strunk, William and {Strunk Junior}, William and {William Strunk}, The Elements of Style by and Press, The Elements of Style and Hong, Chris",
+	month = "jun",
+	publisher = "The Elements of Style Press",
+	title = "{THE ELEMENTS OF STYLE (UPDATED 2011 EDITION) The All-Time Bestselling Book on Writing English Newly Edited (Special 2011 Edition) The Elements of Style OVER 10 MILLION COPIES SOLD! [Revised]}",
+	year = "2011"
+}
+
+@book{DavidStirzaker2005-09-15,
+	author = "Stirzaker, David",
+	isbn = "978-01-9856-813-1",
+	month = "sep",
+	publisher = "Oxford University Press, USA",
+	title = "{Stochastic Processes and Models}",
+	year = "2005"
+}
+
+@book{JohnL.Kelley1988-09-15,
+	author = "Kelley, John L. and Srinivasan, T. P.",
+	isbn = "978-03-8796-633-5",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Measure and Integral}",
+	year = "1988"
+}
+
+@misc{StephenH.Fiedberg2011-02-18,
+	author = "Fiedberg, Stephen H.",
+	month = "feb",
+	title = "{{\'A}lgebra Lineal}",
+	year = "2011"
+}
+
+@book{G.Polya2004-04-05,
+	author = "Polya, G. and Conway, John H.",
+	isbn = "978-06-9111-966-3",
+	month = "abr",
+	publisher = "Princeton University Press",
+	title = "{How to Solve It: A New Aspect of Mathematical Method}",
+	year = "2004"
+}
+
+@book{IoannisKaratzas1988-01-02,
+	author = "Karatzas, Ioannis and Shreve, Steven E.",
+	isbn = "978-03-8797-655-6",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Brownian Motion and Stochastic Calculus}",
+	year = "1988"
+}
+
+@book{WilliamE.Boyce2000-08-08,
+	author = "Boyce, William E. and Diprima, Richard C.",
+	isbn = "978-04-7131-999-3",
+	month = "ago",
+	publisher = "Wiley",
+	title = "{Elementary Differential Equations and Boundary Value Problems}",
+	year = "2000"
+}
+
+@book{JosephLaSalle1967-06-15,
+	author = "Salle, Joseph La",
+	month = "jun",
+	publisher = "Academic Press",
+	title = "{Stability by Liapunov's Direct Method With Applications}",
+	year = "1967"
+}
+
+@book{LeePhillips2012-02-24,
+	author = "Phillips, Lee",
+	isbn = "978-18-4951-724-9",
+	month = "feb",
+	publisher = "Packt Publishing",
+	title = "{Gnuplot Cookbook}",
+	year = "2012"
+}
+
+@book{Jean-pierreHansen1976-01-02,
+	author = "Hansen, Jean-pierre and Mcdonald, Ian Ranald",
+	isbn = "978-01-2370-535-8",
+	month = "ene",
+	publisher = "Academic Press",
+	title = "{Theory of Simple Liquids}",
+	year = "1976"
+}
+
+@book{PeterD.Lax2007-09-10,
+	author = "Lax, Peter D.",
+	isbn = "978-04-7175-156-4",
+	month = "sep",
+	publisher = "John Wiley \& Sons",
+	title = "{Linear Algebra and Its Applications}",
+	year = "2007"
+}
+
+@book{PeterD.Lax2002-04-04,
+	author = "Lax, Peter D.",
+	isbn = "978-04-7155-604-6",
+	month = "abr",
+	publisher = "Wiley",
+	title = "{Functional Analysis}",
+	year = "2002"
+}
+
+@book{MichaelFieldingBarnsley1988-12-15,
+	author = "Barnsley, Michael Fielding",
+	isbn = "978-01-2079-062-3",
+	month = "dic",
+	publisher = "Academic Press",
+	title = "{Fractals Everywhere}",
+	year = "1988"
+}
+
+@book{NicholasH.Bingham1987-09-15,
+	author = "Bingham, Nicholas H. and Goldie, Charles M. and Teugels, Jef L.",
+	isbn = "978-05-2130-787-1",
+	month = "sep",
+	publisher = "Cambridge University Press",
+	title = "{Regular Variations}",
+	year = "1987"
+}
+
+@misc{WilliamH.Press2012-01-19,
+	author = "Press, William H.",
+	month = "ene",
+	title = "{Numerical Recipes:The Art of Scientific Computing 3th}",
+	year = "2012"
+}
+
+@book{CharalambosD.Aliprantis1998-10-21,
+	author = "Aliprantis, Charalambos D. and Burkinshaw, Owen",
+	isbn = "978-01-2050-253-0",
+	month = "oct",
+	publisher = "Academic Press",
+	title = "{Problems in Real Analysis, Second Edition}",
+	year = "1998"
+}
+
+@book{CharalambosD.Aliprantis1998-03-15,
+	author = "Aliprantis, Charalambos D. and Burkinshaw, Owen",
+	isbn = "978-01-2050-257-8",
+	month = "mar",
+	publisher = "Academic Press",
+	title = "{Principles of Real Analysis}",
+	year = "1998"
+}
+
+@book{OlavKallenberg1997-01-01,
+	author = "Kallenberg, Olav",
+	isbn = "978-03-8794-957-4",
+	month = "ene",
+	publisher = "科学出版社",
+	title = "{Foundations of Modern Probability}",
+	year = "1997"
+}
+
+@book{IanDavidChivers2006-04-15,
+	author = "Chivers, Ian David and Sleighthome, Jane",
+	isbn = "978-18-4628-053-5",
+	month = "abr",
+	publisher = "Birkh{\"a}user",
+	title = "{Introduction to programming with Fortran: with coverage of Fortran 90, 95, 2003, and 77}",
+	year = "2006"
+}
+
+@book{GeraldBeresfordWhitham1974-08-26,
+	author = "Whitham, Gerald Beresford",
+	isbn = "978-04-7194-090-6",
+	month = "ago",
+	publisher = "Wiley",
+	title = "{Linear and nonlinear waves}",
+	year = "1974"
+}
+
+@book{NicholasJ.Higham2002-02-14,
+	author = "Higham, Nicholas J.",
+	isbn = "978-08-9871-521-7",
+	month = "feb",
+	publisher = "SIAM",
+	title = "{Accuracy and stability of numerical algorithms}",
+	year = "2002"
+}
+
+@misc{A.N.KolmogorovyS.V.Fomin0101-01-01,
+	author = "Fomin, A.N. Kolmogorov y S.V. and Unknown",
+	month = "dic",
+	title = "{Measure Lebesgue Integral and Hilbert Space}",
+	year = "100"
+}
+
+@book{HenryP.McKean1969-11-15,
+	author = "McKean, Henry P.",
+	isbn = "978-08-2183-887-7",
+	month = "nov",
+	publisher = "American Mathematical Soc.",
+	title = "{Stochastic Integrals}",
+	year = "1969"
+}
+
+@misc{DudleyR.M.2011-10-20,
+	author = "Dudley, R. M. and Bollobas, B. and Fulton, W. and Katok, A. and Kirwan, F. and Sarnak, P.",
+	month = "oct",
+	title = "{Real Analysis and Probability}",
+	year = "2011"
+}
+
+@book{DouglasS.Kurtz2004-02-15,
+	author = "Kurtz, Douglas S. and Kurzweil, Jaroslav and Swartz, Charles W.",
+	isbn = "978-98-1238-843-8",
+	month = "feb",
+	publisher = "World Scientific",
+	series = "{Series in Real Analysis}",
+	title = "{Theories of Integration}",
+	year = "2004"
+}
+
+@book{AkiraSatoh2010-12-17,
+	author = "Satoh, Akira",
+	isbn = "978-01-2385-148-2",
+	month = "dic",
+	publisher = "Elsevier",
+	title = "{Introduction to Practice of Molecular Simulation: Molecular Dynamics, Monte Carlo, Brownian Dynamics, Lattice Boltzmann and Dissipative Particle Dynamics}",
+	year = "2010"
+}
+
+@book{BenjaminMakoHill2010-06-24,
+	author = "Hill, Benjamin Mako and Helmke, Matthew and Burger, Corey and Rankin, Kyle (CON) and Jesse, Jonathan (CON) and Bacon, Jono (CON)",
+	isbn = "978-01-3708-130-1",
+	month = "jun",
+	publisher = "Prentice Hall PTR",
+	title = "{The Official Ubuntu Book}",
+	year = "2010"
+}
+
+@book{DennisG.Zill2003-01-01,
+	author = "Zill, Dennis G. and Shanahan, Patrick",
+	isbn = "978-07-6371-437-6",
+	month = "ene",
+	publisher = "Jones \& Bartlett Learning",
+	title = "{A First Course in Complex Analysis}",
+	year = "2003"
+}
+
+@book{FrankR.Giordano2002-07-29,
+	author = "Giordano, Frank R. and Weir, Maurice D. and Fox, William Price",
+	isbn = "978-05-3438-428-9",
+	month = "jul",
+	publisher = "Brooks/Cole",
+	title = "{A First Course in Mathematical Modeling}",
+	year = "2002"
+}
+
+@book{TynMyintU.2007-02-15,
+	author = "U., Tyn Myint and Debnath, Lokenath",
+	isbn = "978-08-1764-393-5",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Linear partial differential equations for scientists and engineers}",
+	year = "2007"
+}
+
+@book{EugeneIsaacson1994-01-15,
+	author = "Isaacson, Eugene and Keller, Herbert Bishop",
+	isbn = "978-04-8668-029-3",
+	month = "ene",
+	publisher = "Dover Publications",
+	title = "{Analysis of Numerical Methods}",
+	year = "1994"
+}
+
+@book{GoranPeskir2006-09-25,
+	author = "Peskir, Goran and Shiryaev, Albert",
+	isbn = "978-37-6432-419-3",
+	month = "sep",
+	publisher = "Birkh{\"a}user",
+	title = "{Optimal Stopping and Free-Boundary Problems}",
+	year = "2006"
+}
+
+@book{PaulDeitel2008-01-02,
+	author = "Deitel, Paul and Deitel, Harvey",
+	isbn = "978-01-3266-236-9",
+	month = "ene",
+	publisher = "Prentice Hall",
+	title = "{C++ How to Program}",
+	year = "2008"
+}
+
+@book{OliverChukwudiIbe2008-09-16,
+	author = "Ibe, Oliver Chukwudi",
+	isbn = "978-01-2374-451-7",
+	month = "sep",
+	publisher = "Academic Press",
+	title = "{Markov Processes for Stochastic Modeling}",
+	year = "2008"
+}
+
+@misc{HerbertSchildt/McGraw-Hill[2008]2012-01-19,
+	author = "[2008], Herbert Schildt / McGraw-Hill",
+	month = "ene",
+	title = "{Herb Schildt's C++ Programming Cookbook}",
+	year = "2012"
+}
+
+@book{G.W.Stewart1998-08-01,
+	author = "Stewart, G. W.",
+	isbn = "978-08-9871-414-2",
+	month = "ago",
+	publisher = "SIAM",
+	title = "{Matrix Algorithms: Volume 1, Basic Decompositions}",
+	year = "1998"
+}
+
+@book{RichardA.Holmgren1994-03-15,
+	author = "Holmgren, Richard A.",
+	isbn = "978-03-8794-208-7",
+	month = "mar",
+	publisher = "Springer",
+	title = "{A First Course in Discrete Dynamical Systems}",
+	year = "1994"
+}
+
+@book{LindaJ.S.Allen2005-12-30,
+	author = "Allen, Linda J. S. and Aulbach, Bernd and Elaydi, Saber and Sacker, Robert",
+	isbn = "978-98-1256-520-4",
+	month = "dic",
+	publisher = "World Scientific Pub Co Inc",
+	title = "{Difference Equations and Discrete Dynamical Systems: Proceedings of the 9th International Conference University of Southern California, Los Angeles, California, USA, 2-7 August 2004}",
+	year = "2005"
+}
+
+@book{ErwinKreyszig1989-02-23,
+	author = "Kreyszig, Erwin",
+	isbn = "978-04-7150-459-7",
+	month = "feb",
+	publisher = "Wiley",
+	series = "{Kreyszig}",
+	title = "{Introductory Functional Analysis With Applications}",
+	year = "1989"
+}
+
+@book{EllenSwanson1999-05-15,
+	author = "Swanson, Ellen and O'Sean, Arlene",
+	isbn = "978-08-2181-961-6",
+	month = "may",
+	publisher = "Amer Mathematical Society",
+	title = "{Mathematics Into Type}",
+	year = "1999"
+}
+
+@book{IanW.Hamley2007-10-22,
+	author = "Hamley, Ian W.",
+	isbn = "978-04-7051-609-6",
+	month = "oct",
+	publisher = "Wiley",
+	title = "{Introduction to Soft Matter: Synthetic and Biological Self-Assembling Materials}",
+	year = "2007"
+}
+
+@book{RichardFitzpatrick2011-02-22,
+	author = "Fitzpatrick, Richard",
+	month = "feb",
+	publisher = "American Mathematical Soc.",
+	title = "{Oscillations and Waves}",
+	year = "2011"
+}
+
+@book{NicholasJ.Higham1998-08-01,
+	author = "Higham, Nicholas J.",
+	isbn = "978-08-9871-420-3",
+	month = "ago",
+	publisher = "SIAM",
+	title = "{Handbook of Writing for the Mathematical Sciences}",
+	year = "1998"
+}
+
+@book{NicholasJ.Higham2008-03-26,
+	author = "Higham, Nicholas J.",
+	isbn = "978-08-9871-646-7",
+	month = "mar",
+	publisher = "SIAM",
+	title = "{Functions of Matrices: Theory and Computation}",
+	year = "2008"
+}
+
+@misc{CandiaMorgan0101-01-01,
+	author = "Morgan, Candia",
+	month = "dic",
+	title = "{Writing Mathematically: The Discourse of Investigation}",
+	year = "100"
+}
+
+@book{PaulaLarocque2003-08-15,
+	author = "Larocque, Paula",
+	isbn = "978-09-6651-769-9",
+	month = "ago",
+	publisher = "Marion Street Press",
+	title = "{The Book on Writing: The Ultimate Guide to Writing Well}",
+	year = "2003"
+}
+
+@book{StewartN.Ethier2005-09-14,
+	author = "Ethier, Stewart N. and Kurtz, Thomas G.",
+	isbn = "978-04-7176-986-6",
+	month = "sep",
+	publisher = "Wiley",
+	title = "{Markov Processes: Characterization and Convergence}",
+	year = "2005"
+}
+
+@book{AndreySarychev2008-09-25,
+	author = "Sarychev, Andrey and Shiryaev, Albert and Guerra, Manuel and Grossinho, Maria Do Ros{\'a}rio",
+	isbn = "978-35-4069-531-8",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Mathematical Control Theory and Finance}",
+	year = "2008"
+}
+
+@book{DennisG.Zill2012-03-15,
+	author = "Zill, Dennis G.",
+	isbn = "978-11-1182-705-2",
+	month = "mar",
+	publisher = "CENGAGE Learning",
+	title = "{A First Course in Differential Equations With Modeling Applications}",
+	year = "2012"
+}
+
+@book{RichardDurrett1996-08-21,
+	author = "Durrett, Richard",
+	isbn = "978-08-4938-071-6",
+	month = "ago",
+	publisher = "CRC Press",
+	title = "{Stochastic calculus: a practical introduction}",
+	year = "1996"
+}
+
+@book{FrankBurk1998-09-15,
+	author = "Burk, Frank",
+	isbn = "978-04-7117-978-8",
+	month = "sep",
+	publisher = "Wiley-IEEE",
+	title = "{Lebesgue Measure and Integration: An Introduction}",
+	year = "1998"
+}
+
+@book{DavidS.Watkins2002-05-24,
+	author = "Watkins, David S.",
+	isbn = "978-04-7121-394-9",
+	month = "may",
+	publisher = "Wiley",
+	title = "{Fundamentals of Matrix Computations}",
+	year = "2002"
+}
+
+@book{BerntKarsten{\O}ksendal2003-02-15,
+	author = "{\O}ksendal, Bernt Karsten",
+	isbn = "978-35-4004-758-2",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Stochastic differential equations: an introduction with applications}",
+	year = "2003"
+}
+
+@book{V.N.Kolokoltsov2011-03-15,
+	author = "Kolokoltsov, V. N.",
+	isbn = "978-31-1025-010-7",
+	month = "mar",
+	publisher = "Walter de Gruyter",
+	title = "{Markov Processes, Semigroups, and Generators}",
+	year = "2011"
+}
+
+@book{YuM.Kabanov2006-03-14,
+	author = "Kabanov, Yu M. and Shiri︠a︡ev, Alʹbert Nikolaevich and Stojanov, Jordan M. and Lipt︠s︡er, Robert Shevilevich",
+	isbn = "978-35-4030-782-2",
+	month = "mar",
+	publisher = "Springer",
+	title = "{From Stochastic Calculus to Mathematical Finance: The Shiryaev Festschrift}",
+	year = "2006"
+}
+
+@book{ErnestoEstrada2010-09-17,
+	author = "Estrada, Ernesto and Fox, Maria and Higham, Desmond J. and Oppo, Gian-Luca",
+	isbn = "978-18-4996-395-4",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Network Science: Complexity in Nature and Technology}",
+	year = "2010"
+}
+
+@misc{It{\^o}0101-01-01,
+	author = "It{\^o}",
+	month = "dic",
+	title = "{On a formula concerning stochastic differentials}",
+	year = "100"
+}
+
+@book{DavidM.McMahon2006-03-15,
+	author = "McMahon, David M. and Topa, Daniel M.",
+	isbn = "978-15-8488-467-5",
+	month = "mar",
+	publisher = "Chapman \& Hall/CRC",
+	title = "{A beginners guide to Mathematica}",
+	year = "2006"
+}
+
+@book{RabiBhattacharya2007-01-08,
+	author = "Bhattacharya, Rabi and Majumdar, Mukul",
+	isbn = "05-2153-272-8",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{Random Dynamical Systems: Theory and Applications}",
+	year = "2007"
+}
+
+@book{MarkPollicott1998-01-29,
+	author = "Pollicott, Mark and Yuri, Michiko",
+	isbn = "978-05-2157-294-1",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{Dynamical Systems and Ergodic Theory}",
+	year = "1998"
+}
+
+@book{P.K.Jain1986-09-15,
+	author = "Jain, P. K. and Gupta, V. P.",
+	isbn = "978-04-7020-296-8",
+	month = "sep",
+	publisher = "Wiley",
+	title = "{Lebesgue Measure and Integration}",
+	year = "1986"
+}
+
+@book{FormanS.Acton1990-01-01,
+	author = "Acton, Forman S.",
+	isbn = "978-08-8385-450-1",
+	month = "ene",
+	publisher = "MAA",
+	title = "{Numerical Methods That Work}",
+	year = "1990"
+}
+
+@book{ThomasErneux2009-03-27,
+	author = "Erneux, Thomas",
+	isbn = "978-03-8774-371-4",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Applied Delay Differential Equations}",
+	year = "2009"
+}
+
+@book{WaldemarDosPassos2010-06-15,
+	author = "Passos, Waldemar Dos",
+	isbn = "978-08-4937-479-1",
+	month = "jun",
+	publisher = "CRC Press",
+	title = "{Numerical Methods, Algorithms, and Tools in C♯}",
+	year = "2010"
+}
+
+@book{R.Balescu1988-12-15,
+	author = "Balescu, R.",
+	isbn = "978-04-4487-092-6",
+	month = "dic",
+	publisher = "North-Holland",
+	title = "{Transport Processes in Plasmas: Neoclassical Transport}",
+	year = "1988"
+}
+
+@book{SamuelKarlin1981-05-12,
+	author = "Karlin, Samuel and Taylor, Howard Milton",
+	isbn = "978-01-2398-650-4",
+	month = "may",
+	publisher = "Academic Press",
+	title = "{A Second Course in Stochastic Processes}",
+	year = "1981"
+}
+
+@book{SamuelKarlin1973-01-02,
+	author = "Karlin, Samuel and Taylor, Howard M.",
+	isbn = "978-01-2398-552-1",
+	month = "ene",
+	publisher = "Academic Press",
+	title = "{A First Course in Stochastic Processes}",
+	year = "1973"
+}
+
+@book{SergueiPrimak2004-09-03,
+	author = "Primak, Serguei and Kontorovich, Valeri\u{i} I︠a︡kovlevich and Lyandres, Vladimir",
+	isbn = "978-04-7084-741-1",
+	month = "sep",
+	publisher = "Wiley",
+	title = "{Stochastic Methods and Their Applications to Communications: Stochastic Differential Equations Approach}",
+	year = "2004"
+}
+
+@book{J.E.Akin2003-01-01,
+	author = "Akin, J. E.",
+	isbn = "978-05-2152-408-7",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{Object-Oriented Programming via Fortran 90/95}",
+	year = "2003"
+}
+
+@book{StephenL.Campbell2009-12-21,
+	author = "Campbell, Stephen L. and Chancelier, Jean-Philippe and Nikoukhah, Ramine",
+	isbn = "978-14-4195-526-5",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Modeling and Simulation in Scilab/Scicos With ScicosLab 4.4}",
+	year = "2009"
+}
+
+@book{JasonSanders2010-07-29,
+	author = "Sanders, Jason and Kandrot, Edward",
+	isbn = "978-01-3138-768-3",
+	month = "jul",
+	publisher = "Addison-Wesley Professional",
+	title = "{CUDA by Example: An Introduction to General-Purpose GPU Programming}",
+	year = "2010"
+}
+
+@book{CarlM.Bender1984-01-01,
+	author = "Bender, Carl M. and Orszag, Steven A.",
+	month = "ene",
+	publisher = "Mcgraw-Hill College",
+	title = "{Advanced Mathematical Methods for Scientists and Engineers}",
+	year = "1984"
+}
+
+@book{SandroTosi2009-10-30,
+	author = "Tosi, Sandro",
+	isbn = "978-18-4719-790-0",
+	month = "oct",
+	publisher = "Packt Publishing",
+	title = "{Matplotlib for Python Developers}",
+	year = "2009"
+}
+
+@book{CharlesMillerGrinstead1998-01-02,
+	author = "Grinstead, Charles Miller and Snell, James Laurie",
+	isbn = "978-08-2180-749-1",
+	month = "ene",
+	publisher = "American Mathematical Soc.",
+	title = "{Introduction to Probability}",
+	year = "1998"
+}
+
+@book{RobertH.Shumway2006-01-02,
+	author = "Shumway, Robert H. and Stoffer, David S.",
+	isbn = "978-14-4197-864-6",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Time Series Analysis and Its Applications: With R Examples}",
+	year = "2006"
+}
+
+@misc{BraniVidakovi2011-12-09,
+	author = "Vidakovi, Brani",
+	month = "dic",
+	title = "{wav4kidsA.dvi}",
+	year = "2011"
+}
+
+@misc{EmmanueleDiBenedetto0101-01-01,
+	author = "DiBenedetto, Emmanuele",
+	isbn = "978-35-4094-020-3",
+	month = "dic",
+	title = "{Degenerate Parabolic Equations}",
+	year = "100"
+}
+
+@book{MounirZili2011-09-23,
+	author = "Zili, Mounir and Filatova, Darya V.",
+	isbn = "978-36-4222-367-9",
+	month = "sep",
+	publisher = "Springer",
+	title = "{Stochastic Differential Equations and Processes: SAAP, Tunisia, October 7-9, 2010}",
+	year = "2011"
+}
+
+@book{KennethB.Howell2001-01-15,
+	author = "Howell, Kenneth B.",
+	isbn = "978-08-4938-275-8",
+	month = "ene",
+	publisher = "CRC Press",
+	title = "{Principles of Fourier Analysis}",
+	year = "2001"
+}
+
+@book{RossHonsberger1973-01-01,
+	author = "Honsberger, Ross",
+	isbn = "978-08-8385-300-9",
+	month = "ene",
+	publisher = "Mathematical Assn of Amer",
+	title = "{Mathematical Gems}",
+	year = "1973"
+}
+
+@book{JohnDavidLogan2008-02-15,
+	author = "Logan, John David",
+	isbn = "978-04-7022-595-0",
+	month = "feb",
+	publisher = "John Wiley and Sons",
+	title = "{An introduction to nonlinear partial differential equations}",
+	year = "2008"
+}
+
+@book{KennethA.Ross1980-03-03,
+	author = "Ross, Kenneth A.",
+	isbn = "978-03-8790-459-7",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Elementary Analysis: The Theory of Calculus}",
+	year = "1980"
+}
+
+@book{ChungKaiLai1978-09-15,
+	author = "Lai, Chung Kai",
+	isbn = "978-35-4078-014-4",
+	month = "sep",
+	publisher = "Narosa Publishing House",
+	title = "{Elementary Probability Theory: With Stochastic Processes}",
+	year = "1978"
+}
+
+@book{J.Kevorkian1990-10-15,
+	author = "Kevorkian, J.",
+	isbn = "978-05-3412-216-4",
+	month = "oct",
+	publisher = "Springer",
+	title = "{Partial Differential Equations: Analytical Solution Techniques}",
+	year = "1990"
+}
+
+@book{LawrenceF.Shampine1997-04-15,
+	author = "Shampine, Lawrence F. and Allen, Richard C. and Pruess, Steven",
+	isbn = "978-04-7116-363-3",
+	month = "abr",
+	publisher = "Wiley",
+	title = "{Fundamentals of Numerical Computing}",
+	year = "1997"
+}
+
+@book{TomM.Apostol1974-10-15,
+	author = "Apostol, Tom M.",
+	isbn = "978-02-0100-288-1",
+	month = "oct",
+	publisher = "Addison Wesley",
+	title = "{Mathematical Analysis}",
+	year = "1974"
+}
+
+@book{TomM.Apostol1969-01-02,
+	author = "Apostol, Tom M.",
+	isbn = "978-96-8670-811-0",
+	month = "ene",
+	publisher = "Reverte",
+	title = "{Calculus}",
+	year = "1969"
+}
+
+@book{GaryL.Wise1993-02-15,
+	author = "Wise, Gary L. and Hall, Eric B.",
+	isbn = "978-01-9507-068-2",
+	month = "feb",
+	publisher = "Oxford University Press",
+	title = "{Counterexamples in Probability and Real Analysis}",
+	year = "1993"
+}
+
+@book{HowardM.Taylor1984-01-02,
+	author = "Taylor, Howard M. and Karlin, Samuel",
+	isbn = "978-01-2684-887-8",
+	month = "ene",
+	publisher = "Academic Press",
+	title = "{An Introduction to Stochastic Modeling}",
+	year = "1984"
+}
+
+@book{GeorgeR.Exner2000-02-01,
+	author = "Exner, George R.",
+	isbn = "978-03-8798-932-7",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Inside Calculus}",
+	year = "2000"
+}
+
+@misc{StephenHawking2010-06-03,
+	author = "Hawking, Stephen",
+	isbn = "05-5338-016-8",
+	month = "jun",
+	title = "{A Brief History of Time}",
+	year = "2010"
+}
+
+@book{RickDurrett1991-01-02,
+	author = "Durrett, Rick and Durrett, Richard",
+	isbn = "978-05-2176-539-8",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{Probability: Theory and Examples}",
+	year = "1991"
+}
+
+@book{DavidWilliams1991-02-14,
+	author = "Williams, David",
+	isbn = "978-05-2140-605-5",
+	month = "feb",
+	publisher = "Cambridge University Press",
+	title = "{Probability With Martingales}",
+	year = "1991"
+}
+
+@book{SergeLang1996-12-05,
+	author = "Lang, Serge",
+	isbn = "978-03-8794-841-6",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Undergraduate Analysis}",
+	year = "1996"
+}
+
+@book{L.C.G.Rogers1979-01-02,
+	author = "Rogers, L. C. G. and Williams, David",
+	isbn = "978-05-2177-593-9",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{Diffusions, Markov Processes, and Martingales}",
+	year = "1979"
+}
+
+@book{L.C.G.Rogers1995-04-15,
+	author = "Rogers, L. C. G. and Williams, David",
+	isbn = "978-04-7195-061-5",
+	month = "abr",
+	publisher = "Wiley",
+	title = "{Diffusions, Markov Processes, and Martingales, Foundations}",
+	year = "1995"
+}
+
+@book{N.G.vanKampen2007-05-07,
+	author = "van Kampen, N. G.",
+	isbn = "978-04-4452-965-7",
+	month = "may",
+	publisher = "Elsevier",
+	title = "{Stochastic Processes in Physics and Chemistry}",
+	year = "2007"
+}
+
+@misc{SimonPlouffe2011-02-18,
+	author = "Plouffe, Simon",
+	month = "feb",
+	title = "{Finite mathematics Schaum}",
+	year = "2011"
+}
+
+@book{RonaldE.Mickens2005-10-30,
+	author = "Mickens, Ronald E.",
+	isbn = "978-98-1256-404-7",
+	month = "oct",
+	publisher = "World Scientific",
+	title = "{Advances in the Applications of Nonstandard Finite Difference Schemes}",
+	year = "2005"
+}
+
+@book{RonaldE.Mickens2004-01-01,
+	author = "Mickens, Ronald E.",
+	isbn = "978-98-1238-750-9",
+	month = "ene",
+	publisher = "World Scientific",
+	title = "{Mathematical Methods for the Natural and Engineering Sciences}",
+	year = "2004"
+}
+
+@book{RonaldE.Mickens2010-01-12,
+	author = "Mickens, Ronald E.",
+	isbn = "978-98-1429-165-1",
+	month = "ene",
+	publisher = "World Scientific",
+	title = "{Truly Nonlinear Oscillations: Harmonic Balance, Parameter Expansions, Iteration, and Averaging Methods}",
+	year = "2010"
+}
+
+@book{RonaldE.Mickens2000-01-01,
+	author = "Mickens, Ronald E.",
+	isbn = "978-98-1024-133-9",
+	month = "ene",
+	publisher = "World Scientific",
+	title = "{Applications of Nonstandard Finite Difference Schemes}",
+	year = "2000"
+}
+
+@book{DaanFrenkel1998-01-02,
+	author = "Frenkel, Daan and Smit, Berend",
+	isbn = "978-01-2267-351-1",
+	month = "ene",
+	publisher = "Academic Press",
+	title = "{Understanding Molecular Simulation: From Algorithms to Applications}",
+	year = "1998"
+}
+
+@book{TamarSchlick2010-08-25,
+	author = "Schlick, Tamar",
+	isbn = "978-14-4196-350-5",
+	month = "ago",
+	publisher = "Springer",
+	title = "{Molecular Modeling and Simulation: An Interdisciplinary Guide}",
+	year = "2010"
+}
+
+@book{JerroldE.Marsden1991-05-15,
+	author = "Marsden, Jerrold E. and Tromba, Anthony J.",
+	isbn = "978-02-0162-935-4",
+	month = "may",
+	publisher = "Addison-Wesley Iberoamericana",
+	title = "{Calculo Vectorial}",
+	year = "1991"
+}
+
+@book{Serge\u{i}LʹvovichSobolev1964-02-15,
+	author = "Sobolev, Serge\u{i} Lʹvovich",
+	isbn = "978-04-8665-964-0",
+	month = "feb",
+	publisher = "Courier Dover Publications",
+	title = "{Partial differential equations of mathematical physics}",
+	year = "1964"
+}
+
+@book{RaduBalescu2005-04-01,
+	author = "Balescu, Radu and Publishing, Institute Of Physics",
+	isbn = "978-07-5031-030-7",
+	month = "abr",
+	publisher = "IOP Pub.",
+	title = "{Aspects of Anomalous Transport in Plasmas}",
+	year = "2005"
+}
+
+@book{RaduBalescu1988-12-15,
+	author = "Balescu, Radu",
+	isbn = "978-04-4487-091-9",
+	month = "dic",
+	publisher = "North-Holland",
+	title = "{Transport Processes in Plasmas: Classical Transport}",
+	year = "1988"
+}
+
+@book{RaduBalescu1975-12-15,
+	author = "Balescu, Radu",
+	isbn = "978-04-7104-600-4",
+	month = "dic",
+	publisher = "Wiley",
+	title = "{Equilibrium and Nonequilibrium Statistical Mechanics}",
+	year = "1975"
+}
+
+@book{АлександрЯковлевичХелемский2006-08-22,
+	author = "Хелемский, Александр Яковлевич",
+	isbn = "978-08-2184-098-6",
+	month = "ago",
+	publisher = "American Mathematical Soc.",
+	title = "{Lectures and Exercises on Functional Analysis}",
+	year = "2006"
+}
+
+@book{J.Kevorkian1996-05-15,
+	author = "Kevorkian, J. and Cole, Julian D.",
+	isbn = "978-03-8794-202-5",
+	month = "may",
+	publisher = "Springer",
+	title = "{Multiple Scale and Singular Perturbation Methods}",
+	year = "1996"
+}
+
+@misc{MarkLutz2011-03-07,
+	author = "Lutz, Mark",
+	month = "mar",
+	title = "{Python Pocket Reference, 4th edition}",
+	year = "2011"
+}
+
+@misc{MarkLutz2011-03-02,
+	author = "Lutz, Mark and Ascher, David and Willison, Frank",
+	month = "mar",
+	title = "{Learning Python}",
+	year = "2011"
+}
+
+@book{JamesR.Munkres2000-09-15,
+	author = "Munkres, James R.",
+	month = "sep",
+	publisher = "Prentice Hall",
+	title = "{Topology}",
+	year = "2000"
+}
+
+@book{RogerG.Ghanem2003-06-15,
+	author = "Ghanem, Roger G. and Spanos, Pol D. and Engineering",
+	isbn = "978-04-8642-818-5",
+	month = "jun",
+	publisher = "Dover Publications",
+	title = "{Stochastic Finite Elements: A Spectral Approach}",
+	year = "2003"
+}
+
+@book{HerbertVoss2007-05-15,
+	author = "Voss, Herbert",
+	isbn = "978-38-6541-175-4",
+	month = "may",
+	publisher = "Lehmanns Fachbuchh.",
+	title = "{PSTricks}",
+	year = "2007"
+}
+
+@book{KersonHuang2001-01-01,
+	author = "Huang, Kerson",
+	isbn = "978-14-2007-902-9",
+	month = "ene",
+	publisher = "Chapman and Hall/CRC",
+	title = "{Introduction to Statistical Physics, Second Edition}",
+	year = "2001"
+}
+
+@misc{KersonHuang2011-09-22,
+	author = "Huang, Kerson",
+	month = "sep",
+	title = "{Introduction to Statistical Physics: Solutions Manual}",
+	year = "2011"
+}
+
+@book{DanielWStroock1990-03-02,
+	author = "Stroock, Daniel W",
+	isbn = "978-08-1763-759-0",
+	month = "mar",
+	publisher = "Wspc",
+	title = "{A Concise Introduction to the Theory of Integration}",
+	year = "1990"
+}
+
+@book{LudwigArnold1998-01-01,
+	author = "Arnold, Ludwig",
+	isbn = "978-35-4063-758-5",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Random Dynamical Systems}",
+	year = "1998"
+}
+
+@book{LudwigArnold1973-01-02,
+	author = "Arnold, Ludwig",
+	isbn = "978-04-8648-236-1",
+	month = "ene",
+	publisher = "Wiley",
+	title = "{Stochastic Differential Equations}",
+	year = "1973"
+}
+
+@book{MichaelCarter2000-01-01,
+	author = "Carter, Michael and Brunt, Bruce Van",
+	isbn = "03-8795-012-5",
+	month = "ene",
+	publisher = "Springer",
+	title = "{The Lebesgue-Stieltjes Integral: A Practical Introduction}",
+	year = "2000"
+}
+
+@book{MarkTuckerman2010-02-11,
+	author = "Tuckerman, Mark",
+	isbn = "978-01-9852-526-4",
+	month = "feb",
+	publisher = "OUP Oxford",
+	title = "{Statistical Mechanics: Theory and Molecular Simulation}",
+	year = "2010"
+}
+
+@book{DavidW.Kammler2000-01-01,
+	author = "Kammler, David W.",
+	isbn = "978-05-2188-340-5",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{A First Course in Fourier Analysis}",
+	year = "2000"
+}
+
+@book{C.Dellacherie1982-01-01,
+	author = "Dellacherie, C. and Meyer, P.-A.",
+	isbn = "978-04-4486-526-7",
+	month = "ene",
+	publisher = "Elsevier Science",
+	title = "{Probabilities and Potential, B: Theory of Martingales}",
+	year = "1982"
+}
+
+@book{RichardL.Burden1978-01-02,
+	author = "Burden, Richard L. and Faires, J. Douglas",
+	isbn = "978-05-3438-216-2",
+	month = "ene",
+	publisher = "Brooks/Cole",
+	title = "{Numerical Analysis}",
+	year = "1978"
+}
+
+@book{EdwardD.Gaughan1993-01-08,
+	author = "Gaughan, Edward D.",
+	isbn = "978-05-3417-358-6",
+	month = "ene",
+	publisher = "Brooks Cole",
+	title = "{Introduction to Analysis}",
+	year = "1993"
+}
+
+@book{DanielW.Stroock2005-12-05,
+	author = "Stroock, Daniel W. and Varadhan, S. R. S.",
+	isbn = "978-35-4028-998-2",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Multidimensional Diffusion Processes}",
+	year = "2005"
+}
+
+@book{DanielW.Stroock2005-03-14,
+	author = "Stroock, Daniel W.",
+	isbn = "978-35-4023-499-9",
+	month = "mar",
+	publisher = "Springer",
+	title = "{An Introduction to Markov Processes}",
+	year = "2005"
+}
+
+@book{EdwinHaleConnell2001-09-15,
+	author = "Connell, Edwin Hale and Mathematics, University of Miami. Dept. Of",
+	month = "sep",
+	publisher = "University of Miami, Dept. of Mathematics",
+	title = "{Elements of Abstract and Linear Algebra}",
+	year = "2001"
+}
+
+@book{R.S.Varga1971-03-15,
+	author = "Varga, R. S.",
+	isbn = "978-08-9871-003-8",
+	month = "mar",
+	publisher = "SIAM",
+	title = "{Functional Analysis and Approximation Theory in Numerical Analysis}",
+	year = "1971"
+}
+
+@book{StephenJ.Chapman2008-01-01,
+	author = "Chapman, Stephen J.",
+	isbn = "978-00-7319-157-7",
+	month = "ene",
+	publisher = "McGraw-Hill",
+	title = "{Fortran 95/2003 for Scientists and Engineers}",
+	year = "2008"
+}
+
+@book{JamesM.Ortega1987-01-01,
+	author = "Ortega, James M.",
+	isbn = "978-08-9871-250-6",
+	month = "ene",
+	publisher = "SIAM",
+	title = "{Numerical Analysis: A Second Course}",
+	year = "1987"
+}
+
+@book{WalterRudin1986-01-02,
+	author = "Rudin, Walter",
+	isbn = "978-00-7100-276-9",
+	month = "ene",
+	publisher = "McGraw-Hill",
+	title = "{Real and Complex Analysis}",
+	year = "1986"
+}
+
+@book{JerroldE.Marsden1998-12-15,
+	author = "Marsden, Jerrold E. and Hoffman, Michael J.",
+	isbn = "978-07-1672-877-1",
+	month = "dic",
+	publisher = "W. H. Freeman",
+	title = "{Basic Complex Analysis}",
+	year = "1998"
+}
+
+@book{JerroldE.Marsden1997-10-01,
+	author = "Marsden, Jerrold E. and Hoffman, Michael J.",
+	isbn = "978-02-0165-369-4",
+	month = "oct",
+	publisher = "Simon \& Schuster",
+	title = "{An{\'a}lisis cl{\'a}sico elemental}",
+	year = "1997"
+}
+
+@book{JerroldE.Marsden1974-02-15,
+	author = "Marsden, Jerrold E. and Hoffman, Michael J.",
+	isbn = "978-07-1670-452-2",
+	month = "feb",
+	publisher = "Freeman",
+	title = "{Elementary Classical Analysis}",
+	year = "1974"
+}
+
+@book{RobertB.Ash2009-05-01,
+	author = "Ash, Robert B.",
+	isbn = "978-04-8647-220-1",
+	month = "may",
+	publisher = "Dover Publications, Incorporated",
+	title = "{Real Variables With Basic Metric Space Topology}",
+	year = "2009"
+}
+
+@book{FimaC.Klebaner1999-01-02,
+	author = "Klebaner, Fima C.",
+	isbn = "978-18-4816-832-9",
+	month = "ene",
+	publisher = "Imperial College Press",
+	title = "{Introduction to Stochastic Calculus With Applications}",
+	year = "1999"
+}
+
+@book{SusanJaneColley2011-09-15,
+	author = "Colley, Susan Jane",
+	isbn = "978-03-2178-065-2",
+	month = "sep",
+	publisher = "Pearson Education, Limited",
+	title = "{Vector Calculus}",
+	year = "2011"
+}
+
+@book{MortonL.Curtis1990-06-24,
+	author = "Curtis, Morton L. and Place, Paul",
+	isbn = "978-03-8797-263-3",
+	month = "jun",
+	publisher = "Springer",
+	title = "{Abstract Linear Algebra}",
+	year = "1990"
+}
+
+@book{GeorgeA.Articolo2009-04-17,
+	author = "Articolo, George A.",
+	isbn = "978-01-2374-732-7",
+	month = "abr",
+	publisher = "Academic Press",
+	title = "{Partial differential equations and boundary value problems with Maple}",
+	year = "2009"
+}
+
+@book{HannesRisken1989-08-15,
+	author = "Risken, Hannes and Frank, Till",
+	isbn = "978-35-4050-498-6",
+	month = "ago",
+	publisher = "Springer",
+	title = "{The Fokker-Planck Equation: Methods of Solution and Applications}",
+	year = "1989"
+}
+
+@book{JohnStrikwerda2004-04-15,
+	author = "Strikwerda, John",
+	isbn = "978-08-9871-567-5",
+	month = "abr",
+	publisher = "SIAM",
+	title = "{Finite Difference Schemes and Partial Differential Equations}",
+	year = "2004"
+}
+
+@book{MorrisW.Hirsch1974-05-12,
+	author = "Hirsch, Morris W. and Devaney, Robert L. and Smale, Stephen",
+	isbn = "978-01-2349-550-1",
+	month = "may",
+	publisher = "Academic Press",
+	title = "{Differential Equations, Dynamical Systems, and Linear Algebra}",
+	year = "1974"
+}
+
+@book{DennisC.Prieve2011-02-18,
+	author = "Prieve, Dennis C.",
+	month = "feb",
+	publisher = "Academic Press",
+	title = "{A Course in Fluid Mechanics with Vector Field Theory}",
+	year = "2011"
+}
+
+@book{StephenWiggins2003-10-01,
+	author = "Wiggins, Stephen",
+	isbn = "978-03-8700-177-7",
+	month = "oct",
+	publisher = "Springer",
+	title = "{Introduction to Applied Nonlinear Dynamical Systems and Chaos}",
+	year = "2003"
+}
+
+@book{RobertS.Strichartz2000-05-15,
+	author = "Strichartz, Robert S.",
+	isbn = "978-07-6371-497-0",
+	month = "may",
+	publisher = "Jones \& Bartlett Learning",
+	title = "{The Way of Analysis}",
+	year = "2000"
+}
+
+@book{JohnB.Fraleigh2002-11-16,
+	author = "Fraleigh, John B. and Katz, Victor J.",
+	isbn = "978-02-0176-390-4",
+	month = "nov",
+	publisher = "Pearson",
+	title = "{A First Course in Abstract Algebra}",
+	year = "2002"
+}
+
+@book{StephenP.Boyd2004-03-08,
+	author = "Boyd, Stephen P. and Vandenberghe, Lieven",
+	isbn = "978-05-2183-378-3",
+	month = "mar",
+	publisher = "Cambridge University Press",
+	title = "{Convex Optimization}",
+	year = "2004"
+}
+
+@book{RobertG.Bartle1982-01-02,
+	author = "Bartle, Robert G.",
+	isbn = "978-04-7132-148-4",
+	month = "ene",
+	publisher = "Wiley",
+	title = "{Introduction to Real Analysis}",
+	year = "1982"
+}
+
+@book{RobertG.Bartle1995-09-15,
+	author = "Bartle, Robert G.",
+	isbn = "04-7104-222-6",
+	month = "sep",
+	publisher = "Wiley",
+	title = "{The Elements of Integration and Lebesgue Measure}",
+	year = "1995"
+}
+
+@misc{RobertG.Bartle2011-10-17,
+	author = "Bartle, Robert G.",
+	month = "oct",
+	title = "{The Elements of Real Analysis}",
+	year = "2011"
+}
+
+@book{RobertG.Bartle2001-04-05,
+	author = "Bartle, Robert G.",
+	isbn = "978-08-2182-821-2",
+	month = "abr",
+	publisher = "Amer Mathematical Society",
+	title = "{Solutions Manual to a Modern Theory of Integration}",
+	year = "2001"
+}
+
+@book{CarlMeyer2000-06-01,
+	author = "Meyer, Carl",
+	isbn = "978-08-9871-454-8",
+	month = "jun",
+	publisher = "SIAM",
+	title = "{Matrix Analysis and Applied Linear Algebra Book and Solutions Manual}",
+	year = "2000"
+}
+
+@book{HansCrauel1999-03-26,
+	author = "Crauel, Hans and Gundlach, Matthias",
+	isbn = "978-03-8798-512-1",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Stochastic Dynamics}",
+	year = "1999"
+}
+
+@book{HansCrauel2002-07-25,
+	author = "Crauel, Hans",
+	isbn = "978-04-1527-387-9",
+	month = "jul",
+	publisher = "CRC Press",
+	title = "{Random Probability Measures on Polish Spaces}",
+	year = "2002"
+}
+
+@book{MichelGoossens2007-08-12,
+	author = "Goossens, Michel and Mittelbach, Frank and Rahtz, Sebastian and Roegel, Denis and Voss, Herbert",
+	isbn = "978-03-2150-892-8",
+	month = "ago",
+	publisher = "Addison-Wesley",
+	title = "{The LaTeX Graphics Companion}",
+	year = "2007"
+}
+
+@book{StephenH.Friedberg1979-01-01,
+	author = "Friedberg, Stephen H. and Insel, Arnold J. and Spence, Lawrence E.",
+	isbn = "978-01-3008-451-4",
+	month = "ene",
+	publisher = "Pearson Education",
+	title = "{Linear Algebra}",
+	year = "1979"
+}
+
+@book{AsumanG.Aksoy2009-12-17,
+	author = "Aksoy, Asuman G. and Khamsi, Mohamed A.",
+	isbn = "978-14-4191-295-4",
+	month = "dic",
+	publisher = "Springer",
+	title = "{A Problem Book in Real Analysis}",
+	year = "2009"
+}
+
+@book{RobertoSzechtman2001-01-01,
+	author = "Szechtman, Roberto and Schmedders, Karl and Hillier, Frederick S. and Stephens, Molly and Lieberman, Gerald J.",
+	isbn = "978-00-7232-171-5",
+	month = "ene",
+	publisher = "McGraw-Hill",
+	title = "{Solutions Manual to Accompany Introduction to Operations Research - 7th Edition.}",
+	year = "2001"
+}
+
+@book{AlfioQuarteroni2006-10-19,
+	author = "Quarteroni, Alfio and Sacco, Riccardo and Saleri, Fausto",
+	isbn = "978-35-4034-658-6",
+	month = "oct",
+	publisher = "Springer",
+	title = "{Numerical Mathematics}",
+	year = "2006"
+}
+
+@book{AlfioQuarteroni2006-02-14,
+	author = "Quarteroni, Alfio and Saleri, Fausto",
+	isbn = "978-35-4032-612-0",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Scientific computing with MATLAB and Octave}",
+	year = "2006"
+}
+
+@book{WalterRudin1976-01-01,
+	author = "Rudin, Walter",
+	isbn = "978-00-7054-235-8",
+	month = "ene",
+	publisher = "McGraw-Hill",
+	title = "{Principles of Mathematical Analysis}",
+	year = "1976"
+}
+
+@book{PeterWalters1981-01-02,
+	author = "Walters, Peter",
+	isbn = "978-03-8795-152-2",
+	month = "ene",
+	publisher = "Springer",
+	title = "{An Introduction to Ergodic Theory}",
+	year = "1981"
+}
+
+@book{DavidR.Adams1999-07-01,
+	author = "Adams, David R. and Hedberg, Lars I.",
+	isbn = "978-35-4057-060-8",
+	month = "jul",
+	publisher = "Springer",
+	title = "{Function Spaces and Potential Theory}",
+	year = "1999"
+}
+
+@book{EhrhardBehrends1977-04-15,
+	author = "Behrends, Ehrhard",
+	isbn = "35-4008-441-X",
+	month = "abr",
+	publisher = "Springer-Verlag",
+	title = "{Lp-Structure in Real Banach Spaces}",
+	year = "1977"
+}
+
+@book{SheldonM.Ross1972-11-15,
+	author = "Ross, Sheldon M.",
+	isbn = "978-01-2381-445-6",
+	month = "nov",
+	publisher = "Elsevier",
+	title = "{Introduction to Probability Models}",
+	year = "1972"
+}
+
+@book{RobertB.Ash1975-09-15,
+	author = "Ash, Robert B. and Gardner, Melvin F.",
+	isbn = "978-01-2065-270-9",
+	month = "sep",
+	publisher = "Academic Pr",
+	title = "{Topics in Stochastic Processes}",
+	year = "1975"
+}
+
+@book{Schechter0101-01-01,
+	author = "Schechter",
+	isbn = "978-08-2184-856-2",
+	month = "dic",
+	title = "{Schechter (2009) Principles of Functional Analysis.djvu}",
+	year = "100"
+}
+
+@book{DesmondHigham2004-04-19,
+	author = "Higham, Desmond",
+	isbn = "978-05-2154-757-4",
+	month = "abr",
+	publisher = "Cambridge University Press",
+	title = "{An Introduction to Financial Option Valuation: Mathematics, Stochastics and Computation}",
+	year = "2004"
+}
+
+@book{PaulGerhardHoel1972-10-15,
+	author = "Hoel, Paul Gerhard and Port, Sidney C. and Stone, Charles Jo{\"e}l",
+	isbn = "978-03-9512-076-7",
+	month = "oct",
+	publisher = "Houghton Mifflin",
+	title = "{Introduction to Stochastic Processes}",
+	year = "1972"
+}
+
+@book{PeterKotelenez2008-01-02,
+	author = "Kotelenez, Peter",
+	isbn = "978-03-8774-316-5",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Stochastic Ordinary and Stochastic Partial Differential Equations: Transition From Microscopic to Macroscopic Equations}",
+	year = "2008"
+}
+
+@book{JamesL.Hein1996-01-05,
+	author = "Hein, James L.",
+	isbn = "978-08-6720-496-4",
+	month = "ene",
+	publisher = "Jones and Bartlett Publishers",
+	title = "{Discrete Mathematics}",
+	year = "1996"
+}
+
+@book{SergeyS.Stepanov2013-06-19,
+	author = "Stepanov, Sergey S.",
+	isbn = "978-33-1900-071-8",
+	month = "jun",
+	publisher = "Springer Science \& Business",
+	title = "{Stochastic World}",
+	year = "2013"
+}
+
+@book{RichardHaberman1987-01-15,
+	author = "Haberman, Richard",
+	isbn = "978-01-3252-875-7",
+	month = "ene",
+	publisher = "Prentice-Hall",
+	title = "{Elementary applied partial differential equations: with Fourier series and boundary value problems}",
+	year = "1987"
+}
+
+@book{RossG.Pinsky1995-01-12,
+	author = "Pinsky, Ross G.",
+	isbn = "978-05-2147-014-8",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{Positive Harmonic Functions and Diffusion}",
+	year = "1995"
+}
+
+@misc{ChrisWithers2011-02-18,
+	author = "Withers, Chris",
+	month = "feb",
+	title = "{Matplotlib}",
+	year = "2011"
+}
+
+@book{BrianR.Hunt2001-08-06,
+	author = "Hunt, Brian R. and Lipsman, Ronald L. and Rosenberg, Jonathan",
+	isbn = "978-05-2100-859-4",
+	month = "ago",
+	publisher = "Cambridge University Press",
+	title = "{A Guide to MATLAB: For Beginners and Experienced Users}",
+	year = "2001"
+}
+
+@book{AlbertN.Shiryaev1995-12-08,
+	author = "Shiryaev, Albert N. and Boas, R. P.",
+	isbn = "978-03-8794-549-1",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Probability}",
+	year = "1995"
+}
+
+@book{AlbertN.Shiryaev2005-10-24,
+	author = "Shiryaev, Albert N. and Grossinho, Maria Do Ros{\'a}rio and Oliveira, Paulo E. and Esqu{\'i}vel, Manuel L.",
+	isbn = "978-03-8728-262-6",
+	month = "oct",
+	publisher = "Springer",
+	title = "{Stochastic Finance}",
+	year = "2005"
+}
+
+@book{AlbertN.Shiryaev1999-01-15,
+	author = "Shiryaev, Albert N. and Kruzhilin, N.",
+	isbn = "978-98-1023-605-2",
+	month = "ene",
+	publisher = "World Scientific Publishing Company",
+	title = "{Essentials of Stochastic Finance: Facts, Models, Theory}",
+	year = "1999"
+}
+
+@book{VladimirBorisovichKolmanovskii1986-02-11,
+	author = "Kolmanovskii, Vladimir Borisovich and Nosov, V. R.",
+	isbn = "978-01-2417-940-0",
+	month = "feb",
+	publisher = "Academic Press",
+	title = "{Stability of Functional Differential Equations}",
+	year = "1986"
+}
+
+@book{NelsonDunford1958-12-15,
+	author = "Dunford, Nelson and Schwartz, Jacob T. and Bade, William G. and Bartle, Robert Gardner",
+	isbn = "978-04-7022-605-6",
+	month = "dic",
+	publisher = "John Wiley \& Sons Inc",
+	title = "{Linear Operators: General Theory. Part. I}",
+	year = "1958"
+}
+
+@book{J.C.;CundyH.M.Burkill1962-06-26,
+	author = "{J. C.; Cundy}, H. M. Burkill",
+	month = "jun",
+	publisher = "Cambridge University Press",
+	title = "{Mathematical Scholarship Problems}",
+	year = "1962"
+}
+
+@book{RoderickWong1989-01-02,
+	author = "Wong, Roderick",
+	isbn = "978-08-9871-497-5",
+	month = "ene",
+	publisher = "SIAM",
+	title = "{Asymptotic Approximation of Integrals}",
+	year = "1989"
+}
+
+@book{EndreS{\"u}li2013-08-02,
+	author = "S{\"u}li, Endre and Mayers, David F.",
+	isbn = "05-2181-026-4",
+	month = "ago",
+	publisher = "Cambridge University Press",
+	title = "{An Introduction to Numerical Analysis}",
+	year = "2013"
+}
+
+@book{DesmondJ.Higham2000-01-01,
+	author = "Higham, Desmond J. and Higham, Nicholas J.",
+	isbn = "978-08-9871-578-1",
+	month = "ene",
+	publisher = "SIAM",
+	title = "{MATLAB Guide}",
+	year = "2000"
+}
+
+@book{B.Chapman2010-04-15,
+	author = "Chapman, B. and Desprez, F. and Joubert, G. R. and Lichnewsky, A. and Peters, F. and Priol, T.",
+	isbn = "978-16-0750-529-7",
+	month = "abr",
+	publisher = "IOS Press",
+	title = "{Parallel Computing: From Multicores and GPU's to Petascale}",
+	year = "2010"
+}
+
+@misc{SheldonM.Ross0101-01-01,
+	author = "Ross, Sheldon M.",
+	month = "dic",
+	title = "{Introduction to Probability Models, Tenth Edition}",
+	year = "100"
+}
+
+@book{BarbaraMacCluer2009-03-05,
+	author = "MacCluer, Barbara",
+	isbn = "978-03-8785-528-8",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Elementary Functional Analysis}",
+	year = "2009"
+}
+
+@book{AntonioGalbis2012-03-24,
+	author = "Galbis, Antonio and Maestre, Manuel",
+	isbn = "978-14-6142-199-3",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Vector Analysis Versus Vector Calculus}",
+	year = "2012"
+}
+
+@book{PhilipProtter1990-01-02,
+	author = "Protter, Philip",
+	isbn = "978-35-4000-313-7",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Stochastic Integration and Differential Equations}",
+	year = "1990"
+}
+
+@book{JaanKiusalaas2009-09-29,
+	author = "Kiusalaas, Jaan",
+	isbn = "978-05-2119-133-3",
+	month = "sep",
+	publisher = "Cambridge University Press",
+	title = "{Numerical Methods in Engineering With MATLAB ®}",
+	year = "2009"
+}
+
+@book{GeorgeA.Gr{\"a}tzer2007-08-23,
+	author = "Gr{\"a}tzer, George A.",
+	isbn = "978-03-8732-289-6",
+	month = "ago",
+	publisher = "Springer",
+	title = "{More Math Into LaTeX}",
+	year = "2007"
+}
+
+@book{ShawJamesByrnie2009-07-15,
+	author = "Byrnie, Shaw James",
+	isbn = "978-11-1082-106-8",
+	month = "jul",
+	publisher = "BiblioBazaar",
+	title = "{Vector Calculus: With Applications to Physics}",
+	year = "2009"
+}
+
+@book{DonaldAllanMcquarrie1999-09-14,
+	author = "Mcquarrie, Donald Allan and Simon, John Douglas",
+	isbn = "978-18-9138-905-4",
+	month = "sep",
+	publisher = "University Science Books",
+	title = "{Molecular Thermodynamics}",
+	year = "1999"
+}
+
+@book{HarryMoritzSchey1997-12-15,
+	author = "Schey, Harry Moritz",
+	isbn = "978-03-9396-997-9",
+	month = "dic",
+	publisher = "W W Norton \& Company Incorporated",
+	title = "{Div, Grad, Curl, and All That: An Informal Text on Vector Calculus}",
+	year = "1997"
+}
+
+@book{DonaldE.Knuth1989-01-01,
+	author = "Knuth, Donald E. and Larrabee, Tracy and Roberts, Paul M.",
+	isbn = "978-08-8385-063-3",
+	month = "ene",
+	publisher = "Cambridge University Press",
+	title = "{Mathematical Writing}",
+	year = "1989"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{[Louis Narens] Abstract Measurement Theory(BookFi.org)}",
+	year = "100"
+}
+
+@misc{Unknown2006-09-14,
+	author = "Unknown",
+	month = "sep",
+	title = "{00000000}",
+	year = "2006"
+}
+
+@misc{Unknown2008-10-17,
+	author = "Unknown",
+	month = "oct",
+	title = "{[Sasha Cyganowski, Peter Kloeden, Jerzy Ombach] Fr(BookFi.org)}",
+	year = "2008"
+}
+
+@book{HelmutStrasser1985-11-15,
+	author = "Strasser, Helmut",
+	isbn = "978-08-9925-028-1",
+	month = "nov",
+	publisher = "W. de Gruyter",
+	title = "{Mathematical Theory of Statistics: Statistical Experiments and Asymptotic Decision Theory}",
+	year = "1985"
+}
+
+@book{MichaelJ.Meyer2001-03-15,
+	author = "Meyer, Michael J.",
+	isbn = "978-15-8488-234-3",
+	month = "mar",
+	publisher = "Chapman \& Hall/CRC",
+	title = "{Continuous stochastic calculus with applications to finance}",
+	year = "2001"
+}
+
+@book{EliasM.Stein2003-03-17,
+	author = "Stein, Elias M. and Shakarchi, Rami",
+	isbn = "978-14-0083-123-4",
+	month = "mar",
+	publisher = "Princeton University Press",
+	title = "{Fourier Analysis: An Introduction}",
+	year = "2003"
+}
+
+@book{EliasM.Stein1970-02-15,
+	author = "Stein, Elias M.",
+	isbn = "978-06-9108-079-6",
+	month = "feb",
+	publisher = "Princeton University Press",
+	title = "{Singular Integrals and Differentiability Properties of Functions.}",
+	year = "1970"
+}
+
+@book{RichardStallman2007-08-14,
+	author = "Stallman, Richard",
+	isbn = "978-18-8211-486-3",
+	month = "ago",
+	publisher = "Free Software Foundation",
+	title = "{GNU Emacs manual}",
+	year = "2007"
+}
+
+@book{HerbertStanleyBear2002-09-15,
+	author = "Bear, Herbert Stanley",
+	isbn = "978-01-2083-971-1",
+	month = "sep",
+	publisher = "Academic Press",
+	title = "{A Primer of Lebesgue Integration}",
+	year = "2002"
+}
+
+@book{MichaelSpivak1996-01-02,
+	author = "Spivak, Michael",
+	isbn = "978-09-1409-890-4",
+	month = "ene",
+	publisher = "Publish or Perish",
+	title = "{Answer Book to Calculus}",
+	year = "1996"
+}
+
+@book{MichaelSpivak1998-01-02,
+	author = "Spivak, Michael",
+	isbn = "978-08-0539-021-6",
+	month = "ene",
+	publisher = "Westview Press",
+	title = "{Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus}",
+	year = "1998"
+}
+
+@book{NorbertoAngelFava1996-05-15,
+	author = "Fava, Norberto Angel",
+	isbn = "978-98-7907-216-5",
+	month = "may",
+	publisher = "Instituto Argentino de Matem{\'a}tica",
+	title = "{Medida e integral de Lebesgue}",
+	year = "1996"
+}
+
+@book{S.E.A.Mohammed1984-03-15,
+	author = "Mohammed, S. E. A.",
+	isbn = "978-02-7308-593-5",
+	month = "mar",
+	publisher = "Longman Higher Education",
+	title = "{Stochastic Functional Differential Equations}",
+	year = "1984"
+}
+
+@book{RamP.Kanwal1983-01-01,
+	author = "Kanwal, Ram P.",
+	isbn = "978-01-2396-560-8",
+	month = "ene",
+	publisher = "Academic Press",
+	title = "{Generalized Functions: Theory and Technique}",
+	year = "1983"
+}
+
+@book{EliasM.Stein2005-03-14,
+	author = "Stein, Elias M. and Shakarchi, Rami",
+	isbn = "978-06-9111-386-9",
+	month = "mar",
+	publisher = "Princeton University Press",
+	title = "{Real Analysis: Measure Theory, Integration, and Hilbert Spaces}",
+	year = "2005"
+}
+
+@book{J.M.Sanz-Serna1994-05-15,
+	author = "Sanz-Serna, J. M. and Calvo, M. P.",
+	isbn = "978-04-1254-290-9",
+	month = "may",
+	publisher = "Chapman \& Hall",
+	title = "{Numerical Hamiltonian Problems}",
+	year = "1994"
+}
+
+@book{GeorgeA.Anastassiou2005-12-16,
+	author = "Anastassiou, George A. and Steffens, Karl-Georg",
+	isbn = "978-08-1764-353-9",
+	month = "dic",
+	publisher = "Birkh{\"a}user",
+	title = "{The History of Approximation Theory: From Euler to Bernstein}",
+	year = "2005"
+}
+
+@book{J.C.Burkill2004-06-03,
+	author = "Burkill, J. C.",
+	isbn = "978-05-2160-480-2",
+	month = "jun",
+	publisher = "Cambridge University Press",
+	title = "{The Lebesgue Integral}",
+	year = "2004"
+}
+
+@book{I.I.(iosifIlich)Gikhman1969-11-15,
+	author = "Gikhman, I. I. (iosif Ilich) and Skorokhod, A. V. (anatolii Vladimirovich)",
+	isbn = "978-04-8669-387-3",
+	month = "nov",
+	publisher = "Dover Publ.",
+	title = "{Introduction to the Theory of Random Processes}",
+	year = "1969"
+}
+
+@misc{TonyLelievreMathiasRousset0101-01-01,
+	author = "{Tony Lelievre}, Mathias Rousset and Stoltz, Gabriel",
+	month = "dic",
+	title = "{Free Energy Computations: A Mathematical Perspective (470 Pages)}",
+	year = "100"
+}
+
+@book{BernardR.Gelbaum1964-02-15,
+	author = "Gelbaum, Bernard R. and Olmsted, John Meigs Hubbell",
+	isbn = "978-04-8642-875-8",
+	month = "feb",
+	publisher = "Dover Publications",
+	title = "{Counterexamples in Analysis}",
+	year = "1964"
+}
+
+@book{RobertMesser1993-12-01,
+	author = "Messer, Robert",
+	isbn = "978-00-6501-728-1",
+	month = "nov",
+	publisher = "HarperCollins College Publishers",
+	title = "{Linear algebra: gateway to mathematics}",
+	year = "1993"
+}
+
+@book{RichardL.Wheeden1977-10-15,
+	author = "Wheeden, Richard L. and Zygmund, Antoni",
+	isbn = "978-08-2476-499-9",
+	month = "oct",
+	publisher = "M. Dekker",
+	title = "{Measure and Integral: An Introduction to Real Analysis}",
+	year = "1977"
+}
+
+@book{MorrisWilliamHirsch2003-11-05,
+	author = "Hirsch, Morris William and Smale, Stephen and Devaney, Robert Luke",
+	isbn = "978-01-2349-703-1",
+	month = "nov",
+	publisher = "Academic Press",
+	title = "{Differential Equations, Dynamical Systems \& an Introduction to Chaos}",
+	year = "2003"
+}
+
+@book{D.C.Rapaport2004-04-01,
+	author = "Rapaport, D. C.",
+	isbn = "978-11-3945-176-5",
+	month = "abr",
+	publisher = "Cambridge University Press",
+	title = "{The Art of Molecular Dynamics Simulation}",
+	year = "2004"
+}
+
+@book{J.Kiusalaas2005-06-15,
+	author = "Kiusalaas, J.",
+	isbn = "978-05-2185-287-6",
+	month = "jun",
+	publisher = "Cambridge University Press",
+	title = "{Numerical Methods in Engineering With Python}",
+	year = "2005"
+}
+
+@book{J.Stoer2010-12-01,
+	author = "Stoer, J. and Bulirsch, R. and Bartels, R. and Gautschi, W. and Witzgall, C.",
+	isbn = "978-14-4193-006-4",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Introduction to Numerical Analysis}",
+	year = "2010"
+}
+
+@book{M{\'i}che{\'a}lOSearcoid2006-08-10,
+	author = "O'Searcoid, M{\'i}che{\'a}l",
+	isbn = "978-18-4628-369-7",
+	month = "ago",
+	publisher = "Springer",
+	title = "{Metric Spaces}",
+	year = "2006"
+}
+
+@book{JohnEdensorLittlewood1944-12-15,
+	author = "Littlewood, John Edensor",
+	month = "dic",
+	publisher = "Oxford University Press",
+	title = "{Lectures on the Theory of Functions}",
+	year = "1944"
+}
+
+@book{PeterE.Kloeden1994-01-15,
+	author = "Kloeden, Peter E. and Platen, Eckhard and Schurz, Henri",
+	isbn = "978-35-4057-074-5",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Numerical Solution of SDE Through Computer Experiments}",
+	year = "1994"
+}
+
+@misc{LuisRinc{\'o}n0101-01-01,
+	author = "Rinc{\'o}n, Luis and Unknown",
+	month = "dic",
+	title = "{Introducci{\'o}n a los porcesos estoc{\'a}sticos}",
+	year = "100"
+}
+
+@book{BrianD.Hahn1998-01-01,
+	author = "Hahn, Brian D.",
+	isbn = "978-03-4060-034-4",
+	month = "ene",
+	publisher = "Elsevier",
+	title = "{Fortran 90 for Scientists and Engineers}",
+	year = "1998"
+}
+
+@book{PeterE.Kloeden1992-01-01,
+	author = "Kloeden, Peter E. and Platen, Eckhard",
+	isbn = "978-03-8754-062-7",
+	month = "ene",
+	publisher = "Springer-Verlag",
+	title = "{Numerical Solution of Stochastic Differential Equations}",
+	year = "1992"
+}
+
+@misc{DudleyR.M.2011-10-20,
+	author = "Dudley, R. M. and Bollobas, B. and Fulton, W. and Katok, A. and Kirwan, F. and Sarnak, P.",
+	month = "oct",
+	title = "{Real Analysis and Probability}",
+	year = "2011"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{64938972-Introduction-to-Analysis-Problems-and-Solutions}",
+	year = "100"
+}
+
+@book{LeoBreiman1968-09-15,
+	author = "Breiman, Leo",
+	isbn = "978-08-9871-296-4",
+	month = "sep",
+	publisher = "SIAM",
+	title = "{Probability}",
+	year = "1968"
+}
+
+@book{MichaelSpivak1967-01-02,
+	author = "Spivak, Michael",
+	isbn = "978-09-1409-889-8",
+	month = "ene",
+	publisher = "Publish or Perish",
+	title = "{Calculus}",
+	year = "1967"
+}
+
+@book{MarkA.Pinsky2010-12-10,
+	author = "Pinsky, Mark A. and Karlin, Samuel",
+	isbn = "978-01-2381-416-6",
+	month = "dic",
+	publisher = "Academic Press",
+	title = "{An Introduction to Stochastic Modeling}",
+	year = "2010"
+}
+
+@book{SheldonM.Ross1995-01-15,
+	author = "Ross, Sheldon M.",
+	isbn = "978-04-7112-062-9",
+	month = "ene",
+	publisher = "Wiley",
+	title = "{Stochastic Processes}",
+	year = "1995"
+}
+
+@book{PaulC.Matthews1998-01-01,
+	author = "Matthews, Paul C.",
+	isbn = "978-35-4076-180-8",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Vector Calculus}",
+	year = "1998"
+}
+
+@book{Aleksandr\t{I}akovlevichKhelemski\u{i}2006-09-30,
+	author = "Khelemski\u{i}, Aleksandr \t{I}akovlevich",
+	isbn = "978-08-2184-098-6",
+	month = "sep",
+	publisher = "American Mathematical Soc.",
+	title = "{Lectures and Exercises on Functional Analysis}",
+	year = "2006"
+}
+
+@book{H.L.Royden1968-01-01,
+	author = "Royden, H. L.",
+	isbn = "978-00-2404-151-7",
+	month = "ene",
+	publisher = "Macmillan",
+	title = "{Real Analysis}",
+	year = "1968"
+}
+
+@book{WalterRudin1991-01-01,
+	author = "Rudin, Walter",
+	isbn = "978-00-7054-236-5",
+	month = "ene",
+	publisher = "McGraw-Hill",
+	title = "{Functional Analysis}",
+	year = "1991"
+}
+
+@book{RichardL.Burden2010-08-09,
+	author = "Burden, Richard L. and Faires, John Douglas",
+	isbn = "978-05-3873-351-9",
+	month = "ago",
+	publisher = "CENGAGE Learning",
+	title = "{Numerical Analysis}",
+	year = "2010"
+}
+
+@book{WaldemarDosPassos2010-06-15,
+	author = "Passos, Waldemar Dos",
+	isbn = "978-08-4937-479-1",
+	month = "jun",
+	publisher = "CRC Press",
+	title = "{Numerical Methods, Algorithms, and Tools in C♯}",
+	year = "2010"
+}
+
+@misc{EmmanueleDiBenedetto0101-01-01,
+	author = "DiBenedetto, Emmanuele",
+	isbn = "978-35-4094-020-3",
+	month = "dic",
+	title = "{Degenerate Parabolic Equations}",
+	year = "100"
+}
+
+@book{V.N.Kolokoltsov2011-03-15,
+	author = "Kolokoltsov, V. N.",
+	isbn = "978-31-1025-010-7",
+	month = "mar",
+	publisher = "Walter de Gruyter",
+	title = "{Markov Processes, Semigroups, and Generators}",
+	year = "2011"
+}
+
+@book{KosakuYosida1980-02-15,
+	author = "Yosida, Kosaku",
+	isbn = "978-35-4010-210-6",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Functional Analysis}",
+	year = "1980"
+}
+
+@book{EllenSwanson1999-05-15,
+	author = "Swanson, Ellen and O'Sean, Arlene",
+	isbn = "978-08-2181-961-6",
+	month = "may",
+	publisher = "Amer Mathematical Society",
+	title = "{Mathematics Into Type}",
+	year = "1999"
+}
+
+@book{HarveyM.Deitel2002-08-12,
+	author = "Deitel, Harvey M. and Deitel, Paul J.",
+	isbn = "978-01-3038-474-4",
+	month = "ago",
+	publisher = "Prentice Hall",
+	title = "{C++ How to Program}",
+	year = "2002"
+}
+
+@book{GilbertStrang1988-03-15,
+	author = "Strang, Gilbert",
+	isbn = "978-01-5551-005-0",
+	month = "mar",
+	publisher = "Harcourt, Brace, Jovanovich, Publishers",
+	title = "{Linear algebra and its applications}",
+	year = "1988"
+}
+
+@book{W.J.Kaczor2000-03-29,
+	author = "Kaczor, W. J. and Nowak, M. T.",
+	isbn = "978-08-2182-050-6",
+	month = "mar",
+	publisher = "American Mathematical Soc.",
+	title = "{Problems in Mathematical Analysis}",
+	year = "2000"
+}
+
+@book{AvnerFriedman1975-09-15,
+	author = "Friedman, Avner",
+	isbn = "978-01-2268-201-8",
+	month = "sep",
+	publisher = "Academic Press",
+	title = "{Stochastic Differential Equations and Applications}",
+	year = "1975"
+}
+
+@book{VladimirI.Arnold1992-05-15,
+	author = "Arnol'd, Vladimir I. and Arnold, Vladimir I. and Cooke, Roger",
+	isbn = "978-03-8754-813-5",
+	month = "may",
+	publisher = "New York",
+	title = "{Ordinary Differential Equations}",
+	year = "1992"
+}
+
+@book{J.L.Doob1993-12-17,
+	author = "Doob, J. L.",
+	isbn = "978-35-4094-055-5",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Measure Theory}",
+	year = "1993"
+}
+
+@book{PaulR.Halmos1974-01-01,
+	author = "Halmos, Paul R.",
+	isbn = "978-03-8790-088-9",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Measure Theory}",
+	year = "1974"
+}
+
+@book{ElliottH.Lieb2001-09-15,
+	author = "Lieb, Elliott H. and Loss, Michael",
+	isbn = "08-2182-783-9",
+	month = "sep",
+	publisher = "American Mathematical Soc.",
+	title = "{Analysis}",
+	year = "2001"
+}
+
+@misc{J.J.DuistermaatJ.A.C.Kolk2006-06-21,
+	author = "{J. J. Duistermaat}, J. A. C. Kolk",
+	month = "jun",
+	title = "{Multidimensional Real Analysis II: Integration}",
+	year = "2006"
+}
+
+@book{J.J.Duistermaat2004-06-14,
+	author = "Duistermaat, J. J. and Kolk, J. A. C. and Houckgeest, J. P. van Braam",
+	isbn = "978-05-2155-114-4",
+	month = "jun",
+	publisher = "Cambridge University Press",
+	title = "{Multidimensional Real Analysis I: Differentiation (Cambridge Studies in Advanced Mathematics)}",
+	year = "2004"
+}
+
+@book{ElliottW.Cheney1982-01-15,
+	author = "Cheney, Elliott W.",
+	isbn = "978-08-2181-374-4",
+	month = "ene",
+	publisher = "AMS Chelsea Pub.",
+	title = "{Introduction to Approximation Theory}",
+	year = "1982"
+}
+
+@book{ErnstHairer2006-02-22,
+	author = "Hairer, Ernst and Lubich, Christian and Wanner, Gerhard",
+	isbn = "978-35-4030-663-4",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Geometric Numerical Integration: Structure-Preserving Algorithms for Ordinary Differential Equations}",
+	year = "2006"
+}
+
+@book{AlisonEtheridge1995-07-13,
+	author = "Etheridge, Alison",
+	isbn = "978-05-2148-319-3",
+	month = "jul",
+	publisher = "Cambridge University Press",
+	title = "{Stochastic Partial Differential Equations}",
+	year = "1995"
+}
+
+@misc{NinoBoccara2010-09-13,
+	author = "Boccara, Nino",
+	month = "sep",
+	title = "{Modeling Complex Systems, Second Edition (Graduate Texts in Physics)}",
+	year = "2010"
+}
+
+@book{MarkA.Pinsky1992-02-07,
+	author = "Pinsky, Mark A. and Wihstutz, Volker and {Northwestern University (evanston}, Ill.). Dept. Of Mathematics",
+	isbn = "978-08-1763-543-5",
+	month = "feb",
+	publisher = "Birkh{\"a}user",
+	title = "{Diffusion Processes and Related Problems in Analysis: Stochastic Flows}",
+	year = "1992"
+}
+
+@book{JohnGuckenheimer2002-02-08,
+	author = "Guckenheimer, John and Holmes, Philip",
+	isbn = "978-03-8790-819-9",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields}",
+	year = "2002"
+}
+
+@book{J.Azema1980-03-01,
+	author = "Azema, J. and Yor, M.",
+	isbn = "978-35-4009-760-0",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Seminaire de Probabilites XIV: 1978/79}",
+	year = "1980"
+}
+
+@book{EwartCarson2000-10-23,
+	author = "Carson, Ewart and Cobelli, Claudio and Bronzino, Joseph",
+	isbn = "978-01-2160-245-1",
+	month = "oct",
+	publisher = "Academic Press",
+	title = "{Modelling Methodology for Physiology and Medicine}",
+	year = "2000"
+}
+
+@book{CrispinW.Gardiner2004-01-02,
+	author = "Gardiner, Crispin W.",
+	isbn = "978-35-4020-882-2",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Handbook of Stochastic Methods for Physics, Chemistry, and the Natural Sciences}",
+	year = "2004"
+}
+
+@book{AllanPease2006-07-25,
+	author = "Pease, Allan and Pease, Barbara",
+	isbn = "978-05-5380-472-0",
+	month = "jul",
+	publisher = "Bantam",
+	title = "{The Definitive Book of Body Language}",
+	year = "2006"
+}
+
+@book{PaulEkman2003-04-07,
+	author = "Ekman, Paul",
+	isbn = "978-08-0507-275-4",
+	month = "abr",
+	publisher = "Times Books",
+	title = "{Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life}",
+	year = "2003"
+}
+
+@book{DanielGoleman2006-09-26,
+	author = "Goleman, Daniel",
+	isbn = "978-05-5380-491-1",
+	month = "sep",
+	publisher = "Bantam",
+	title = "{Emotional Intelligence}",
+	year = "2006"
+}
+
+@book{DanielGoleman1999-01-15,
+	author = "Goleman, Daniel",
+	isbn = "978-84-7245-407-1",
+	month = "ene",
+	publisher = "Kair{\'o}s",
+	title = "{La pr{\'a}ctica de la inteligencia emocional}",
+	year = "1999"
+}
+
+@book{DanielGoleman2006-09-26,
+	author = "Goleman, Daniel",
+	isbn = "05-5380-352-2",
+	month = "sep",
+	publisher = "Bantam",
+	title = "{Social Intelligence: The New Science of Human Relationships}",
+	year = "2006"
+}
+
+@book{KurtJacobs2010-02-18,
+	author = "Jacobs, Kurt",
+	isbn = "978-05-2176-542-8",
+	month = "feb",
+	publisher = "Cambridge University Press",
+	title = "{Stochastic Processes for Physicists: Understanding Noisy Systems}",
+	year = "2010"
+}
+
+@book{RobertG.Bartle2011-01-18,
+	author = "Bartle, Robert G. and Sherbert, Donald R.",
+	isbn = "978-04-7143-331-6",
+	month = "ene",
+	publisher = "Wiley",
+	title = "{Introduction to Real Analysis}",
+	year = "2011"
+}
+
+@book{KrishnaB.Athreya2006-07-27,
+	author = "Athreya, Krishna B. and Lahiri, Soumendra N.",
+	isbn = "978-03-8732-903-1",
+	month = "jul",
+	publisher = "Springer",
+	title = "{Measure Theory and Probability Theory}",
+	year = "2006"
+}
+
+@book{LuigiAmbrosio2005-01-02,
+	author = "Ambrosio, Luigi and Gigli, Nicola and Savar{\'e}, Giuseppe",
+	isbn = "978-37-6432-428-5",
+	month = "ene",
+	publisher = "Birkh{\"a}user Basel",
+	title = "{Gradient Flows: In Metric Spaces and in the Space of Probability Measures}",
+	year = "2005"
+}
+
+@book{RichardDurrett1996-12-15,
+	author = "Durrett, Richard",
+	isbn = "978-05-3424-319-7",
+	month = "dic",
+	publisher = "Duxbury Press",
+	title = "{Solutions Manual for Probability: Theory and Examples}",
+	year = "1996"
+}
+
+@book{RichardDurrett1995-08-30,
+	author = "Durrett, Richard",
+	isbn = "978-05-3424-318-0",
+	month = "ago",
+	publisher = "Duxbury Press",
+	title = "{Probability: Theory and Examples}",
+	year = "1995"
+}
+
+@book{HaroldKushner2003-07-17,
+	author = "Kushner, Harold and Yin, G. George",
+	isbn = "978-03-8700-894-3",
+	month = "jul",
+	publisher = "Springer",
+	title = "{Stochastic Approximation and Recursive Algorithms and Applications}",
+	year = "2003"
+}
+
+@book{E.Zeidler1989-12-11,
+	author = "Zeidler, E. and Boron, Leo F.",
+	isbn = "978-03-8796-802-5",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Nonlinear Functional Analysis and Its Applications}",
+	year = "1989"
+}
+
+@book{E.Zeidler1984-11-27,
+	author = "Zeidler, E. and Boron, L. F.",
+	isbn = "978-03-8790-915-8",
+	month = "nov",
+	publisher = "Springer",
+	title = "{Nonlinear Functional Analysis and Its Applications: III: Variational Methods and Optimization}",
+	year = "1984"
+}
+
+@book{E.Zeidler1988-03-02,
+	author = "Zeidler, E. and Quandt, J.",
+	isbn = "978-03-8796-499-7",
+	month = "mar",
+	publisher = "Springer",
+	title = "{Nonlinear Functional Analysis and Its Applications: IV: Applications to Mathematical Physics}",
+	year = "1988"
+}
+
+@book{EberhardZeidler1985-01-15,
+	author = "Zeidler, Eberhard",
+	isbn = "978-03-8790-914-1",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Nonlinear Functional Analysis and Its Applications: Fixed Point Theorems}",
+	year = "1985"
+}
+
+@book{E.Zeidler1989-12-11,
+	author = "Zeidler, E. and Boron, Leo F.",
+	isbn = "978-03-8797-167-4",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Nonlinear Functional Analysis and Its Applications: Part 2 B: Nonlinear Monotone Operators}",
+	year = "1989"
+}
+
+@book{StephenHawking1998-01-15,
+	author = "Hawking, Stephen",
+	isbn = "978-05-5338-016-3",
+	month = "ene",
+	publisher = "Bantam",
+	title = "{A Brief History of Time}",
+	year = "1998"
+}
+
+@book{XMao2007-12-30,
+	author = "Mao, X",
+	isbn = "978-19-0427-534-3",
+	month = "dic",
+	publisher = "Horwood Pub.",
+	title = "{Stochastic Differential Equations and Applications}",
+	year = "2007"
+}
+
+@book{XuerongMao1994-05-02,
+	author = "Mao, Xuerong",
+	isbn = "978-08-2479-080-6",
+	month = "may",
+	publisher = "CRC Press",
+	title = "{Exponential Stability of Stochastic Differential Equations}",
+	year = "1994"
+}
+
+@book{G.N.Milstein2010-12-03,
+	author = "Milstein, G. N.",
+	isbn = "978-90-4814-487-7",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Numerical Integration of Stochastic Differential Equations}",
+	year = "2010"
+}
+
+@book{PhilipE.Protter2004-01-15,
+	author = "Protter, Philip E.",
+	isbn = "978-35-4000-313-7",
+	month = "ene",
+	publisher = "Springer",
+	title = "{Stochastic Integration and Differential Equations}",
+	year = "2004"
+}
+
+@book{KevinHouston2009-02-12,
+	author = "Houston, Kevin",
+	isbn = "978-05-2171-978-0",
+	month = "feb",
+	publisher = "Cambridge University Press",
+	title = "{How to Think Like a Mathematician: A Companion to Undergraduate Mathematics}",
+	year = "2009"
+}
+
+@book{GabrielJ.Lord2014-08-11,
+	author = "Lord, Gabriel J. and Powell, Catherine E. and Shardlow, Tony",
+	isbn = "978-05-2172-852-2",
+	month = "ago",
+	publisher = "Cambridge University Press",
+	title = "{An Introduction to Computational Stochastic PDEs}",
+	year = "2014"
+}
+
+@book{T.C.Gard1988-01-15,
+	author = "Gard, T. C.",
+	isbn = "978-08-2477-776-0",
+	month = "ene",
+	publisher = "M. Dekker",
+	title = "{Introduction to Stochastic Differential Equations}",
+	year = "1988"
+}
+
+@book{H.K{\"o}rezlioglu2012-01-24,
+	author = "K{\"o}rezlioglu, H. and Oksendal, B. and {\"U}st{\"u}nel, A. S.",
+	isbn = "978-14-6127-541-1",
+	month = "ene",
+	publisher = "Birkh{\"a}user",
+	title = "{Stochastic Analysis and Related Topics V: The Silivri Workshop, 1994 (Progress in Probability)}",
+	year = "2012"
+}
+
+@book{GrigoriNoahMilstein2010-12-01,
+	author = "Milstein, Grigori Noah and Tretyakov, Michael V.",
+	isbn = "978-36-4205-930-8",
+	month = "dic",
+	publisher = "Springer",
+	title = "{Stochastic Numerics for Mathematical Physics}",
+	year = "2010"
+}
+
+@book{WillWilson2000-06-22,
+	author = "Wilson, Will",
+	isbn = "978-05-2177-658-5",
+	month = "jun",
+	publisher = "Cambridge University Press",
+	title = "{Simulating Ecological and Evolutionary Systems in C}",
+	year = "2000"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{John L. Hennessy \& David Patterson-A solution manual to Computer Architecture A Quantitative Approach 4E (John L. Hennessy \& David Patterson)}",
+	year = "100"
+}
+
+@misc{AQuantitativeApproach-Morgan-Kaufmann(2002)0101-01-01,
+	author = "(2002), A Quantitative Approach-Morgan-Kaufmann",
+	month = "dic",
+	title = "{John L. Hennessy-Computer Architecture}",
+	year = "100"
+}
+
+@book{MrsMeeraPurnankGhumalia2011-11-10,
+	author = "Ghumalia, Mrs Meera Purnank",
+	isbn = "978-14-5366-211-3",
+	month = "nov",
+	publisher = "CreateSpace Independent Publishing Platform",
+	title = "{C/C++ Software Development With Eclipse: An Easy to Understand Yet Thorough Guide on Using Eclipse for C/C++ Software Development}",
+	year = "2011"
+}
+
+@book{DimitriP.Bertsekas1997-01-01,
+	author = "Bertsekas, Dimitri P. and Tsitsiklis, John N.",
+	isbn = "978-18-8652-901-4",
+	month = "ene",
+	publisher = "Athena Scientific",
+	title = "{Parallel and Distributed Computation: Numerical Methods}",
+	year = "1997"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{Bertsekas D., Tsitsiklis J.-Parallel and distributed computation numerical methods (Partial solutions manual)}",
+	year = "100"
+}
+
+@book{RobertMecklenburg2004-11-19,
+	author = "Mecklenburg, Robert",
+	isbn = "978-05-9600-610-5",
+	month = "nov",
+	publisher = "O'Reilly Media",
+	title = "{Managing Projects With GNU Make}",
+	year = "2004"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{tapout-xt-10-day-slim-down}",
+	year = "100"
+}
+
+@misc{Unknown0101-01-01,
+	author = "Unknown",
+	month = "dic",
+	title = "{Tapout-XT-Food-Plan}",
+	year = "100"
+}
+
+@book{ValeryI.Klyatskin1988ResearchProfessorOfTheoretical2005-12-15,
+	author = "Theoretical, Valery I. Klyatskin 1988 Research Professor Of and Physical, Mathematical Physics Russian Academy Of Science;1977 D. Sc. In and Physical, Mathematical Sciences Acoustical Institute Russian Academy Of Science;1968 Ph.d. In and Physics, Mathematical Sciences Institute Of Atmospheric Physics Russian Academy Of Science;1964 M.sc. In Theoretical Physics Moscow Institute Of and (fiztex)., Technology",
+	isbn = "978-04-4451-796-8",
+	month = "dic",
+	publisher = "Elsevier Science",
+	title = "{Dynamics of Stochastic Systems}",
+	year = "2005"
+}
+
+@misc{RohitChandra0101-01-01,
+	author = "Chandra, Rohit",
+	month = "dic",
+	title = "{Parallel Programming in OpenMP}",
+	year = "100"
+}
+
+@misc{BarbaraChapman0101-01-01,
+	author = "Chapman, Barbara and Jost, Gabriele and Pas, Ruud van Der",
+	month = "dic",
+	title = "{Using OpenMP Portable Shared Memory Parallel Programming}",
+	year = "100"
+}
+
+@book{RobertLiptser2011-10-04,
+	author = "Liptser, Robert and Shiryayev, A. N.",
+	isbn = "978-94-0107-600-5",
+	month = "oct",
+	publisher = "Springer",
+	title = "{Theory of Martingales}",
+	year = "2011"
+}
+
+@book{JulianSmart2005-08-05,
+	author = "Smart, Julian",
+	isbn = "978-01-3147-381-2",
+	month = "ago",
+	publisher = "Prentice Hall",
+	title = "{Cross-Platform GUI Programming With WxWidgets}",
+	year = "2005"
+}
+
+@book{JeLittlewood2011-08-15,
+	author = "Littlewood, Je",
+	isbn = "978-11-7912-151-2",
+	month = "ago",
+	publisher = "Nabu Press",
+	title = "{A Mathematicians Miscellany}",
+	year = "2011"
+}
+
+@book{PeterK.Friz2014-08-27,
+	author = "Friz, Peter K. and Hairer, Martin",
+	isbn = "978-33-1908-331-5",
+	month = "ago",
+	publisher = "Springer",
+	title = "{A Course on Rough Paths: With an Introduction to Regularity Structures}",
+	year = "2014"
+}
+
+@misc{calibre2015-03-01,
+	author = "calibre",
+	month = "mar",
+	title = "{Books}",
+	year = "2015"
+}
+
+@book{BardErmentrout2002-01-15,
+	author = "Ermentrout, Bard",
+	isbn = "978-08-9871-506-4",
+	month = "ene",
+	publisher = "SIAM",
+	title = "{Simulating, Analyzing, and Animating Dynamical Systems: A Guide to XPPAUT for Researchers and Students}",
+	year = "2002"
+}
+
+@book{PaulH.Bezandry2011-04-20,
+	author = "Bezandry, Paul H. and Diagana, Toka",
+	isbn = "978-14-4199-475-2",
+	month = "abr",
+	publisher = "Springer",
+	title = "{Almost Periodic Stochastic Processes}",
+	year = "2011"
+}
+
+@book{Bj{\"o}rnEngquist2011-10-15,
+	author = "Engquist, Bj{\"o}rn and Runborg, Olof and Tsai, Yen-Hsi R.",
+	isbn = "978-36-4221-942-9",
+	month = "oct",
+	publisher = "Springer",
+	title = "{Numerical Analysis of Multiscale Computations: Proceedings of a Winter Workshop at the Banff International Research Station 2009}",
+	year = "2011"
+}
+
+@book{PaulGlasserman2003-08-07,
+	author = "Glasserman, Paul",
+	isbn = "978-03-8700-451-8",
+	month = "ago",
+	publisher = "Springer",
+	title = "{Monte Carlo Methods in Financial Engineering}",
+	year = "2003"
+}
+
+@book{AlexanderKeller2007-11-23,
+	author = "Keller, Alexander and Heinrich, Stefan and Niederreiter, Harald",
+	isbn = "978-35-4074-495-5",
+	month = "nov",
+	publisher = "Springer",
+	title = "{Monte Carlo and Quasi-Monte Carlo Methods 2006}",
+	year = "2007"
+}
+
+@book{IgorMilovanovi2013-08-15,
+	author = "Milovanovi, Igor",
+	isbn = "978-17-8216-336-7",
+	month = "ago",
+	publisher = "Packt Publishing",
+	title = "{Python Data Visualization Cookbook}",
+	year = "2013"
+}
+
+@book{JohnM.Stewart2014-07-10,
+	author = "Stewart, John M.",
+	isbn = "978-11-0706-139-2",
+	month = "jul",
+	publisher = "Cambridge University Press",
+	title = "{Python for Scientists}",
+	year = "2014"
+}
+
+@book{S.Hartman1961-03-15,
+	author = "Hartman, S.",
+	isbn = "978-00-8009-525-7",
+	month = "mar",
+	publisher = "Elsevier",
+	title = "{The Theory of Lebesgue Measure and Integration}",
+	year = "1961"
+}
+
+@book{ChoW.S.To2011-08-10,
+	author = "To, Cho W. S.",
+	isbn = "978-14-6651-284-9",
+	month = "ago",
+	publisher = "CRC Press",
+	title = "{Nonlinear Random Vibration, Second Edition: Analytical Techniques and Applications}",
+	year = "2011"
+}
+
+@book{ManolisPapadrakakis2011-02-02,
+	author = "Papadrakakis, Manolis and Stefanou, George and Papadopoulos, Vissarion",
+	isbn = "978-90-4819-986-0",
+	month = "feb",
+	publisher = "Springer",
+	title = "{Computational Methods in Stochastic Dynamics: 22}",
+	year = "2011"
+}
+
+@book{KateL.Turabian2007-04-15,
+	author = "Turabian, Kate L.",
+	isbn = "978-02-2682-336-2",
+	month = "abr",
+	publisher = "University of Chicago Press",
+	title = "{A Manual for Writers of Research Papers, Theses, and Dissertations: Chicago Style for Students and Researchers}",
+	year = "2007"
+}
+
+@book{UniversityOfChicagoPress2010-04-15,
+	author = "Press, University Of Chicago",
+	isbn = "978-02-2610-420-1",
+	month = "abr",
+	publisher = "University of Chicago Press",
+	title = "{The Chicago Manual of Style}",
+	year = "2010"
+}
+
+@book{NarendraS.Goel1971-04-15,
+	author = "Goel, Narendra S. and Maitra, S. C. and Montroll, E. W.",
+	isbn = "978-01-2287-450-5",
+	month = "abr",
+	publisher = "Academic Pr",
+	title = "{Nonlinear Models of Interacting Populations}",
+	year = "1971"
+}
+
+@book{GregLemond2014-11-21,
+	author = "Lemond, Greg and Hom, Mark",
+	isbn = "978-01-2801-023-5",
+	month = "nov",
+	publisher = "Academic Press",
+	title = "{The Science of Fitness: Power, Performance, and Endurance}",
+	year = "2014"
+}
+
+@book{RobertM.May1973-04-15,
+	author = "May, Robert M.",
+	isbn = "978-06-9108-125-0",
+	month = "abr",
+	publisher = "Princeton University Press",
+	title = "{Stability and Complexity in Model Ecosystems}",
+	year = "1973"
+}
+

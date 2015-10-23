@@ -1,0 +1,62 @@
+%
+\begin{thm}[{
+		%\citeauthor{Mao2013}
+	 \cite[Thm. 2.2]{Mao2013}}]
+	Let \Cref{ass:OSLC} holds. Then for all $y(0)=y_0\in \mathbb{R}^d$ given, there exist a 
+	unique global solution $\{y(t)\}_{t\geq 0}$ to SDE\eqref{eqn:SDE1}. Moreover, the solution has the 
+	following properties for any $T>0$,
+	\begin{equation*}
+		\ms{y(T)}< 
+		\left(
+			|y_0|^2 +2\alpha T 
+		\right)\exp(2\beta T),
+	\end{equation*}
+	and
+	\begin{equation*}
+	\Prob{\tau_n\leq T}
+	\leq \frac{
+		\left(
+		|y_0|^2 +2\alpha T 
+		\right)
+		\exp(2\beta T)
+	}{n},
+	\end{equation*}
+	where $n$ is any positive integer and 
+	%\begin{equation*}
+	$\tau_n := \inf \{ t\geq 0 : |y(t)|>n\}$.
+	%\end{equation*}
+\end{thm}
+%
+\begin{thm}[
+		%\citeauthor{Mao2007} 
+		{\cite[Thm. 2.4.1]{Mao2007}}
+	]
+	\label{thm:MaoCoercive}
+	Let $p\geq 2$ and $x_0\in L^p(\Omega, \mathbb{R}^d)$. Assume that there exits a constant $C>0$
+	such that for all $(x,t)\in \mathbb{R}^d\times [t_0,T]$,
+	\begin{equation*}
+	\innerprod{x}{f(x,t)}+\frac{p-1}{2}|g(x,t)|^2 \leq C(1+|x|^2).
+	\end{equation*}
+	Then
+	\begin{equation*}
+	\m|y(t)|^p
+	\leq
+	2^{\frac{p-2}{2}}
+	\left(
+	1 + \m|y_0|^p
+	\right)\exp({Cpt}) \quad \text{ for all } t\in[0,T].
+	\end{equation*}
+\end{thm}
+%
+\begin{lem}[
+	{
+		%\citeauthor{Higham2002b}
+		\cite[Lem 3.2]{Higham2002b}}
+	]
+	\label{lem:MomentBound}
+	Under \Cref{ass:OSLC}, for each $p\geq 2$, there is a $C=C(p,T)$ such that
+	\begin{equation*}
+	\EX{\sup_{0\leq t \leq T}|y(t)|^p}\leq C \left(1+\mep{y_0}\right).
+	\end{equation*}
+\end{lem}
+%

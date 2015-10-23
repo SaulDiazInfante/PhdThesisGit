@@ -1,0 +1,118 @@
+This Generalized Van Der Pol oscillator was proposal by Schurz in \cite{Schurz2003}:\\
+Schurz, H. General Theorems for Numerical Approximations of Stochastic Processes on the Hilbert 
+Space $H_2([0,T], \mu, \mathbb{R}^d)$
+\begin{align}
+	dX_t^{(1)}	&= X_t^{(2)} dt\\
+	dX_t^{(2)}&=
+	\left[
+		-\omega^2 X_t^{(1)} 
+		+\sigma 
+		\left(
+			1 - \mu_1 \left( X_t^{(1)} \right)^2
+			-\mu_2 \left( X_t \right)^2
+		\right)
+			X_t^{(2)}
+	\right]dt
+	+\sigma X_t^{(2)} dW_t \label{eqn:GeneralizedVanDerPol1}.
+\end{align}
+Right now we had constructed the following Linearized Steklov Scheme:
+\begin{align}
+	a_1^{(2)}(x,y)&:= \gamma (1-\mu_1 x^2 - \mu_2 y^2 ), \qquad
+	a_2^{(2)}(x):= -\omega^2 x, \notag \\
+	X_{k+1}^{(1)}&=	X_k^{(1)} + h X_k^{(2)}, \\
+	X_{k+1}^{(2)}&= 
+		\left(
+			X_{k}^{(2)}
+			+
+			\frac{
+					a_2
+					\left(
+						X_{k+1}^{(1)}
+					\right)
+			}
+			{
+				a_1^{(2)}
+				\left(
+					X_{k+1}^{(1)}, X_k^{(2)}
+				\right)
+			}
+		\right)
+		\exp
+		\left(
+			a_1^{(2)}
+			\left(
+				X_{k+1}^{(1)}, X_k^{(2)}
+			\right) h
+		\right)
+		+\sigma  X_{k}^{(2)} \Delta W_k.
+	\notag
+\end{align}
+This scheme follows almost the same profile of numerical solutions of the Partial Linear
+Implicit proposal by Schurz.
+\begin{figure}[htb]
+\centering
+	\input{./papers/paperB/figures/PhasePotrait.tex}
+	\caption{'Typical' trajectory of SDE \eqref{eqn:GeneralizedVanDerPol1}
+		with 
+		$\omega = \num{5}$, 
+		$\gamma = \num{1.0}$,
+		$\mu_1 = \num{0.05}$,
+		$\mu_2 = \num{0.25}$,
+		$\sigma = \num{0.5}$,
+		$X_0 = (\num{3}, \num{2})^T$
+		and discretized with the SSLS and PLIE schemes. Here exact means a discretization with the EM 
+		scheme using a step size of $h=\num{1e-4}$.
+	}
+\label{fig:GenVanDerPolPhasePotrait}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+In order to construct numerical approximations to SDE \eqref{eqn:SDE1}, first, we have to assure existence and 
+uniqueness of solutions. In this section we recall a classical result that works under our set up. Also, we remind
+two results that establish a bond for the moments of the prior solution. The reference here are 
+\cite{Higham2002b,XMao461,Mao2013}.
+\begin{thm}\cite[Thm. 2.2]{Mao2013}
+	Let \Cref{as:OSLC} holds. Then for all $y(0)=y_0\in \mathbb{R}$ given, there exist a 
+	unique global solution $\{y(t)\}_{t\geq 0}$ to SDE\eqref{eqn:SDE1}. Moreover, the solution has the properties that 
+	for any $T>0$,
+	\begin{equation*}
+	\ms{y(T)}< \left(
+	|y_0|^2 +2\alpha T 
+	\right)\exp(2\beta T)
+	\left(
+	|y_0|^2 +2\alpha T 
+	\right)\exp(2\beta T),
+	\end{equation*}
+	and
+	\begin{equation*}
+	\Prob{\tau_m\leq T}
+	\leq \frac{
+		\left(
+		|y_0|^2 +2\alpha T 
+		\right)
+		\exp(2\beta T)
+	}{m},
+	\end{equation*}
+	where $m$ is any positive integer and 
+	%\begin{equation*}
+	$\tau_m := \inf \{ t\geq 0 : |y(t)|>m\}$.
+	%\end{equation*}
+\end{thm}
+%
+\begin{thm}\label{thm:MaoCoercive}
+	\cite[Thm. 2.4.1]{XMao461}
+	Let $p\geq 2$ and $x_0\in L^p(\Omega, \mathbb{R}^d)$. Assume that there exits a constant $C>0$
+	such that for all $(x,t)\in \mathbb{R}^d\times [t_0,T]$,
+	\begin{equation*}
+	\innerprod{x}{f(x,t)}+\frac{p-1}{2}|g(x,t)|^2 \leq C(1+|x|^2).
+	\end{equation*}
+	Then
+	\begin{equation*}
+	\m|y(t)|^p
+	\leq
+	2^{\frac{p-2}{2}}
+	\left(
+	1 + \m|y_0|^p
+	\right)\exp({pct}) \quad \text{ for all } t\in[0,T].
+	\end{equation*}
+\end{thm}
+%
+\begin{lem}\label{lem:MomentBound}
+	\cite[Lem 3.2]{Higham2002b}
+	Under \Cref{as:OSLC}, for each $p\geq 2$, there is a $C=(p,T)$ such that
+	\begin{equation*}
+	\EX{\sup_{0\leq t \leq T}|y(t)|^p}\leq C \left(1+\mep{y_0}\right).
+	\end{equation*}
+\end{lem}

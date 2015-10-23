@@ -1,0 +1,26 @@
+\begin{thebibliography}{2}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Higham et~al.(2002)Higham, Mao y Stuart}]{Higham2002b}
+\bibinfo{author}{Higham, D.J.}, \bibinfo{author}{Mao, X.},
+  \bibinfo{author}{Stuart, A.M.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{{Strong Convergence of Euler-Type Methods for
+  Nonlinear Stochastic Differential Equations}}.
+\newblock \bibinfo{journal}{SIAM Journal on Numerical Analysis}
+  \bibinfo{volume}{40}, \bibinfo{pages}{1041--1063}.
+%Type = Article
+\bibitem[{Mao y Szpruch(2013)}]{Mao2013}
+\bibinfo{author}{Mao, X.}, \bibinfo{author}{Szpruch, L.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Strong convergence and stability of implicit
+  numerical methods for stochastic differential equations with non-globally
+  Lipschitz continuous coefficients}}.
+\newblock \bibinfo{journal}{Journal of Computational and Applied Mathematics}
+  \bibinfo{volume}{238}, \bibinfo{pages}{14--28}.
+
+\end{thebibliography}

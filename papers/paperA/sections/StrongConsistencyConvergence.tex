@@ -1,0 +1,57 @@
+
+		It is always important in the construction of  new algorithms to study  the global
+	discretization error and give an estimation of the speed of convergence. Here, they are
+	carried out with  the analysis of the properties of consistency and convergence, see
+	\cite{Kloeden1992}. For simplicity, we study these properties for a
+	one-dimensional autonomous SDE
+	\begin{equation}\label{eqn:autonomousSDE}
+		dy(t) = f(y(t))dt+g(y(t))dW(t),
+	\end{equation}
+	satisfying the necessary conditions of existence and uniqueness of solution. 
+
+	So, considering \Cref{dfn:Consistency} and \Cref{thm:ConsistencyConvergence} we prove 
+	convergence of the explicit Steklov approximation via strong consistency. 
+	\begin{thm}\label{thm:Consistency}
+		A time discrete approximation of SDE 
+	\eqref{eqn:autonomousSDE} generated with the explicit Steklov method 
+	\eqref{Steklov} is strongly convergent.
+	\end{thm}
+	\begin{proof}
+		We substitute the Steklov recurrence \eqref{Steklov} in the left hand side of the
+	inequality \eqref{eqn:DefConsitenceB}. Given that $F$, $G$ and $\Psi_h$ are continuous
+	functions adapted to the filtration $(\mathcal{F}_t)_{t\in[0,T]}$ and using standard
+	conditional expectation properties \cite{Williams1991}, it follows that:
+	\begin{align*}
+		\mathbb{E} \left(	\left| \mathbb{E} \left( \frac{Y_{n+1}-Y_n}{h}
+		\left|\mathcal{F}_{t_n}\right.\right)-F \left(Y_n\right)\right|^2\right)
+		&= \mathbb{E} \left(\left|\frac{\Psi_h(Y_n)-Y_n}{h}-F(Y_n)\right|^2
+		\right)\\
+		&= \mathbb{E} \left(\left|\frac{H^{-1}(H(Y_n)+h)-H^{-1}(H(Y_n))}{h}
+		-F(Y_n)\right|^2\right).
+	\end{align*}
+	Since the functions $F$ and $\Psi_h$ are Lipschitz we can apply the {\it Inverse
+	Function} theorem and from  \eqref{H}, we have that
+	$$
+		(H^{-1})'(H(Y_n))=F(Y_n),
+	$$
+	then given any $\epsilon>0$  there exists $\delta=\delta(\epsilon)$ such that whenever
+	$0<h<\delta(\epsilon)$ then
+	$$
+		\left|
+		\frac{H^{-1}(H(Y_n)+h)-H^{-1}(H(Y_n))}{h}
+		-F(Y_n)
+		\right|<\epsilon.
+	$$
+	So, taking $\epsilon=\sqrt{h}$ and $c(h)=h(\delta(\sqrt{h}))^2$, the  condition (ii)
+	is satisfied. With an analogous procedure, the condition (iii) is verified and the
+	condition (i) follows straightforward from the definition of $c(h)$. \quad $\square$
+	\end{proof}
+	
+		Thus,  we can ensure that the explicit Steklov scheme converges on bounded time
+	intervals \cite{Robinson2002}. However, if we are interested in simulating the
+	solution of the SDE \eqref{eq1} for large periods of time, we need to use stable
+	methods. We can interpret the stability of a numerical method, in some sense, as its
+	capacity to preserve the  dynamical structure of the solution in that sense.  In the
+	next two sections, we study the stability of the explicit Steklov method
+	\eqref{Steklov} in mean and mean square sense and extend this study in a path-wise
+	sense for the additive case.

@@ -1,0 +1,79 @@
+
+	We mean by a stochastic process $X$ a system which could stay at each moment on any state of a given set $S$
+\begin{dfn}[Stochastic Process]
+	A stochastic process is a collection of random variables $X=\{X_t: t \in T\}$ on $(\Omega,
+	\calF)$,  which takes values in a measurable space $(S,\calS)$, and where the index $t\in [0,\infty)$, 
+	conveniently receive an interpretation as time. Thus for a fixed $\omega \in \Omega$, the function
+	$X_t(\omega)$, $t\geq 0$ is a sample path of the process $X$ associated with $\omega$,  and for any
+	fixed $t$ , $X_t(\omega)$, $\omega \in \Omega$ is a random variable. 
+
+\end{dfn}
+ The main purpose of this thesis deals with the numerical approximation of sample paths.
+\begin{definition}[Measurable Process]
+	A stochastic process $X$ is measurable if the mapping
+	\begin{equation*}
+		(t, \omega) \to X_t(\omega):
+		\left(
+			[0,\infty)\times \Omega,
+			\calB \left(
+				[0,\infty)
+			\right) \otimes \calF
+		\right)
+		\to 
+		\left(
+			\R^d, \calB \left (\R^d \right)
+		\right)
+	\end{equation*}
+	is measurable.
+\end{definition}
+%
+	We equip the underlying sample space $(\Omega, \calF)$ with a filtration $\{\calF\}_{t\geq 0}$ in order to 
+keep track information about the past, present and future of a stochastic process. Formally, a filtration is
+a nondecreasing family of sub-$\sigma$-algebras of $\calF$ such that 
+$\calF_s\subseteq \calF_t \subseteq \calF$ for $0\leq s \leq t <\infty$ and is called right continuous if
+$ %\displaystyle
+	\calF_t = \bigcap_{r>t} \calF_r
+$
+for all $t\geq 0$. Thus if the underlying probability space is complete,
+right continuous and $\calF_0$ contains all $\P$-null sets, then we say that the filtration
+$\{ \calF_t\}_{t\geq 0}$ satisfies the usual conditions. In the following, we will work only on a
+complete probability space $(\Omega, \calF, \P)$  with a filtration $\{\calF_t \}_{t \geq 0}$ which verifies
+the usual conditions.
+	
+	Given a stochastic process, the simplest choice of a filtration is that generated
+by the process itself, i.e. 
+$
+	\calF^{X}_t:=\sigma(X_s; 0\leq s\leq t)
+$
+the smallest $\sigma$-algebra with respect to which $X_s$ is measurable for every $s\in[0, t]$.
+The introduction of this concept gives sense to the following.
+\begin{definition}[Adapted Process]
+		We call a process \it{adapted} to the filtration $\{\calF\}_{t\geq 0}$  if, for each $t>0$ fixed $X_t$  is a
+	$\calF_t$-measurable random variable.
+\end{definition}
+Clearly, every process $X$ is adapted to $\{ \calF_t^{X}\}$.
+\begin{definition}[Progressively Measurable Process]
+	The stochastic process $X$ is progressively measurable if the mapping
+	$$
+		(s,\omega)\to X_s(\omega):
+		\left(
+			[0,t] \times \Omega,
+			\calB([0,t]) \otimes \calF_t
+		\right) \to 
+		\left(
+			\R, \calB\left(\R^d\right)
+		\right)
+	$$
+	is measurable for each $t\geq 0$, that is, if, for each $t>0$ and $A\in \calB\left(\R^d\right)$, 
+	the set 
+	$$
+		\{
+			(\omega, s) : 0 \leq s \leq t, \omega \in \Omega, X_s(\omega) \in A
+		\}
+	$$
+	belongs to the product $\sigma$-algebra
+	$
+		\calB([0,t]) \otimes \calF_t
+	$.
+\end{definition}
+%

@@ -1,0 +1,413 @@
+
+	In this section, we show that, it is possible to establish a rate of convergence for the \SM
+method in compact domains. Here we have followed  the same stopping time technique as the employed by 
+\citeauthor{Mao2013} in \cite[Lem. 4.3]{Mao2013}.
+In the following result, we state in \Cref{thm:StrongConvergenceOrder}, that  the \SM approximation converges strongly 
+to the true solution with the standard convergence order one half, at least on compact domains.
+
+\begin{thm}\label{thm:StrongConvergenceOrder}
+	Let \Cref{ass:OSLC} holds and $\theta_R$ defined as in \eqref{eqn:StoppingTimes}. Then for sufficiently large $R>0$ 
+	there exist a positive constant $C=C(T,R)$ such that
+	\begin{equation*}
+	\EX{
+			\sup_{0 \leq t \leq T}
+				\left|
+					\overline{Y}(t\wedge \theta_R)
+						-y(t\wedge \theta_R)
+				\right|^2
+		}
+		\leq
+		C(T,R)h .
+	\end{equation*}
+	\end{thm}
+%
+\begin{pf}
+		The proof is based on the estimation of three convenient integrals.
+	By the It\^{o} isometry and other standard 
+	inequalities we get 
+	\begin{align}
+		\underbrace{
+		\EX{
+			\sup_{0 \leq t \leq T_1}
+			\left|
+			\overline{Y}(t\wedge \theta_R)
+			- y(t\wedge \theta_R)
+			\right|^2
+		}}_{:=LHS}
+		&\leq
+		2 \EX{
+			\sup_{0\leq t\leq T}
+			\left|
+			\int_{0}^{t\wedge \theta_R}
+			\varphi_{f_h}(Y_{\eta(s)})
+			-f(y(s))ds
+			\right|^2 
+		}\notag \\
+		&+2 \EX{
+			\sup_{0\leq t\leq T}
+			\left|
+			\int_{0}^{t\wedge \theta_R}
+			g_h(Y_{\eta(s)})
+			-g(y(s))ds
+			\right|^2
+		}, \notag
+	\end{align}
+	for any $T_1\in[0,T]$ and fixed $R>0$.
+		%
+	Now, using the H\"older and Buckholder-Davis-Gundy inequalities, we have
+	\begin{align}
+		LHS&\leq
+			2(t\wedge \theta_R)
+			\EX{
+			\sup_{0\leq t\leq T}
+			\int_{0}^{\theta_R \wedge t}
+			\left|
+			\varphi_{f_h}(Y_{\eta(s)})
+			-f(y(s))
+			\right|^2 ds 
+		}\notag \\
+		&+
+		8\EX{
+			\int_{0}^{\theta_R \wedge t}
+			\left|
+			g_h(Y_{\eta(s)})
+			-g(y(s))
+			\right|^2 ds
+		}.\notag
+	\end{align}
+		%
+		%
+	Next, applying \Cref{lem:PhiFhProp} and since $\int_0^t |\cdot|ds$ is non decreasing, we gets
+	\begin{align}
+		LHS
+		&\leq
+		2T
+		\EX{
+			\int_0^{T_1\wedge \theta_R}
+			\left|
+			\varphi_{f}(Y^\star_{\eta(s)})
+			-f(y(s))
+			\right|^2 ds 
+		}\notag \\
+		&+
+		8\EX{
+			\int_{0}^{\theta_R \wedge t}
+			\left|
+			g_h(Y_{\eta(s)})
+			-g(y(s))
+			\right|^2 ds
+		}.\label{eqn:BoundLocalConvStep1} 
+	\end{align}
+		%
+	By \Cref{lem:PhiFhProp} we deduce that
+	\begin{align*}
+		\left|
+			\varphi_{f}(Y^\star_{\eta(s)})
+		-f(y(s))
+		\right|^2
+		&=
+		\left|
+		Y_{\eta(s)}
+		\frac{
+			\left(\exp(h a_1(Y_{\eta(s)}))-1\right)
+		}{h}
+		-f(y(s))
+		\right|^2 \notag \\
+		&\leq
+		2|f(Y_{\eta(s)})-f(y(s))|^2 +
+		\mathcal{O}(h^2).
+	\end{align*}
+%
+	Combining this bound with the inequality \eqref{eqn:BoundLocalConvStep1} and since by hypothesis $f,g$ are locally 
+	Lipschitz functions, we obtain
+	\begin{align}
+		LHS
+		&\leq 
+		4TC(R)
+		\EX{
+			\int_0^{T_1\wedge \theta_R}
+			\left|
+			Y_{\eta(s)})
+			-y(s)
+			\right|^2 ds 
+		}
+		+C(R)4Th^2
+		\notag \\
+		&+
+		8C(R)\EX{
+			\int_{0}^{\theta_R \wedge t}
+			\left|
+			Y^{\star}_{\eta(s)}
+			-y(s)
+			\right|^2 ds
+		}.\label{eqn:IntBoundByLipschitz}
+	\end{align}
+%
+%
+	Adding conveniently zeros, we can rewrite \eqref{eqn:IntBoundByLipschitz} as 
+	\begin{align}
+		LHS
+		&\leq
+		8TC(R)
+		\EX{
+			\int_0^{T_1\wedge \theta_R}
+			\left|
+				Y_{\eta(s)})
+				-\overline{Y}(s)
+			\right|^2 ds 
+			+
+			\int_0^{T_1 \wedge \theta_R}
+			\left|
+			\overline{Y}(s)
+			-y(s)
+			\right|^2 ds 
+		}
+		\notag \\
+		&+
+		16C(R)\EX{
+			\int_{0}^{\theta_R \wedge t}
+			\left|
+				Y^{\star}_{\eta(s)}
+				-\overline{Y}(s)
+			\right|^2 ds
+			+\int_0^{T_1\wedge \theta_R}
+			\left|
+			\overline{Y}(s)
+			-y(s)
+			\right|^2 ds
+		}
+		+ C(R) 4 T h^2
+		\notag \\
+		&\leq
+		8C(R)
+		\underbrace{
+			\EX{
+				\int_0^{T_1\wedge \theta_R}
+				\left|
+				Y_{\eta(s)}
+				-\overline{Y}(s)
+				\right|^2 ds
+			}
+		}_{:=I_1}
+		%
+		+
+		\underbrace{
+			\EX{
+				\int_0^{T_1\wedge \theta_R}
+				\left|
+				Y^{\star}_{\eta(s)}
+				-\overline{Y}(s)
+				\right|^2 ds
+			}
+		}_{:=I_2}
+		\notag\\
+		&+
+		8C(R)(T+2)
+		\EX{
+			\int_0^{T_1\wedge \theta_R}
+			\left|
+			\overline{Y}(s)
+			-y(s)
+			\right|^2 ds
+		}.
+		\label{eqn:BoundLocalConvStep2}
+	\end{align}
+	%
+	Now, we bound each integral of the inequality \eqref{eqn:BoundLocalConvStep2}. First, we begin with $I_1$. 
+	Let $s\in [0, T_1\wedge \theta_R]$ and using the inequality 
+	\eqref{eqn:SingleHolder}, we get
+	\begin{align}
+		|Y_{\eta(s)} -\overline{Y}(s)|^2
+		&\leq
+		2\left\{
+		h^2 |\varphi_{f_h}(Y_{\eta(s)})|^2
+		+
+		|g_h(Y_{\eta(s)})|^2
+		|W(s)-W(\eta(s))|^2
+		%
+		\right\}.\label{eqn:DifferenceBetweenDisConParts}
+	\end{align}
+		%
+	By \Cref{lem:PhiFhProp}, we know that $\varphi_{f_h}$ and $g_h$ are locally Lipschitz functions, so
+	there is a positive constant $C(R)>0$ such that 
+	\begin{align}
+		|\varphi_{f_h}(x)|^2
+		&\leq
+		2\left(
+		\left|
+		\varphi_{f_h}(x)
+		-\varphi_{f_h}(0)
+		\right|^2
+		+\left|
+		\varphi_{f_h}(0)
+		\right|^2
+		\right)
+		\leq 
+		2C(R)|x|^2,
+		\quad 
+		\\
+		%
+		|g_h(x)|^2
+		&\leq
+		2\left(
+		\left|
+		g_h(x)
+		-g_h(0)
+		\right|^2
+		+\left|
+		g_h(0)
+		\right|^2
+		\right)
+		\leq 
+		2\left(
+		C(R)|x|^2+|g_h(0)|^2
+		\right),\label{eqn:ghBound}
+		\end{align}
+	for all $x \in \R$ and $|x|\leq R$.
+	Using both of these bounds in the inequality  \eqref{eqn:DifferenceBetweenDisConParts}, we obtain
+	\begin{align*}
+		|Y_{\eta(s)}-\overline{Y}(s)|^2
+		&\leq
+		4h^2 C(R)|Y_{\eta(s)}|^2
+		+
+		2\left(
+		C(R)|Y_{\eta(s)}|^2
+		+|g_h(0)|^2
+		|W_s-W_{\eta(s)}|^2
+		\right).
+	\end{align*}
+		%
+		%
+	By \Cref{col:ContinuousExtBoundedMoments}, the \SM method has bounded moments, so there exist a constant $B>0$ such
+	that
+	\begin{align}
+		\int_0^{T_1\wedge \theta_R}
+		\EX{
+			|Y_{\eta(s)}-\overline{Y}(s)|^2
+		}ds
+		&\leq
+		4C(R)(h^2+h)
+		\int_{0}^T
+		\EX{|Y_{\eta(s\wedge \theta_R)}|^2}ds
+		+4C(R)hT|g_h(0)|^2
+		\notag\\
+		&\leq
+		4C(R)h(T+1)
+		BT
+		+4C(R)hT|g_h(0)|^2 \notag\\
+		&\leq
+		C(R,T)h. \label{eqn:BoundLocalConvStep3}
+	\end{align}
+		%
+		%
+	The next step is to show that the integral $I_2$ is bounded. 
+	Using \Cref{lem:PhiFhProp},  the second order Taylor expansion of 
+	$\exp(ha_1(Y_{\eta(s)}))$ and the inequality \eqref{eqn:SingleHolder}, we can deduce that
+	\begin{align*}
+		|Y_{\eta(s)}^{\star} - \overline{Y}(s)|^2
+			&=|Y_{\eta(s)}\exp(ha_1(Y_{\eta(s)})) - \overline{Y}(s)|^2 \notag \\
+			&\leq
+				2 |Y_{\eta(s)} - \overline{Y}(s)|^2  + 4h^2|f(Y_{\eta(s)})|^2 +\calO(h^4),
+		\quad \text{for all }s\in [0,T_1\wedge \theta_R].
+	\end{align*}
+	Note that $f$ is a locally Lipschitz function, so, using a similar argument as in the inequality 
+	\eqref{eqn:ghBound}, we get
+	\begin{equation*}
+		|f(x)|^2
+			\leq
+				2\left(
+					\left|
+						f(x)-f(0)
+					\right|^2
+				+\left|
+					f(0)
+				\right|^2
+			\right)
+			\leq 
+			2\left(
+			C(R)|x|^2 %+|f(0)|^2
+			\right).
+	\end{equation*}
+	%
+	Thus
+	\begin{equation}\label{eqn:AfeterfLipschitzBound}
+		|Y_{\eta(s)}^{\star} - \overline{Y}(s)|^2
+		\leq
+		2 |Y_{\eta(s)} - \overline{Y}(s)|^2  + 4h^2C(R)|Y_{\eta(s)}| +C(R)h^2.
+	\end{equation}
+	%%
+	Using \eqref{eqn:AfeterfLipschitzBound}, the inequality \eqref{eqn:BoundLocalConvStep3} and 
+	\Cref{col:ContinuousExtBoundedMoments} 
+	gives
+	\begin{align}
+		\int_{0}^{T_1\wedge \theta_R}
+		\EX{|Y_{\eta(s)}^{\star} - \overline{Y}(s)|^2}ds
+		&\leq
+			2\int_{0}^{T_1\wedge \theta_R}
+				\EX{|Y_{\eta(s)} - \overline{Y}(s)|^2}ds
+			\notag\\
+		&+
+		2h(h+T)C(R)
+			\int_0^T
+				\EX{|Y_{\eta(s\wedge \theta_R)}|^2} 
+		+
+		TC(R)h^2
+		\notag \\
+		&\leq
+		2hC(R,T) + 2h(h+T)C(R) B T  + TC(R)h
+		\notag \\
+		&\leq
+		hC(R,T). \label{eqn:BoundLocalConvStep4}
+	\end{align}
+	%
+	Combining the inequalities \eqref{eqn:BoundLocalConvStep3}, \eqref{eqn:BoundLocalConvStep4} and 
+	\eqref{eqn:BoundLocalConvStep2}, we deduce that
+		\begin{align*}
+		\EX{
+			\sup_{0 \leq t \leq T_1}
+			\left|
+			\overline{Y}(t\wedge \theta_R)
+			- y(t\wedge \theta_R)
+			\right|^2
+		}
+		&\leq
+		8C(R)(T+2)
+		\int_{0}^{T_1\wedge \theta_R}
+		\EX{
+			\left|
+			\overline{Y}(s)
+			-y(s)
+			\right|^2
+		}\notag
+		\\
+		&+8C(R,T)h + 16C(R,T)h\notag
+		\\
+		&\leq
+		8C(R)(T+2)\int_0^{T_1}
+		\EX{
+			\sup_{0 \leq t \leq s}
+			\left|
+			\overline{Y}(t\wedge \theta_R)
+			- y(t\wedge \theta_R)
+			\right|^2ds
+		}\notag \\
+		&+C(R,T)h.
+		\end{align*}
+		%
+		Finally, applying the Gronwall inequality \eqref{thm:Gronwall} we obtain
+		\begin{align*}
+		\EX{
+			\sup_{0 \leq t \leq T_1}
+			\left|
+			\overline{Y}(t\wedge \theta_R)
+			- y(t\wedge \theta_R)
+			\right|^2
+		}
+		&\leq
+		C(R,T)\exp\left(8C(R)(T+2)\right) h \notag
+		\\
+		&\leq
+		C(R,T)h,
+		\end{align*}
+		as we require. $\square$
+	\end{pf}

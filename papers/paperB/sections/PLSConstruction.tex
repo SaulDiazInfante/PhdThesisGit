@@ -1,0 +1,111 @@
+Consider the vector SDE
+\begin{equation}\label{eqn:SDESystem}
+	dy = f(y)dt + g(y)dW_t, \qquad y(0) = y_0,
+\end{equation}
+where $f:\mathbb{R}^d \to \mathbb{R}^d$, $g:\mathbb{R}^d \to \mathbb{R}^{d \times m}$, 
+$W$ is a standard $m$-dimensional Brownian motion.
+Assuming that $f =(f^{(1)},\dots f^{(d)})^T$ and $g = (g^{(1)}, \dots g^{(m)}) $ satisfy
+the usual conditions for existence and uniqueness of solutions to \eqref{eqn:SDESystem}, 
+we define for each $j =1,\dots, d$ the functional
+$H^{(j)}: U\subset \mathbb{R}^d \to \mathbb{R}$ by
+\begin{equation*}
+	H^j(u) = \int \frac{du}{
+		f^{(j)}(X^{(1)}_{0}, \dots, X^{(j-1)}_{0}, u, X^{{(j+1)}}_{0}, \dots,  X^{(d)}_{0})
+	}.
+\end{equation*}
+Moreover, we assume that $H^{(j)}$ is integrable for all fixed $X_0 \in U$ and has inverse $[H^j]^{-1}$. 
+So, we create a  Steklov scheme as follows.
+For each component equation we solve the associated deterministic initial value problem
+$$
+	\frac{dx^{(j)}}{dt} = f^{(j)}(x), \qquad x^{(j)}(0)= x_0^j, \qquad j = 1, \dots, d
+$$
+with
+\begin{align}\label{eqn:SteklovSchem1}
+	\frac{x^{(j)}_{k+1} - x^{(j)}_{k} }{h}	&= \varphi_{f^{(j)}}(x^{(j)}_{k}, x^{(j)}_{k+1}) \notag \\
+	\varphi_{f^{(j)}} \left(x^{(j)}_{k}, x^{(j)}_{k+1} \right) &= 
+		\frac{x^{(j)}_{k+1} - x^{(j)}_{k} }{H(x^{(j)}_{k+1}) -H(x^{(j)}_{k})},	\\
+		H^j(u) &= 
+			\int 
+				\frac{du}{
+					f^{(j)}(x^{(1)}_{k+1}, \dots, x^{(j-1)}_{k+1}, u, x^{(j+1)}_{k}, \dots, x^{(d)}_{k})
+				} \notag,
+\end{align}
+where, $x^{{(1)}}_{k+1}, \dots, x^{{(j-1)}}_{k+1}$ results from the first
+$j-1$ schemes. In this way we get the explicit recurrence for each $j\in \{ 1,\dots d\}$
+\begin{equation*}
+	x_{k+1}^{(j)} = 
+		[H^{(j)}]^{-1}
+		\left(
+			h + H^{(j)}\left(x_k^{(j)}\right)
+		\right).
+\end{equation*}
+Finally we approximate the diffusion term of SDE \eqref{eqn:SDESystem} with a Euler-Maruyama scheme to produce
+\begin{equation}\label{eqn:SteklovRecurrence}
+	X_{k+1}^{(j)} = 
+		[H^{(j)}]^{-1}
+		\left(
+			h + H^{(j)}
+			\left(
+				X_k^{(j)}
+			\right)
+		\right)
+	+ g^{(j)} \left(X_k^{(j)} \right) \Delta W_k^{(j)}.
+\end{equation}
+However the necessary assumptions here would be so strong.
+\subsection{Alternative Construction}
+Here, we propose a way to weak the assumptions over the coefficients of SDE
+\eqref{eqn:SDESystem}.
+Suppose that for each $j \in \{1, \dots, d \}$ there are locally Lipschitz functions 
+$a_1^{(j)}:\mathbb{R}^{d} \to \mathbb{R}$, \quad 
+$a_2^{(j)}:\mathbb{R}^{d-1} \to \mathbb{R}$ such that 
+\begin{equation}\label{eqn:AlternativeConstruction}
+	f^{(j)}(y) = a_1^{(j)}(y)y^{(j)} + a_2^{(j)}(y^{(-j)}), \qquad
+	y^{(-j)} = (y^{(1)}, \dots ,y^{(j-1)}, y^{(j+1)}, \dots, y^{(d)}).
+\end{equation}
+	Under this assumptions for each component equation take
+\begin{align*}
+	H^{(j)}(u)	&= \int \frac{du}{a_1^{(j)} u + a_2^{(j)}} 
+		= \ln \left( a_1^{(j)} u + a_2^{(j)} \right),\\
+	\left[H^{(j)}\right]^{(-1)} (v) & = \frac{\exp(a_1 v ) - a_2}{a_1}\\
+	a_1^{(j)} &=
+		a_1^{(j)}
+			\left(
+				x^{(1)}_{k+1}, \dots, x^{(j-1)}_{k+1},
+				x^{(j)}_{k} , x^{(j+1)}_{k},\dots,x^{(d)}_{k}
+			\right),
+			\\
+	a_2^{(j)} &=
+		a_2^{(j)}
+			\left(
+				x^{(1)}_{k+1}, \dots, x^{(j-1)}_{k+1},
+				x^{(j+1)}_{k},\dots,x^{(d)}_{k}
+			\right).
+	\end{align*}
+Therefore, approximating the diffusion term in a similar way as as in the scheme \eqref{eqn:SteklovRecurrence} 
+we define the Split Step Linear Steklov method (\SM) by
+\begin{align}\label{eqn:SteklovSchem2}
+	X^{(j)}_{k+1} %&= \left[ H^{(j)}\right ]^{(-1)} ( H^{(j)}(X_k) + h ) \notag	\\
+			&=
+			\left(
+				X_k^{(j)} + 
+				\frac{a_2^{(j)} }{a_1^{(j)}}
+			\right) 
+			\exp\left(
+					a_1^{(j)}h
+				\right) - \frac{a_2^{(j)}}{a_1^{(j)}} 
+		+ g^{(j)}(X_k) \Delta W^{(j)}_k, \notag\\
+	a_1^{(j)} &=
+		a_1^{(j)}
+			\left(
+				X^{(1)}_{k+1}, \dots, X^{(j-1)}_{k+1},
+				X^{(j)}_{k} , X^{(j+1)}_{k},\dots,X^{(d)}_{k}
+			\right),
+			\\
+	a_2^{(j)} &=
+		a_2^{(j)}
+			\left(
+				X^{(1)}_{k+1}, \dots, X^{(j-1)}_{k+1},
+				X^{(j+1)}_{k},\dots, X^{(d)}_{k}
+			\right). \notag
+\end{align}
+The rest of this document consist of a important set of examples.

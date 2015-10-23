@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: phdThesis.aux
+A level-1 auxiliary file: papers/paperA/paperA.aux
+A level-1 auxiliary file: papers/paperB/paperB.aux
+The style file: plainnat.bst
+Database file #1: bib/PhdThesisBib.bib
+Warning--empty journal in Beyn2010
+Warning--empty year in SaiotoPreprint
+You've used 73 entries,
+            2773 wiz_defined-function locations,
+            1231 strings with 22033 characters,
+and the built_in function-call counts, 34072 in all, are:
+= -- 3361
+> -- 1569
+< -- 50
++ -- 539
+- -- 464
+* -- 2881
+:= -- 5347
+add.period$ -- 376
+call.type$ -- 73
+change.case$ -- 359
+chr.to.int$ -- 71
+cite$ -- 148
+duplicate$ -- 1499
+empty$ -- 2815
+format.name$ -- 587
+if$ -- 7143
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 85
+newline$ -- 523
+num.names$ -- 294
+pop$ -- 550
+preamble$ -- 1
+purify$ -- 300
+quote$ -- 0
+skip$ -- 1054
+stack$ -- 0
+substring$ -- 1543
+swap$ -- 131
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 733
+warning$ -- 2
+while$ -- 323
+width$ -- 0
+write$ -- 1244
+(There were 2 warnings)

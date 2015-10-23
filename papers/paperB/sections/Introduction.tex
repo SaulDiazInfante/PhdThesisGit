@@ -1,0 +1,52 @@
+	Applications of Monte Carlo type simulations \cite{Glasserman2004,Giles2008} as  Brownian Dynamics \cite{Cruz2012}
+require  fast numerical methods with low computational cost --- excluding the use of 
+implicit schemes in the majority of cases.
+The Euler-Maruyama (EM) method is the most popular in such  
+simulations due to its simple algebraic structure, cheap computational cost and acceptable convergence rate 
+under global Lipschitz conditions. 
+However, if the drift or diffusion coefficients of stochastic 
+differential equations (SDEs) are super-linear, then the EM approximation 
+diverges  in the mean square sense \cite{Hutzenthaler2009, Hutzenthaler2012b}. 
+In most applications, the coefficients of the stochastic  models in finances, biology or physics 
+have locally Lipschitz coefficients with super-linear growth. 
+Therefore, recent research has been focused on modifying the EM method to obtain strong convergence  under these 
+conditions keeping its simple structure and  its low computational cost. In the last years, 
+several methods have been developed in this direction:  the family of  Tamed schemes
+\cite{Hutzenthaler2012a, Wang2011, Zong2014,Hutzenthaler2015,Sabanis2015}, 
+a special type of balanced method \cite{Tretyakov2013},  the stopped scheme \cite{Liu2013a} and 
+a truncated Euler method  \cite{Mao2015}.
+In these works, the strong convergence of the proposed method
+is proved using the theory developed by Higham, Stuart and 
+Mao in \cite{Higham2002b} or by means of  the new approach given by  Hutzenthaler and Jentzen in \cite{Hutzenthaler2015}.
+Both techniques obtain the property of  strong convergence by proving boundedness moments of the numerical and 
+analytical solution of the underlying SDE. In spite of the recent work in this subject,  it is still necessary
+to get more accurate numerical methods for SDE under super-linear growth and 
+non-globally Lipschitz coefficients.
+
+In this chapter, we develop an explicit method based on a linear version  of the Steklov method proposed 
+in  \cite{Diaz-Infante2015}  for the  vector It\^o stochastic differential equation:
+\begin{equation}\label{eqn:SDE1}
+	dy(t)
+	 =f(y(t))dt + g(y(t))dW(t), \quad 0\leq t\leq T,
+	\quad y(0)=y_0,
+\end{equation}
+where $(f^{(1)},\dots, f^{(d)}):\R^d \to \R^d$ is one sided Lipschitz and 
+$g = (g^{(j,i)})_{j\in \{1,\dots,d\}, i\in\{1,\dots, m\}}:\R^d \to \R^{d\times m}$ is global Lipschitz. 
+Also we assume 
+that  each component function $f^{(j)}$  can be written of the form
+\begin{equation}\label{eqn:AlternativeConstruction}
+	f^{(j)}(x) = a_j(x) x^{(j)} + b_j (x^{(-j)}), 
+\end{equation}
+where $a_j$ and	$b_{j}$ are two scalar 	functions in  $\R^d$ 
+and $x^{(-j)} = \left( x^{(1)},\dots,x^{(j-1)},x^{(j+1)},\dots x^{(d)}\right)$. 
+The paper is organized as follows: In section 2, we give known results that are essential
+for our purposes. In section 3, we construct the new explicit method and prove  
+the always existence of a succession of the Linear Steklov  approximation as well as 
+local Lipschitz conditions for its coefficients.  
+In section 4, we prove the strong convergence of the LS method 
+with one-half order using the Higham, Mao and 
+Mao (HMS) technique and in section 5, its  convergence rate is obtained. 
+In section 6, we analyze numerically  the accuracy and efficiency of the proposed method 
+applied to stochastic  differential equations with super-linear growth and locally Lipschitz coefficients. 
+Finally we give some conclusions.
+

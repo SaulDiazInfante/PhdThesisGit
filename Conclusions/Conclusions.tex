@@ -1,0 +1,36 @@
+\section{Conclusions}
+	We have been proposed a new way  to design numerical methods for SDEs based on the Steklov average.
+Two Steklov type methods were constructed to evidence our new approach.
+First we presented a scalar scheme with good stability properties ---the Steklov method.
+We verify its convergence and stability over a standard globally Lipschitz setup and compare its performance with a 
+competitive solvers.
+%
+With the Linear Steklov scheme we obtain a extension over multidimensional and locally Lipschitz 
+context. Also we proved its one-half convergence order and evidence its accuracy by simulation, even for 
+SDEs with super-linear diffusions. However, we see a world of problems that should be consider. We mention  just
+a few of them.
+
+\begin{itemize}
+	\item
+		The numerical evidence suggest that the scalar Steklov and the LS methods works under diffusions with 
+		super-linear growth. So, one of the possible future directions points to prove this claim. 
+	\item
+		Since we have been prove strong convergence, we would to apply the Multilevel Monte Carlo approach to
+		the Brownian Dynamics Simulation using Steklov type schemes.		
+
+	\item
+		The schemes presented here follow structure of the 
+		Euler-Maruyama family, so we see that is possible formulate schemes of type Tamed, Milstein, Balanced, Theta, 
+		Runge-Kutta  and other kinds of methods, by replacing evaluations of the drift $f$ by its Steklov average.
+	\item	
+		Also, we see viable to study stability of the LS method trough the theory of random dynamical systems.
+	\item
+		Furthermore, a natural extension would be to design Steklov type schemes for more general SDEs, that is, SDEs 
+		with delay, Poisson jumps or partial derivatives. 	
+\end{itemize}
+
+
+%
+
+ 
+ 

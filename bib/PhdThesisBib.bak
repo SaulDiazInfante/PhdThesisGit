@@ -1,0 +1,673 @@
+% This file was created with JabRef 2.10.
+% Encoding: ISO8859_1
+
+
+@Article{Agrawal2010,
+  Title                    = {Lp-Approximation by Iterates of Bernstein- Durrmeyer Type Polynomials},
+  Author                   = {Agrawal, P N},
+  Journal                  = {Int. Journal of Math. Analysis},
+  Year                     = {2010},
+  Number                   = {10},
+  Pages                    = {469--479},
+  Volume                   = {4},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Agrawal/Int. Journal of Math. Analysis/Agrawal - 2010 - Lp-Approximation by Iterates of Bernstein- Durrmeyer Type Polynomials.pdf:pdf},
+  Keywords                 = {approximation; iterative combination; l p; modulus of continuity; steklov means}
+}
+
+@Article{Alcock2006,
+  Title                    = {A note on the Balanced method},
+  Author                   = {Alcock, Jamie and Burrage, Kevin},
+  Journal                  = {BIT Numerical Mathematics},
+  Year                     = {2006},
+
+  Month                    = nov,
+  Number                   = {4},
+  Pages                    = {689--710},
+  Volume                   = {46},
+
+  Doi                      = {10.1007/s10543-006-0098-4},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Alcock, Burrage/BIT Numerical Mathematics/Alcock, Burrage - 2006 - A note on the Balanced method.pdf:pdf},
+  ISSN                     = {0006-3835},
+  Keywords                 = {numerical methods; stability; stochastic differential equations},
+  Url                      = {http://link.springer.com/10.1007/s10543-006-0098-4}
+}
+
+@Book{Allen2007,
+  Title                    = {Modeling With It{\^o} Stochastic Differential Equations},
+  Author                   = {Allen, Edward},
+  Publisher                = {Springer},
+  Year                     = {2007},
+  Month                    = {Mar},
+
+  ISBN                     = {978-14-0205-953-7}
+}
+
+@Article{Alonso2007,
+  Title                    = {Stochastic amplification in epidemics.},
+  Author                   = {Alonso, David and McKane, Alan J and Pascual, Mercedes},
+  Journal                  = {Journal of the Royal Society, Interface / the Royal Society},
+  Year                     = {2007},
+
+  Month                    = jun,
+  Number                   = {14},
+  Pages                    = {575--82},
+  Volume                   = {4},
+
+  Abstract                 = {The role of stochasticity and its interplay with nonlinearity are central current issues in studies of the complex population patterns observed in nature, including the pronounced oscillations of wildlife and infectious diseases. The dynamics of childhood diseases have provided influential case studies to develop and test mathematical models with practical application to epidemiology, but are also of general relevance to the central question of whether simple nonlinear systems can explain and predict the complex temporal and spatial patterns observed in nature outside laboratory conditions. Here, we present a stochastic theory for the major dynamical transitions in epidemics from regular to irregular cycles, which relies on the discrete nature of disease transmission and low spatial coupling. The full spectrum of stochastic fluctuations is derived analytically to show how the amplification of noise varies across these transitions. The changes in noise amplification and coherence appear robust to seasonal forcing, questioning the role of seasonality and its interplay with deterministic components of epidemiological models. Childhood diseases are shown to fall into regions of parameter space of high noise amplification. This type of "endogenous" stochastic resonance may be relevant to population oscillations in nonlinear ecological systems in general.},
+  Doi                      = {10.1098/rsif.2006.0192},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Alonso, McKane, Pascual/Journal of the Royal Society, Interface the Royal Society/Alonso, McKane, Pascual - 2007 - Stochastic amplification in epidemics.pdf:pdf},
+  ISSN                     = {1742-5689},
+  Keywords                 = {Biological; Child; Disease Outbreaks; Disease Outbreaks: statistics \& numerical data; Humans; Infection; Infection: epidemiology; Models; Nonlinear Dynamics; Seasons; Stochastic Processes},
+  Pmid                     = {17251128},
+  Url                      = {http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2373404&tool=pmcentrez&rendertype=abstract}
+}
+
+@Book{Arnold1998,
+  Title                    = {Random Dynamical Systems},
+  Author                   = {Arnold, Ludwig},
+  Publisher                = {Springer},
+  Year                     = {1998},
+  Month                    = {Jan},
+
+  ISBN                     = {978-35-4063-758-5}
+}
+
+@Article{Baker2000a,
+  Title                    = {Numerical Analysis of Explicit One-Step Methods for Stochastic Delay Differential Equations},
+  Author                   = {Baker, Christopher T. H. and Buckwar, Evelyn},
+  Journal                  = {LMS Journal of Computation and Mathematics},
+  Year                     = {2010},
+
+  Month                    = feb,
+  Number                   = {January},
+  Pages                    = {315--335},
+  Volume                   = {3},
+
+  Doi                      = {10.1112/S1461157000000322},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Baker, Buckwar/LMS Journal of Computation and Mathematics/Baker, Buckwar - 2000 - Numerical analysis of explicit one-step methods for stochastic delay differential equations.pdf:pdf},
+  ISSN                     = {1461-1570},
+  Url                      = {http://journals.cambridge.org/abstract_S1461157000000322 http://www.journals.cambridge.org/abstract_S1461157000000322}
+}
+
+@Article{Bhattacharya2003,
+  Title                    = {Random dynamical systems: a review},
+  Author                   = {Bhattacharya, Rabi and Majumdar, Mukul},
+  Journal                  = {Economic Theory},
+  Year                     = {2003},
+
+  Month                    = dec,
+  Number                   = {1},
+  Pages                    = {13--1},
+  Volume                   = {23},
+
+  Doi                      = {10.1007/s00199-003-0357-4},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bhattacharya, Majumdar/Economic Theory/Bhattacharya, Majumdar - 2003 - Random dynamical systems a review.pdf:pdf},
+  ISSN                     = {0938-2259},
+  Keywords                 = {Rabi Bhattacharya},
+  Url                      = {http://download.springer.com.svproxy01.cimat.mx/static/pdf/440/art%253A10.1007%252Fs00199-003-0357-4.pdf?auth66=1396489629_11cba9209919582c1dda46136eb9f61b&ext=.pdf http://link.springer.com/10.1007/s00199-003-0357-4}
+}
+
+@Article{Bokor2004,
+  Title                    = {On stability for numerical approximations of stochastic ordinary differential equations},
+  Author                   = {Bokor, R{\'o}zsa Horv{\'a}th},
+  Journal                  = {Proc. 7th Coll. QTDE},
+  Year                     = {2004},
+  Number                   = {15},
+  Pages                    = {1--9},
+
+  Abstract                 = {Stochastic ordinary differential equations (SODE) represent physical phenomena driven by stochastic processes. Like for deterministic differential equations, various numerical schemes are proposed for SODE (see references). We will consider several concepts of stability and connection between them.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bokor/Proc. 7th Coll. QTDE/Bokor - 2004 - On stability for numerical approximations of stochastic ordinary differential equations.pdf:pdf},
+  Keywords                 = {numerical methods; stability; stochastic ordinary differential equations},
+  Url                      = {http://www.emis.ams.org/journals/EJQTDE/7/715.pdf}
+}
+
+@Article{Bokor2003,
+  Title                    = {Stochastically stable one-step approximations of solutions of stochastic ordinary differential equations},
+  Author                   = {Bokor, R{\'o}zsa Horv{\'a}th},
+  Journal                  = {Applied Numerical Mathematics},
+  Year                     = {2003},
+
+  Month                    = feb,
+  Number                   = {3},
+  Pages                    = {299--312},
+  Volume                   = {44},
+
+  Abstract                 = {A series of numerical methods (schemes) for solving stochastic ordinary differential equations (SODEs) are given. Under appropriate conditions the numerical solutions converge in mean square sense to the true solution. There is a general belief, supported by theorems for the Euler--Maruyama and Milstein methods that the above statement implies the stochastic stability, i.e., the continuous dependence on initial values of the numerical solutions. In this paper this assertion is rigorously proved for methods widely used, but not investigated from this aspect.},
+  Doi                      = {10.1016/S0168-9274(02)00141-1},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bokor/Applied Numerical Mathematics/Bokor - 2003 - Stochastically stable one-step approximations of solutions of stochastic ordinary differential equations.pdf:pdf},
+  ISSN                     = {01689274},
+  Keywords                 = {numerical methods; stochastic ordinary differential equations},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0168927402001411}
+}
+
+@Article{Braanka1998,
+  Title                    = {Algorithms for Brownian dynamics simulation},
+  Author                   = {Bra{\'n}ka, AC and Heyes, DM},
+  Journal                  = {Physical Review E},
+  Year                     = {1998},
+
+  Month                    = aug,
+  Number                   = {2},
+  Pages                    = {2611--2615},
+  Volume                   = {58},
+
+  Abstract                 = {Several Brownian dynamics numerical schemes for treating one-variable stochastic differential equations at the position of the Langevin level are analyzed from the point of view of their algorithmic efficiency. The algorithms are tested using a one-dimensional biharmonic Langevin oscillator process. Limitations in the conventional Brownian dynamics algorithm are shown and it is demonstrated that much better accuracy for dynamical quantities can be achieved with an algorithm based on the stochastic expansion, which is superior to the stochastic second-order Runge-Kutta algorithm. For static properties the relative accuracies of the SE and Runge-Kutta algorithms depend on the property calculated.},
+  Doi                      = {10.1103/PhysRevE.58.2611},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bra{\'n}ka, Heyes/Physical Review E/Bra{\'n}ka, Heyes - 1998 - Algorithms for Brownian dynamics simulation.pdf:pdf},
+  ISSN                     = {1063-651X},
+  Url                      = {http://pre.aps.org/abstract/PRE/v58/i2/p2611_1 http://link.aps.org/doi/10.1103/PhysRevE.58.2611}
+}
+
+@Article{Buckwar2010,
+  Title                    = {Towards a Systematic Linear Stability Analysis of Numerical Methods for Systems of Stochastic Differential Equations},
+  Author                   = {Buckwar, Evelyn and Kelly, C{\'o}nall},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Year                     = {2010},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {298--321},
+  Volume                   = {48},
+
+  Abstract                 = {We develop two classes of test equations for the linear stability analysis of numer- ical methods applied to systems of stochastic ordinary differential equations of Itˆ otype(SODEs). Motivated by the theory of stochastic stabilization and destabilization, these test equations cap- ture certain fundamental effects of stochastic perturbation in systems of SODEs, while remaining amenable to analysis before and after discretization. We then carry out a linear stability analysis of the $\theta$-Maruyama method applied to these test equations, investigating mean-square and almost sure asymptotic stability of the test equilibria. We discuss the implications of our work for the notion of A-stability of the $\theta$-Maruyama method and use numerical simulation to suggest extensions of our results to test systems with nonnormal drift coefficie},
+  Doi                      = {10.1137/090771843},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Buckwar, Kelly/SIAM Journal on Numerical Analysis/Buckwar, Kelly - 2010 - Towards a Systematic Linear Stability Analysis of Numerical Methods for Systems of Stochastic Differential Equat.pdf:pdf},
+  ISSN                     = {0036-1429},
+  Keywords                 = {090771843; 10; 1137; 60h10; 60h35; 65c20; 65l20; ams subject classifications; destabilization; doi; equations; linear stability analysis; stabilization; systems of stochastic differential; theta method},
+  Url                      = {http://epubs.siam.org/doi/abs/10.1137/090771843}
+}
+
+@Article{Buckwar2011a,
+  Title                    = {The Numerical Stability of Stochastic Ordinary Differential Equations With Additive Noise},
+  Author                   = {Buckwar, E. and Riedler, M. G. and Kloeden, P. E.},
+  Journal                  = {Stochastics and Dynamics},
+  Year                     = {2011},
+
+  Month                    = sep,
+  Number                   = {02n03},
+  Pages                    = {265--281},
+  Volume                   = {11},
+
+  Doi                      = {10.1142/S0219493711003279},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Buckwar, Riedler, Kloeden/Stochastics and Dynamics/Buckwar, Riedler, Kloeden - 2011 - The Numerical Stability of Stochastic Ordinary Differential Equations With Additive Noise.pdf:pdf},
+  ISSN                     = {0219-4937},
+  Keywords                 = {60c30; 60c35; 65c30; additive noise; ams subject classification; numerical methods; random attractor},
+  Url                      = {http://www.worldscientific.com/doi/abs/10.1142/S0219493711003279}
+}
+
+@Article{Burrage2004,
+  Title                    = {Numerical methods for strong solutions of stochastic differential equations: an overview},
+  Author                   = {Burrage, K. and Burrage, P. M. and Tian, T.},
+  Journal                  = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  Year                     = {2004},
+
+  Month                    = jan,
+  Number                   = {2041},
+  Pages                    = {373--402},
+  Volume                   = {460},
+
+  Doi                      = {10.1098/rspa.2003.1247},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Burrage, Burrage, Tian/Proceedings of the Royal Society A Mathematical, Physical and Engineering Sciences/Burrage, Burrage, Tian - 2004 - Numerical methods for strong solutions of stochastic differential equations an overview(2).pdf:pdf},
+  ISSN                     = {1364-5021},
+  Url                      = {http://rspa.royalsocietypublishing.org/cgi/doi/10.1098/rspa.2003.1247}
+}
+
+@Article{Bussi2007,
+  Title                    = {Accurate sampling using Langevin dynamics},
+  Author                   = {Bussi, Giovanni and Parrinello, Michele},
+  Journal                  = {Physical Review E},
+  Year                     = {2007},
+
+  Month                    = may,
+  Number                   = {5},
+  Pages                    = {056707},
+  Volume                   = {75},
+
+  Doi                      = {10.1103/PhysRevE.75.056707},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bussi, Parrinello/Physical Review E/Bussi, Parrinello - 2007 - Accurate sampling using Langevin dynamics.pdf:pdf},
+  ISSN                     = {1539-3755},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevE.75.056707}
+}
+
+@Article{Caraballo2006,
+  Title                    = {The Pathwise Numerical Approximation of Stationary Solutions of Semilinear Stochastic Evolution Equations},
+  Author                   = {Caraballo, T. and Kloeden, P.E.},
+  Journal                  = {Applied Mathematics and Optimization},
+  Year                     = {2006},
+
+  Month                    = oct,
+  Number                   = {3},
+  Pages                    = {401--415},
+  Volume                   = {54},
+
+  Doi                      = {10.1007/s00245-006-0876-z},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Caraballo, Kloeden/Applied Mathematics and Optimization/Caraballo, Kloeden - 2006 - The Pathwise Numerical Approximation of Stationary Solutions of Semilinear Stochastic Evolution Equations.pdf:pdf},
+  ISSN                     = {0095-4616},
+  Keywords                 = {60h25; ams classification; differential equations; galerkin approximations; implicit euler scheme; ornstein; primary 60h35; random partial and ordinary; secondary 60h15; solutions; stationary; stochastic partial differential equations; uhlenbeck solution},
+  Url                      = {http://link.springer.com/10.1007/s00245-006-0876-z}
+}
+
+@Article{dowell1966nonlinear,
+  Title                    = {Nonlinear oscillations of a fluttering plate.},
+  Author                   = {Dowell, Earl H},
+  Journal                  = {AIAA journal},
+  Year                     = {1966},
+  Number                   = {7},
+  Pages                    = {1267--1275},
+  Volume                   = {4}
+}
+
+@Article{Ermak1978,
+  Title                    = {Brownian dynamics with hydrodynamic interactions},
+  Author                   = {Ermak, Donald L. and a. McCammon, J.},
+  Journal                  = {The Journal of Chemical Physics},
+  Year                     = {1978},
+  Number                   = {4},
+  Pages                    = {1352},
+  Volume                   = {69},
+
+  Doi                      = {10.1063/1.436761},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Ermak, McCammon/The Journal of Chemical Physics/Ermak, McCammon - 1978 - Brownian dynamics with hydrodynamic interactions.pdf:pdf},
+  ISSN                     = {00219606},
+  Url                      = {http://link.aip.org/link/JCPSA6/v69/i4/p1352/s1&Agg=doi http://scitation.aip.org/content/aip/journal/jcp/69/4/10.1063/1.436761}
+}
+
+@Book{Gardiner2009,
+  Title                    = {Stochastic Methods: A Handbook for the Natural and Social Sciences},
+  Author                   = {Gardiner, C.},
+  Publisher                = {Springer},
+  Year                     = {2009},
+  Series                   = {{Springer Series in Synergetics}},
+
+  ISBN                     = {9783540707127},
+  Lccn                     = {2008936877}
+}
+
+@Book{Hamley2007,
+  Title                    = {Introduction to Soft Matter: Synthetic and Biological Self-Assembling Materials},
+  Author                   = {Hamley, Ian W.},
+  Publisher                = {Wiley},
+  Year                     = {2007},
+  Month                    = {Oct},
+
+  ISBN                     = {978-04-7051-732-1}
+}
+
+@Article{Hernandez1992,
+  Title                    = {A-stability of Runge-Kutta methods for systems with additive noise},
+  Author                   = {Hernandez, Diego Bricio and Spigler, Renato},
+  Journal                  = {BIT},
+  Year                     = {1992},
+
+  Month                    = dec,
+  Number                   = {4},
+  Pages                    = {620--633},
+  Volume                   = {32},
+
+  Abstract                 = {Numerical stability of both explicit and implicit Runge-Kutta methods for solving ordinary differen- tial equations with an additive noise term is studied. The concept of numerical stability of deterministic schemes is extended to the stochastic case, and a stochastic analogue of Dahlquist's A-stability is proposed. It is shown that the discretization of the drift term alone controls the A-stability of the whole scheme. The quantitative effect of implicitness upon A-stability is also investigated, and stability regions are given for a family of implicit Runge-Kutta methods with optimal order of convergence.},
+  Doi                      = {10.1007/BF01994846},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Hernandez, Spigler/BIT/Hernandez, Spigler - 1992 - A-stability of Runge-Kutta methods for systems with additive noise.pdf:pdf},
+  ISSN                     = {0006-3835},
+  Keywords                 = {1; and phrases; differential equations; implicit methods; introduction; numerical stability; on time-varying parameters; ordinary differential equations depending; runge-kutta methods; stochastic; stochastic stability; such as; systems with additive noise},
+  Url                      = {http://link.springer.com/10.1007/BF01994846}
+}
+
+@Article{Higham2001,
+  Title                    = {An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations},
+  Author                   = {Higham, Desmond J.},
+  Journal                  = {SIAM Review},
+  Year                     = {2001},
+
+  Month                    = jan,
+  Number                   = {3},
+  Pages                    = {525--546},
+  Volume                   = {43},
+
+  Doi                      = {10.1137/S0036144500378302},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Higham/SIAM Review/Higham. - 2001 - An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations.pdf:pdf},
+  ISSN                     = {0036-1445},
+  Keywords                 = {65c20; 65c30; ams subject classifications; euler; maruyama method; matlab; milstein method; monte carlo; pii; s0036144500378302; stochastic simula-; strong and weak convergence; tion},
+  Url                      = {http://dx.doi.org/10.1137/S0036144500378302 http://epubs.siam.org/doi/abs/10.1137/S0036144500378302}
+}
+
+@Article{Higham2000,
+  Title                    = {A-Stability and Stochastic Mean-Square Stability},
+  Author                   = {Higham, Desmond J.},
+  Journal                  = {BIT},
+  Year                     = {2000},
+  Number                   = {2},
+  Pages                    = {404--409},
+  Volume                   = {40},
+
+  Abstract                 = {This note extends and interprets a result of Saito andMitsui [SIAM J. Numer. Anal., 33 (1996), pp. 2254--2267] for a method of Milstein. The result concerns mean-square stability on a stochastic differential equation test problem with multiplicative noise. The numerical method reduces to the Theta Method on deterministic problems. Saito and Mitsui showed that the deterministic A-stability property of the Theta Method does not carry through to the mean-square context in general, and gave a condition un- der which unconditional stability holds. The main purpose of this note is to emphasize that the approach of Saito and Mitsui makes it possible to quantify precisely the point where unconditional stability is lost in terms of the ratio of the drift (deterministic) and diffusion (stochastic) coefficients. This leads to a concept akin to deterministic A($\alpha$)-stability that may be useful in the stability analysis of more general methods. It is also shown that mean-square A-stability is recovered if the Theta Method parameter is increased beyond its normal range to the value 3/2.},
+  Doi                      = {10.1023/A:1022355410570},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Higham/BIT/Higham - 2000 - A-Stability and Stochastic Mean-Square Stability.pdf:pdf},
+  Keywords                 = {mean-square; milstein method; multiplicative noise; theta method}
+}
+
+@Article{Higham2000b,
+  Title                    = {Mean-Square and Asymptotic Stability of the Stochastic Theta Method},
+  Author                   = {Higham, Desmond J.},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Year                     = {2000},
+
+  Month                    = jan,
+  Number                   = {3},
+  Pages                    = {753--769},
+  Volume                   = {38},
+
+  Abstract                 = {Stability analysis of numerical methods for ordinary differential equations (ODEs) is motivated by the question ``for what choices of stepsize does the numerical method reproduce the characteristics of the test equation? '' We study a linear test equation with a multiplicative noise term, and consider mean-square and asymptotic stability of a stochastic version of the theta method. We extend some mean-square stability results in [Saito and Mitsui, SIAM. J. Numer. Anal., 33 (1996), pp. 2254--2267]. In particular, we show that an extension of the deterministic A-stability property holds. We also plot mean-square stability regions for the case where the test equation has real parameters. For asymptotic stability, we show that the issue reduces to finding the expected value of a parametrized random variable. We combine analytical and numerical techniques to get insights into the stability properties. For a variant of the method that has been proposed in the literature we obtain precise analytic expressions for the asymptotic stability region. This allows us to prove a number of results. The technique introduced is widely applicable, and we use it to show that a fully implicit method suggested by [Kloeden and Platen, Numerical Solution of Stochastic Differential Equations, Springer-Verlag, 1992] has an asymptotic stability extension of the deterministic A-stability property. We also use the approach to explain some numerical results},
+  Doi                      = {10.1137/S003614299834736X},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Higham/SIAM Journal on Numerical Analysis/Higham - 2000 - Mean-Square and Asymptotic Stability of the Stochastic Theta Method.pdf:pdf},
+  ISSN                     = {0036-1429},
+  Url                      = {http://epubs.siam.org/doi/pdf/10.1137/S003614299834736X http://epubs.siam.org/doi/abs/10.1137/S003614299834736X}
+}
+
+@InCollection{Keller1999,
+  Title                    = {Numerical Approximation of Random Attractors},
+  Author                   = {Keller, Hannes and Ochs, Gunter},
+  Booktitle                = {Stochastic Dynamics},
+  Publisher                = {Springer New York},
+  Year                     = {1999},
+  Pages                    = {93-115},
+
+  Doi                      = {10.1007/0-387-22655-9_5},
+  ISBN                     = {978-0-387-98512-1},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/0-387-22655-9_5}
+}
+
+@InCollection{kloeden1999towards,
+  Title                    = {Towards a Theory of Random Numerical Dynamics},
+  Author                   = {Kloeden, Peter E. and Keller, Hannes and Schmalfu{\ss}, Bj{\"o}rn},
+  Booktitle                = {{Stochastic Dynamics}},
+  Publisher                = {Springer New York},
+  Year                     = {1999},
+  Editor                   = {Crauel, Hans and Gundlach, Matthias},
+  Pages                    = {259--282},
+
+  ISBN                     = {978-0-387-98512-1}
+}
+
+@Book{Kloeden1992,
+  Title                    = {Numerical Solution of Stochastic Differential Equations},
+  Author                   = {Kloeden, Peter E. and Platen, Eckhard},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1992},
+  Month                    = {Jan},
+
+  ISBN                     = {978-03-8754-062-7}
+}
+
+@InCollection{Liang1999,
+  Title                    = {P-Bifurcations in the Noisy Duffing-van der Pol Equation},
+  Author                   = {Liang, Yan and Namachchivaya, N.Sri},
+  Booktitle                = {Stochastic Dynamics},
+  Publisher                = {Springer New York},
+  Year                     = {1999},
+  Pages                    = {49-70},
+
+  Doi                      = {10.1007/0-387-22655-9_3},
+  ISBN                     = {978-0-387-98512-1},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/0-387-22655-9_3}
+}
+
+@Article{Lowen1993,
+  Title                    = {Long-time self-diffusion coefficient in colloidal suspensions: theory versus simulation},
+  Author                   = {Lowen, H and Szamel, G},
+  Journal                  = {Journal of Physics: Condensed Matter},
+  Year                     = {1993},
+
+  Month                    = apr,
+  Number                   = {15},
+  Pages                    = {2295--2306},
+  Volume                   = {5},
+
+  Doi                      = {10.1088/0953-8984/5/15/003},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Lowen, Szamel/Journal of Physics Condensed Matter/Lowen, Szamel - 1993 - Long-time self-diffusion coefficient in colloidal suspensions theory versus simulation.pdf:pdf},
+  ISSN                     = {0953-8984},
+  Url                      = {http://iopscience.iop.org/0953-8984/5/15/003 http://stacks.iop.org/0953-8984/5/i=15/a=003?key=crossref.b20e8001a77af6b95b10e4510a9eab3b}
+}
+
+@Article{Matus2005,
+  Title                    = {Exact Difference Schemes for Time-dependent Problems},
+  Author                   = {Matus, P and Irkhin, U. and Lapinska-Chrzczonowicz, M.},
+  Journal                  = {Computational Methods in Applied Mathematics},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {422--448},
+  Volume                   = {5},
+
+  Abstract                 = {By the example of the Cauchy problem for the nonlinear ordinary differential equation (ODE) exact, i.e., yn = y(tn) = u(tn) for each tn = n$\tau$, n = 0, 1, . . . On the basis of such an approach, for one-dimensional and multidimensional semi- linear transport equations of quite a general form with given initial data and boundary conditions the exact difference schemes (EDSs) are constructed. In the case of constant coefficients, such numerical methods can be created on rectangular grids, while in the case of variable coefficients -- on moving grids only. The questions of developing differ- ence schemes of arbitrary order for quasi-linear transport equations with a nonlinear right-hand side are discussed. In this paper, the EDSs are constructed also for certain classes of linear and quasi- linear parabolic equations, for convection-diffusion problems with a small parameter, as well as inhomogeneous wave equations with constant coefficient},
+  Doi                      = {10.2478/cmam-2005-0020},
+  File                     = {:home/saul/Documents/Mendeley Desktop/problemsMatus/Computational Methods in Applied Mathematics/problemsMatus - 2005 - Exact difference schemes for time-dependent.pdf:pdf},
+  ISSN                     = {1609-4840},
+  Keywords                 = {it is shown that the difference scheme with specif},
+  Url                      = {http://old.cmam.info/issues/?Vol=5&Num=4&ItID=133&Type=pdf&Aid=133 http://www.degruyter.com/view/j/cmam.2005.5.issue-4/cmam-2005-0020/cmam-2005-0020.xml}
+}
+
+@Book{may2001stability,
+  Title                    = {Stability and Complexity in Model Ecosystems},
+  Author                   = {May, R.M.C.},
+  Publisher                = {Princeton University Press},
+  Year                     = {2001},
+  Series                   = {Landmarks in Biology Series},
+
+  ISBN                     = {9780691088617},
+  Owner                    = {user-x},
+  Timestamp                = {2015.05.06}
+}
+
+@Article{McKane2005,
+  Title                    = {Predator-Prey Cycles from Resonant Amplification of Demographic Stochasticity},
+  Author                   = {McKane, a. J. and Newman, T. J.},
+  Journal                  = {Physical Review Letters},
+  Year                     = {2005},
+
+  Month                    = jun,
+  Number                   = {21},
+  Pages                    = {218102},
+  Volume                   = {94},
+
+  Doi                      = {10.1103/PhysRevLett.94.218102},
+  File                     = {:home/saul/Documents/Mendeley Desktop/McKane, Newman/Physical Review Letters/McKane, Newman - 2005 - Predator-Prey Cycles from Resonant Amplification of Demographic Stochasticity.pdf:pdf},
+  ISSN                     = {0031-9007},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.94.218102}
+}
+
+@Article{Mickens2003,
+  Title                    = {A nonstandard finite-difference scheme for the Lotka-Volterra system},
+  Author                   = {Mickens, Ronald E.},
+  Journal                  = {Applied Numerical Mathematics},
+  Year                     = {2003},
+
+  Month                    = may,
+  Number                   = {2-3},
+  Pages                    = {309--314},
+  Volume                   = {45},
+
+  Doi                      = {10.1016/S0168-9274(02)00223-4},
+  ISSN                     = {01689274},
+  Owner                    = {user-x},
+  Timestamp                = {2015.05.06},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0168927402002234}
+}
+
+@Article{Milstein1998a,
+  Title                    = {Balanced implicit methods for stiff stochastic systems},
+  Author                   = {Milstein, GN and Platen, E and Schurz, H},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Year                     = {1998},
+  Number                   = {3},
+  Pages                    = {1010--1019},
+  Volume                   = {35},
+
+  Abstract                 = {This paper introduces some implicitness in stochastic terms of numerical methods for solving stiff stochastic differential equations and especially a class of fully implicit methods, the balanced methods. Their order of strong convergence is proved. Numerical experiments compare the stability properties of these schemes with explicit one},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Milstein, Platen, Schurz/SIAM Journal on Numerical Analysis/Milstein, Platen, Schurz - 1998 - Balanced implicit methods for stiff stochastic systems.pdf:pdf},
+  ISBN                     = {0036142994273},
+  Keywords                 = {stochastic differential},
+  Url                      = {http://www.jstor.org/stable/2587119 http://epubs.siam.org/doi/pdf/10.1137/S0036142994273525}
+}
+
+@Article{Milstein2003,
+  Title                    = {Quasi-symplectic methods for Langevin-type equations},
+  Author                   = {Milstein, G. N.},
+  Journal                  = {IMA Journal of Numerical Analysis},
+  Year                     = {2003},
+
+  Month                    = oct,
+  Number                   = {4},
+  Pages                    = {593--626},
+  Volume                   = {23},
+
+  Doi                      = {10.1093/imanum/23.4.593},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Milstein/IMA Journal of Numerical Analysis/Milstein - 2003 - Quasi-symplectic methods for Langevin-type equations.pdf:pdf},
+  ISSN                     = {0272-4979},
+  Keywords                 = {langevin equations; mean-square and weak schemes; stochastic hamiltonian systems; symplectic and quasi-; symplectic numerical methods},
+  Url                      = {http://imanum.oupjournals.org/cgi/doi/10.1093/imanum/23.4.593}
+}
+
+@Article{Pasquali2001,
+  Title                    = {The stochastic logistic equation : stationary solutions and their stability},
+  Author                   = {Pasquali, S},
+  Journal                  = {Rendiconti del Seminario Matematico della Universit{\`a} di Padova},
+  Year                     = {2001},
+  Pages                    = {165--183},
+  Volume                   = {106},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Pasquali/Rendiconti del Seminario Matematico della Universit{\`a} di Padova/Pasquali - 2001 - The stochastic logistic equation stationary solutions and their stability.pdf:pdf},
+  Url                      = {http://eudml.org/doc/108561 https://eudml.org/doc/108561}
+}
+
+@Article{Robinson2002,
+  Title                    = {Stability of random attractors under perturbation and approximation},
+  Author                   = {Robinson, James C.},
+  Journal                  = {Journal of Differential Equations},
+  Year                     = {2002},
+
+  Month                    = dec,
+  Number                   = {2},
+  Pages                    = {652--669},
+  Volume                   = {186},
+
+  Doi                      = {10.1016/S0022-0396(02)00038-4},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Robinson/Journal of Differential Equations/Robinson - 2002 - Stability of random attractors under perturbation and approximation.pdf:pdf},
+  ISSN                     = {00220396},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0022039602000384}
+}
+
+@Misc{SaiotoPreprint,
+  Title                    = {Stability analysis of numerical methods for stochastic systems with additive noise},
+
+  Author                   = {Saito, Yoshihiro},
+  Note                     = {http://www.shotoku.ac.jp/data/facilities/library/publication/education-keizai08\_2\_06.pdf},
+
+  Type                     = {eprint}
+}
+
+@Article{Saito,
+  Title                    = {Stability analysis of numerical methods for stochastic systems with additive noise},
+  Author                   = {Saito, Yoshihiro},
+  Number                   = {2},
+  Pages                    = {119--123},
+
+  Abstract                 = {Stochastic differential equations (SDEs) represent physical phenomena dominated by stochastic processes. As for deterministic ordinary differential equations (ODEs), various numerical methods are proposed for SDEs. We have proposed two types of numerical stability for SDEs, namely mean-square stability and trajectory stability. However we have considered the analysis for the test equation with multiplicative noise only, but not additive. In this note we will study numerical stability analysis for a test system with additive noise, and will show some results for the Euler-Maruyama method.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Saito/Unknown/Saito - Unknown - Stability analysis of numerical methods for stochastic systems with additive noise.pdf:pdf},
+  Url                      = {http://www.shotoku.ac.jp/data/facilities/library/publication/education-keizai08_2_06.pdf}
+}
+
+@Article{Saito1996a,
+  Title                    = {Stability Analysis of Numerical Schemes for Stochastic Differential Equations},
+  Author                   = {Saito, Yoshihiro and Mitsui, Taketomo},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Year                     = {1996},
+
+  Month                    = dec,
+  Number                   = {6},
+  Pages                    = {2254--2267},
+  Volume                   = {33},
+
+  Doi                      = {10.1137/S0036142992228409},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Saito, Mitsui/SIAM Journal on Numerical Analysis/Saito, Mitsui - 1996 - Stability analysis of numerical schemes for stochastic differential equations.pdf:pdf},
+  ISSN                     = {0036-1429},
+  Url                      = {http://epubs.siam.org/doi/abs/10.1137/S0036142992228409}
+}
+
+@Article{Schurz2007,
+  Title                    = {Modeling, analysis and discretization of stochastic logistic equations},
+  Author                   = {Schurz, Henri},
+  Journal                  = {International Journal of Numerical Analysis and Modeling},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {178--197},
+  Volume                   = {4},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Schurz/International Journal of Numerical Analysis and Modeling/Schurz - 2007 - Modeling, analysis and discretization of stochastic logistic equations.pdf:pdf},
+  Keywords                 = {balanced implicit methods; boundedness; conver-; gence; logistic growth; lutions; monotonicity; numerical methods; properties of so-; stability; stochastic logistic equation},
+  Url                      = {http://www.math.ualberta.ca/ijnam/Volume-4-2007/No-2-07/2007-02-02.pdf}
+}
+
+@Article{Sun2008,
+  Title                    = {Stability analysis of a stochastic logistic model with nonlinear diffusion term},
+  Author                   = {Sun, Xiping and Wang, Yongji},
+  Journal                  = {Applied Mathematical Modelling},
+  Year                     = {2008},
+
+  Month                    = oct,
+  Number                   = {10},
+  Pages                    = {2067--2075},
+  Volume                   = {32},
+
+  Doi                      = {10.1016/j.apm.2007.07.012},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Sun, Wang/Applied Mathematical Modelling/Sun, Wang - 2008 - Stability analysis of a stochastic logistic model with nonlinear diffusion term.pdf:pdf},
+  ISSN                     = {0307904X},
+  Keywords                 = {a nonlinear diffusion term; asymptotic stability in distribution; classical probability method; stochastic logistic model with},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0307904X07001746}
+}
+
+@Book{Timan1963,
+  Title                    = {Theory of Approximation of Functions of a Real Variable},
+  Author                   = {Timan, A. F.},
+  Publisher                = {Dover Publications},
+  Year                     = {1963},
+  Month                    = {Feb},
+
+  ISBN                     = {978-04-8667-830-6}
+}
+
+@Book{VanKampen1992,
+  Title                    = {Stochastic Processes in Physics and Chemistry},
+  Author                   = {{Van Kampen}, N.G.},
+  Publisher                = {Elsevier Science},
+  Year                     = {1992},
+  Series                   = {{North-Holland Personal Library}},
+
+  ISBN                     = {9780080571386}
+}
+
+@Article{Wiesenfeld1982,
+  Title                    = {Effect of noise on the dynamics of a nonlinear oscillator},
+  Author                   = {{Wiesenfeld}, K.~A. and {Knobloch}, E.},
+  Journal                  = {\pra},
+  Year                     = {1982},
+
+  Month                    = nov,
+  Pages                    = {2946-2953},
+  Volume                   = {26},
+
+  Adsnote                  = {Provided by the SAO/NASA Astrophysics Data System},
+  Adsurl                   = {http://adsabs.harvard.edu/abs/1982PhRvA..26.2946W},
+  Doi                      = {10.1103/PhysRevA.26.2946}
+}
+
+@Book{Williams1991,
+  Title                    = {Probability with Martingales},
+  Author                   = {Williams, D.},
+  Publisher                = {Cambridge University Press},
+  Year                     = {1991},
+
+  ISBN                     = {9781139642989}
+}
+

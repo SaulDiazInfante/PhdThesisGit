@@ -1,0 +1,148 @@
+
+	Conditional expectation plays a very important role in the modern probability theory. It gives sense and 
+foundation for the definitions of martingales and Markov processes. In fact, other areas of probability 
+as stochastic dynamics, conditioning permits to describe and to analyze dynamical systems with randomness.
+Roughly speaking, the conditional expectation is an average that considers only a portion of information.
+Assume $X\in L_1(\Omega,\calF,\P)$ and let $\calG \subset \calF$ a sub-$\sigma$-algebra. Then the
+conditional expectation of the random variable $X$ given $\calG$ is the new random variable 
+$Y = \cEX{X}{\calG}$ such that
+\begin{enumerate}[(i)]
+	\item
+		$\cEX{X}{G}$ is $\calG$-measurable and integrable.
+	\item
+		For all event $G\in \calG$ we have 
+		$
+			\displaystyle
+			\int_{G} X d\P = \int_{G} \cEX{X}{\calG}d\P.
+		$
+\end{enumerate}
+	This new random variable is unique in the sense that if there is an other $\tilde{Y}$ satisfying
+the same two above properties, then $\P{[Y\neq \tilde{Y}]}=0$. In this case $\tilde{Y}$ is said to be 
+a version of the conditional expectation $\cEX{X}{\calG}$.
+Now we list some standard properties of the conditional expectation \cite{Williams1991}.
+Here $X_1$, $X_2$, $Z$ are integrable random variables, $a_1$,$a_2\in \R$, and $\calG$, $\calH$ 
+are sub-$\sigma$-algebras of $\calF$.
+\begin{enumerate}[(E1)]
+	\item
+		If $Y$ is any version of $\cEX{X}{\calG}$, then $E[X]=E[Y]$.
+	\item
+		If $X$ is $\calG$ measurable, then $\cEX{X}{\calG} = X$, $\P$-a.s.
+	\item
+		(Linearity) $\cEX{a_1X_1+a_2X_2}{\calG} = a_1\cEX{X_1}{\calG} + a_2\cEX{X_2}{\calG}$ $\P$-a.s.\\
+		Clarification:
+			if $Y_1$ is a version of $\cEX{X_1}{\calG}$ and $Y_2$ is a version of $\cEX{X_2}{\calG}$, then
+			$a_1Y_1 + a_2Y2$ is a version of $\cEX{a_1 X_1 + a_2X_2}{\calG}$.
+	\item
+		(Positivity) If $X \geq 0$, then $\cEX{X}{\calG} \geq 0$,  $\P$-a.s.
+	\item
+		(Conditional Monotone Convergence)
+		If $0 \leq X_n \uparrow X$, then $\cEX{X_n}{\calG} \uparrow \cEX{X}{\calG}$, $\P$-a.s.
+	\item
+		(Conditional Fatou)
+		If $X_n\geq 0$, then 
+		$\displaystyle
+			\cEX{\liminf_{n \to \infty} X_n}{\calG}
+			\leq
+			\liminf_{n \to \infty}
+			\cEX{X_n}{\calG}
+		$.
+	\item
+		(Conditional Dominated Convergence)
+		If $|X_n(\omega)|\leq V(\omega)$ for all $n$, $\EX{V}<\infty$, and $X_n \to X$ $\P$-a.s., then
+		$\cEX{X_n}{\calG} \to \cEX{X}{\calG}$, $\P$-a.s.
+	\item
+		(Conditional Jensen)
+		If $f$ is a real-valued convex function, then
+		$$
+			f
+			\left(
+				\cEX{X}{\calG}
+			\right)
+			\leq
+			\cEX{f(X)}{\calG}.
+		$$
+		\item
+			(Tower Property) If $\calH$ is a sub-$\sigma$-algebra of $\calG$, then
+			$$
+				\cEX{\cEX{X}{\calG}}{\calH} = \cEX{X}{\calH}, \qquad \P\text{-a.s.}.
+			$$
+		\item
+			If $Z$ is $\calG$-measurable and bounded, then
+			$
+				\cEX{ZX}{\calG} = Z\cEX{X}{\calG}.
+			$
+		\item
+			If $X$ is independent from $\calH$, then
+			$\cEX{X}{\calH} = \EX{X}$, \qquad $\P$-a.s.
+\end{enumerate}
+
+	Now consider a filtered space $\left(\Omega, \calF, \{\calF_t\}_{t\geq 0}, \P \right)$ and define
+$$
+	\calF_{\infty}:= \sigma
+		\left(
+			\bigcup_{t\geq 0}
+			\calF_t
+		\right) \subset \calF.
+$$
+
+\begin{definition}[Martingale]
+	A process $\{M_t\}_{t\geq 0}$ is called a martingale (relative to $\left(\{F_t \}_{t\geq 0}, \P \right)$ if
+	\begin{enumerate}[(i)]
+		\item
+			$M$ is adapted,
+		\item
+			$\EX{|M_t|}<\infty$ \qquad for all $t\geq 0$,
+		\item\label{dfn:Martingale}
+			$
+				\cEX{M_t}{\calF_s} = M_s
+			$, \qquad $\P$-a.s., \qquad $0\leq s \leq t$.
+	\end{enumerate}
+\end{definition}
+
+	In this way, a \emph{supermartingale} (relative to $\left(\{F_t \}_{t\geq 0}, \P \right)$ is defined similarly, 
+except that \eqref{dfn:Martingale} is replaced by
+$$
+	\cEX{M_t}{\calF_s}\leq M_s
+	\qquad \P\text{-a.s.},
+	\qquad 0\leq s \leq t, 
+$$ and a \emph{submartingale} is defined with \eqref{dfn:Martingale} 
+replaced by
+$$
+	\cEX{M_t}{\calF_s} \leq M_s
+	\qquad \P\text{-a.s.},
+	\qquad 0\leq s \leq t.
+$$ 
+\begin{thm}
+	Let $\{M_t\}_{t\geq 0}$ be and $\R^d$-valued martingale with respect to $\{\calF_t\}$, and let $\theta$, $\rho$ two 
+	finite stopping times. Then 
+	$$
+		\EX{M_{\theta}}{\calF_{\rho}}= M_{\theta \wedge\rho}.
+	$$
+\end{thm}
+\begin{definition}[Local Martingale]
+	An $\R^d$-valued $\{F_t\}$-adapted integrable process $\{M_t\}_{t\geq 0}$ is said to be a \emph{local martingale}
+	if there exists a nondecreasing sequence $\{\tau_k\}_{k\geq 1}$ of stopping times with $\tau_k \uparrow \infty$
+	$\P$-a.s. such that $\{M_{\tau\wedge t} - M_0 \}$ is a martingale.
+\end{definition}
+A fundamental process in this thesis is the Brownian Motion.
+\begin{definition}[Brownian Motion]
+	Let $(\Omega, \calF, \P)$ be a probability space with filtration $\{\calF_t\}_{t\geq 0}$. A standard unidimensional
+	Brownian motion is a real-valued continuous adapted process $\{W_t\}_{t\geq 0}$ which satisfies:
+	\begin{enumerate}[(i)]
+		\item 
+			$W_0=0$, \qquad $\P-\as$;
+		\item 
+			the increments $W_t-W_s$ are normally distributed with mean zero and variance $t-s$ for 
+			$0\leq s\leq t<\infty$;
+		\item
+			$W_t-W_s$ is independent of $\calF_s$.
+	\end{enumerate}
+\end{definition}
+
+	Consider a Brownian motion $\{W_t\}_{t\geq 0}$  and a sequence of times $0 \leq t_0 < t_1 < \ldots < t_k < \infty$.
+Results that $\{W_t\}_{t\geq 0}$ has independent increments, that is, the random variables $W_{t_i}-W_{t_{i-1}}$ 
+$1\leq i \leq k $ are independent. Moreover, the distribution of $W_{t_i} - W{t_{i-1}}$ depends only on the 
+difference $t_i - t_{i-1}$, in this sense, we say that the Brownian motion has stationary distribution. With this in
+mind, also we can say that this process is a martingale. As we will see, the above is fundamental for the numerical 
+approximations of SDEs.
+%

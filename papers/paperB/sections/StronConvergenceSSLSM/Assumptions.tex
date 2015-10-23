@@ -1,0 +1,94 @@
+\begin{hypothesis}\label{ass:OSLC}
+	The coefficients of SDE \eqref{eqn:SDE1} satisfy the following conditions:
+	\begin{enumerate}[({H}-1)]
+		\item \label{ass:C1Functions}
+			The functions $f,g$ are in the class $C^{1}(\R^d)$.
+		\item
+			\textbf{Local, global Lipschitz condition}. For each integer $n$, there is a positive
+			constant $L_{f}=L_{f}(n)$ such that
+			$$
+				|f(x)-f(y)|^2 %\vee |g(x)-g(y)|^2
+				\leq L_{f}|x-y|^2 \qquad \forall x,y \in \R^d, \qquad |x|\vee|y|\leq n,
+			$$
+			and there is a positive constant $L_g$ such that
+			$$
+				|g(x)-g(y)|^2 \leq L_{g}|x-y|^2,
+				\qquad  \forall x,y \in \R^d.
+			$$ 
+		\item\label{ass:MonotoneCondition}
+			\textbf{Monotone condition.} There exist two positive constants $\alpha$ and $\beta$
+			such that
+			\begin{equation}\label{eqn:MonotoneCondition}
+				\innerprod{x}{f(x)} +\frac{1}{2}|g(x)|^2
+				\leq \alpha +\beta |x|^2, \qquad \forall x \in \R^d.
+			\end{equation}
+	\end{enumerate}
+\end{hypothesis}
+%
+\begin{hypothesis}\label{ass:ajBound} %\label{as:aiFunctions}
+	Also, we require a special structure over the drift coefficient.
+	\begin{enumerate}[({A}-1)]
+		\item\label{ass:FunctionStructure}
+			For each component function $f^{(j)}:\R^d:\to \R$, %$j \in \{1, \dots, d \}$,
+			$j \in \{1,\dots, d\}$
+		there are two locally Lipschitz functions $a_j:\mathbb{R}^{d} \to \mathbb{R}$, and
+		$b_{j}:\mathbb{R}^{d-1} \to \mathbb{R}$ such that 
+		\begin{equation}\label{eqn:AlternativeConstruction}
+			f^{(j)}(y) = a_j (y) y^{(j)} + b_{j}(y^{(-j)}), \qquad
+			y^{(-j)} = (y^{(1)}, \dots ,y^{(j-1)}, y^{(j+1)}, \dots, y^{(d)}).
+		\end{equation}
+		\item
+			There is a positive constant $L_a$ such that
+			\begin{equation}
+				a_{j}(x) \leq L_a, \qquad \forall x\in \R^d, \quad j=1,\ldots, d.
+			\end{equation}
+		\item Each function $b_j(\cdot)$ satisfy the linear growth condition
+			\begin{equation}\label{eqn:bjLinearGrowthCondition}
+				|b_j(u^{(-j)})|^2 \leq L_{b}(1+|u|^2) , \qquad \forall x\in \R^d, \quad j=1,\ldots, d.
+			\end{equation}
+		\item
+			Let $E_j:=\{x\in \R^d: a_j(x)=0\}$. Then, for each $x\in E_j$ there is an open ball of positive 
+			radius and center $x$, $B_r(x)$, such that 
+			$$
+				\frac{\partial a_j(u)}{\partial u^{(j)}}
+				\neq 0, \qquad \forall u \in B_r(x) \setminus E_j.
+			$$
+	\end{enumerate}
+\end{hypothesis}
+%-----------------------------------------------------------------------------------------------------------------------
+%\todo{Addapt the proof to the multidimensional case}
+%	The following lemma tell us that the functions $a_1^{(j)}$ in (H-\ref{ass:FunctionStructure})
+%are upper bounded.
+%\begin{lem}\label{lem:a1Bound}
+%	Let \Cref{as:OSLC} holds. Then there is a positive constant $L_a$ such that
+%	\begin{equation}
+%		a_1^{(j)}(x)< L_a, \qquad \forall x \in \R, \quad j = {1, \ldots,d}.
+%	\end{equation}
+%\end{lem}
+%\begin{pf}
+%	First assume $|x|>1$. Then from the monotone condition \eqref{eqn:MonotoneCondition}
+%	there is a positive constant $K\geq\max\{\alpha, \beta\}$ such that
+%	$$
+%	\innerprod{x}{a_1(x)x}\leq K
+%	\left(
+%		1+|x|^2
+%	\right).
+%	$$
+%	Thus
+%	$$
+%		a_1(x)\leq K
+%		\left(
+%			\frac{1}{|x|^2}+1
+%		\right)\leq 2K.
+%	$$
+%	Now, consider that $0\leq|x|\leq 1$. By the continuity of $a_1$ and since
+%$[-1,1]$ is a
+%	compact set, there is $\widetilde{x} \in [-1,1]$ such that
+%	$$
+%		a_1(x)\leq a_1(\widetilde{x}), \qquad \forall x\in[-1,1].
+%	$$
+%	Hence, taking $L_a:=\max\{2K,a_1(\widetilde{x})\}$ the upper bound is proved. \qed
+%\end{pf}
+
+	In the next section, we will present the results for the existence and uniqueness of
+the solution for the continuous problem \eqref{eqn:SDE1}.

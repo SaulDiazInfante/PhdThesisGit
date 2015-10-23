@@ -1,0 +1,325 @@
+
+		To continue the stability analysis of the explicit Steklov method,  we now discuss
+	the nonlinear case since a linear stable numerical stochastic method  does  not imply
+	that is stable  under same conditions for any nonlinear problem. So, we study
+	sufficient conditions for the nonlinear stability of the explicit stochastic method
+	\eqref{Steklov} applied on the  autonomous SDE \eqref{eqn:autonomousSDE} in both
+	multiplicative and additive cases.
+	\subsection{Multiplicative Noise}
+	Here  we prove the nonlinear asymptotic stability in a quadratic mean-square sense
+	for the Steklov approximation.
+	\begin{dfn}[\citeauthor{Baker2000a} {\cite{Baker2000a}}]\label{dfn:SNMS}
+		Let $Y_n$ and $\widehat{Y}_n$ two different numerical recurrences  with
+		corresponding initial process  $Y_0$ and $\widehat{Y}_0$. We shall say that a
+		discrete time, $Y$ is numerically zero-stable in quadratic mean-square sense if given
+		$\epsilon >0$, there  are positive constants $h_0$ and $\delta=\delta(\epsilon,h_0)$
+		such that for all $h\in(0,h_0)$ and positive integers $n \leq T/h$ whenever
+		$\ms{Y_0-\widehat{Y}_0}<\delta$ then
+		\begin {eqnarray}\label{eqn:SNMS}
+			\rho_n :=
+			\ms{Y_n-\widehat{Y}_{n}}<\epsilon .
+		\end{eqnarray}
+		If the method is stable and $\rho_n \to 0$ when $n\to \infty$, then the method is
+		asymptotically zero-stable in the quadratic mean-square sense.
+	\end{dfn}
+	In order to prove that the Steklov method satisfies the definition
+	\ref{dfn:SNMS}, we will follow the idea of the proof given in
+	\cite[Thm. 4]{Baker2000a}.
+	\begin{thm}
+			If the functions $\Psi_h$ and $G$ of the Steklov method \eqref{Steklov} are
+		Lipschitz with constant $L$, then the Steklov method for the multiplicative SDE 
+		\eqref{eqn:autonomousSDE} is zero-stable in quadratic mean square sense.
+		In addition, if $L<1$ then the Steklov method is asymptotically zero-stable stable in 
+		quadratic mean-square sense.
+	\end{thm}
+	\begin{proof}
+		Given two Steklov sequences $Y_n$ and $\widehat{Y}_n$ we have
+		\begin{align*}
+		\left(Y_{n+1}-\widehat{Y}_{n+1}\right)^ 2
+		&\leq
+		\left(
+			\Psi_h(Y_n)
+			-
+			\Psi_h(\widehat{Y}_n)
+		\right)^2 \\
+		&+
+		2\left(
+		\Psi_h(Y_n)
+			-
+		\Psi_h(\widehat{Y}_n)
+		\right)
+		\left(
+			G(Y_n)-G(\widehat{Y}_n)
+		\right)
+		\Delta W_n\\
+		&+
+		(G(Y_n)-G(\widehat{Y}_n))^2
+		(\Delta W_n)^2,
+		\end{align*}
+		for $0<n<N$ with $T=Nh$. Now, taking expected values conditioned on the
+		$\sigma$-algebra $\mathcal{F}_{t_0}$ of the above inequality and applying
+		properties of the conditional expectation we get
+		\begin{align*}
+		\ms{Y_{n+1}-\widehat{Y}_{n+1}}
+		&\leq
+		\condexp{
+			\left|
+			\Psi_h(Y_n)
+			-
+			\Psi_h(\widehat{Y}_n)
+			\right|^2
+		}{\mathcal{F}_{t_0}}
+		\\
+		&+
+		2\left|
+		\condexp{
+			\left(
+			\Psi_h(Y_n)
+			-
+			\Psi_h(\widehat{Y}_n)
+			\right)
+		\left(
+			G(Y_n)-G(\widehat{Y}_n)
+		\right)
+		\Delta W_n}{\mathcal{F}_{t_0}}
+		\right| \\
+		&+
+		\condexp{|G(Y_n)-G(\widehat{Y}_n)|^2}{\mathcal{F}_{t_0}}
+		\condexp{|\Delta W_n|^2}{\mathcal{F}_{t_0}}.
+		\end{align*}
+		The second term in this expression is zero due to the independence properties of
+		Brownian motion. Next, using the Lipschitz condition for $\Psi_h$ and $G$, we
+		obtain:
+		\begin{equation}\label{eqn:MS-Recurrence}
+			\condexp{|Y_{n+1}-\widehat{Y}_{n+1}|^2}{\mathcal{F}_{t_0}}
+			\leq L(1+h)
+			\condexp{|Y_{n}-\widehat{Y}_{n}|^ 2}{\mathcal{F}_{t_0}}.
+		\end{equation}
+		The sequence $\{R_n\}_{n\geq 0}$ defined by 
+		$$
+			R_n=\max_{0\leq r\leq n}\condexp{|Y_r-\widehat{Y}_r|^2}
+			{\mathcal{F}_{t_0}},
+		$$
+		is monotonically non-decreasing. Furthermore, by \eqref{eqn:MS-Recurrence} we have
+		\begin{equation}\label{eqn:AMS-Stability}
+			R_n \leq L(1+h)R_{n-1}.
+		\end{equation}
+		First suppose $0<L<1$, since $1+h\leq \exp(h)$ it follows that
+		\begin{equation}
+			R_n\leq L \exp(T)R_0, \qquad n=0,\dots,N.
+		\end{equation}
+			Hence, given $\epsilon>0$ if we take $\delta =\epsilon L^{-1}\exp(-T)$ then
+			for all $0<h<h_0\leq T$ and any integer $n$ such that $0\leq n \leq N$
+		\begin{equation*}
+			\ms{Y_0-\widehat{Y}_0}\leq \delta 
+			\Rightarrow
+			\ms{Y_n-\widehat{Y}_n}\leq \epsilon.
+		\end{equation*}
+		On the other hand, if $1<L<+\infty$ and with $h_0:=\frac{L-1}{L}$ then for $0<h<h_0$
+		we get
+		$$
+			L(1+h)<1+2Lh_0.
+		$$
+		Thus, it follows that
+		\begin{equation*}
+			R_n\leq \exp(2LNh_0)R_0
+			=\exp(2LT)R_0.
+		\end{equation*}
+		Hence, given $\epsilon>0$ if we take $h\in(0,(L-1)/L)$, and 
+		$\delta=\epsilon \exp(-2LT)$ then for all integers $n$ such 
+		that $0\leq n \leq N$ we obtain
+		\begin{equation*}
+			\ms{Y_0-\widehat{Y}_0}\leq \delta
+			\Rightarrow
+			\ms{Y_n-\widehat{Y}_n}\leq \epsilon.
+		\end{equation*}
+		So far we have proved the quadratic mean square stability for the explicit Steklov
+		method. Notice that the asymptotic mean-square stability for the method
+		\eqref{Steklov} is verified for  any $h\in(0,T]$ if $0<L<1$. $\square$
+	\end{proof}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Additive noise}
+    Nonlinear differential equations have more complex  dynamics than the linear case and
+the same  occurs for the finite difference equations. So,  \citeauthor*{Caraballo2006} in
+\cite{Caraballo2006}  extend the nonlinear stability theory of the deterministic
+numerical  analysis given in \cite{kloeden1999towards} to the stochastic numerical
+case. Following  their work,  we consider the non-autonomous additive SDE:
+\begin{equation}\label{eq6}
+	dy(t)=f(y(t))dt+\xi dW_t,
+\end{equation}
+where $f$ satisfies a {\it contractive one-sided Lipschitz} condition with constant
+$L_1>0$ as follows
+\begin{equation}\label{cl}
+	\langle
+	x-z,f(x)-f(z)
+	\rangle\leq
+	-L_1|x-z|^2\qquad \forall x,z\in \mathbb{R},
+\end{equation}
+and study the path-wise stability for the Steklov method \eqref{Steklov} for the SDE
+\eqref{eq6}.
+\begin{thm}
+	If the Steklov function $\Psi_h$  satisfies
+	\begin{enumerate}[({A}1)]
+		\item (\textbf{Contractive Lipschitz condition})
+			There exists  a constant $K_1\in (0,1)$ such that
+			$$
+				|\Psi_h(x)-\Psi_h(z)|\leq K_1|x-z| \qquad\forall x,z\in \mathbb{R},
+			$$
+		\item (\textbf{Contractive one sided Lipschitz condition})
+			There exists a constant $K_2$ such that
+			$$
+			\langle
+			\Psi_h(x)-\Psi_h(z),x-z
+			\rangle
+			\leq
+			-K_2|x-z|^2 \qquad \forall x,z\in \mathbb{R},
+			$$
+	\item (\textbf{Linear growth bound})
+		There exists a constant $K_3$ such that
+		$$|\Psi_h(x)|\leq K_3(1+h+|x|) \qquad \forall x\in \mathbb{R},$$
+	\end{enumerate}
+	and the  condition
+	\begin{equation}\label{c1}
+		\frac{K_3}{1+K_2-K_3}< 1,
+	\end{equation}
+	is verified. Then there exists $h^*>0$ such that for all $0<h<h^*$ the Steklov
+	method \eqref{Steklov} has a unique stochastic stationary solution which is
+	path-wise asymptotically stable for an additive SDE \eqref{eq6}.
+\end{thm}
+\begin{proof}
+	In order to obtain the path-wise asymptotic stability for the explicit Steklov
+	method we will show: {\it (i)} the path-wise contractive Lipschitz property for the
+	Steklov numerical solution and {\it (ii)} the existence of a random attractor for
+	the Steklov approximations.
+	\begin{enumerate}
+		\item[{\it(i)}]
+			Let $Y_{n+1}$ and $\widehat{Y}_{n+1}$ two different solutions of 
+			the Steklov method \eqref{Steklov} for the additive SDE \eqref{eq6} and using
+			the Lipschitz condition (A1) we get the following upper bound:
+			\begin{align*}
+				|Y_{n+1}-\widehat{Y}_{n+1}|^2
+				&=
+				\left\langle
+				Y_{n}-\widehat{Y}_{n},\Psi_h(Y_n)-\Psi_h(\widehat{Y}_n)
+				\right\rangle\\
+				&
+				\leq
+				K_1|Y_{n+1}-\widehat{Y}_{n+1}||Y_{n}-\widehat{Y}_{n}|.
+			\end{align*}
+			From this, we deduce that
+			\begin{equation}\label{eq9}
+				|Y_{n}-\widehat{Y}_{n}|\leq K_1^{n-n_0}|Y_{n_0}-\widehat{Y}_{n_0}|.
+			\end{equation}
+			then for $0<K_1<1$ the path-wise contractivity. Moreover taking the limit of
+			\eqref{eq9} as $n_0\to -\infty $ for fixed $n$ we have that
+			$|Y_{n}-\widehat{Y}_{n}|\to 0$.
+		\item[{\it(ii)}]
+			Defining a new variable by  $Z_n:=Y_n-\widehat{O}_n^{(h)}$ where 
+			$Y_n$ is the Steklov approximation and $\widehat{O}_n^{(h)}$ is the Steklov OU
+			process \eqref{O} we obtain the numerical scheme
+			\begin{equation}\label{eq10}
+				Z_{n+1}=\Psi_h(Z_n+\widehat{O}_n^{(h)}) -\exp(\lambda h)\widehat{O}_n^{(h)}.
+			\end{equation}
+			Taking the inner product with $Z_{n+1}$ in \eqref{eq10} and adding convenient
+			terms we get
+			\begin{align*}
+				|Z_{n+1}|^2
+				&=
+				\left\langle
+					Z_n+\widehat{O}_n^{(h)}-(Z_n+\widehat{O}_n^{(h)}+Z_{n+1}),
+					\Psi_h(Z_n+\widehat{O}_n^{(h)})-\Psi_h(Z_n+\widehat{O}_n^{(h)}+Z_{n+1})
+				\right\rangle\\
+				&+
+				\left\langle
+					Z_{n+1},
+					\Psi_h(Z_n+\widehat{O}_n^{(h)}+Z_{n+1})
+				\right\rangle
+				+
+				\left\langle
+					Z_{n+1},
+					\exp{(\lambda h)}\widehat{O}^{h}_n
+				\right\rangle\\
+				&\leq
+				-K_2|Z_{n+1}|^2
+				+
+				\left|
+				Z_{n+1}
+				\right|
+				\left|
+				\Psi_h(Z_n+\widehat{O}_n^{(h)}+Z_{n+1})
+				\right|
+				+
+				\exp{(\lambda h)}
+				\left|
+				Z_{n+1}
+				\right|
+				\left|
+				\widehat{O}^{h}_n
+				\right|.
+			\end{align*}
+	From the linear growth condition (A3) we deduce that
+	\begin{align*}
+		|Z_{n+1}|^2
+		&\leq
+			(K_3-K_2)|Z_{n+1}|^2
+			+
+			K_3|Z_n||Z_{n+1}|\\
+			&+
+			K_3(1+h)|Z_{n+1}|
+			+
+			(K_3+\exp(\lambda h))
+			|Z_{n+1}||\widehat{O}_n^{(h)}|.
+	\end{align*}
+	Thus, we obtain
+	\begin{equation}\label{eqn:ContIteration}
+		|Z_{n+1}|
+		\leq
+			\frac{K_3}{1+K_2-K_3}|Z_n|
+			+
+			\frac{K_3(1+h)}{1+K_2-K_3}
+			+
+			\frac{(K_3+\exp(\lambda h))}{1+K_2-K_3}|\widehat{O}_n^{(h)}|.
+	\end{equation}
+	Taking
+	\begin{equation*}
+		\alpha
+			:=\frac{K_3}{1+K_2-K_3} \qquad \mbox{and} \qquad
+			\beta
+			:=
+				\frac{(K_3+\exp(\lambda h))}{1+K_2-K_3},
+	\end{equation*}
+	we can rewrite \eqref{eqn:ContIteration} as
+	\begin{equation} \label{eq11}
+		|Z_n|\leq
+		\alpha^{n-n_0}|Z_{n_0}|
+		+
+		(1+h)\alpha
+		\sum_{j=n_0}^{n-1}
+			\alpha^{n-1-j}
+		 + \beta
+		\sum_{j=n_0}^{n-1}
+			\alpha^{n-1-j}
+			|\widehat{O}_n^{(h)}|.
+	\end{equation}
+	Then taking the limit as $n_0\to -\infty$   for $n$ fixed and assuming the
+	condition \eqref{c1}  the first series of \eqref{eq11} converges. From
+	\cite{Robinson2002} we have that for $h$ small enough and considering the set of
+	the bounded initial conditions $D(\omega)$ for the continuous OU process
+	\eqref{eq4}, the iterates $Z_n$ remain  in a ball with center the origin and
+	random radius:
+	$$
+		R_h(\omega)=C+\beta \sum_{j=n_0}^{n-1}
+		\alpha^{n-1-j}
+		|\widehat{O}_n^{(h)}|,
+	$$
+	where $C$ is a bound for the first terms of the right hand of the inequality
+	\eqref{eq11}. Thus, from theory of random numerical dynamical systems
+	\cite{kloeden1999towards} and since $Z_n$ inherits the contractivity from $Y_n$ we
+	conclude the existence of a random attractor for the sequence \eqref{eq10}
+	defined by a unique stationary stochastic process. So, transforming back to the
+	original variables we can assure that the explicit Steklov method for the SDE
+	\eqref{eq6} has a stationary stochastic process
+	$\widehat{Y}_n=\widehat{Z}_n+\widehat{O}_n$, which is a pathwise-attractor for
+	all Steklov approximations in both pullback and forward senses. $\square$
+	\end{enumerate}
+\end{proof}

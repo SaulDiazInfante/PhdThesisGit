@@ -1,0 +1,854 @@
+	Here, we state and prove the main result of this chapter, the strong convergence of the \SM method
+ \crefrange{eqn:SSLSM1}{eqn:SSLSM2} for the solution of SDE \eqref{eqn:SDE1}.
+The main idea of the proof consist in applying the technique discussed in the previous section.
+We begin establishing the underlying convergence theorem.
+\begin{thm} %[Strong Convergence of the \SM method]
+%\begin{restatable}[Strong Convergence of the \SM]{theorem}{StrongConvergence}
+	\label{thm:StrongConvergenceLSMethod}
+	Let \Cref{ass:OSLC,ass:ajBound} hold, consider the \SM method \crefrange{eqn:SSLSM1}{eqn:SSLSM2} for the 
+	SDE	\labelcref{eqn:SDE1}.
+	Then there is a continuous-time extension $\overline{Y}(t)$ of the \SM solution $\{Y_k\}$ for which 
+	$\overline{Y}(t_k)=Y_k$ and
+	\begin{equation*}
+	\lim_{h \to 0}
+	\EX{
+		\sup_{0\leq t \leq T}
+		|\overline{Y}(t) - y(t)|^2	
+	}=0.
+	\end{equation*} 
+\end{thm}
+%\end{restatable}
+%Before to apply the HMS technique we will prove
+To proof this result, we initiate with the first step of the HMS technique, that is, we will show that the \SM method
+for SDE \eqref{eqn:SDE1} is equivalent to the EM scheme applied to the conveniently modified SDE
+	\begin{equation} \label{eqn:SDEMod}
+		dy_h(t)= \varphi_{f_h}(y_h(t))dt +g_h(y_h(t))dW(t),
+		\qquad y_h(0)=y_0,  \qquad t\in [0,T].
+	\end{equation}
+We formalize this as a Corollary of \Cref{lem:PhiFhProp}.
+%======================================================================================================================
+%                                                 STEP 1                                                              %
+%======================================================================================================================
+
+\begin{corollary}\label{col:SSSMeEMmod}
+	Let \Cref{ass:OSLC,ass:ajBound} holds, then the \SM method for SDE \eqref{eqn:SDE1} is 
+	equivalent to the EM scheme applied to the modified SDE \eqref{eqn:SDEMod}.
+\end{corollary}
+\begin{pf}
+	Using the functions $\varphi_{f_h}(\cdot)$ and $g_h(\cdot)$ defined in \eqref{eqn:FunctionshDefinition} of 
+	\Cref{lem:PhiFhProp}, we 
+	can rewrite the \SM method \Crefrange{eqn:SSLSM1}{eqn:SSLSM2} as 
+	$$
+		Y_{k+1} = Y_k + h \varphi_{f_h}(Y_k) + g_h(Y_k)\Delta W_k,
+	$$
+	which is the EM approximation for the modified SDE \eqref{eqn:SDEMod}. \qed
+\end{pf}
+%======================================================================================================================
+%                                                 STEP 2                                                              %
+%======================================================================================================================
+
+	Now we proceed with the Step 2, that is,  we will prove that the solution  of the modified
+SDE \eqref{eqn:SDEMod} has bounded moments and is close in uniform mean square norm to the solution of the SDE 
+\eqref{eqn:SDE1}. In what follows we denote by $C$ universal constant, that is, a positive constant
+independent on h which value could change in occurrences.
+
+
+\begin{lem}\label{lem:BoundAndConvergenceOfyh}
+	Let \Cref{ass:OSLC,ass:ajBound} holds. Then there is a constant $C=C(p,T)>0$ and a sufficiently small
+	step size $h$, such that for all $p>2$
+	\begin{equation}\label{eqn:yh-MomentBounds}
+		\m\left[
+			\sup_{0\leq t \leq T}
+				|y_h(t)|^p
+		\right]
+		\leq
+			C
+		\left( 
+			1+\m |y_0|^p
+		\right).
+	\end{equation}
+	Moreover
+	\begin{equation}\label{eqn:yh-convergence}
+	\lim_{h \to 0}
+	\m\left[
+	\sup_{0\leq t \leq T}
+	|y(t)-y_h(t)|^2
+	\right]=0.
+	\end{equation}
+\end{lem}
+\begin{pf}
+	The bound \eqref{eqn:yh-MomentBounds} follows from inequality \eqref{eqn:h-MonotoneCondition} in
+	\Cref{lem:PhiFhProp} and \Cref{thm:MaoCoercive}.
+	On the other hand, to prove \eqref{eqn:yh-convergence} we will use the properties of 
+	$\varphi_{f_h}$ and the Higham's stopping time technique employed in \cite[Thm 2.2]{Higham2002b}. 
+	Note that by \Cref{lem:PhiFhProp} 
+	\begin{align*}
+		\varphi_{f_h}(x) 
+			&= \Phi(h,a_j)(u) f^{(j)}(u) \1{E_j^c}(u) 
+				+ f^{(j)}(u) \1{E_j}(u).
+	\end{align*}
+	Furthermore, by \Cref{ass:HypThmSingularities}  and since $f \in C^1(\R^d)$,   $\Phi(h,a_j)(\cdot)$ is bounded,
+	hence, there is a positive constant $K_n$which depends only $n$ such that for each $j\in \{1,\dots, d\}$
+	\begin{align*}	
+		|\varphi_{f_h}^{(j)}(u) - f^{(j)}(u)|
+		&\leq
+			\1{E_j^c}(u)
+			|f^{(j)}(u)|
+			\left|
+				\Phi(h,a_j)(u) - 1
+			\right| \notag \\
+		&\leq
+			\1{E_j^c}(u)
+			\left(
+				L_{\Phi} + 1
+			\right)
+			|f(u)|	 \notag \\
+		&\leq
+		\1{E_j^c}(u) K_n(L_{\Phi}+1), \quad \forall u \in \R^d, \quad |u|\leq n,  \quad \forall j\in \{1,\dots, d\}.
+	\end{align*}
+	Moreover, we know by the proof of \Cref{lem:PhiFhProp} that
+	\begin{equation*}
+	 \lim_{
+	 	\substack{
+		 	h\to 0 \\
+		 	u\in E_j^c	
+	 	}
+	 }
+	 \Phi(h,a_j)(u) = 1.	 	
+	\end{equation*}
+	Also, we note that for each $j \in \{1, \dots , d\}$
+	\begin{equation*}
+	\lim_{h \to 0} F_h^{(j)}(u)
+		=
+		\lim_{h \to 0}
+			e^{ha_j(u)} u^{(j)} + 
+		\lim_{h \to 0}
+			\left(
+				\frac{e^{ha_j(u)}-1}{a_j(u)}
+				\1{E_j^c}(u)
+				+h \1{E_j}(u)
+			\right)
+			b_j(u^{(j)}) 
+		= u^{(j)},
+	\end{equation*}
+	hence
+	$%\begin{equation*}
+		\displaystyle
+		\lim_{h\to 0} F_h(u)=u.
+	$ %\end{equation*}
+	Consequently, given $n>0$ there is  a function $K_n(\cdot):(0,\infty)\to (0,\infty)$, such that
+	$K_n(h)\to 0$ when $h \to 0$ and
+	\begin{equation}\label{eqn:PhihGhKRhBound}
+		|\varphi_{f_h}(u)-f(u)|^2 \vee |g_h(u)-g(u)|^2
+		\leq K_n(h) \qquad \forall u\in \R^d, \quad |u| \leq n.
+	\end{equation}
+	Now, using that both $f$, $g$ are $C^{1}$, there is  a constant $H_n>0$ such that
+	\begin{equation}\label{eqn:f-gHRBound}
+		|f(u)-f(v)|^2 \vee |g(u)-g(v)|^2
+		\leq H_n |u-v|^2\qquad \forall u,v \in \R^d, |u|\vee |v| \leq n.
+	\end{equation}
+	
+		On the other hand, by \Cref{lem:MomentBound} and inequality \eqref{eqn:yh-MomentBounds} we obtain
+	\begin{equation*}
+		\m\left[
+			\sup_{0\leq t \leq T}
+				|y(t)|^p
+		\right]
+		\vee
+		\m\left[
+			\sup_{0\leq t \leq T}
+				|y_h(t)|^p
+		\right]
+		\leq
+		K := C
+		\left( 
+			1+\m |y_0|^p
+		\right).
+	\end{equation*}
+	Now, we define the stopping times
+	\begin{equation}\label{eqn:StoppingTimes}
+		\tau_n := 
+			\inf\{
+				t\geq 0: |y(t)|\geq n
+			\},
+		\qquad
+		\rho_n := 
+			\inf\{
+				t\geq 0: |y_h(t)|\geq n
+			\},
+		\qquad
+		\theta_n:=
+			\tau_n \wedge \rho_n,
+	\end{equation}
+	and the difference function
+	\begin{equation*}
+		e_h(t):= y(t) - y_h(t).
+	\end{equation*}
+	From the Young's inequality \eqref{eqn:YoungsInequality}, we deduce that for any $\delta>0$ 
+	\begin{align}
+		\m\left[
+			\sup_{0\leq t\leq T}
+			|e_h(t)|^2
+		\right]
+		&=
+			\m\left[
+				\sup_{0\leq t\leq T}
+				|e_h(t)|^2
+				\1{\tau_n>T,\rho_n>T}
+			\right]
+			+
+			\EX{
+				\sup_{0\leq t\leq T}
+				|e_h(t)|^2
+				\1{\tau_n \leq T \text{ or } \rho_n \leq T}
+			}\notag\\
+		&\leq
+			\EX{
+				\sup_{0\leq t\leq T}
+				|e_h(t\wedge \theta_n)|^2
+				\1{\theta_n \geq T}
+			}
+			+\frac{2\delta}{p}
+			\EX{
+				\sup_{0\leq t\leq T}
+				|e_h(t)|^p 
+			}\notag \\
+		&+
+			\frac{1-2/p}{\delta^{2/(p-2)}}
+			\Prob{\tau_n \leq T \text{ or } \rho_n \leq T}.
+	\label{eqn:AfterYoungIneq}
+	\end{align}
+	We proceed to bound each term on the right-hand side of inequality \eqref{eqn:AfterYoungIneq}.
+	By \Cref{lem:MomentBound}, $y(t)$ has bounded moments, hence 
+	there is a positive constant $A$ such that
+	\begin{equation}\label{eqn:BoundProbTauR}
+		\Prob{\tau_n\leq T}
+		=
+			\EX{\1{\tau_n<T}\frac{|y(\tau_n)|^p}{n^p}}
+		\leq
+			\frac{1}{n^p}\EX{\sup_{0\leq t\leq T}|y(t)|^p} \leq \frac{A}{n^p},
+			\qquad \text{for } p\geq 2.
+	\end{equation}
+	The same conclusion can be drawn for $\rho_n$, then
+	\begin{equation} \label{eqn:BoundProbTauRorRhoR}
+		\Prob{\tau_n \leq T \text{ or } \rho_n \leq T}
+		\leq
+			\Prob{\tau_n\leq T}+\Prob{\rho_n\leq T}
+		\leq
+		\frac{2A}{n^p}.
+	\end{equation}
+	Now, using the inequality \eqref{eqn:SingleHolder} and \Cref{lem:MomentBound} we have
+	\begin{equation} \label{eqn:ehMomentBound}
+		\EX{
+			\sup_{0\leq t \leq T}
+			|e_h(t)|^p
+		}
+		\leq
+		2^{p-1}
+		\EX{
+			\sup_{0 \leq t \leq T}
+			\left(
+			|y(t)|^p + |y_h(t)|^p
+			\right)
+		}
+		\leq 2^pA.
+	\end{equation}
+%
+	So, combining the bound \eqref{eqn:BoundProbTauRorRhoR} with \eqref{eqn:ehMomentBound}
+	in inequality \eqref{eqn:AfterYoungIneq} we obtain
+	\begin{align}
+		\EX{
+			\sup_{0\leq t \leq T}
+			|e_h(t)|^2
+		}
+		&\leq
+			\EX{
+				\sup_{0\leq t\leq T}
+				|e_h(t\wedge \theta_n)|^2
+				\1{\theta_n \geq T}
+			}
+	%\notag \\
+			+\frac{2^{p+1}\delta A}{p}
+			+\frac{2(p-2)A}{p\delta^{2/(p-2)}n^p}. \label{eqn:TermToBound}
+	\end{align}
+	Next, we show that the first term of \eqref{eqn:TermToBound} is bounded. Adding conveniently terms yields
+	\begin{align*}
+		e_h(t\wedge\theta_n) 
+			&=
+			\int_{0}^{t\wedge\theta_n}
+			\left[
+				f(y(s)) - f(y_h(s))+f(y_h(s))
+				-\varphi_{f_h}(y_h(s))
+			\right]ds \notag \\
+			&+
+			\int_{0}^{t\wedge\theta_n}
+			\left[
+				g(y(s)) - g(y_h(s))+g(y_h(s))
+				-g_h(y_h(s))
+			\right]dW(s).
+	\end{align*}
+	Using the bounds \eqref{eqn:PhihGhKRhBound} and \eqref{eqn:f-gHRBound}, the Cauchy-Schwarz, and
+	Doob martingale inequalities, we get
+	\begin{align*}
+		\EX{\sup_{0\leq t \leq \tau}|e_h(t\wedge\theta_n)|^2}
+		&\leq 
+		4H_n(T+4)
+		\int_{0}^{\tau}
+			\EX{\sup_{0\leq t \leq \tau}|e_h(t\wedge\theta_n)|^2} ds 
+		+
+		4T(T+4)K_n(h).\notag
+	\end{align*}
+	The Gronwall inequality now yields
+	\begin{align*}
+		\EX{\sup_{0\leq t \leq T}|e_h(t\wedge\theta_R)|^2}
+		&\leq
+			4T(T+4)K_n(h)\exp(4H_n(T+4)T). %\notag \\
+	%+
+	%\frac{2^{p+1}\delta A}{p}
+	%+
+	%\frac{(p-2)2A}{p\delta^{2/(p-2)}R^p}.
+	\end{align*}
+	Hence, given $\epsilon>0$ for any $\delta>0$ such that
+	$
+		2^{p+1}\delta A/p< \epsilon/3,
+	$
+		we can take $n>0$ verifying
+	$
+		(p-2)2A/(p\delta^{2/(p-2)}n^p)<\epsilon/3.
+	$
+	Moreover, we can take $h$ sufficiently small such that
+	$
+		4T(T+4)K_n(h)\exp(4H_n(T+4)T) < \epsilon/3. 
+	$
+	It follows immediately that
+	$$
+		\EX{\sup_{0\leq t \leq T}|e_h(t)|^2}
+		<
+			\epsilon/3
+			+\epsilon/3
+			+\epsilon/3
+		=\epsilon,
+	$$ which is the desired conclusion.\qed
+\end{pf}
+%======================================================================================================================
+%                                                 STEP 3                                                              %
+%======================================================================================================================
+
+	Next, we proceed with Step 3, in which we establish that \SM method has bounded moments.
+\begin{lem}\label{lem:SSSMMomentBounds}
+	Let \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} holds. Then for each $p\geq 2$ there is 
+	a universal positive constant 
+	$C=C(p,T)$ 
+	such that for the \SM method
+	\begin{equation*}
+		\m\left[
+		\sup_{kh \in [0,T]}
+		|Y_k|^{2p}
+		\right]\leq C.
+	\end{equation*}
+\end{lem}
+\begin{pf}
+	Using the split formulation of the \SM scheme \crefrange{eqn:SSLSM1}{eqn:SSLSM2} we get
+	\begin{dmath}[label=leqn:Yn2Bound]
+		|Y_k^{\star}|^{2}
+		\leq
+			|A^{(1)}(h,Y_k)|^2 |Y_k|^2  
+			+ 2 \innerprod{A^{(1)}(h,Y_k)Y_k}{A^{(2)}(h,Y_k) Y_k b(Y_k)}
+			+|A^{(2)}(h,Y_k)|^2 |b(Y_k)|^2.
+	\end{dmath}
+	Then, applying the Cauchy-Schwartz inequality and \Cref{ass:ajBound} we arrive at
+	\begin{dmath*}[label=leqn:Yn2Bound]
+		|Y_k^{\star}|^{2}
+		\leq
+		|A^{(1)}(h,Y_k)|^2 |Y_k|^2  
+		+ 2 \sqrt{L_b} d|A^{(1)}(h,Y_k)||A^{(2)}(h,Y_k)||Y_k|(1+|Y_k|)
+		+L_b|A^{(2)}(h,Y_k)|^2 (1+|(Y_k)|^2).
+	\end{dmath*}
+	Using \eqref{ass:ajBound} we see that
+	\begin{dmath}[label=eqn:A1Bound]
+		|A^{(1)}(h,Y_k)|^2 
+		=
+			\left|
+				\diag
+				\left(
+					e^{ha_1(Y_k)}, \dots, e^{ha_d(Y_k)} 
+				\right)
+			\right|^2
+		\leq
+		 \underbrace{d \exp( 2 T L_a)}_{:= L_{A^{(1)}}}.		
+	\end{dmath}
+	In similar way, we deduce from the bound \eqref{eqn:PhiBound} that
+	\begin{align}
+		|A^{(2)}(h,Y_k)|^2 
+		&=
+		\left|
+			h 
+			\diag
+			\left(
+				\1{E_1}(Y_k)
+				+\1{E_1^c}(Y_k)\Phi(h,a_1)(Y_k), 
+				\dots,
+				\1{E_d}(Y_k)
+				+\1{E_d^c}(Y_k) \Phi(h,a_d)(Y_k)
+			\right)
+		\right|^2 \notag \\
+		%
+		&\leq
+		\sum_{j=1}^{d}
+		\left(
+			\1{E_j^c}
+			|h\Phi(h,a_1)(Y_k)|^2
+			+ h^2
+		\right)
+		\leq
+		\underbrace{
+			2\exp(2 L_a  T)
+				\sum_{j=1}^d
+				\frac{1}{a_j^*} + d T^2.			
+		}_{:=L_{A^{(2)}}}
+		\label{eqn:A2Bound}
+	\end{align}
+	Combining \eqref{eqn:bjLinearGrowthCondition} of \Cref{ass:ajBound} with bounds \eqref{eqn:A1Bound}
+	and \eqref{eqn:A2Bound} yields
+	\begin{align*}
+		|Y_k^{\star}|^2
+		&\leq
+			L_{A^{(1)}} |Y_k|^2
+			+ 2 d \sqrt{L_{A^{(1)}} L_{A^{(2)}} L_b }|Y_k|(1+|Y_k|)
+			+L_{A^{(2)}} L_b (1+|Y_k|^2).
+	\end{align*}
+	So, taking $C \geq L_{A^{(1)}}+ 2 d \sqrt{L_{A^{(1)}} L_{A^{(2)}} L_b} + L_{A^{(2)}} L_b$ we can assert 
+	that
+	\begin{equation}\label{eqn:YkStarBound}
+		|Y^{\star}_k|^2
+			\leq 
+				C(3|Y_k|^2+|Y_k| + 1) 
+			\leq 
+				6C\left(
+					|Y_k|^2+1
+				\right)
+			\leq C(1+|Y_k|^2).
+	\end{equation} 
+	Then, applying bound \eqref{eqn:YkStarBound} in \cref{eqn:SSLSM2} we arrive at
+	\begin{equation*}
+		|Y_{k+1}|^2
+		\leq
+			C \left(
+				|Y_k|^2 + 1
+			\right)
+			+ 2\innerprod{Y^{\star}_k}{g(Y^{\star}_k) \Delta W_k}
+			+ \left|g(Y^{\star}_k) \Delta W_k \right|^2
+	\end{equation*}
+	Now, we choose two integers $N,M$ such that $Nh\leq Mh \leq T$. So, adding backwards we get
+	\begin{align*}
+		|Y_N|^2
+			&\leq
+			S_N\left(
+				\sum_{j=0}^{N-1}
+					(1+|Y_j|^2)
+				+
+				2\sum_{j=0}^{N-1}
+					\innerprod{Y_j^{\star}}{g(Y_j^{\star}) \Delta W_j}
+				+
+				\sum_{j=0}^{N-1}
+					\left|
+						g(Y_j^{\star}) \Delta W_j
+					\right|^2
+			\right)\\
+			S_N
+				&:=
+				\sum_{j=0}^{N-1}
+					C^{N-j} 			
+	\end{align*}
+
+	Raising both sides to the power $p$ and using the standard inequality \eqref{eqn:SingleHolder} we obtain
+	\begin{align}\label{eqn:RelationToBound}
+		|Y_N|^{2p}	
+			&\leq
+				6^{p} S_N^p
+				\left(
+					N^{p-1}
+						\sum_{j=0}^{N-1}
+						(1+|Y_j|^{2p})	
+					+
+					\left|
+						\sum_{j=0}^{N-1}
+						\innerprod{Y_j^{\star}}{g(Y_j^{\star}) \Delta W_j}
+					\right|^p
+					+
+					N^{p-1}
+					\sum_{j=0}^{N-1}
+						\left|
+							g(Y_j^{\star}) \Delta W_j
+						\right|^{2 p}				
+				\right)
+	\end{align}
+	Now we will show that the second and third terms of the inequality \eqref{eqn:RelationToBound} are bounded.
+	Next, using the Bunkholder-Davis-Gundy inequality
+	\cite[Thm 7.3 pg. 40]{Mao2007},
+	\eqref{thm:BDG}
+	we see that
+	\begin{align}\label{eqn:BoundSecondTerm}
+		\m
+		\left[
+			\sup_{0\leq N \leq M}
+			\left|
+				%\exp(2hpNL)
+				\sum_{j=0}^{N-1}
+					\innerprod{Y_j^{\star}}{g(Y_j^{\star})\Delta W_j}
+			\right|^{p}
+		\right]
+		&\leq
+			C\m
+			\left[
+				\sum_{j=0}^{N-1}
+					|Y_j^{\star}|^2
+					|g(Y_j^{\star})|^2
+					h
+			\right]^{p/2}
+			\notag\\
+		&\leq
+			C h^{p/2}M^{p/2-1}
+			\m
+				\sum_{j=0}^{M-1}
+					|Y_j^{\star}|^p (\alpha +\beta |Y_j^{\star}|^2)^{p/2}
+			\notag\\
+		&\leq
+			2^{p/2-1}C T^{p/2-1} h  
+			\m
+			\sum_{j=0}^{M-1}
+				(\alpha^{p/2}|Y_j^{\star}|^p +\beta^{p/2} |Y_j^{\star}|^{2p})
+			\notag\\
+		&\leq
+			C h
+			\m
+			\sum_{j=0}^{M-1}
+				(1+2|Y_j^{\star}|^p + |Y_j^{\star}|^{2p})
+			\notag\\
+		&\leq
+			C h 
+			\sum_{j=0}^{M-1}
+			\left[
+				1+\m|Y_j^{\star}|^{2p}
+			\right]
+			\notag\\
+		&\leq
+			C 
+			+ 
+			C h 
+			\sum_{j=0}^{M-1}
+				\m|Y_j|^{2p}	
+			.
+	\end{align}
+	%
+	Now, note that 
+	\begin{equation}\label{eqn:SupOfSum}
+		\EX{
+			\sup_{0\leq N\leq M}
+				\sum_{j=0}^{N-1}
+				|Y_j|^{2p}
+		}
+		=
+		\sum_{j=0}^{M-1}
+			\m|Y_j|^{2p}.
+	\end{equation}
+	Hence, using Cauchy-Schwartz inequality, the monotone condition 
+	\eqref{ass:MonotoneCondition}, bound \eqref{eqn:YkStarBound}
+	and the standard inequality \eqref{eqn:SingleHolder}, we obtain
+	\begin{align}
+	\m\left[
+		\sup_{0\leq N \leq M}
+			\sum_{j=0}^{N-1}
+			\left|
+				g(Y_j^{\star})\Delta W_j
+			\right|^{2p}	
+		\right]
+		&=
+			\m
+				\sum_{j=0}^{M-1}
+					\left|
+						g(Y_j^{\star})\Delta W_j
+					\right|^{2p}
+			\notag\\
+		&\leq	
+			\sum_{j=0}^{M-1}
+				\m
+					\left|
+						g(Y_j^{\star})
+					\right|^{2p}
+				\m
+					\left|
+						\Delta W_j
+					\right|^{2p}
+			\notag \\
+		&\leq
+			C h^p
+			\sum_{j=0}^{M-1}
+			\m
+				\left[
+					\alpha +\beta|Y^{\star}_j|^2
+				\right]^p
+			\notag\\
+	%
+		&\leq
+			Ch^p
+			\sum_{j=0}^{M-1}
+			\m
+				\left[
+					\alpha ^p +\beta^p |Y^{\star}_j|^{2p}
+				\right]
+			\notag\\
+		&\leq
+		Ch^{p-1}
+		+
+		Ch^p \sum_{j=0}^{M-1}
+			\m|Y_j|^{2p} \label{eqn:BoundThirdTerm}.
+	\end{align}
+	Thus, combining the bounds \eqref{eqn:BoundSecondTerm} and \eqref{eqn:BoundThirdTerm} with the inequality 
+	\eqref{eqn:RelationToBound}, we can assert that
+	\begin{align}
+		\EX{
+			\sup_{0\leq N \leq M}
+					|Y_N|^{2p} 
+		}
+		&\leq
+			C(M,T) + C(M,T)(1+h)
+			\sum_{j=0}^{M-1}
+				\m|Y_j|^{2p}  
+			\notag \\
+		&\leq	
+			C +C(1+h) 
+			\sum_{j=0}^{M-1}
+				\EX{
+					\sup_{0\leq N \leq j}
+					|Y_N|^{2p}
+				}	
+		.
+	\end{align}
+	Finally, using the discrete-type Gronwall inequality \eqref{thm:DiscreteGronwall}, we conclude that
+	\begin{align*}
+		\EX{
+			\sup_{0\leq N \leq M}
+			|Y_N|^{2p} 
+		}	
+		&\leq
+			C\exp(C(1+h)M) 
+		\leq 
+		C \exp(C(1+T))<C,
+	\end{align*}
+	since the constant C does not depend on $h$, the proof is complete. \qed
+\end{pf}
+%======================================================================================================================
+%                                                 STEP 4                                                              %
+%======================================================================================================================
+	
+	As the \SM scheme has bounded moments, we now proceed whit Step 4, that is,  we will obtain a convenient 
+continuous extension of the \SM method with bounded moments. 
+Let $\{Y_k\}$ denote the \SM solution of SDE \eqref{eqn:SDE1}.
+By \Cref{col:SSSMeEMmod}, we conveniently made a continuous extension for the \SM approximation, from the 
+time continuous extension of the EM \eqref{eqn:EMContinuousExtension}.
+Moreover, we prove that the  moments of this extension remains bounded.
+\begin{corollary}\label{col:ContinuousExtBoundedMoments}
+	Let \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} holds and suppose  $0<h<1$ and $p\geq 
+	2$. Then there is a continuous extension $\overline{Y}(t)$ of $\{Y_k\}$  and a positive constant $C=C(T,p)$ such 
+	that
+	\begin{equation*}
+		\EX{\sup_{0\leq t \leq T} |\overline{Y}(t)|^{2p} }
+		\leq C.
+	\end{equation*}
+\end{corollary}
+	\begin{pf}
+		We take $t=s+t_k$ in $ [0,T]$, $\Delta W_k(s):= W(t_k+s)- W(t_k)$ and $0\leq s <h$.
+		Then we define 
+		\begin{equation}\label{eqn:SSLSContinuousExtension}
+			\overline{Y}(t_k+s):= Y_k + s \varphi_{f_h}(Y_k) + g_h(Y_k)\Delta W_k(s),
+		\end{equation}
+		as a continuous extension of the \SM scheme. We proceed to show that $\overline{Y}(t)$ has bounded moments.
+		By \Cref{lem:PhiFhProp}, we have $Y_k^{\star}= Y_k + h \varphi_{f_h}(Y_k)$. 
+		Then for $\gamma = s/h$, it follows that
+		\begin{align*}
+			Y_k + s \varphi_{f_h}(Y_k)
+			&= 
+			\gamma (Y_k + h \varphi_{f_h}(Y_k)) +(1-\gamma)Y_k\\
+			&=
+			\gamma Y_k^{\star} + (1-\gamma)Y_k.
+		\end{align*}
+		Hence, we can rewrite the continuous extension \eqref{eqn:SSLSContinuousExtension} as
+		\begin{align}
+			\overline{Y}(t) &=
+			\gamma Y^{\star}_k + (1-\gamma) Y_k +g_h(Y_k) \Delta W_k(s). %\label{eqn:SSLSMConExt}
+			\notag
+		%t&=t_k+s,  \qquad  \gamma = s/h\qquad s\in {[0,h)]}.\notag
+		\end{align}
+		%
+		Combining this relation with  the inequalities \eqref{eqn:YkStarBound} and \eqref{eqn:SingleHolder}, we arrive 
+		at
+		\begin{align}
+			|\overline{Y}(t_k+s) |^2 
+			&\leq
+				3\left[
+					\gamma C
+					+
+					\left(
+						\gamma C +1 - \gamma
+					\right)
+					|Y_k|^2
+					+
+					|g_h(Y_k)\Delta W_k(s)|^2
+			\right] \notag\\
+		&\leq
+			C
+			+
+			C
+			\left(
+				|Y_k|^2 + |g_h(Y_k)\Delta W_k(s)|^2
+			\right).
+		\notag
+		\end{align}
+	\end{pf}
+	Thus, 
+	\begin{align}
+		\sup_{0\leq t\leq T} |\overline{Y}(t)|^{2p}
+		&\leq
+			\sup_{0\leq kh\leq T}
+			\left[
+				\sup_{0\leq s\leq h}
+					|\overline{Y}(t_k+s)|^{2p} 
+			\right] 
+		\notag\\
+		&\leq
+			\sup_{0\leq kh\leq T} 
+			\left[
+				\sup_{0\leq s\leq h}
+					C 
+					\left(
+						1 + |Y_k|^{2p} + |g_h(Y_k)\Delta W_k(s)|^{2p}
+					\right)
+			\right],
+		\label{eqn:BeforeDoob}
+	\end{align}
+	for $t\in [0,T]$.
+	%
+	Now taking a non negative integer $0 \leq k \leq N$ such that $0\leq Nh \leq T$. From the bond 
+	\eqref{eqn:BeforeDoob}, we get
+	\begin{align}
+		\sup_{0\leq t\leq T} |\overline{Y}(t)|^{2p}
+		&\leq 
+			C
+			\left(
+				1
+				+
+				\sup_{0\leq kh\leq T} 
+					|Y_k|^{2p}
+					+
+					\sup_{0\leq s\leq h}
+						\sum_{j=0}^N
+							|g_h(Y_j)\Delta W_j(s)|^{2p}
+			\right) \label{eqn:SumDiffusion}.
+	\end{align}
+	So, using the Doob's Martingale inequality \eqref{eqn:DoobMartingaleInequality},
+	\Cref{lem:SSSMMomentBounds} and that $g_h$ is a locally 
+	Lipschitz function, we can bound each term of the inequality \eqref{eqn:SumDiffusion},  as follows
+	\begin{align}
+		\EX{
+			\sup_{0 \leq s \leq h} |g(Y_j) \Delta W_j(s)|^{2p}
+		}
+		&\leq
+			\left(
+				\frac{2p}{2p-1}
+			\right)^{2p}
+			\m|g_h(Y_j)\Delta W_j(h)|^{2p}
+			\notag
+			\\
+		&\leq
+			C \m |g_h(Y_j)|^{2p} \m |\Delta W_j(h)|^{2p} \notag\\
+		&\leq
+			C h^p
+			\left(
+				1 + \m|Y_j|^{2p}
+			\right) \notag \\
+		& \leq C h, \label{eqn:BeforeConclusion}
+	\end{align}
+	for each $j \in \{0,\dots, N\}$.
+	Since $Nh\leq T$, combining the bounds \eqref{eqn:SumDiffusion} and \eqref{eqn:BeforeConclusion} we 
+	get the desired conclusion. \qed
+%======================================================================================================================
+%                                                 STEP 5                                                              %
+%======================================================================================================================
+
+	Once we have carried out all the previous steps, we can prove the \Cref{thm:StrongConvergenceLSMethod} by Step 5.%
+%We are now in a position to execute the \textbf{Step 5}.
+\begin{pf}[of Theorem \ref{thm:StrongConvergenceLSMethod}]
+	First,  note that by inequality \eqref{eqn:SingleHolder}, we have
+	\begin{align}\label{eqn:AfterTriangle}
+		\EX{\sup_{0\leq t \leq T}|\overline{Y}(t) - y(t)|^2}
+		&\leq
+		2\EX{
+			\sup_{0\leq t \leq T}
+			|\overline{Y}(t) - y_h(t)|^2
+		}
+		+
+		2\EX{
+			\sup_{0\leq t \leq T}
+			|y_h(t) - y(t)|^2
+		}.
+	\end{align}
+	Using \Cref{lem:BoundAndConvergenceOfyh}, which was established in the Step 2, yields
+	\begin{equation}\label{eqn:SeconTermZeroLim}
+		\lim_{h\to 0}
+		\EX{
+			\sup_{0\leq t \leq T}
+			|y_h(t) - y(t)|^2
+		} = 0.
+	\end{equation}
+	
+		It remains to prove that the first term of the right hand side in inequality \eqref{eqn:AfterTriangle} 
+		decreases to zero
+	when $h$ tends to zero. Recalling that:
+	\begin{enumerate}[i)]
+	%\begin{inparaenum}[\itshape i\upshape)]
+		\item 
+			By \Cref{lem:BoundAndConvergenceOfyh}, the solution of the modified SDE \eqref{eqn:SDEMod}, $y_h$, has
+			$p$-bounded moments ($p\geq 2$).
+		\item
+			By \Cref{col:ContinuousExtBoundedMoments}, the \SM continuous extension for the SDE \eqref{eqn:SDE1},
+			$\overline{Y}(t)$, has bounded moments and it is equivalent to the EM extension for the modified SDE 
+			\eqref{eqn:SDEMod}.
+		%\end{inparaenum}
+	\end{enumerate}
+	Hence, we can apply 
+	%\cite[Thm. 2.2]{Higham2002b} 
+	\Cref{thm:HighamMaoStuart} to conclude that
+	\begin{equation}\label{eqn:FirstTermZeroLim}
+		\lim_{h\to 0}
+		\EX{
+			\sup_{0\leq t \leq T}
+			|\overline{Y}(t) - y_h(t)|^2
+		} = 0.
+	\end{equation}
+	Finally, combining the limits \eqref{eqn:SeconTermZeroLim} and \eqref{eqn:FirstTermZeroLim} with 
+	inequality \eqref{eqn:AfterTriangle} gives
+	\begin{align*}
+		\lim_{h \to 0}
+		\EX{
+			\sup_{0\leq t \leq T}
+			|\overline{Y}(t) - y(t)|^2
+		}
+		&\leq	
+		2\lim_{h\to 0}
+		\EX{
+			\sup_{0\leq t \leq T}
+			|\overline{Y}(t) - y_h(t)|^2
+		}
+		\\
+		&
+		+
+		2\lim_{h\to 0}
+		\EX{
+			\sup_{0\leq t \leq T}
+			|y_h(t) - y(t)|^2
+		} = 0,
+	\end{align*}
+	which proves the theorem. \qed
+\end{pf}
+%

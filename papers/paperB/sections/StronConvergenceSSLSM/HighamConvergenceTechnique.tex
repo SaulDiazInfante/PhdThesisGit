@@ -1,0 +1,124 @@
+	For the sake of clarity,  we discuss in this section a technique to prove strong convergence of stochastic
+numerical methods, reported  by  \citeauthor*{Higham2002b} in \cite{Higham2002b}.
+In this seminal paper, the authors assume non-globally Lipschitz conditions.
+This kind of analysis is useful whenever moment bounds can be established for both, the Euler-Maruyama scheme and 
+other method that can be shown to be "close" to it. A vast amount of literature has been cited this 
+technique, some of these works are
+\cite{Beyn2010, Guo2014, Hutzenthaler2015, Hutzenthaler2012a,Hutzenthaler2010,Lamba2007,Mao2013,Tretyakov2013}, among
+others.
+
+	To review this technique, we begin  recalling the definition of the Euler-Maruyama (EM) approximation
+	and its continuous extension for SDE 
+\eqref{eqn:SDE1}, which for this section, we denote by
+\begin{equation}\label{eqn:EulerMaruyamaHigham}
+	X_{k+1}= X_k+
+		hf(X_k) + g(X_k)\Delta W_k,
+\end{equation}
+and two versions of a conveniently continuous extension used by
+\citeauthor{Higham2002b} in \cite{Higham2002b} 
+\begin{align}\label{eqn:EMContinuousExtension}
+	\overline{X}(t)&:=
+		X_{\eta(t)} + (t-t_{\eta(t)}) f(X_{\eta(t)}) + g(X_{\eta(t)})(W(t)-W_{\eta(t)})\\
+		\eta(t)&:=
+			 k, \text{ for } t\in[t_k,t_{k+1}), \notag
+\end{align}
+and
+\begin{align}
+		\overline{X}(t)
+		&:=
+			X_0 + \int_{0}^t f(X_{\eta(s)})ds + 
+			\int_0^tg(X_{\eta(s)})dW(s). \notag \label{eqn:EMIntegralContinuousExtension}
+	\end{align}
+So, with this notation we have $\overline{X}(t_k)=X_k$, see \Cref{fig:ContinuousExtension}.
+%
+\begin{figure}[h!]
+	\centering
+	\includegraphics{papers/paperB/sections/ContinuousExtPy/ContinuousExtension.eps}
+	\caption{
+		The red line represents the continuous extension of the EM scheme. The continuous gray line is the $X_{\eta(t)}$ 
+		process defined in \eqref{eqn:EulerMaruyamaHigham}.
+	}
+	\label{fig:ContinuousExtension}
+\end{figure}
+
+	Using the continuous extension \eqref{eqn:EMContinuousExtension} %or \eqref{eqn:EMIntegralContinuousExtension} 
+and the uniform mean square norm, the authors work with a stronger version of the ms-error%, which is given by 
+$$
+	\EX{\sup_{0\leq t \leq t}|y(t)-\overline{X}(t)|^2}.
+$$
+%
+So, in  order to prove the strong convergence of the EM method, the following assumptions are required.
+\begin{assumption}\label{ass:HighamAssumption}
+	For each $R>0$ there is a constant $C_R$, depending only on $R$, such that
+	\begin{equation}\label{ass:LipschitzCondition}
+		|f(x)-f(y)|^2 \vee |g(x)-g(y)|^2 \leq C_R|x-y|^2,
+		\quad
+		\forall x,y\in \R^d 
+		\text{ with } |x|\vee |y|\leq R.
+	\end{equation}
+	And for some $p>2$, there is a constant $A$ such that
+	\begin{equation}
+		\EX{\sup_{0\leq t\leq T}|\overline{X}(t)|^p}
+		\vee
+		\EX{\sup_{0\leq t\leq T}|y(t)|^p} \leq A.
+	\end{equation}
+\end{assumption}
+In \cite{Higham2002b}, the authors prove that the \Cref{ass:HighamAssumption} is sufficient to ensure strong 
+convergence for the EM scheme, namely 
+\begin{thm}[
+	{\cite[Thm 2.2]{Higham2002b}}
+	]\label{thm:HighamMaoStuart}
+	Under \Cref{ass:HighamAssumption}, the EM scheme \eqref{eqn:EulerMaruyamaHigham} with continuous extension
+	\eqref{eqn:EMContinuousExtension}
+	%\eqref{eqn:EMIntegralContinuousExtension} 
+	satisfies
+	\begin{equation}
+		\lim_{h\to 0}
+		\EX{\sup_{0\leq t\leq T}|\overline{X}(t)-y(t)|^2}=0.
+	\end{equation}
+\end{thm}
+	
+	Applying this result, the authors prove the strong convergence of an implicit split-step variant of the EM, the
+SSEM method. 
+Their technique consist in proving each assertion of the following steps.
+\begin{enumerate}[\bf{Step} 1:]
+	\item
+		\label{stp:EMCorrespondence}
+		The SSEM for SDE \eqref{eqn:SDE1} is equivalent to the EM for the following conveniently SDE
+		\begin{equation}\label{eqn:PerturbedHighamSDE}
+			dx_h(t)= f_h(x_h(t))dt +g_h(x_h(t))dW(t).
+		\end{equation}
+	\item\label{stp:PerturbedSolution}
+			The solution of the modified SDE \eqref{eqn:PerturbedHighamSDE} has bounded moments and it is 
+			"close" to  $y$ the sense of the uniform mean square norm 
+			$
+				\EX{\sup_{0\leq t\leq T}|\cdot|^2}
+			$.
+	\item
+	\label{stp:MethodBoundedMoments}
+		Show that the SSEM method for the SDE \eqref{eqn:SDE1} has bounded moments.
+	\item
+		There is a continuous extension of the SSEM, $\overline{Z}(t)$, with bounded moments.
+	\item
+		Use the above steps and \Cref{thm:HighamMaoStuart} to conclude that
+		\begin{equation}
+			\lim_{h\to 0}
+			\left\{
+				\EX{\sup_{0\leq t\leq T}|x_h(t)-y(t)|^2}
+			+
+			\EX{\sup_{0\leq t\leq T}|\overline{Z}(t) -y_h(t)|^2}
+			\right\}=0.
+		\end{equation}
+\end{enumerate}
+
+	In the next section, using \Cref{thm:HighamMaoStuart} and this technique, we will prove the strong convergence of the 
+\SM method \crefrange{eqn:SSLSM1}{eqn:SSLSM2}.
+% We will 
+%use the same technique as these authors, that is, we will show that:
+%\begin{inparaenum}[(a)]
+%	\item
+%		the underlying method corresponds to the EM for a perturbed SDE and
+%	\item
+%		all moments of the approximation are bounded.
+%\end{inparaenum}
+%

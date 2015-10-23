@@ -1,0 +1,124 @@
+\begin{Holder}
+	\begin{equation}\label{eqn:HolderInequality}
+	\m[X^T Y] \leq
+	\left(
+	\m|X|^p
+	\right)^{\frac{1}{p}}		
+	\left(
+	\m|X|^q
+	\right)^{\frac{1}{q}}.
+	\end{equation}
+\end{Holder}
+
+\begin{Young}
+	\begin{equation}\label{eqn:YoungsInequality}
+	|a||b| 
+	\leq
+	\frac{\delta}{p} |a|^p
+	+\frac{\delta}{q \delta^{q/p}} |b|^q.
+	\end{equation}
+\end{Young}
+%
+\begin{Minkowski}
+	\begin{equation}
+	\left(
+	\m |X+Y|^p
+	\right)^{\frac{1}{p}}
+	\leq
+	\left(
+	\m |X|^p
+	\right)^{\frac{1}{p}}
+	+
+	\left(
+	\m |Y|^p
+	\right)^{\frac{1}{p}}.
+	\end{equation}
+\end{Minkowski}
+%
+%
+\begin{Standard}
+		Fix $1<p<\infty$ and consider a sequence of real numbers $\{a_i\}_{i=1}^{N}$  with $N \in \N$. Then one can 
+	formulate this usefully inequality
+	\begin{equation}\label{eqn:SingleHolder}
+	\left(
+	\sum_{j=1}^N a_j
+	\right)^p
+	\leq
+	N^{p-1}
+	\sum_{j=1}^{N}
+	a_j^p.
+	\end{equation}
+\end{Standard}
+%
+\begin{Doobs}
+%\begin{thm}[Doob's Martingale Inequality]
+	Let $\{M_t\}_{t\geq 0}$ be a $\mathbb{R}^d$-valued martingale. Let $[a,b]$ be a bounded interval in $
+	\mathbb{R}_{+}$.
+	If $p>1$ and $M_t\in L^p(\Omega;\mathbb{R}^d)$ then
+	\begin{equation}
+	\label{eqn:DoobMartingaleInequality}
+	\m\left( \sup_{a\leq t \leq b} |M_t|^p\right) 
+	\leq \left(\frac{p}{p-1}\right)^p \m|M_b|^p. 
+	\end{equation}
+%\end{thm}
+\end{Doobs}
+
+\begin{bdg}
+	Let $g\in \mathcal{L}(\mathbb{R}_+; \mathbb{R}^{d\times m})$. Define for $t\geq 0$
+	\begin{equation}
+		\label{thm:BDG}
+		x(t) = \int_{0}^{t} g(s)dW(s) \quad \text{and } \qquad 
+		A(t) = \int_{0}^{t} |g(s)|^2 ds.
+	\end{equation}
+	Then for all $p>0$, there exist universal positive constants $c_p$, $C_p$ such that
+	\begin{equation}
+		c_p\m|{A(t)}|^{\frac{p}{2}}
+		\leq
+		\m \left[
+		\sup_{0\leq s \leq t} |x(s)|^p
+		\right]
+		\leq 
+		C_p \m |A(t)|^{\frac{p}{2}},
+	\end{equation}
+	for all $t\geq 0$.  In particular, one may take
+	\begin{align*}
+	c_p &= (p/2)^p, & 			 C_p &= (32/p)^{\frac{p}{2}} & \text{if } 0<p<2; \\
+	c_p &= 1,       & 			 C_p &= (32/p)^{\frac{p}{2}} & \text{if } p=2; \\
+	c_p &= (2p)^{-\frac{p}{2}},& C_p &= \frac{p+1}{2(p-1)^{\frac{p}{2}}} & \text{if } p>2 .\\
+	\end{align*}
+\end{bdg}
+
+\begin{Gronwall}
+	Let $T > 0$ and $c \geq 0$. Let $u(\cdot)$ be a Borel measurable bounded nonnegative function on 
+	$[0,T]$, and let $v$ be a nonnegative integrable function on $[0,T]$
+	If
+	$$
+		u(t) \leq c 
+		+\int_{0}^{t} v(s)u(s)ds \qquad \forall t \in [0,T],
+	$$
+	then
+	\begin{equation}\label{thm:Gronwall}
+		u(t) \leq c\exp
+		\left(
+		\int_{0}^{t} v(s)ds 
+		\right)
+		\qquad \forall t \in [0,T].
+	\end{equation}
+\end{Gronwall}
+%
+\begin{DiscreteGronwall}
+	Let $M$ be a positive integer. Let $u_k$ and $v_k$ be non-negative numbers for $k=0,1,\dots,M$. 
+	If
+	$$
+	u_k\leq u_0 + \sum_{j=0}^{k-1} u_j v_j
+	$$
+	then
+	\begin{equation}
+		\label{thm:DiscreteGronwall}
+		u_k \leq u_0 
+		\exp
+		\left(
+		\sum_{j=0}^{k-1}v_j
+		\right).
+	\end{equation}
+\end{DiscreteGronwall}

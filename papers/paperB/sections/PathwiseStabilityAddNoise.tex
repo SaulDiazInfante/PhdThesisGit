@@ -1,0 +1,91 @@
+We will start our analysis using a unidimensional SDE
+\begin{equation}\label{eqn:1-dSDE}
+	dX_t = f(X_t)dt +\sigma dW_t, \qquad \sigma>0,
+\end{equation}
+where f can be written as
+\begin{equation}
+	f(x) = a_1(x)x + a_2.
+\end{equation}
+Also, we will assume sufficiently conditions about $f$ to existence and uniqueness of solutions. Moreover, we will
+assume that $a_1$  takes at most a countable set of points where vanishes. Under this assumptions we write a
+Quasilinear Steklov Scheme (QSS) as
+\begin{equation}\label{eqn:QSS}
+	X_{k+1}=
+		\left(
+			X_k + \frac{a_2}{a_1(X_k)}
+		\right)
+		\exp
+		\left(
+			 h a_1(X_k)
+		\right)
+		-\frac{a_2}{a_1(X_k)}
+		+\sigma \Delta W_k.
+\end{equation}
+
+In order to study asymptotic pathwise stability we will assume that $f$ satisfies a one sided Lipschitz condition
+\begin{equation}
+	\left <
+		x-y, f(x)-f(y)
+	\right> 
+	\leq
+	-L|x-y|^2 ,\qquad L>0, \qquad x,y \in \mathbb{R}.
+\end{equation}
+Our goal is to determine conditions to assure numerical pathwise stability when the QSS scheme is applied. To deal
+with this, we have to verify bought, that two numerical solutions of the scheme \eqref{eqn:QSS} 
+$X_n,Y_n$ are absorbed in the limit  when
+$t_n \to \infty$, i.e, 
+$$
+|
+	X_{n}^{(1)}
+	- X_{n}^{(2)}
+|\to 0, \qquad t_n \to \infty
+$$
+and show the existence of a random attractor.
+So, under the above assumptions we have
+\begin{align*}
+	|X_{n+1}- Y_{n+1}|^2
+	& =
+	\left<
+		X_{n+1}-Y_{n+1},
+		X_n \exp \left(h a_1(X_n)\right)
+		-Y_n \exp\left(h a_1(Y_n)\right) 
+	\right>	\\
+	&+
+	\left<
+		X_{n+1}-Y_{n+1},
+		\frac{a_2 \exp(h a_1(X_n))}{a_1(X_n)} 
+		-
+		\frac{a_2 \exp(h a_1(Y_n))}{a_1(Y_n)}
+	\right>	\\
+	&-
+	\left<
+		X_{n+1}-Y_{n+1},
+		a_2
+		\left(
+			\frac{1}{a_1(X_n)}
+			-\frac{1}{a_1(Y_n)}
+		\right) 
+	\right>	.\\
+\end{align*}
+By Cauchy-Schwartz inequality follows
+\begin{align*}
+	\left|X_{n+1}- Y_{n+1}\right|
+		&\leq	
+		\left|
+			X_n \exp \left(h a_1(X_n)\right)
+			-Y_n \exp\left(h a_1(Y_n)\right) 
+		\right|	\\
+		&+
+		|a_2|
+		\left|
+			\frac{\exp(h a_1(X_n))}{a_1(X_n)} 
+			-
+			\frac{\exp(h a_1(Y_n))}{a_1(Y_n)}
+		\right|	\\
+		&-
+		|a_2|
+		\left|
+			\frac{1}{a_1(X_n)}
+			-\frac{1}{a_1(Y_n)}
+		\right|
+\end{align*}

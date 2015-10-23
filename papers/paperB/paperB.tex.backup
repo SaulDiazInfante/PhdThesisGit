@@ -1,0 +1,41 @@
+\papertitlepage{%Chapter
+	Strong Convergence and Stability of the Explicit  Linear Split Steklov Method
+	for Stochastic Differential Equations under non-global Lipschitz Coefficients.
+}
+{%label
+	paper:paperB
+}
+{%Autors
+	S. D\'iaz-Infante, S. Jereze
+}
+{
+  The paper has been published in \\
+  \textit{arXiv preprint} Vol. XX(X), pp.~XXX--XXX, 201X.
+}
+{
+  \noindent
+  \copyright\ 2015 IEEE
+}
+\begin{bibunit}[plain]
+	%\bibliographystyle[elsarticle-num]
+	%\bibliography[bib/library,bib/Books]
+	\input{./papers/paperB/sections/abstract.tex}
+	\section{Introduction}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/Introduction.tex}
+	\section{Existence and uniqueness of the solution}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/ExistenceAndUniqueness}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/sssmConstruction}
+	\section{Construction of the SSSM}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/sssmConstruction}
+	\section{Strong Convergence of SSLSM}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/sssmBm}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/ContinuousExtAndBound}
+	\section{Local Convergence Rates with a One-Sided Lipschitz Condition}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/LocalConvergenceRates}
+	\section{Almost sure Stability}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/AlmosSureStability}
+	\section{Numerical Experiments}
+		\input{./papers/paperB/sections/StronConvergenceSSLSM/NumericSimulation}
+	\putbib[bib/library,bib/Books]
+	%\defaultbibB
+\end{bibunit}

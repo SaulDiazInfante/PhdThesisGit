@@ -1,0 +1,15 @@
+@article{
+year={2010},
+issn={0006-3835},
+journal={BIT Numerical Mathematics},
+volume={50},
+number={3},
+doi={10.1007/s10543-010-0272-6},
+title={High order local linearization methods: An approach for constructing A-stable explicit schemes for stochastic differential equations with additive noise},
+url={http://dx.doi.org/10.1007/s10543-010-0272-6},
+publisher={Springer Netherlands},
+keywords={Local Linearization method; Stochastic differential equations; Additive noise; Numerical integration; A-stability; 65C30; 60H10; 60H35},
+author={De la Cruz Cancino, H. and Biscay, R.J. and Jimenez, J.C. and Carbonell, F. and Ozaki, T.},
+pages={509-539},
+language={English}
+}

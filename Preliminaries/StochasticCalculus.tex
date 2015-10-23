@@ -1,0 +1,75 @@
+
+	In this section, we recall some basic results ot the It\^o integral
+$$
+	\int_{0}^{t}
+		f(s)dW(s).
+$$
+with respect an $m$-dimensional Brownian Motion, $\{W(t)\}$, for a class of $d \times m$-matrix-valued processes
+$\{f(t)\}$.
+\begin{definition} %[Square Integrable procesess]
+	Let $0\leq a<b<\infty$. We denote by $\calM^2\left([a,b];\R \right)$ the space of all real-valued measurable
+	$\{\calF\}$-adapted processes $f=\{f(t)\}_{a\leq t\leq b}$ such that
+	$$
+		\|f\|_{a,b}^2
+			=\EX{
+				\int_a^b |f(t)|^2dt
+				}<\infty.
+	$$
+\end{definition}
+\begin{thm}
+	Assume $f\in \calM \left([a,b]; \R^{d\times m}\right)$ and let $\rho$, $\tau$ be two stopping times such that
+	$0\leq \rho \leq \tau \leq T$. Then
+	\begin{align*}
+		\cEX{\int_{\rho}^{\tau} f(t) dW(t)}{\calF_{\rho}}
+			& = 0,\\
+		\cEX{\left|\int_{\rho}^{\tau} f(t)dW(t) \right|^2}{\calF_{\rho}}
+			& = \cEX{\int_{\rho}^{\tau}|f(t)|^2dt }{\calF_{\rho}}.
+	\end{align*}
+\end{thm}
+\begin{definition}[It\^o process]
+	A $d$-dimensional It\^o process is a $\R^d$-valued continuous adapted
+	process $X(t) = (X_1(t), \dots, X_d(t))^T$ on $t\geq 0$ of the form
+	$$
+		X(t) = X(0) +  \int_{0}^{t} f(s)ds + \int_{0}^{t} g(s)dW(s),
+	$$
+	where $f = (f_1,\ldots, f_d)^T \in  \calL_1(\R_+; \R^d)$ and 
+	$g = (g_{ij})^{d\times m}\in \calL_2(\R_+; \R^{d\times m})$. We will say that $X(t)$ has stochastic differential 
+	$dX(t)$ on $t \geq 0$ given by
+	$$
+		dX(t) = f(t) dt + g(t)dW(t).
+	$$
+\end{definition}
+%
+\begin{thm}[The multi-dimensional It\^o formula]
+	Let $X(t)$ be a $d$-dimensional It\^o process on $t \geq 0$ and differential
+	$$
+		dX(t) = f(t) dt + g(t)dW(t),
+	$$
+	where $f = (f_1,\ldots, f_d)^T \in  \calL_1(\R_+; \R^d)$ and 
+	$g = (g_{ij})^{d\times m}\in \calL_2(\R_+; \R^{d\times m})$.
+	Let $V\in \calC^{2,1}(\R^d\times \R_+;\R)$. Then $V(X(t),t)$ is again an It\^o process with stochastic differential
+	given by
+	\begin{align*}
+		dV(X(t),t) &=
+			\left[
+				V_t(X(t),t) + V_x(X(t),t)f(t)
+				+\frac{1}{2}
+				\Tr
+					\left(
+						g^T(t) V_{xx}(X(t),t)g(t)
+					\right)
+			\right]dt
+			+
+			V_x(X(t),t) g(t)dW(t) \qquad \P-\as
+	\end{align*}
+\end{thm}
+For simplicity of notation and under the same meaning as above, we define a diffusion generator $L$ as
+\begin{equation}\label{eqn:DifussionOperator}
+LV(X(t),t)=
+V_t(X(t),t) + V_x(X(t),t)f(t)
++\frac{1}{2}
+\Tr
+	\left(
+		g^T(X) V_{xx}(X(t), t)g(t)
+	\right).
+\end{equation}

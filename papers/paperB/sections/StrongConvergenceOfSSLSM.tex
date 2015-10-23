@@ -1,0 +1,121 @@
+\documentclass[1p,sort&compress]{elsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{breqn}
+\usepackage{bbold}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{caption}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage[labelfont=bf,textfont={sl,bf},lofdepth,lotdepth]{subfig}
+\usepackage{xspace}
+\usepackage{color}
+\usepackage{proba}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{cleveref}
+\usepackage{paralist}
+\usepackage[title,titletoc,toc]{appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                  MODIFICACIONES                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\oddsidemargin=1cm
+\textwidth=14cm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 FORMATOS                                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\newtheorem{dfn}{Definition}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{pro}{Proposition}[section]
+\newtheorem{lem}{Lemma}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{consequence}{CONSEQUENCE}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{example}{\bf Example}[section]
+\newtheorem{proof}{\bf Proof}[section]
+\newtheorem{assumption}{Assumption}[section]
+\newproof{pf}{Proof}
+\newproof{Proof}{Proof}
+\providecommand*{\lemautorefname}{Lemma}
+\providecommand*{\thmautorefname}{Theorem}
+\providecommand*{\assumptionautorefname}{Assumption}
+
+\newcommand{\fin}{\vrule height3pt width3pt depth2pt}
+\newcommand{\normL}[1]{\left[\mathbb{E}\left|#1\right|^2\right]^{1/2}}
+\newcommand{\ms}[1]{\mathbb{E}\left|#1\right|^2}
+\newcommand{\mep}[1]{\mathbb{E}|#1|^p}
+\newcommand{\m}[1]{\mathbb{E}#1}
+\newcommand{\Prob}[1]{\mathbb{P}\left[#1\right]}
+\newcommand{\meanp}[2]{\mathbb{E}\left|#1\right|^{#2}}
+\newcommand{\condexp}[2]{\mathbb{E}\left[#1|#2\right]}
+\newcommand{\lftrght}[3]{\left#2 #1\right #3}\DeclareMathOperator{\tr}{tr}
+\newcommand{\innerprod}[2]{\left\langle#1, #2\right\rangle}
+\newcommand*{\eg}{e.g.,\xspace}
+\newcommand*{\ie}{i.e.,\xspace}
+\newcommand*{\todo}[1]{\textcolor{BrickRed}{#1}\\}
+\newcommand{\crefrangeconjunction}{--}
+\crefrangeformat{equation}{(#3#1#4)--(#5#2#6)}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator*{\as}{a.s.}
+%opening
+\begin{document}
+	\begin{frontmatter}
+		\title{
+			Strong Convergence and Almost Sure Stability of an Explicit Steklov Method
+			for SDE under non-globally Lipschitz Coefficients.
+		\tnoteref{t1}
+		}%,t2}}
+		\tnotetext[t1]{
+			This work has been partially
+			supported by CONACYT project *****
+		}
+		\author[sj]{S. D\'{\i}az-Infante}
+		\ead{sauld@cimat.mx}
+		\author[sj]{S. Jerez}
+		\ead{jerez@cimat.mx}
+		\address[sj]{Split Step Linear Steklov Method 
+		Department of Applied Mathematics, CIMAT, Guanajuato, Gto., Mexico,
+		36240.
+		}
+		\begin{abstract}
+			We present an explicit and easily implementable numerical method for
+			solving stochastic differential equations (SDEs) with non-globally Lipschitz
+			coefficients. The underlying method converges strongly with standard 
+			one-half order. A linear version of the Steklov average supports our new solver. Also, we study
+			the almost sure asymptotic stability, and in  order to emphasize the 
+			performance of the Steklov discretization we use models from population dynamics 
+			and finance.
+		\end{abstract}
+		\begin{keyword}
+			stochastic differential equations;
+			explicit methods; convergence; asymptotic stability;
+			BD simulation; logistic equation.
+		\end{keyword}
+	\end{frontmatter}
+	\section{Introduction}
+		\input{Introduction}
+	\section{Existence and uniqueness of the solution}
+		\input{ExistenceAndUniqueness}
+	\section{Construction of the SSSM}
+		\input{sssmConstruction}
+	\section{Strong Convergence of SSLSM}
+		\input{sssmBm}
+		\input{ContinuousExtAndBound}
+	\section{Local Convergence Rates with a One-Sided Lipschitz Condition}
+		\input{LocalConvergenceRates}
+	\section{Almost sure Stability}
+		\input{AlmosSureStability}
+	\section{Numerical Experiments}
+		\input{NumericSimulation}
+	\appendix
+	\begin{appendices}
+		\section{Auxiliar results}
+			\input{AuxiliarResults}
+	\end{appendices}
+	\section*{\refname}
+	\bibliographystyle{model2-names}
+	\bibliography{library,Books}
+\end{document}

@@ -1,0 +1,19 @@
+	A stochastic oscillator is characterized as the solution of the $d$-dimensional second order SDE
+of the form
+\begin{equation}\label{eqn:SDEOscillator}
+	\ddot{y}(t)+ f(y(t),\dot{y}(t), t) = g(y(t),\dot{y}(t), t) \dot{W}(t),
+\end{equation}
+where 
+$\dot{W}(t)$ is a $m$-dimensional white noise, $x(t)$ takes values on $\R^d$,
+$f:\R^d\times \R^d \times \R_{+}\to \R^d$ and
+$g:\R^d\times \R^d \times \R_{+}\to \R^{d\times m}$.
+By setting $y(t)=\dot{x}(t)$, we can rewrite the SDE \eqref{eqn:SDEOscillator} as the $2d$-dimensional It\^o equation
+\begin{align}
+	dx(t) &= y(t)dt, \label{eqn:SDEOscillator1}\\
+	dy(t) &= -f(x(t),y(t),t)dt + g(x(t), y(t), t)dW(t) \label{eqn:SDEOscillator2}.
+\end{align}
+This kind of SDEs  arise as model for synchrotron of particles  in strong rings
+\cite{Seesselberg1994}, appear in the theory of optical lineal shapes, molecular 
+spectroscopy, nuclear magnetic resonance \cite{Goychuk2004}, and  in stochastic pendulums \cite{Milstein2003}.
+Since \cref{eqn:SDEOscillator1} not involve a stochastic differential, a great amount o properties can be derived from
+its structure \cite{Mao2007}.

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Chapter4.aux
+The style file: plainnat.bst
+Database file #1: bib/PhdThesisBib.bib
+Warning--empty journal in Beyn2010
+You've used 37 entries,
+            2773 wiz_defined-function locations,
+            929 strings with 14148 characters,
+and the built_in function-call counts, 18160 in all, are:
+= -- 1793
+> -- 898
+< -- 19
++ -- 304
+- -- 267
+* -- 1593
+:= -- 2846
+add.period$ -- 190
+call.type$ -- 37
+change.case$ -- 197
+chr.to.int$ -- 37
+cite$ -- 75
+duplicate$ -- 765
+empty$ -- 1446
+format.name$ -- 324
+if$ -- 3790
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 39
+newline$ -- 271
+num.names$ -- 148
+pop$ -- 273
+preamble$ -- 1
+purify$ -- 163
+quote$ -- 0
+skip$ -- 554
+stack$ -- 0
+substring$ -- 862
+swap$ -- 63
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 392
+warning$ -- 1
+while$ -- 169
+width$ -- 0
+write$ -- 639
+(There was 1 warning)

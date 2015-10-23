@@ -1,0 +1,180 @@
+	In this section we study the globally almost surely asymptotic stability (as-stability) of the 
+Linear Steklov  method \crefrange{eqn:SSLSM1}{eqn:SSLSM2}, in the scalar case.
+For simplicity we assume that
+$$
+	f(x) = a(x)x,
+$$
+for some suitable nonlinear function $a:\R \to \R$.
+Here, we will follow the same technique reported by \citeauthor*{Mao2013} in \cite{Mao2013}.
+First, we need sufficient conditions to characterize when the solution of the SDE \eqref{eqn:SDE1} is as-stable. 
+The following result deals with it.
+
+\begin{thm}[Mao and Szpruch {\cite[Thm. 2.2]{Mao2013}}]
+	Let \cref{ass:OSLC} hold and suppose that there exist a function $z\in \mathcal{C}(\mathbb{R}^d,\mathbb{R}_+)$
+	such that
+	\begin{equation*}
+		\innerprod{x}{f(x)} +
+		\frac{1}{2}|g(x)|^2\leq -z(x), \qquad \forall x\in \mathbb{R}^d,
+	\end{equation*}
+	then 
+	\begin{enumerate}[(i)]
+		\item
+			For any $y_0\in \mathbb{R}^n$ the solution of the SDE \eqref{eqn:SDE1}, $y(t)$, satisfies
+			\begin{equation*}
+				\limsup_{t\to \infty}
+					|y(t)|^2 \leq \infty \qquad \as \qquad \text{and} \qquad 
+					\lim_{t\to \infty} z(y(t))= 0 \qquad \as
+			\end{equation*}
+		\item
+			additionally, if $z(x)=0$ only when it is evaluated at $x=0$, then
+			\begin{equation*}
+				\lim_{t\to \infty} y(t)=0 \qquad \as \qquad \forall y_0\in \R^d.
+			\end{equation*}
+	\end{enumerate}
+\end{thm}
+
+	Next, %in\Cref{thm:AlmosSurleyStability}
+we prove that \SM method emulates the as-stability.
+The proof of this result hinges on the \Cref{lem:MartingaleConvergence} see for instance 
+\cite[Th. 7, pg. 139]{Liptser1989}.
+We will denote by  $\{Z\to\}$ the set of all $\omega \in \Omega$ for which the scalar process $Z$ has the property that
+$\lim_{k\to\infty} Z_k$ exists and is finite.
+\begin{lem}[{\cite[Thm. 7, pg. 139]{Liptser1989}}]
+	\label{lem:MartingaleConvergence}
+	Let $Z= \{Z_k\}$ be a nonnegative semimartingale with $\mathbb{E}|Z|<\infty$ and Doob decomposition 
+	$$
+		Z = Z_0 + A^{(1)} -A^{(2)} + M,
+	$$
+	where 
+	$A^{(1)}:=\{A_k^{(1)}\}_{k\in \N}$ and $A^{(2)}:=\{A_k^{(2)}\}_{k\in \N}$ are $\as$ nondecreasing predictable
+	processes with $A_0^{(1)}=A_0^{(2)}=0$ and $M:=\{M_k\}_{k\in\N}$ is a local $\{\calF_k\}$-martingale with $M_0=0$.
+	Then
+	\begin{equation*}
+		\left\{
+			%\omega:
+			%\lim_{n\to \infty}
+				A^{(1)} \to
+		\right\}
+		\subseteq
+		\left\{
+			%\omega:
+			%\lim_{n\to \infty}
+				A^{(2)} \to
+		\right\}\cap
+		\left\{
+			%\lim_{n\to \infty}
+			Z \to
+		\right\} \qquad \as
+\end{equation*}
+\end{lem}
+\begin{thm}\label{thm:AlmosSurleyStability}
+		Let \Cref{ass:OSLC} holds. Suppose that there is a function 
+		$z \in \calC(\R^n,\R_+)$ 
+		and a step size $h^*>0$ such that for all $x\in \R$ and for all $h$ in $(0,h^*)$,
+		\begin{align} 
+			\innerprod{x}{f(x)} + \frac{1}{2}|g(x)|^2
+			&\leq -z(x), \label{eqn:ConditionStability1}\\
+			|x|^2
+			\frac{(\exp(2 h a(x))-1)}{h}
+			+|g_h(x)|^2
+			&\leq
+				-z(x), \label{eqn:ConditionStability2}
+		\end{align}
+	Then the \SM method defined by \crefrange{eqn:SSLSM1}{eqn:SSLSM2} satisfies
+	\begin{align*}
+		\limsup_{k\to \infty}
+			|Y_k|^2 
+			& <\infty \quad\text{ and} 
+			\quad
+		\lim_{k\to \infty}
+			w(Y_k) =0. 
+	\end{align*}
+In addition, if $z(x)=0$ only when $x=0$, then
+	$ \displaystyle
+		\lim_{k\to \infty} Y_k = 0.
+	$
+\end{thm}
+\begin{proof}
+	Taking advantage of \Cref{lem:MartingaleConvergence}, we proceed to construct a conveniently 
+	semimartingale. To
+	\begin{align}
+		|Y_{k+1}|^2
+			&=
+				|Y_{k}|^2
+				+h^2|\varphi_{f_h}(Y_{k})|^2 
+				+|g_h(Y_k) \Delta W_k|^2 \notag 
+				+2h\innerprod{Y_k}{\varphi_{f_h}(Y_{k})} 
+				\notag\\
+			%
+			&
+				+2\innerprod{Y_k}{g_h(Y_{k})\Delta W_k}
+				+2h\innerprod{\varphi_{f_h}(Y_{k})}{g_h(Y_{k})\Delta W_k}.
+			\label{eqn:ExpandOfYnext}
+	\end{align}
+	Let 
+	\begin{align*}
+		\Delta M_{k+1}
+			&:=
+				|g_h(Y_k)\Delta W_{k+1}|^2 - |g_h(Y_k)|^2 h \notag \\
+			&
+			+2\innerprod{Y_k}{g_h(Y_{k})\Delta W_{k+1}}
+			+2h\innerprod{\varphi_{f_h}(Y_{k})}{g_h(Y_{k})\Delta W_{k+1}}, \notag
+	\end{align*}
+	which is a local martingale.
+	Taking
+	$ %\begin{equation}\label{eqn:BjNotation}
+		B_j:=
+			-\left[
+					2\innerprod{Y_j}{\varphi_{f_h}(Y_j)}
+					+|g_h(Y_j)|^2
+				+h|\varphi_{f_h}(Y_j)|^2
+			\right],
+	$ %\end{equation}
+	and fixing $N\in \N$, we can rewrite \eqref{eqn:ExpandOfYnext} as
+	\begin{align}\label{eqn:MartingaleDecomposition}
+		|Y_{N+1}|^2 = 
+			|Y_0|^2
+				-\sum_{j=0}^{N} B_j h
+				+\sum_{j=0}^{N} \Delta M_{j+1}.
+	\end{align} 
+	To prove that \eqref{eqn:MartingaleDecomposition} is the required decomposition to apply
+	\Cref{lem:MartingaleConvergence}, we use that
+	\begin{equation}\label{eqn:varphih(x)}
+		\varphi_{f_h}(x)
+			= x\frac{\left(\exp(h a(x))-1\right)}{h}.
+	\end{equation}
+	By algebraic manipulations, we obtain
+	\begin{equation*}
+		B_j=
+		-\left[
+			|Y_j|^2\frac{(\exp(2h a(Y_j))-1)}{h}
+			+|g_h(Y_j)|^2
+		\right],
+		%\geq z(Y_j) \geq 0,
+		\qquad
+		 j=0,\dots,N.
+	\end{equation*}
+	Given that the inequality \eqref{eqn:ConditionStability2} holds, we can deduce that
+	$$
+		B_j\geq z(Y_j) \geq 0, \quad j=0,\ldots N.
+	$$
+	Consequently, $A_k^{(2)}:=\sum_{j=0}^k B_jh$ is a non decreasing process.
+	Finally, taking $A^{(1)}=0$,  $Z=|Y_k|^2$ and $M_k=\sum_{j=0}^k \Delta M_{j+1}$.
+	We can deduce  by \Cref{lem:MartingaleConvergence} that $\{A^{(1)}\to\}=\Omega$, thus
+	\begin{align*}
+	 \limsup_{k\to \infty}
+			|Y_k|^2 < \infty \quad \as,
+		\quad \text{and} \quad
+		\sum_{j=0}^\infty z(Y_k) 
+		\leq 
+		\sum_{j=0}^\infty B_jh < \infty.
+	\end{align*}
+	Consequently
+	$
+		%\displaystyle
+		\lim_{k\to \infty} z(Y_k) =0
+	$,
+	and the theorem follows.
+	$\square$
+\end{proof}
+%

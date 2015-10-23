@@ -1,0 +1,348 @@
+\begin{thebibliography}{37}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Appleby and Kelly(2010)]{Appleby2010}
+J.~Appleby and C.~Kelly.
+\newblock On the local dynamics of polynomial difference equations with fading
+  stochastic perturbations.
+\newblock \emph{Dynamics of Continuous, Discrete and Impulsive Systems}, pages
+  401--430, 2010.
+\newblock URL \url{http://strathprints.strath.ac.uk/id/eprint/29102
+  http://strathprints.strath.ac.uk/41130/1/Colombo\_C\_et\_al\_Pure\_Stabilisation\_of\_the\_hyperbolic\_equilibrium\_of\_high\_area\_to\_mass\_spacecraft\_Oct\_2012.pdf
+  http://strathprints.strath.ac.uk/29102/}.
+
+\bibitem[Appleby et~al.(2008)Appleby, Mao, and Rodkina]{Appleby2008}
+J.~Appleby, X.~Mao, and A.~Rodkina.
+\newblock Stabilization and destabilization of nonlinear differential equations
+  by noise.
+\newblock \emph{IEEE Transactions on Automatic Control}, 53\penalty0
+  (3):\penalty0 683--691, 2008.
+\newblock ISSN 00189286.
+\newblock \doi{10.1109/TAC.2008.919255}.
+
+\bibitem[Beyn et~al.(2010)Beyn, Isaak, and Kruse]{Beyn2010}
+Wolf-j\"{u}rgen Beyn, Elena Isaak, and Raphael Kruse.
+\newblock Stochastic c-stability and b-consistency of explicit and implicit
+  euler-type schemes.
+\newblock pages 1--29, 2010.
+
+\bibitem[Bonhoeffer et~al.(1997)Bonhoeffer, May, Shaw, and
+  Nowak]{Bonhoeffer1997}
+S~Bonhoeffer, R~M May, G~M Shaw, and M~a Nowak.
+\newblock Virus dynamics and drug therapy.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 94\penalty0 (13):\penalty0 6971--6976, 1997.
+\newblock ISSN 00278424.
+\newblock \doi{10.1073/pnas.94.13.6971}.
+
+\bibitem[Callaway and Perelson(2002)]{Callaway2002}
+Duncan~S Callaway and Alan~S Perelson.
+\newblock Hiv-1 infection and low steady state viral loads.
+\newblock \emph{Bulletin of mathematical biology}, 64\penalty0 (1):\penalty0
+  29--64, 2002.
+\newblock ISSN 00928240.
+\newblock \doi{10.1006/bulm.2001.0266}.
+
+\bibitem[Cruz et~al.(2012)Cruz, Chinesta, and R\'{e}gnier]{Cruz2012}
+C.~Cruz, F.~Chinesta, and G.~R\'{e}gnier.
+\newblock Review on the brownian dynamics simulation of bead-rod-spring models
+  encountered in computational rheology.
+\newblock \emph{Archives of Computational Methods in Engineering}, 19\penalty0
+  (2):\penalty0 227--259, June 2012.
+\newblock ISSN 1134-3060.
+\newblock \doi{10.1007/s11831-012-9072-2}.
+\newblock URL \url{http://link.springer.com/10.1007/s11831-012-9072-2}.
+
+\bibitem[Dalal et~al.(2008)Dalal, Greenhalgh, and Mao]{Dalal2008}
+Nirav Dalal, David Greenhalgh, and Xuerong Mao.
+\newblock A stochastic model for internal hiv dynamics.
+\newblock \emph{Journal of Mathematical Analysis and Applications},
+  341\penalty0 (2):\penalty0 1084--1101, May 2008.
+\newblock ISSN 0022247X.
+\newblock \doi{10.1016/j.jmaa.2007.11.005}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0022247X07013170}.
+
+\bibitem[D\'{\i}az-Infante and Jerez(2015)]{Diaz-Infante2015}
+Sa\'{u}l D\'{\i}az-Infante and Silvia Jerez.
+\newblock Convergence and asymptotic stability of the explicit steklov method
+  for stochastic differential equations.
+\newblock \emph{Journal of Computational and Applied Mathematics},
+  291:\penalty0 36--47, 2015.
+\newblock ISSN 03770427.
+\newblock \doi{10.1016/j.cam.2015.01.016}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S037704271500028X}.
+
+\bibitem[Fine and Kass(1966)]{FineAIandKass1966}
+AI~Fine and S~Kass.
+\newblock Indeterminate forms for multi-place functions.
+\newblock \emph{Annales Polonici Mathematici}, 18\penalty0 (1):\penalty0
+  59--64, 0 1966.
+
+\bibitem[Gao et~al.(2002)Gao, Tung, and Rao]{Gao2002}
+J.~B. Gao, Wen-wen Tung, and Nageswara Rao.
+\newblock Noise-induced hopf-bifurcation-type sequence and transition to chaos
+  in the lorenz equations.
+\newblock \emph{Phys. Rev. Lett.}, 89:\penalty0 254101, Nov 2002.
+\newblock \doi{10.1103/PhysRevLett.89.254101}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.89.254101}.
+
+\bibitem[Giles(2008)]{Giles2008}
+Michael~B. Giles.
+\newblock Multilevel monte carlo path simulation.
+\newblock \emph{Operations Research}, 56\penalty0 (3):\penalty0 607--617, 2008.
+\newblock \doi{10.1287/opre.1070.0496}.
+
+\bibitem[Glasserman(2004)]{Glasserman2004}
+P.~Glasserman.
+\newblock \emph{Monte Carlo Methods in Financial Engineering}.
+\newblock Applications of mathematics : stochastic modelling and applied
+  probability. Springer, 2004.
+\newblock ISBN 9780387004518.
+
+\bibitem[Guo et~al.(2014)Guo, Li, and Zhu]{Guo2014}
+Qian Guo, Hongqun Li, and Ying Zhu.
+\newblock The improved split-step $\theta$ methods for stochastic differential
+  equation.
+\newblock \emph{Mathematical Methods in the Applied Sciences}, 37\penalty0
+  (August 2013):\penalty0 2245--2256, 2014.
+\newblock ISSN 01704214.
+\newblock \doi{10.1002/mma.2972}.
+\newblock URL \url{http://doi.wiley.com/10.1002/mma.2972}.
+
+\bibitem[Higham et~al.(2002)Higham, Mao, and Stuart]{Higham2002b}
+Desmond~J Higham, Xuerong Mao, and Andrew~M Stuart.
+\newblock Strong convergence of euler-type methods for nonlinear stochastic
+  differential equations.
+\newblock \emph{SIAM Journal on Numerical Analysis}, 40\penalty0 (3):\penalty0
+  1041--1063, January 2002.
+\newblock ISSN 0036-1429.
+\newblock \doi{10.1137/S0036142901389530}.
+\newblock URL \url{http://epubs.siam.org/doi/abs/10.1137/S0036142901389530}.
+
+\bibitem[Hutzenthaler et~al.(2010)Hutzenthaler, Jentzen, and
+  Kloeden]{Hutzenthaler2010}
+M.~Hutzenthaler, A.~Jentzen, and P.~E. Kloeden.
+\newblock Strong and weak divergence in finite time of euler's method for
+  stochastic differential equations with non-globally lipschitz continuous
+  coefficients.
+\newblock \emph{Proceedings of the Royal Society A: Mathematical, Physical and
+  Engineering Sciences}, 467\penalty0 (2130):\penalty0 1563--1576, December
+  2010.
+\newblock ISSN 1364-5021.
+\newblock \doi{10.1098/rspa.2010.0348}.
+\newblock URL
+  \url{http://rspa.royalsocietypublishing.org/cgi/doi/10.1098/rspa.2010.0348}.
+
+\bibitem[Hutzenthaler and Jentzen(2015)]{Hutzenthaler2015}
+Martin Hutzenthaler and Arnulf Jentzen.
+\newblock Numerical approximations of stochastic differential equations with
+  non-globally lipschitz continuous coefficients.
+\newblock \emph{Memoirs of the American Mathematical Society}, 236\penalty0
+  (1112), July 2015.
+\newblock ISSN 1947-6221.
+\newblock \doi{http://dx.doi.org/10.1090/memo/1112}.
+\newblock URL \url{http://www.ams.org/}.
+
+\bibitem[Hutzenthaler et~al.(2011)Hutzenthaler, Jentzen, and
+  Kloeden]{Hutzenthaler2009}
+Martin Hutzenthaler, Arnulf Jentzen, and Peter~E. Kloeden.
+\newblock Strong and weak divergence in finite time of euler's method for
+  stochastic differential equations with non-globally lipschitz continuous
+  coefficients.
+\newblock \emph{Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, 467\penalty0 (2130):\penalty0 1563--1576,
+  2011.
+\newblock ISSN 1364-5021.
+\newblock \doi{10.1098/rspa.2010.0348}.
+
+\bibitem[Hutzenthaler et~al.(2012)Hutzenthaler, Jentzen, and
+  Kloeden]{Hutzenthaler2012a}
+Martin Hutzenthaler, Arnulf Jentzen, and Peter~E. Kloeden.
+\newblock Strong convergence of an explicit numerical method for sdes with
+  nonglobally lipschitz continuous coefficients.
+\newblock \emph{The Annals of Applied Probability}, 22\penalty0 (4):\penalty0
+  1611--1641, August 2012.
+\newblock ISSN 1050-5164.
+\newblock \doi{10.1214/11-AAP803}.
+\newblock URL \url{http://projecteuclid.org/euclid.aoap/1344614205}.
+
+\bibitem[Hutzenthaler et~al.(2013)Hutzenthaler, Jentzen, and
+  Kloeden]{Hutzenthaler2012b}
+Martin Hutzenthaler, Arnulf Jentzen, and Peter~E Kloeden.
+\newblock Divergence of the multilevel monte carlo euler method for nonlinear
+  stochastic differential equations.
+\newblock \emph{The Annals of Applied Probability}, 23\penalty0 (5):\penalty0
+  1913--1966, October 2013.
+\newblock ISSN 1050-5164.
+\newblock \doi{10.1214/12-AAP890}.
+\newblock URL \url{http://projecteuclid.org/euclid.aoap/1377696302}.
+
+\bibitem[Kloeden and Platen(1992)]{Kloeden1992}
+Peter~E. Kloeden and Eckhard Platen.
+\newblock \emph{Numerical Solution of Stochastic Differential Equations}.
+\newblock Springer-Verlag, Jan 1992.
+\newblock ISBN 978-03-8754-062-7.
+
+\bibitem[Lamba et~al.(2007)Lamba, Mattingly, and Stuart]{Lamba2007}
+H.~Lamba, J.~C. Mattingly, and a.~M. Stuart.
+\newblock An adaptive euler-maruyama scheme for sdes: Convergence and
+  stability.
+\newblock \emph{IMA Journal of Numerical Analysis}, 27:\penalty0 479--506,
+  2007.
+\newblock ISSN 02724979.
+\newblock \doi{10.1093/imanum/drl032}.
+
+\bibitem[Lawlor(2012)]{Lawlor2012}
+Gary~R Lawlor.
+\newblock A l'hospital's rule for multivariable functions.
+\newblock \emph{arXiv preprint arXiv:1209.0363}, 2012.
+
+\bibitem[Liu and Mao(2013)]{Liu2013a}
+Wei Liu and Xuerong Mao.
+\newblock Strong convergence of the stopped euler-maruyama method for nonlinear
+  stochastic differential equations.
+\newblock \emph{Applied Mathematics and Computation}, 223:\penalty0 389--400,
+  2013.
+\newblock ISSN 00963003.
+\newblock \doi{10.1016/j.amc.2013.08.023}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.amc.2013.08.023}.
+
+\bibitem[Mao(2007)]{Mao2007}
+Xuerong Mao.
+\newblock \emph{Stochastic Differential Equations and Application}.
+\newblock Horwood Pub., Dec 2007.
+\newblock ISBN 978-19-0427-534-3.
+
+\bibitem[Mao(2015)]{Mao2015}
+Xuerong Mao.
+\newblock The truncated euler-maruyama method for stochastic differential
+  equations.
+\newblock \emph{Journal of Computational and Applied Mathematics},
+  290:\penalty0 370 -- 384, 2015.
+\newblock ISSN 0377-0427.
+\newblock \doi{http://dx.doi.org/10.1016/j.cam.2015.06.002}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0377042715003210}.
+
+\bibitem[Mao and Szpruch(2013)]{Mao2013}
+Xuerong Mao and Lukasz Szpruch.
+\newblock Strong convergence and stability of implicit numerical methods for
+  stochastic differential equations with non-globally lipschitz continuous
+  coefficients.
+\newblock \emph{Journal of Computational and Applied Mathematics},
+  238:\penalty0 14--28, January 2013.
+\newblock ISSN 03770427.
+\newblock \doi{10.1016/j.cam.2012.08.015}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0377042712003378
+  http://strathprints.strath.ac.uk/13892/}.
+
+\bibitem[Mao et~al.(2002)Mao, Marion, and Renshaw]{Mao2002}
+Xuerong Mao, Glenn Marion, and Eric Renshaw.
+\newblock Environmental brownian noise suppresses explosions in population
+  dynamics.
+\newblock \emph{Stochastic Processes and their Applications}, 97\penalty0
+  (1):\penalty0 95--110, January 2002.
+\newblock ISSN 03044149.
+\newblock \doi{10.1016/S0304-4149(01)00126-0}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0304414901001260}.
+
+\bibitem[Mao et~al.(2003)Mao, Sabanis, and Renshaw]{Mao2003}
+Xuerong Mao, Sotirios Sabanis, and Eric Renshaw.
+\newblock Asymptotic behaviour of the stochastic lotka-volterra model.
+\newblock \emph{Journal of Mathematical Analysis and Applications},
+  287\penalty0 (1):\penalty0 141--156, 2003.
+\newblock ISSN 0022247X.
+\newblock \doi{10.1016/S0022-247X(03)00539-0}.
+
+\bibitem[Matus et~al.(2005)Matus, Irkhin, and
+  Lapinska-Chrzczonowicz]{Matus2005}
+P~Matus, U.~Irkhin, and M.~Lapinska-Chrzczonowicz.
+\newblock Exact difference schemes for time-dependent problems.
+\newblock \emph{Computational Methods in Applied Mathematics}, 5\penalty0
+  (4):\penalty0 422--448, 2005.
+\newblock ISSN 1609-4840.
+\newblock \doi{10.2478/cmam-2005-0020}.
+\newblock URL
+  \url{http://old.cmam.info/issues/?Vol=5&Num=4&ItID=133&Type=pdf&Aid=133
+  http://www.degruyter.com/view/j/cmam.2005.5.issue-4/cmam-2005-0020/cmam-2005-0020.xml}.
+
+\bibitem[Nelson et~al.(2000)Nelson, Murray, and Perelson]{Nelson2000}
+Patrick~W. Nelson, James~D. Murray, and Alan~S. Perelson.
+\newblock A model of hiv-1 pathogenesis that includes an intracellular delay.
+\newblock \emph{Mathematical Biosciences}, 163\penalty0 (2):\penalty0 201--215,
+  2000.
+\newblock ISSN 00255564.
+\newblock \doi{10.1016/S0025-5564(99)00055-3}.
+
+\bibitem[Nowak et~al.(1997)Nowak, Bonhoeffer, Shaw, and May]{Nowak1997}
+M~a Nowak, S~Bonhoeffer, G~M Shaw, and R~M May.
+\newblock Anti-viral drug treatment: dynamics of resistance in free virus and
+  infected cell populations.
+\newblock \emph{Journal of theoretical biology}, 184\penalty0 (2):\penalty0
+  203--217, 1997.
+\newblock ISSN 0022-5193.
+\newblock \doi{10.1006/jtbi.1996.0307}.
+
+\bibitem[Sabanis(2015)]{Sabanis2015}
+Sotirios Sabanis.
+\newblock Euler approximations with varying coefficients : the case of
+  superlinearly growing diffusion coefficients.
+\newblock To appear in Annals of Applied Probability, 2015.
+
+\bibitem[Schenk-Hopp\'{e}(1996)]{Schenk-Hoppe1996b}
+K.~R. Schenk-Hopp\'{e}.
+\newblock Stochastic hopf bifurcation: An example.
+\newblock \emph{International Journal of Non-Linear Mechanics}, 31\penalty0 (5
+  SPEC. ISS.):\penalty0 685--692, 1996.
+\newblock ISSN 00207462.
+\newblock \doi{10.1016/0020-7462(96)00030-3}.
+
+\bibitem[Tornatore et~al.(2005)Tornatore, Buccellato, and Vetro]{Tornatore2005}
+Elisabetta Tornatore, Stefania~Maria Buccellato, and Pasquale Vetro.
+\newblock Stability of a stochastic \{SIR\} system.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  354:\penalty0 111 -- 126, 2005.
+\newblock ISSN 0378-4371.
+\newblock \doi{http://dx.doi.org/10.1016/j.physa.2005.02.057}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0378437105001093}.
+
+\bibitem[Tretyakov and Zhang(2013)]{Tretyakov2013}
+M~V Tretyakov and Z~Zhang.
+\newblock A fundamental mean-square convergence theorem for sdes with locally
+  lipschitz coefficients and its applications.
+\newblock \emph{SIAM Journal on Numerical Analysis}, 51:\penalty0 3135--3162,
+  2013.
+\newblock ISSN 0036-1429.
+\newblock \doi{10.1137/120902318}.
+
+\bibitem[Wang and Gan(2013)]{Wang2011}
+Xiaojie Wang and Siqing Gan.
+\newblock The tamed milstein method for commutative stochastic differential
+  equations with non-globally lipschitz continuous coefficients.
+\newblock \emph{Journal of Difference Equations and Applications}, 19\penalty0
+  (3):\penalty0 466--490, March 2013.
+\newblock ISSN 1023-6198.
+\newblock \doi{10.1080/10236198.2012.656617}.
+\newblock URL \url{http://arxiv.org/abs/1102.0662
+  http://www.tandfonline.com/doi/abs/10.1080/10236198.2012.656617}.
+
+\bibitem[Zong et~al.(2014)Zong, Wu, and Huang]{Zong2014}
+Xiaofeng Zong, Fuke Wu, and Chengming Huang.
+\newblock Convergence and stability of the semi-tamed euler scheme for
+  stochastic differential equations with non-lipschitz continuous coefficients.
+\newblock \emph{Applied Mathematics and Computation}, 228\penalty0
+  (2013):\penalty0 240--250, 2014.
+\newblock ISSN 00963003.
+\newblock \doi{10.1016/j.amc.2013.11.100}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.amc.2013.11.100}.
+
+\end{thebibliography}

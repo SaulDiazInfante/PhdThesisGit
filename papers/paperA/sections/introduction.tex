@@ -1,0 +1,32 @@
+	In this chapter, we focus on the following scalar stochastic differential equation
+\begin{equation}\label{eq1}
+	dy(t)=f(t,y(t))dt+g(t,y(t))dW(t), \qquad y_0=y(0),
+\end{equation}
+considering the drift term as $f(t,y(t))=f_1(t)f_2(y(t))$. Given this functional 
+form of $f$, we propose an exact
+explicit algorithm for solving the  deterministic equation linked to (\ref{eq1});
+details of this exact differentiation are given in \cite{Matus2005}. So, the main
+characteristic of this new method is that it preserves qualitative features of the
+deterministic solution associated  to the SDE. Next, we prove strong consistency,
+convergence and study the linear stability of the proposed method using properties
+of the {\it Steklov mean} \cite{Timan1963}.  Moreover,  we analyze the nonlinear
+stability of the Steklov stochastic approximation  specifically the asymptotic
+mean-square stability in the multiplicative case and the  path-wise stability in the
+additive case. Finally, we show  the efficiency of the new  scheme in numerical
+problems with harsh requirements of  stability like the logistic  equation for the
+multiplicative case and the Langevin  equation with a particular potential  for the
+additive case.
+
+	In \cref{sec:SteklovMethod}, we construct the explicit
+Steklov method  for the SDE \eqref{eq1} and show its development  with some examples.
+In the next section, we prove strong consistency and convergence of the new explicit
+method. In \cref{sec:LinearStability}, sufficient conditions for the asymptotic mean and
+mean-square  stability are given for both additive and multiplicative cases. A
+nonlinear  stability  analysis is carried out in \cref{sec:NonlinearStability}, where we prove
+that the  explicit Steklov  approximation is asymptoticly stable in square mean sense
+in the  multiplicative case and  it is path-wise stable under certain conditions in
+the additive  case. In \cref{sec:NumericalResults},  we test the Steklov method for
+the stochastic  logistic equation in the  multiplicative case and and for the Langevin
+equation in  Brownian dynamics. Also, we show  numerical evidence that the Steklov
+method  is successful  with step sizes significantly  large reaching larger time
+scales of simulation. Finally,  we give some conclusions.

@@ -1,0 +1,170 @@
+
+	Under these considerations we construct the Steklov numerical scheme for the SDE
+	\eqref{eq1} based on its  integral formulation:
+	\begin{equation}\label{integral} y(t)= X_0+\int_0^t 
+		f(s,y(s)) ds+ \int_0^t 
+		g(s,y(s)) dW(s),   \quad t\in[0,T], \quad Y_0=y_0,
+	\end{equation} 
+	where $y(t)$  denotes the value of the process at time $t$ with initial value  $X_0$.
+	First we discretize the time domain with a uniform  step size $h$ such that $t_n=nh$
+	for $n=0,1,2,\dots,N$ and denote by $Y_n$  the numerical solution at $t_n$. Now we
+	approximate the stochastic integral of \eqref{integral} with the usual form:
+	\begin{equation}\label{discret} 
+		\int_{t_n}^{t_{n+1}}f(s,y(s)) dW(s)\approx g(t_n,Y_n)\Delta W_n, \qquad
+		\Delta W_n:=(W(t_{n+1})-W(t_n))=\sqrt{h} V_n,
+	\end{equation} 
+	where $W(t_{n+1})-W(t_n)$ is a discrete standard Brownian motion such that $V_n\sim
+	\mathcal{N}(0,1)$. We can obtain different schemes depending on the numerical
+	integration used for the first integral of (\ref{integral}). For example, if we choose
+	the Euler's approximation:  
+	\begin{equation}\label{eqn:euler} 
+		\int_{t_n}^{t_{n+1}} f(s, y(s))ds\approx 
+		f(t_n,Y_n)(t_{n+1}-t_n), 
+	\end{equation} 
+		then we obtain the Euler-Maruyama scheme as follows:
+	\begin{equation}\label{EM} 
+		Y_{n+1}=Y_n + f(t_n,Y_n)h + g(t_n,Y_n)\Delta W_n, 
+		\quad n=1,\dots,N-1, \qquad Y_0=x_0. 
+	\end{equation} 
+	Assuming that we can rewrite the function $f$ as $f(t,y(t))=f_1(t)f_2(y(t))$, we
+	propose  an alternative approach to \eqref{eqn:euler} based on the construction of an
+	exact  discretization for the deterministic  differential equation associated to
+	\eqref{eq1}:
+	\begin{equation}\label{eqn:DeterODE}
+		\frac{dx}{dt}=f_1(t)f_2(x), \qquad x(0)=x_0.
+	\end{equation}
+	Integrating this equation in the interval $[t_n,t_{n+1})$ and 
+	using the Steklov mean  \cite{Matus2005}, we have
+	\begin{equation}\label{stek1}
+		\int_{t_n}^{t_{n+1}} f_1(s)f_2(x)ds \approx
+		\phi_1(t_n)\phi_2(y_n,y_{n+1})(t_{n+1}-t_n),
+	\end{equation}
+		where
+		\begin{equation*}
+			\phi_1(t_n)=\frac{1}{t_{n+1}-t_n}\int_{t_n}^{t_{n+1}} f_1(s)ds\qquad 
+			\mbox{and} \qquad
+			\phi_2(y_n,y_{n+1})=\left(\frac{1}{y_{n+1}-y_{n}} 
+			\int_{y_n}^{y_{n+1}} 
+			\frac{du}{f_2(u)} 
+			\right)^{-1}. 
+	\end{equation*}
+	Thus, the exact scheme for \eqref{eqn:DeterODE} is given as:
+	\begin{equation}\label{eqn:RecMatus}
+		y_{n+1}-y_{n}=\phi_1(t_n)\phi_2(y_n,y_{n+1})h, \qquad y_0=x_0.
+	\end{equation}
+	Notice that it is an implicit algorithm, so in order to get an explicit formulation we
+	define the following function:
+	\begin{equation}\label{H}
+		H(x):=\int_{0}^x \frac{du}{f_2(u)},
+	\end{equation}
+	and the exact scheme \eqref{eqn:RecMatus} is written  as follows:
+	$$
+		y_{n+1}-y_n=\phi_1(t_n)\,\frac{(y_{n+1}-y_n)}
+		{H(y_{n+1})-H(y_n)}\,h.
+	$$
+	Now assuming the existence of the function $H^{-1}$,  we can give the following
+	compact formulation of the scheme (\ref{eqn:RecMatus}):
+	\begin{equation}
+		y_{n+1}=\Psi_h(t_n,y_n),
+		\qquad 
+		\Psi_h(t_n,y_n):= H^{-1}[H(y_n)+h\phi_1(t_n)].
+	\end{equation}    
+	Finally, the numerical method for the SDE \eqref{eq1} is proposed as follows: 
+	\begin{equation}\label{Steklov} 
+		Y_{n+1}=\Psi_h(t_n,Y_n)+g(t_n,Y_n)\Delta W_n,
+		\quad n=1,\dots,N-1, \quad 
+		Y_0=x_0, 
+	\end{equation}
+	and we named it {\it Steklov} scheme due to the origin of its construction. An
+	important feature of this new stochastic scheme \eqref{Steklov} is that it preserves
+	qualitative properties of the deterministic solution if the noise term does not become
+	dominant. Notice that the main step  to develop Steklov approximations is to obtain
+	the function $\Psi_h$, so forthcoming examples show the procedure to construct this
+	function. We choose as examples some SDEs which appear in important applications and
+	for which harsh conditions of stability are required for their numerical
+	approximations.
+	\begin{example}\label{subsec31}
+		We consider the linear It\^{o} equation  
+		\begin{equation}\label{SDE}
+			dy(t)=\lambda y(t)dt+\xi y(t) dW(t) , \qquad Y_0=y_0,
+		\end{equation}
+		where $\lambda$, $\xi \in \mathbb{C}$ and $x_0 \neq 0$ with probability one. We
+		construct the function $\Psi_h$ for \eqref{SDE} using its integral form and
+		approximating the deterministic integral by (\ref{stek1}) as:
+		$$
+			\int_{y_n}^{y_{n+1}} \lambda u du\approx
+			\left(
+			\frac{1}{\lambda(y_{n+1}-y_n)}\mbox{$\ln$}
+			\left(
+		\frac{y_{n+1}}{y_n}
+			\right)
+			\right)^{-1}h, \quad n=1,\dots,N-1.
+		$$
+		In order to obtain a explicit Steklov approximation, we consider the exact finite
+		difference algorithm  associated to $dx/dt=\lambda x$:
+		\begin{equation*}
+			y_{n+1}-y_n=  \lambda h
+		\frac{(y_{n+1}-y_n)}{\mbox{$\ln$}\Big(\frac{y_{n+1}}{y_n}\Big)}.
+		\end{equation*}
+		By algebraic manipulations, the previous equation is equivalent to the equation    
+		$$
+			y_{n+1}=\mbox{$\exp$}(\lambda h) y_n 
+		$$
+		and the explicit function $\Psi_h$ for the linear SDE is 
+		\begin{equation}\label{psi1}
+			\Psi_h(y)= \mbox{$\exp$}(\lambda h) y.
+		\end{equation}
+		Notice that we obtain the same function $\Psi_h$ that for an additive linear SDE.
+	\end{example}
+	
+	\begin{example}\label{subsec33}
+		Now we consider the logistic growth SDE proposed by \citeauthor{Schurz2007} in \cite{Schurz2007}:
+		\begin{equation}\label{eqn:SDELogistic}
+			dy(t)= \lambda y(t)(K-y(t))dt+
+			\xi y(t)^\alpha|K-y(t)|^\beta dW(t),
+		\end{equation}
+		where $\lambda$, $K$, $\alpha$, $\beta$ and  $\xi$ are nonnegative real coefficients.
+		So using \eqref{stek1} we approximate the deterministic integral of the integral form
+		of \eqref{eqn:SDELogistic} as:
+		$$
+			\int_{y_n}^{y_{n+1}} \lambda u(K-u) du\approx
+			\frac{y_{n+1}-y_{n}}
+			{
+			\frac{1}{\lambda K}
+				\ln
+				\left(
+					\frac{y_{n+1}(K-y_n)}{y_n(K-y_{{n+1}})}
+				\right)
+			} h, \quad n=1,\dots,N-1.
+		$$
+		Analogously to the previous example, we develop the Steklov function from the exact
+		finite difference equation associated to the deterministic counterpart of
+		\eqref{eqn:SDELogistic}, obtaining:
+		\begin{equation}\label{psi2}
+			\Psi_h(y)=
+		\frac{K y}
+		{K-y+\exp(\lambda K h)}.
+		\end{equation}
+	\end{example}
+%
+	\begin{example}\label{subsec32}
+		As a final example, we consider the following SDE with additive noise:
+		\begin{equation}\label{integral2}
+			dy(t)= - y(t)^3dt +  \xi dW(t), 
+		\end{equation}
+		where $\xi$ is a positive  coefficient. Using (\ref{stek1}), we get
+		$$
+			\int_{y_n}^{y_{n+1}} -u^3 du
+			\approx
+			2\frac{(y_{n+1}y_n)^2}{y_{n+1}+y_n}h,\quad n=1,..N-1.
+		$$
+		By algebraic manipulations on the associated deterministic exact algorithm, we obtain
+		the following Steklov function 
+		\begin{equation}\label{psi3}
+			\Psi_h(y)=\frac{y}{\sqrt{1+2y^2h}}.
+		\end{equation}
+		In the section of numerical results, we will show the behavior of the new scheme
+		\eqref{Steklov} in these three examples and compare it with standard
+		methods. As a next step, we prove important qualitative properties of the explicit
+		Steklov method.
+	\end{example}

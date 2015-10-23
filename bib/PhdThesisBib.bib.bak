@@ -1,0 +1,1794 @@
+% This file was created with JabRef 2.10.
+% Encoding: ISO8859_1
+
+
+@Article{Agrawal2010,
+  Title                    = {Lp-Approximation by Iterates of Bernstein- Durrmeyer Type Polynomials},
+  Author                   = {Agrawal, P N},
+  Year                     = {2010},
+  Number                   = {10},
+  Pages                    = {469--479},
+  Volume                   = {4},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Agrawal/Int. Journal of Math. Analysis/Agrawal - 2010 - Lp-Approximation by Iterates of Bernstein- Durrmeyer Type Polynomials.pdf:pdf},
+  Journal                  = {Int. Journal of Math. Analysis},
+  Keywords                 = {approximation; iterative combination; l p; modulus of continuity; steklov means}
+}
+
+@Article{Alcock2006,
+  Title                    = {A note on the Balanced method},
+  Author                   = {Alcock, Jamie and Burrage, Kevin},
+  Year                     = {2006},
+  Doi                      = {10.1007/s10543-006-0098-4},
+  ISSN                     = {0006-3835},
+  Month                    = nov,
+  Number                   = {4},
+  Pages                    = {689--710},
+  Url                      = {http://link.springer.com/10.1007/s10543-006-0098-4},
+  Volume                   = {46},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Alcock, Burrage/BIT Numerical Mathematics/Alcock, Burrage - 2006 - A note on the Balanced method.pdf:pdf},
+  Journal                  = {BIT Numerical Mathematics},
+  Keywords                 = {numerical methods; stability; stochastic differential equations}
+}
+
+@Book{Allen2007,
+  Title                    = {Modeling With It{\^o} Stochastic Differential Equations},
+  Author                   = {Allen, Edward},
+  Year                     = {2007},
+  ISBN                     = {978-14-0205-953-7},
+  Publisher                = {Springer},
+
+  Month                    = {Mar}
+}
+
+@Article{Alonso2007,
+  Title                    = {Stochastic amplification in epidemics.},
+  Author                   = {Alonso, David and McKane, Alan J and Pascual, Mercedes},
+  Year                     = {2007},
+  Doi                      = {10.1098/rsif.2006.0192},
+  ISSN                     = {1742-5689},
+  Month                    = jun,
+  Number                   = {14},
+  Pages                    = {575--82},
+  Url                      = {http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2373404&tool=pmcentrez&rendertype=abstract},
+  Volume                   = {4},
+
+  Abstract                 = {The role of stochasticity and its interplay with nonlinearity are central current issues in studies of the complex population patterns observed in nature, including the pronounced oscillations of wildlife and infectious diseases. The dynamics of childhood diseases have provided influential case studies to develop and test mathematical models with practical application to epidemiology, but are also of general relevance to the central question of whether simple nonlinear systems can explain and predict the complex temporal and spatial patterns observed in nature outside laboratory conditions. Here, we present a stochastic theory for the major dynamical transitions in epidemics from regular to irregular cycles, which relies on the discrete nature of disease transmission and low spatial coupling. The full spectrum of stochastic fluctuations is derived analytically to show how the amplification of noise varies across these transitions. The changes in noise amplification and coherence appear robust to seasonal forcing, questioning the role of seasonality and its interplay with deterministic components of epidemiological models. Childhood diseases are shown to fall into regions of parameter space of high noise amplification. This type of "endogenous" stochastic resonance may be relevant to population oscillations in nonlinear ecological systems in general.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Alonso, McKane, Pascual/Journal of the Royal Society, Interface the Royal Society/Alonso, McKane, Pascual - 2007 - Stochastic amplification in epidemics.pdf:pdf},
+  Journal                  = {Journal of the Royal Society, Interface / the Royal Society},
+  Keywords                 = {Biological; Child; Disease Outbreaks; Disease Outbreaks: statistics \& numerical data; Humans; Infection; Infection: epidemiology; Models; Nonlinear Dynamics; Seasons; Stochastic Processes},
+  Pmid                     = {17251128}
+}
+
+@Article{Appleby2003,
+  Title                    = {Exponential asymptotic stability of linear Ito-Volterra equations with damped stochastic perturbations},
+  Author                   = {Appleby, J.},
+  Year                     = {2003},
+  Number                   = {2000},
+  Pages                    = {1--22},
+  Url                      = {http://www.math.washington.edu/?ejpecp/},
+
+  Abstract                 = {This paper studies the convergence rate of solutions of the linear Itˆ equation dX(t) = AX(t)+ t 0 K(t−s)X(s) ds dt+$\Sigma$(t)dW(t) o - Volterra (0.1) where K and $\Sigma$ are continuous matrix–valued functions defined on R+, and (W(t))t≥0 is a finite-dimensional standard Brownian motion. It is shown that when the entries of K are all of one sign on R+, that (i) the almost sure exponential convergence of the solution to zero, (ii) the p-th mean exponential convergence of the solution to zero (for all p > 0), and (iii) the exponential integrability of the entries of the kernel K, the exponential square integrability of the entries of noise term $\Sigma$, and the uniform asymptotic stability of the solutions of the deterministic version of (0.1) are equivalent. The paper extends a result of Murakami which relates to the deterministic version of this problem.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Appleby/Electronic Journal of Probability/Appleby - 2003 - Exponential asymptotic stability of linear Ito-Volterra equations with damped stochastic perturbations.pdf:pdf},
+  Journal                  = {Electronic Journal of Probability},
+  Keywords                 = {Exponential asymptotic stability,Itˆ o-Volterra equation,Liapunov exponent,Volterra,almost sure expo- nential asymptotic stability.,equation,p-th mean exponential asymptotic stability},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Appleby2010a,
+  Title                    = {Preserving positivity in solutions of discretised stochastic differential equations},
+  Author                   = {Appleby, J. and Guzowska, M. and Kelly, C. and Rodkina, A.},
+  Year                     = {2010},
+  Doi                      = {10.1016/j.amc.2010.06.015},
+  ISSN                     = {00963003},
+  Number                   = {2},
+  Pages                    = {763--774},
+  Url                      = {http://dx.doi.org/10.1016/j.amc.2010.06.015},
+  Volume                   = {217},
+
+  Abstract                 = {We consider the Euler discretisation of a scalar linear test equation with positive solutions and show for both strong and weak approximations that the probability of positivity over any finite interval of simulation tends to unity as the step size approaches zero. Although a.s. positivity in an approximation is impossible to achieve, we develop for the strong (Maruyama) approximation an asymptotic estimate of the number of mesh points required for positivity as our tolerance of non-positive trajectories tends to zero, and examine the effectiveness of this estimate in the context of practical numerical simulation. We show how this analysis generalises to equations with a drift coefficient that may display a high level of nonlinearity, but which must be linearly bounded from below (i.e. when acting towards zero), and a linearly bounded diffusion coefficient. Finally, in the linear case we develop a refined asymptotic estimate that is more useful as an a priori guide to the number of mesh points required to produce positive approximations with a given probability. © 2010 Elsevier Inc. All rights reserved.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Appleby et al/Applied Mathematics and Computation/Appleby et al. - 2010 - Preserving positivity in solutions of discretised stochastic differential equations.pdf:pdf},
+  Journal                  = {Applied Mathematics and Computation},
+  Keywords                 = {Euler-Maruyama method,Monte Carlo simulation,Numerical discretisation,Positive solution,Stochastic difference equation,Stochastic differential equation,impotant for positivity..},
+  Mendeley-tags            = {impotant for positivity..},
+  Owner                    = {saul},
+  Publisher                = {Elsevier Inc.},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Appleby2007,
+  Title                    = {PRESERVATION OF POSITIVITY IN THE SOLUTION OF},
+  Author                   = {Appleby, J. and Guzowska, M. and Rodkina, A.},
+  Year                     = {2007},
+  Pages                    = {1--15},
+
+  Abstract                 = {In this paper, we consider the positivity of an Euler discretisation on a compact interval of a positive solution of a nonlinear scalar stochastic differential equation. We show that the probability that the approximation re- mains positive over the interval tends to unity as the uniform mesh length tends to zero, provided the stochastic innovation process has finite second moments. For approximations which can be strongly convergent, we give asymptotic esti- mates on the number of mesh points needed as the tolerance of a non–positive solution tends to zero. Simulations are presented, and practical guidance for determining the number of mesh points is given. An analysis showing how to minimise the computational costs of simulations is also sketched.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Appleby, Guzowska, Rodkina/Unknown/Appleby, Guzowska, Rodkina - 2007 - PRESERVATION OF POSITIVITY IN THE SOLUTION OF.pdf:pdf},
+  Keywords                 = {albert college fellowship awarded,and phrases,by dublin,ence equation,euler discretisation,monte carlo simulation,partially supported by an,positive solution,stochastic differ-,stochastic differential equation,the first author was},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Appleby2010,
+  Title                    = {On the local dynamics of polynomial difference equations with fading stochastic perturbations},
+  Author                   = {Appleby, J. and Kelly, C.},
+  Year                     = {2010},
+  Pages                    = {401--430},
+  Url                      = {http://strathprints.strath.ac.uk/id/eprint/29102 http://strathprints.strath.ac.uk/41130/1/Colombo\_C\_et\_al\_Pure\_Stabilisation\_of\_the\_hyperbolic\_equilibrium\_of\_high\_area\_to\_mass\_spacecraft\_Oct\_2012.pdf http://strathprints.strath.ac.uk/29102/},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Appleby, Kelly/Dynamics of Continuous, Discrete and Impulsive Systems/Appleby, Kelly - 2010 - On the local dynamics of polynomial difference equations with fading stochastic perturbations.pdf:pdf},
+  Journal                  = {Dynamics of Continuous, Discrete and Impulsive Systems},
+  Keywords                 = {verry importatn examples},
+  Mendeley-tags            = {verry importatn examples},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Appleby2006,
+  Title                    = {Almost sure polynomial asymptotic stability of stochastic difference equations},
+  Author                   = {Appleby, J. and Mackey, D. and Rodkina, A.},
+  Year                     = {2006},
+  Number                   = {00},
+  Pages                    = {1--20},
+  Url                      = {http://www.mathnet.ru/eng/cmfd60},
+  Volume                   = {00},
+
+  Abstract                 = {In this paper, we establish the almost sure asymptotic stability and decay results for solutions of a autonomous scalar difference equation with a non–hyperbolic equilibrium at the origin, which is perturbed by a random term with a fading state–independent intensity. In particular, we show that when the unbounded noise has tails which fade more quickly than polynomially, the state–independent perturbation dies away at a sufficiently fast polynomial rate in time, and when the autonomous difference equation has a polynomial nonlinearity at the origin, then the almost sure polynomial rate of decay of solutions can be determined exactly.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Appleby, Mackey, Rodkina/Journal of Mathematical Sciences/Appleby, Mackey, Rodkina - 2006 - Almost sure polynomial asymptotic stability of stochastic difference equations.pdf:pdf},
+  Journal                  = {Journal of Mathematical Sciences},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Appleby2008,
+  Title                    = {Stabilization and destabilization of nonlinear differential equations by noise},
+  Author                   = {Appleby, J. and Mao, X. and Rodkina, A.},
+  Year                     = {2008},
+  Doi                      = {10.1109/TAC.2008.919255},
+  ISSN                     = {00189286},
+  Number                   = {3},
+  Pages                    = {683--691},
+  Volume                   = {53},
+
+  Abstract                 = {This paper considers the stabilization and destabilization by a Brownian noise perturbation that preserves the equilibrium of the ordinary differential equation x'(t) = f(x(t)). In an extension of earlier work, we lift the restriction that f obeys a global linear bound, and show that when f is locally Lipschitz, a function g can always be found so that the noise perturbation g(X(t)) dB(t) either stabilizes an unstable equilibrium, or destabilizes a stable equilibrium. When the equilibrium of the deterministic equation is nonhyperbolic, we show that a nonhyperbolic perturbation suffices to change the stability properties of the solution.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Appleby, Mao, Rodkina/IEEE Transactions on Automatic Control/Appleby, Mao, Rodkina - 2008 - Stabilization and destabilization of nonlinear differential equations by noise.pdf:pdf},
+  Journal                  = {IEEE Transactions on Automatic Control},
+  Keywords                 = {Almost-sure asymptotic stability,Brownian motion,Destabilization,It??'s formula,Stabilization},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Book{Arnold1998,
+  Title                    = {Random Dynamical Systems},
+  Author                   = {Arnold, Ludwig},
+  Year                     = {1998},
+  ISBN                     = {978-35-4063-758-5},
+  Publisher                = {Springer},
+
+  Month                    = {Jan}
+}
+
+@Article{Arnold1979,
+  Title                    = {The Influence of External Real and White Noise on the LOTKA-VOLTERRA Model},
+  Author                   = {Arnold, L. and Horsthemke, W. and Stucki, J. W.},
+  Year                     = {1979},
+  Doi                      = {10.1002/bimj.4710210507},
+  ISSN                     = {03233847},
+  Number                   = {5},
+  Pages                    = {451--471},
+  Url                      = {http://doi.wiley.com/10.1002/bimj.4710210507},
+  Volume                   = {21},
+
+  Abstract                 = {The behaviour of a marginally stable predator-prey system, the LOTKA-VOLTERRA model is analyzed under the influence of parameter fluctuations. The cases of white and real noise are studied separately. It is shown that for white noise no stationary solution exists, but even for time tending to infinity explosion occurs only with zero probability. In the case of real noise the class of noise processes that permit a stationary solution is characterized by their spectral density. It turns out that this class consists of all stationary processes that do not contain the eigenfrequencies of the LOTKA-VOLTERRA system.It is shown that for all other real noise processes a resonance phenomenon occurs and the solutions grow unboundedly.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Arnold, Horsthemke, Stucki/Biometrical Journal/Arnold, Horsthemke, Stucki - 1979 - The Influence of External Real and White Noise on the LOTKA-VOLTERRA Model.pdf:pdf},
+  Journal                  = {Biometrical Journal},
+  Keywords                 = {htka-volterra model,l y stable systems,mwe on m a,r g i d,soldions of differential equations,stationary}
+}
+
+@Book{Artemiev1997,
+  Title                    = {Numerical Analysis of Systems of Ordinary and Stochastic Differential Equations},
+  Author                   = {Artemiev, S.S. and Averina, T.A.},
+  Year                     = {1997},
+  ISBN                     = {9789067642507},
+  Publisher                = {VSP},
+
+  Owner                    = {saul},
+  Timestamp                = {2015.10.07}
+}
+
+@Article{Bahar2004,
+  Title                    = {Stochastic delay Lotka-Volterra model},
+  Author                   = {Bahar, Arifah and Mao, Xuerong},
+  Year                     = {2004},
+  Doi                      = {10.1016/j.jmaa.2003.12.004},
+  ISSN                     = {0022247X},
+  Month                    = apr,
+  Number                   = {2},
+  Pages                    = {364--380},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0022247X03009089},
+  Volume                   = {292},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Bahar, Mao/Journal of Mathematical Analysis and Applications/Bahar, Mao - 2004 - Stochastic delay Lotka–Volterra model.pdf:pdf},
+  Journal                  = {Journal of Mathematical Analysis and Applications},
+  Keywords                 = {brownian motion,explosion,it\^{o},s,stochastic differential delay equation,ultimate boundedness}
+}
+
+@Article{Baker2000a,
+  Title                    = {Numerical Analysis of Explicit One-Step Methods for Stochastic Delay Differential Equations},
+  Author                   = {Baker, Christopher T. H. and Buckwar, Evelyn},
+  Year                     = {2010},
+  Doi                      = {10.1112/S1461157000000322},
+  ISSN                     = {1461-1570},
+  Month                    = feb,
+  Number                   = {January},
+  Pages                    = {315--335},
+  Url                      = {http://journals.cambridge.org/abstract_S1461157000000322 http://www.journals.cambridge.org/abstract_S1461157000000322},
+  Volume                   = {3},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Baker, Buckwar/LMS Journal of Computation and Mathematics/Baker, Buckwar - 2000 - Numerical analysis of explicit one-step methods for stochastic delay differential equations.pdf:pdf},
+  Journal                  = {LMS Journal of Computation and Mathematics}
+}
+
+@Article{Beyn2010,
+  Title                    = {Stochastic c-stability and b-consistency of explicit and implicit euler-type schemes},
+  Author                   = {Beyn, Wolf-j\"{u}rgen and Isaak, Elena and Kruse, Raphael},
+  Year                     = {2010},
+  Eprint                   = {1411.6961v1},
+  Pages                    = {1--29},
+
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {1411.6961v1},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Beyn, Isaak, Kruse/Unknown/Beyn, Isaak, Kruse - 2010 - Stochastic c-stability and b-consistency of explicit and implicit euler-type schemes.pdf:pdf},
+  Keywords                 = {and phrases,b-,c-stability,global monotonicity condition,projected euler-maruyama,split-step backward euler,stochastic differential equations,strong convergence rates},
+  Owner                    = {user-x},
+  Primaryclass             = {hep-th},
+  Timestamp                = {2015.05.06}
+}
+
+@Article{Bhattacharya2003,
+  Title                    = {Random dynamical systems: a review},
+  Author                   = {Bhattacharya, Rabi and Majumdar, Mukul},
+  Year                     = {2003},
+  Doi                      = {10.1007/s00199-003-0357-4},
+  ISSN                     = {0938-2259},
+  Month                    = dec,
+  Number                   = {1},
+  Pages                    = {13--1},
+  Url                      = {http://download.springer.com.svproxy01.cimat.mx/static/pdf/440/art%253A10.1007%252Fs00199-003-0357-4.pdf?auth66=1396489629_11cba9209919582c1dda46136eb9f61b&ext=.pdf http://link.springer.com/10.1007/s00199-003-0357-4},
+  Volume                   = {23},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bhattacharya, Majumdar/Economic Theory/Bhattacharya, Majumdar - 2003 - Random dynamical systems a review.pdf:pdf},
+  Journal                  = {Economic Theory},
+  Keywords                 = {Rabi Bhattacharya}
+}
+
+@Article{Bokor2004,
+  Title                    = {On stability for numerical approximations of stochastic ordinary differential equations},
+  Author                   = {Bokor, R{\'o}zsa Horv{\'a}th},
+  Year                     = {2004},
+  Number                   = {15},
+  Pages                    = {1--9},
+  Url                      = {http://www.emis.ams.org/journals/EJQTDE/7/715.pdf},
+
+  Abstract                 = {Stochastic ordinary differential equations (SODE) represent physical phenomena driven by stochastic processes. Like for deterministic differential equations, various numerical schemes are proposed for SODE (see references). We will consider several concepts of stability and connection between them.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bokor/Proc. 7th Coll. QTDE/Bokor - 2004 - On stability for numerical approximations of stochastic ordinary differential equations.pdf:pdf},
+  Journal                  = {Proc. 7th Coll. QTDE},
+  Keywords                 = {numerical methods; stability; stochastic ordinary differential equations}
+}
+
+@Article{Bokor2003,
+  Title                    = {Stochastically stable one-step approximations of solutions of stochastic ordinary differential equations},
+  Author                   = {Bokor, R{\'o}zsa Horv{\'a}th},
+  Year                     = {2003},
+  Doi                      = {10.1016/S0168-9274(02)00141-1},
+  ISSN                     = {01689274},
+  Month                    = feb,
+  Number                   = {3},
+  Pages                    = {299--312},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0168927402001411},
+  Volume                   = {44},
+
+  Abstract                 = {A series of numerical methods (schemes) for solving stochastic ordinary differential equations (SODEs) are given. Under appropriate conditions the numerical solutions converge in mean square sense to the true solution. There is a general belief, supported by theorems for the Euler--Maruyama and Milstein methods that the above statement implies the stochastic stability, i.e., the continuous dependence on initial values of the numerical solutions. In this paper this assertion is rigorously proved for methods widely used, but not investigated from this aspect.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bokor/Applied Numerical Mathematics/Bokor - 2003 - Stochastically stable one-step approximations of solutions of stochastic ordinary differential equations.pdf:pdf},
+  Journal                  = {Applied Numerical Mathematics},
+  Keywords                 = {numerical methods; stochastic ordinary differential equations}
+}
+
+@Article{Bonhoeffer1997,
+  Title                    = {Virus dynamics and drug therapy.},
+  Author                   = {Bonhoeffer, S and May, R M and Shaw, G M and Nowak, M a},
+  Year                     = {1997},
+  Doi                      = {10.1073/pnas.94.13.6971},
+  ISSN                     = {00278424},
+  Number                   = {13},
+  Pages                    = {6971--6976},
+  Volume                   = {94},
+
+  Abstract                 = {The recent development of potent antiviral drugs not only has raised hopes for effective treatment of infections with HIV or the hepatitis B virus, but also has led to important quantitative insights into viral dynamics in vivo. Interpretation of the experimental data depends upon mathematical models that describe the nonlinear interaction between virus and host cell populations. Here we discuss the emerging understanding of virus population dynamics, the role of the immune system in limiting virus abundance, the dynamics of viral drug resistance, and the question of whether virus infection can be eliminated from individual patients by drug treatment.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Bonhoeffer et al/Proceedings of the National Academy of Sciences of the United States of America/Bonhoeffer et al. - 1997 - Virus dynamics and drug therapy.pdf:pdf},
+  ISBN                     = {0027-8424 (Print)},
+  Journal                  = {Proceedings of the National Academy of Sciences of the United States of America},
+  Pmid                     = {9192676}
+}
+
+@Article{Braanka1998,
+  Title                    = {Algorithms for Brownian dynamics simulation},
+  Author                   = {Bra{\'n}ka, AC and Heyes, DM},
+  Year                     = {1998},
+  Doi                      = {10.1103/PhysRevE.58.2611},
+  ISSN                     = {1063-651X},
+  Month                    = aug,
+  Number                   = {2},
+  Pages                    = {2611--2615},
+  Url                      = {http://pre.aps.org/abstract/PRE/v58/i2/p2611_1 http://link.aps.org/doi/10.1103/PhysRevE.58.2611},
+  Volume                   = {58},
+
+  Abstract                 = {Several Brownian dynamics numerical schemes for treating one-variable stochastic differential equations at the position of the Langevin level are analyzed from the point of view of their algorithmic efficiency. The algorithms are tested using a one-dimensional biharmonic Langevin oscillator process. Limitations in the conventional Brownian dynamics algorithm are shown and it is demonstrated that much better accuracy for dynamical quantities can be achieved with an algorithm based on the stochastic expansion, which is superior to the stochastic second-order Runge-Kutta algorithm. For static properties the relative accuracies of the SE and Runge-Kutta algorithms depend on the property calculated.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bra{\'n}ka, Heyes/Physical Review E/Bra{\'n}ka, Heyes - 1998 - Algorithms for Brownian dynamics simulation.pdf:pdf},
+  Journal                  = {Physical Review E}
+}
+
+@Article{Buckwar2010,
+  Title                    = {Towards a Systematic Linear Stability Analysis of Numerical Methods for Systems of Stochastic Differential Equations},
+  Author                   = {Buckwar, Evelyn and Kelly, C{\'o}nall},
+  Year                     = {2010},
+  Doi                      = {10.1137/090771843},
+  ISSN                     = {0036-1429},
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {298--321},
+  Url                      = {http://epubs.siam.org/doi/abs/10.1137/090771843},
+  Volume                   = {48},
+
+  Abstract                 = {We develop two classes of test equations for the linear stability analysis of numer- ical methods applied to systems of stochastic ordinary differential equations of Itˆ otype(SODEs). Motivated by the theory of stochastic stabilization and destabilization, these test equations cap- ture certain fundamental effects of stochastic perturbation in systems of SODEs, while remaining amenable to analysis before and after discretization. We then carry out a linear stability analysis of the $\theta$-Maruyama method applied to these test equations, investigating mean-square and almost sure asymptotic stability of the test equilibria. We discuss the implications of our work for the notion of A-stability of the $\theta$-Maruyama method and use numerical simulation to suggest extensions of our results to test systems with nonnormal drift coefficie},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Buckwar, Kelly/SIAM Journal on Numerical Analysis/Buckwar, Kelly - 2010 - Towards a Systematic Linear Stability Analysis of Numerical Methods for Systems of Stochastic Differential Equat.pdf:pdf},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Keywords                 = {090771843; 10; 1137; 60h10; 60h35; 65c20; 65l20; ams subject classifications; destabilization; doi; equations; linear stability analysis; stabilization; systems of stochastic differential; theta method}
+}
+
+@Article{Buckwar2011a,
+  Title                    = {The Numerical Stability of Stochastic Ordinary Differential Equations With Additive Noise},
+  Author                   = {Buckwar, E. and Riedler, M. G. and Kloeden, P. E.},
+  Year                     = {2011},
+  Doi                      = {10.1142/S0219493711003279},
+  ISSN                     = {0219-4937},
+  Month                    = sep,
+  Number                   = {02n03},
+  Pages                    = {265--281},
+  Url                      = {http://www.worldscientific.com/doi/abs/10.1142/S0219493711003279},
+  Volume                   = {11},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Buckwar, Riedler, Kloeden/Stochastics and Dynamics/Buckwar, Riedler, Kloeden - 2011 - The Numerical Stability of Stochastic Ordinary Differential Equations With Additive Noise.pdf:pdf},
+  Journal                  = {Stochastics and Dynamics},
+  Keywords                 = {60c30; 60c35; 65c30; additive noise; ams subject classification; numerical methods; random attractor}
+}
+
+@Article{Buckwar2006b,
+  Title                    = {Multistep methods for SDEs and their application to problems with small noise},
+  Author                   = {Evelyn Buckwar and Renate Winkler},
+  Year                     = {2006},
+  Doi                      = {10.1137/040602857},
+  Eprint                   = { 
+ http://dx.doi.org/10.1137/040602857
+},
+  Number                   = {2},
+  Pages                    = {779-803},
+  Url                      = { 
+ http://dx.doi.org/10.1137/040602857
+ 
+},
+  Volume                   = {44},
+
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Owner                    = {saul},
+  Timestamp                = {2015.10.05}
+}
+
+@Article{Burrage2004,
+  Title                    = {Numerical methods for strong solutions of stochastic differential equations: an overview},
+  Author                   = {Burrage, K. and Burrage, P. M. and Tian, T.},
+  Year                     = {2004},
+  Doi                      = {10.1098/rspa.2003.1247},
+  ISSN                     = {1364-5021},
+  Month                    = jan,
+  Number                   = {2041},
+  Pages                    = {373--402},
+  Url                      = {http://rspa.royalsocietypublishing.org/cgi/doi/10.1098/rspa.2003.1247},
+  Volume                   = {460},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Burrage, Burrage, Tian/Proceedings of the Royal Society A Mathematical, Physical and Engineering Sciences/Burrage, Burrage, Tian - 2004 - Numerical methods for strong solutions of stochastic differential equations an overview(2).pdf:pdf},
+  Journal                  = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences}
+}
+
+@Article{Bussi2007,
+  Title                    = {Accurate sampling using Langevin dynamics},
+  Author                   = {Bussi, Giovanni and Parrinello, Michele},
+  Year                     = {2007},
+  Doi                      = {10.1103/PhysRevE.75.056707},
+  ISSN                     = {1539-3755},
+  Month                    = may,
+  Number                   = {5},
+  Pages                    = {056707},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevE.75.056707},
+  Volume                   = {75},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Bussi, Parrinello/Physical Review E/Bussi, Parrinello - 2007 - Accurate sampling using Langevin dynamics.pdf:pdf},
+  Journal                  = {Physical Review E}
+}
+
+@Article{Callaway2002,
+  Title                    = {HIV-1 infection and low steady state viral loads.},
+  Author                   = {Callaway, Duncan S and Perelson, Alan S},
+  Year                     = {2002},
+  Doi                      = {10.1006/bulm.2001.0266},
+  ISSN                     = {00928240},
+  Number                   = {1},
+  Pages                    = {29--64},
+  Volume                   = {64},
+
+  Abstract                 = {Highly active antiretroviral therapy (HAART) reduces the viral burden in human immunodeficiency virus type 1 (HIV-1) infected patients below the threshold of detectability. However, substantial evidence indicates that viral replication persists in these individuals. In this paper we examine the ability of several biologically motivated models of HIV-1 dynamics to explain sustained low viral loads. At or near drug efficacies that result in steady state viral loads below detectability, most models are extremely sensitive to small changes in drug efficacy. We argue that if these models reflect reality many patients should have cleared the virus, contrary to observation. We find that a model in which the infected cell death rate is dependent on the infected cell density does not suffer this shortcoming. The shortcoming is also overcome in two more conventional models that include small populations of cells in which the drug is less effective than in the main population, suggesting that difficulties with drug penetrance and maintenance of effective intracellular drug concentrations in all cells susceptible to HIV infection may underlie ongoing viral replication.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Callaway, Perelson/Bulletin of mathematical biology/Callaway, Perelson - 2002 - HIV-1 infection and low steady state viral loads.pdf:pdf},
+  Journal                  = {Bulletin of mathematical biology},
+  Pmid                     = {11868336}
+}
+
+@Article{Caraballo2006,
+  Title                    = {The Pathwise Numerical Approximation of Stationary Solutions of Semilinear Stochastic Evolution Equations},
+  Author                   = {Caraballo, T. and Kloeden, P.E.},
+  Year                     = {2006},
+  Doi                      = {10.1007/s00245-006-0876-z},
+  ISSN                     = {0095-4616},
+  Month                    = oct,
+  Number                   = {3},
+  Pages                    = {401--415},
+  Url                      = {http://link.springer.com/10.1007/s00245-006-0876-z},
+  Volume                   = {54},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Caraballo, Kloeden/Applied Mathematics and Optimization/Caraballo, Kloeden - 2006 - The Pathwise Numerical Approximation of Stationary Solutions of Semilinear Stochastic Evolution Equations.pdf:pdf},
+  Journal                  = {Applied Mathematics and Optimization},
+  Keywords                 = {60h25; ams classification; differential equations; galerkin approximations; implicit euler scheme; ornstein; primary 60h35; random partial and ordinary; secondary 60h15; solutions; stationary; stochastic partial differential equations; uhlenbeck solution}
+}
+
+@Article{Chan1989,
+  Title                    = {An `excursion' approach to an annealing problem},
+  Author                   = {Chan, Terence and Williams, David},
+  Year                     = {1989},
+  Doi                      = {10.1017/S030500410000150X},
+  ISSN                     = {0305-0041},
+  Month                    = oct,
+  Number                   = {01},
+  Pages                    = {169--176},
+  Url                      = {http://www.journals.cambridge.org/abstract\_S030500410000150X},
+  Volume                   = {105},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Chan, Williams/Mathematical Proceedings of the Cambridge Philosophical Society/Chan, Williams - 1989 - An ‘excursion’ approach to an annealing problem.pdf:pdf},
+  Journal                  = {Mathematical Proceedings of the Cambridge Philosophical Society},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.19}
+}
+
+@Article{Cruz2012,
+  Title                    = {Review on the Brownian Dynamics Simulation of Bead-Rod-Spring Models Encountered in Computational Rheology},
+  Author                   = {Cruz, C. and Chinesta, F. and R\'{e}gnier, G.},
+  Year                     = {2012},
+  Doi                      = {10.1007/s11831-012-9072-2},
+  ISSN                     = {1134-3060},
+  Month                    = jun,
+  Number                   = {2},
+  Pages                    = {227--259},
+  Url                      = {http://link.springer.com/10.1007/s11831-012-9072-2},
+  Volume                   = {19},
+
+  Abstract                 = {Kinetic theory is a mathematical framework intended to relate directly the most relevant characteristics of the molecular structure to the rheological behavior of the bulk system. In other words, kinetic theory is a micro-to-macro approach for solving the flow of complex fluids that circumvents the use of closure relations and offers a better physical description of the phenomena involved in the flow processes. Cornerstone models in kinetic theory employ beads, rods and springs for mimicking the molecular structure of the complex fluid. The generalized bead-rod-spring chain includes the most basic models in kinetic theory: the freely jointed bead-spring chain and the freely-jointed bead-rod chain. Configuration of simple coarse-grained models can be represented by an equivalent Fokker-Planck (FP) diffusion equation, which describes the evolution of the configuration distribution function in the physical and configurational spaces. FP equation can be a complex mathematical object, given its multidimensionality, and solving it explicitly can become a difficult task. Even more, in some cases, obtaining an equivalent FP equation is not possible given the complexity of the coarse-grained molecular model. Brownian dynamics can be employed as an alternative extensive numerical method for approaching the configuration distribution function of a given kinetic-theory model that avoid obtaining and/or resolving explicitly an equivalent FP equation. The validity of this discrete approach is based on the mathematical equivalence between a continuous diffusion equation and a stochastic differential equation as demonstrated by It\^{o} in the 1940s. This paper presents a review of the fundamental issues in the BD simulation of the linear viscoelastic behavior of bead-rod-spring coarse grained models in dilute solution. In the first part of this work, the BD numerical technique is introduced. An overview of the mathematical framework of the BD and a review of the scope of applications are presented. Subsequently, the links between the rheology of complex fluids, the kinetic theory and the BD technique are established at the light of the stochastic nature of the bead-rod-spring models. Finally, the pertinence of the present state-of-the-art review is explained in terms of the increasing interest for the stochastic micro-to-macro approaches for solving complex fluids problems. In the second part of this paper, a detailed description of the BD algorithm used for simulating a small-amplitude oscillatory deformation test is given. Dynamic properties are employed throughout this work to characterise the linear viscoelastic behavior of bead-rod-spring models in dilute solution. In the third and fourth part of this article, an extensive discussion about the main issues of a BD simulation in linear viscoelasticity of diluted suspensions is tackled at the light of the classical multi-bead-spring chain model and the multi-bead-rod chain model, respectively. Kinematic formulations, integration schemes and expressions to calculate the stress tensor are revised for several classical models: Rouse and Zimm theories in the case of multi-bead-spring chains, and Kramers chain and semi-flexible filaments in the case of multi-bead-rod chains. The implemented BD technique is, on the one hand, validated in front of the analytical or exact numerical solutions known of the equivalent FP equations for those classic kinetic theory models; and, on the other hand, is control-set thanks to the analysis of the main numerical issues involved in a BD simulation. Finally, the review paper is closed by some concluding remarks.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Cruz, Chinesta, R\'{e}gnier/Archives of Computational Methods in Engineering/Cruz, Chinesta, R\'{e}gnier - 2012 - Review on the Brownian Dynamics Simulation of Bead-Rod-Spring Models Encountered in Computational Rheo.pdf:pdf},
+  Journal                  = {Archives of Computational Methods in Engineering},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.24}
+}
+
+@Article{Diaz-Infante2015,
+  Title                    = {Convergence and asymptotic stability of the explicit Steklov method for stochastic differential equations},
+  Author                   = {D\'{\i}az-Infante, Sa\'{u}l and Jerez, Silvia},
+  Year                     = {2015},
+  Doi                      = {10.1016/j.cam.2015.01.016},
+  ISSN                     = {03770427},
+  Pages                    = {36-47},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S037704271500028X},
+  Volume                   = {291},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/D\'{\i}az-Infante, Jerez/Journal of Computational and Applied Mathematics/D\'{\i}az-Infante, Jerez - 2015 - Convergence and asymptotic stability of the explicit Steklov method for stochastic differential equations.pdf:pdf},
+  Journal                  = {Journal of Computational and Applied Mathematics},
+  Keywords                 = {stochastic differential equations},
+  Owner                    = {user-x},
+  Publisher                = {Elsevier B.V.},
+  Timestamp                = {2015.05.06}
+}
+
+@Article{Dalal2008,
+  Title                    = {A stochastic model for internal HIV dynamics},
+  Author                   = {Dalal, Nirav and Greenhalgh, David and Mao, Xuerong},
+  Year                     = {2008},
+  Doi                      = {10.1016/j.jmaa.2007.11.005},
+  ISSN                     = {0022247X},
+  Month                    = may,
+  Number                   = {2},
+  Pages                    = {1084--1101},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0022247X07013170},
+  Volume                   = {341},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Dalal, Greenhalgh, Mao/Journal of Mathematical Analysis and Applications/Dalal, Greenhalgh, Mao - 2008 - A stochastic model for internal HIV dynamics.pdf:pdf},
+  Journal                  = {Journal of Mathematical Analysis and Applications},
+  Keywords                 = {asymptotic behaviour,brownian motion,hiv virus dynamics,it\^{o},mean reverting process,s formula,stochastic differential equation}
+}
+
+@Article{CruzCancino2010,
+  Title                    = {High order local linearization methods: An approach for constructing A-stable explicit schemes for stochastic differential equations with additive noise},
+  Author                   = {De la Cruz Cancino, H. and Biscay, R.J. and Jimenez, J.C. and Carbonell, F. and Ozaki, T.},
+  Year                     = {2010},
+  Doi                      = {10.1007/s10543-010-0272-6},
+  ISSN                     = {0006-3835},
+  Language                 = {English},
+  Number                   = {3},
+  Pages                    = {509-539},
+  Url                      = {http://dx.doi.org/10.1007/s10543-010-0272-6},
+  Volume                   = {50},
+
+  Journal                  = {BIT Numerical Mathematics},
+  Keywords                 = {Local Linearization method; Stochastic differential equations; Additive noise; Numerical integration; A-stability; 65C30; 60H10; 60H35},
+  Owner                    = {saul},
+  Publisher                = {Springer Netherlands},
+  Timestamp                = {2015.10.07}
+}
+
+@Article{dowell1966nonlinear,
+  Title                    = {Nonlinear oscillations of a fluttering plate.},
+  Author                   = {Dowell, Earl H},
+  Year                     = {1966},
+  Number                   = {7},
+  Pages                    = {1267--1275},
+  Volume                   = {4},
+
+  Journal                  = {AIAA journal}
+}
+
+@Article{Ermak1978,
+  Title                    = {Brownian dynamics with hydrodynamic interactions},
+  Author                   = {Ermak, Donald L. and a. McCammon, J.},
+  Year                     = {1978},
+  Doi                      = {10.1063/1.436761},
+  ISSN                     = {00219606},
+  Number                   = {4},
+  Pages                    = {1352},
+  Url                      = {http://link.aip.org/link/JCPSA6/v69/i4/p1352/s1&Agg=doi http://scitation.aip.org/content/aip/journal/jcp/69/4/10.1063/1.436761},
+  Volume                   = {69},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Ermak, McCammon/The Journal of Chemical Physics/Ermak, McCammon - 1978 - Brownian dynamics with hydrodynamic interactions.pdf:pdf},
+  Journal                  = {The Journal of Chemical Physics}
+}
+
+@Article{FineAIandKass1966,
+  Title                    = {Indeterminate forms for multi-place functions},
+  Author                   = {Fine, AI and Kass, S},
+  Year                     = {1966},
+  Language                 = {eng},
+  Month                    = {0},
+  Number                   = {1},
+  Pages                    = {59-64},
+  Volume                   = {18},
+
+  Affiliation              = {Urbana; Chicago},
+  Journal                  = {Annales Polonici Mathematici}
+}
+
+@Article{Gao2002,
+  Title                    = {Noise-Induced Hopf-Bifurcation-Type Sequence and Transition to Chaos in the Lorenz Equations},
+  Author                   = {Gao, J. B. and Tung, Wen-wen and Rao, Nageswara},
+  Year                     = {2002},
+  Doi                      = {10.1103/PhysRevLett.89.254101},
+  Issue                    = {25},
+  Month                    = {Nov},
+  Pages                    = {254101},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.89.254101},
+  Volume                   = {89},
+
+  Journal                  = {Phys. Rev. Lett.},
+  Numpages                 = {4},
+  Publisher                = {American Physical Society}
+}
+
+@Book{Gard1988,
+  Title                    = {Introduction to stochastic differential equations},
+  Author                   = {Gard, Thomas C},
+  Year                     = {1988},
+  ISBN                     = {978-0824777760},
+  Publisher                = {M. Dekker}
+}
+
+@Book{Gardiner2009,
+  Title                    = {Stochastic Methods: A Handbook for the Natural and Social Sciences},
+  Author                   = {Gardiner, C.},
+  Year                     = {2009},
+  ISBN                     = {9783540707127},
+  Publisher                = {Springer},
+  Series                   = {Springer Series in Synergetics},
+
+  Lccn                     = {2008936877}
+}
+
+@Article{Giles2008,
+  Title                    = {Multilevel Monte Carlo Path Simulation},
+  Author                   = {Michael B. Giles},
+  Year                     = {2008},
+  Doi                      = {10.1287/opre.1070.0496},
+  Number                   = {3},
+  Pages                    = {607-617},
+  Volume                   = {56},
+
+  Journal                  = {Operations Research}
+}
+
+@Book{glasserman2004,
+  Title                    = {Monte Carlo Methods in Financial Engineering},
+  Author                   = {Glasserman, P.},
+  Year                     = {2004},
+  ISBN                     = {9780387004518},
+  Publisher                = {Springer},
+  Series                   = {Applications of mathematics : stochastic modelling and applied probability},
+
+  Owner                    = {saul},
+  Timestamp                = {2015.09.29}
+}
+
+@Article{Goychuk2004,
+  Title                    = {Quantum dynamics with non-Markovian fluctuating parameters},
+  Author                   = {Goychuk, Igor},
+  Year                     = {2004},
+  Doi                      = {10.1103/PhysRevE.70.016109},
+  Eprint                   = {0311596},
+  ISSN                     = {15393755},
+  Number                   = {1 2},
+  Pages                    = {1--10},
+  Volume                   = {70},
+
+  Abstract                 = {A stochastic approach to the quantum dynamics randomly modulated in time by a discrete state non-Markovian noise, which possesses an arbitrary nonexponential distribution of the residence times, is developed. The formally exact expression for the Laplace-transformed quantum propagator averaged over the stationary realizations of such N -state non-Markovian noise is obtained. The theory possesses a wide range of applications. It includes some previous Markovian and non-Markovian theories as particular cases. In the context of the stochastic theory of spectral line shape and relaxation, the developed approach presents a non-Markovian generalization of the Kubo-Anderson theory of sudden modulation. In particular, the exact analytical expression is derived for the spectral line shape of optical transitions described by a Kubo oscillator with randomly modulated frequency which undergoes jumplike non-Markovian fluctuations in time.},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {cond-mat/0311596},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Goychuk/Physical Review E - Statistical, Nonlinear, and Soft Matter Physics/Goychuk - 2004 - Quantum dynamics with non-Markovian fluctuating parameters.pdf:pdf},
+  Journal                  = {Physical Review E - Statistical, Nonlinear, and Soft Matter Physics},
+  Pmid                     = {15324131},
+  Primaryclass             = {cond-mat}
+}
+
+@Article{Guo2014,
+  Title                    = {The improved split-step $\theta$ methods for stochastic differential equation},
+  Author                   = {Guo, Qian and Li, Hongqun and Zhu, Ying},
+  Year                     = {2014},
+  Doi                      = {10.1002/mma.2972},
+  ISSN                     = {01704214},
+  Number                   = {August 2013},
+  Pages                    = {2245--2256},
+  Url                      = {http://doi.wiley.com/10.1002/mma.2972},
+  Volume                   = {37},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Guo, Li, Zhu/Mathematical Methods in the Applied Sciences/Guo, Li, Zhu - 2014 - The improved split-step $\theta$ methods for stochastic differential equation.pdf:pdf},
+  Journal                  = {Mathematical Methods in the Applied Sciences}
+}
+
+@Article{Halidias2014,
+  Title                    = {A novel approach to construct numerical methods for stochastic differential equations},
+  Author                   = {Halidias, Nikolaos},
+  Year                     = {2014},
+  Doi                      = {10.1007/s11075-013-9724-9},
+  ISSN                     = {1017-1398},
+  Language                 = {English},
+  Number                   = {1},
+  Pages                    = {79-87},
+  Url                      = {http://dx.doi.org/10.1007/s11075-013-9724-9},
+  Volume                   = {66},
+
+  Journal                  = {Numerical Algorithms},
+  Keywords                 = {Explicit numerical scheme; Super linear stochastic differential equations.; 60H10; 60H35},
+  Publisher                = {Springer US}
+}
+
+@Article{Halidias2012,
+  Title                    = {Semi-discrete approximations for stochastic differential equations and applications},
+  Author                   = {Halidias, Nikolaos},
+  Year                     = {2012},
+  Doi                      = {10.1080/00207160.2012.658380},
+  ISSN                     = {0020-7160},
+  Month                    = apr,
+  Number                   = {6},
+  Pages                    = {780--794},
+  Url                      = {http://www.tandfonline.com/doi/abs/10.1080/00207160.2012.658380},
+  Volume                   = {89},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Halidias/International Journal of Computer Mathematics/Halidias - 2012 - Semi-discrete approximations for stochastic differential equations and applications.pdf:pdf},
+  Journal                  = {International Journal of Computer Mathematics},
+  Keywords                 = {2010 ams subject classifications,60h10,65c20,65c30,semi-discrete approximations of sdes,square root process},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.16}
+}
+
+@Book{Hamley2007,
+  Title                    = {Introduction to Soft Matter: Synthetic and Biological Self-Assembling Materials},
+  Author                   = {Hamley, Ian W.},
+  Year                     = {2007},
+  ISBN                     = {978-04-7051-732-1},
+  Publisher                = {Wiley},
+
+  Month                    = {Oct}
+}
+
+@Article{He2004,
+  Title                    = {Stochastic bifurcation in Duffing-Van der Pol oscillators},
+  Author                   = {He, Qun and Xu, Wei and Rong, Haiwu and Fang, Tong},
+  Year                     = {2004},
+  Doi                      = {10.1016/j.physa.2004.01.067},
+  ISSN                     = {03784371},
+  Month                    = jul,
+  Number                   = {3-4},
+  Pages                    = {319--334},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0378437104001372},
+  Volume                   = {338},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/He et al/Physica A Statistical Mechanics and its Applications/He et al. - 2004 - Stochastic bifurcation in Duffing–Van der Pol oscillators.pdf:pdf},
+  Journal                  = {Physica A: Statistical Mechanics and its Applications},
+  Keywords                 = {du ng,global analysis,stochastic bifurcation,van der pol oscillators}
+}
+
+@Article{Hernandez1992,
+  Title                    = {A-stability of Runge-Kutta methods for systems with additive noise},
+  Author                   = {Hernandez, Diego Bricio and Spigler, Renato},
+  Year                     = {1992},
+  Doi                      = {10.1007/BF01994846},
+  ISSN                     = {0006-3835},
+  Month                    = dec,
+  Number                   = {4},
+  Pages                    = {620--633},
+  Url                      = {http://link.springer.com/10.1007/BF01994846},
+  Volume                   = {32},
+
+  Abstract                 = {Numerical stability of both explicit and implicit Runge-Kutta methods for solving ordinary differen- tial equations with an additive noise term is studied. The concept of numerical stability of deterministic schemes is extended to the stochastic case, and a stochastic analogue of Dahlquist's A-stability is proposed. It is shown that the discretization of the drift term alone controls the A-stability of the whole scheme. The quantitative effect of implicitness upon A-stability is also investigated, and stability regions are given for a family of implicit Runge-Kutta methods with optimal order of convergence.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Hernandez, Spigler/BIT/Hernandez, Spigler - 1992 - A-stability of Runge-Kutta methods for systems with additive noise.pdf:pdf},
+  Journal                  = {BIT},
+  Keywords                 = {1; and phrases; differential equations; implicit methods; introduction; numerical stability; on time-varying parameters; ordinary differential equations depending; runge-kutta methods; stochastic; stochastic stability; such as; systems with additive noise}
+}
+
+@Article{Higham2001,
+  Title                    = {An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations},
+  Author                   = {Higham, Desmond J.},
+  Year                     = {2001},
+  Doi                      = {10.1137/S0036144500378302},
+  ISSN                     = {0036-1445},
+  Month                    = jan,
+  Number                   = {3},
+  Pages                    = {525--546},
+  Url                      = {http://dx.doi.org/10.1137/S0036144500378302 http://epubs.siam.org/doi/abs/10.1137/S0036144500378302},
+  Volume                   = {43},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Higham/SIAM Review/Higham. - 2001 - An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations.pdf:pdf},
+  Journal                  = {SIAM Review},
+  Keywords                 = {65c20; 65c30; ams subject classifications; euler; maruyama method; matlab; milstein method; monte carlo; pii; s0036144500378302; stochastic simula-; strong and weak convergence; tion}
+}
+
+@Article{Higham2000,
+  Title                    = {A-Stability and Stochastic Mean-Square Stability},
+  Author                   = {Higham, Desmond J.},
+  Year                     = {2000},
+  Doi                      = {10.1023/A:1022355410570},
+  Number                   = {2},
+  Pages                    = {404--409},
+  Volume                   = {40},
+
+  Abstract                 = {This note extends and interprets a result of Saito andMitsui [SIAM J. Numer. Anal., 33 (1996), pp. 2254--2267] for a method of Milstein. The result concerns mean-square stability on a stochastic differential equation test problem with multiplicative noise. The numerical method reduces to the Theta Method on deterministic problems. Saito and Mitsui showed that the deterministic A-stability property of the Theta Method does not carry through to the mean-square context in general, and gave a condition un- der which unconditional stability holds. The main purpose of this note is to emphasize that the approach of Saito and Mitsui makes it possible to quantify precisely the point where unconditional stability is lost in terms of the ratio of the drift (deterministic) and diffusion (stochastic) coefficients. This leads to a concept akin to deterministic A($\alpha$)-stability that may be useful in the stability analysis of more general methods. It is also shown that mean-square A-stability is recovered if the Theta Method parameter is increased beyond its normal range to the value 3/2.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Higham/BIT/Higham - 2000 - A-Stability and Stochastic Mean-Square Stability.pdf:pdf},
+  Journal                  = {BIT},
+  Keywords                 = {mean-square; milstein method; multiplicative noise; theta method}
+}
+
+@Article{Higham2000b,
+  Title                    = {Mean-Square and Asymptotic Stability of the Stochastic Theta Method},
+  Author                   = {Higham, Desmond J.},
+  Year                     = {2000},
+  Doi                      = {10.1137/S003614299834736X},
+  ISSN                     = {0036-1429},
+  Month                    = jan,
+  Number                   = {3},
+  Pages                    = {753--769},
+  Url                      = {http://epubs.siam.org/doi/pdf/10.1137/S003614299834736X http://epubs.siam.org/doi/abs/10.1137/S003614299834736X},
+  Volume                   = {38},
+
+  Abstract                 = {Stability analysis of numerical methods for ordinary differential equations (ODEs) is motivated by the question ``for what choices of stepsize does the numerical method reproduce the characteristics of the test equation? '' We study a linear test equation with a multiplicative noise term, and consider mean-square and asymptotic stability of a stochastic version of the theta method. We extend some mean-square stability results in [Saito and Mitsui, SIAM. J. Numer. Anal., 33 (1996), pp. 2254--2267]. In particular, we show that an extension of the deterministic A-stability property holds. We also plot mean-square stability regions for the case where the test equation has real parameters. For asymptotic stability, we show that the issue reduces to finding the expected value of a parametrized random variable. We combine analytical and numerical techniques to get insights into the stability properties. For a variant of the method that has been proposed in the literature we obtain precise analytic expressions for the asymptotic stability region. This allows us to prove a number of results. The technique introduced is widely applicable, and we use it to show that a fully implicit method suggested by [Kloeden and Platen, Numerical Solution of Stochastic Differential Equations, Springer-Verlag, 1992] has an asymptotic stability extension of the deterministic A-stability property. We also use the approach to explain some numerical results},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Higham/SIAM Journal on Numerical Analysis/Higham - 2000 - Mean-Square and Asymptotic Stability of the Stochastic Theta Method.pdf:pdf},
+  Journal                  = {SIAM Journal on Numerical Analysis}
+}
+
+@Article{Higham2002b,
+  Title                    = {Strong Convergence of Euler-Type Methods for Nonlinear Stochastic Differential Equations},
+  Author                   = {Higham, Desmond J and Mao, Xuerong and Stuart, Andrew M},
+  Year                     = {2002},
+  Doi                      = {10.1137/S0036142901389530},
+  ISSN                     = {0036-1429},
+  Month                    = jan,
+  Number                   = {3},
+  Pages                    = {1041--1063},
+  Url                      = {http://epubs.siam.org/doi/abs/10.1137/S0036142901389530},
+  Volume                   = {40},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Higham, Mao, Stuart/SIAM Journal on Numerical Analysis/Higham, Mao, Stuart - 2002 - Strong Convergence of Euler-Type Methods for Nonlinear Stochastic Differential Equations.pdf:pdf},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Keywords                 = {65c20,65c30,65l20,ams subject classifications,backward euler,bounds,euler,finite-time convergence,implicit,maruyama,moment,nonlinearity,one-sided lipschitz condition,pii,s0036142901389530,split-step},
+  Owner                    = {user-x},
+  Timestamp                = {2015.05.06}
+}
+
+@Article{Hutzenthaler2015,
+  Title                    = {Numerical approximations of stochastic differential equations with non-globally Lipschitz continuous coefficients},
+  Author                   = {Hutzenthaler, Martin and Jentzen, Arnulf},
+  Year                     = {2015},
+  Doi                      = {http://dx.doi.org/10.1090/memo/1112},
+  ISSN                     = {1947-6221},
+  Month                    = jul,
+  Number                   = {1112},
+  Url                      = {http://www.ams.org/},
+  Volume                   = {236},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Hutzenthaler, Jentzen/Memoirs of the American Mathematical Society/Hutzenthaler, Jentzen - 2015 - Numerical approximations of stochastic differential equations with non-globally Lipschitz continuous coef.pdf:pdf},
+  Journal                  = {Memoirs of the American Mathematical Society},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Hutzenthaler2012b,
+  Title                    = {Divergence of the multilevel Monte Carlo Euler method for nonlinear stochastic differential equations},
+  Author                   = {Hutzenthaler, Martin and Jentzen, Arnulf and Kloeden, Peter E},
+  Year                     = {2013},
+  Doi                      = {10.1214/12-AAP890},
+  ISSN                     = {1050-5164},
+  Month                    = oct,
+  Number                   = {5},
+  Pages                    = {1913--1966},
+  Url                      = {http://projecteuclid.org/euclid.aoap/1377696302},
+  Volume                   = {23},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Hutzenthaler, Jentzen, Kloeden/The Annals of Applied Probability/Hutzenthaler, Jentzen, Kloeden - 2013 - Divergence of the multilevel Monte Carlo Euler method for nonlinear stochastic differential e(2).pdf:pdf},
+  Journal                  = {The Annals of Applied Probability},
+  Keywords                 = {non-globally lipschitz continuous,nonlinear stochastic differential equations,rare events},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.15}
+}
+
+@Article{Hutzenthaler2012a,
+  Title                    = {Strong convergence of an explicit numerical method for SDEs with nonglobally Lipschitz continuous coefficients},
+  Author                   = {Hutzenthaler, Martin and Jentzen, Arnulf and Kloeden, Peter E.},
+  Year                     = {2012},
+  Doi                      = {10.1214/11-AAP803},
+  Eprint                   = {arXiv:1010.3756v2},
+  ISSN                     = {1050-5164},
+  Month                    = aug,
+  Number                   = {4},
+  Pages                    = {1611--1641},
+  Url                      = {http://projecteuclid.org/euclid.aoap/1344614205},
+  Volume                   = {22},
+
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {arXiv:1010.3756v2},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Hutzenthaler, Jentzen, Kloeden/The Annals of Applied Probability/Hutzenthaler, Jentzen, Kloeden - 2012 - Strong convergence of an explicit numerical method for SDEs with nonglobally Lipschitz continuou.pdf:pdf},
+  Journal                  = {The Annals of Applied Probability},
+  Keywords                 = {65C30,Euler scheme,EulerMaruyama,and phrases,backward euler,euler,euler scheme,implicit euler scheme,maruyama,nonglobally lipschitz,scheme,stochastic di,stochastic differential equa-,strong approximation,superlinearly growing coefficient,tamed euler scheme,tion},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Hutzenthaler2009,
+  Title                    = {Strong and weak divergence in finite time of Euler's method for stochastic differential equations with non-globally Lipschitz continuous coefficients},
+  Author                   = {Hutzenthaler, Martin and Jentzen, Arnulf and Kloeden, Peter E.},
+  Year                     = {2011},
+  Doi                      = {10.1098/rspa.2010.0348},
+  ISSN                     = {1364-5021},
+  Number                   = {2130},
+  Pages                    = {1563--1576},
+  Volume                   = {467},
+
+  Abstract                 = {The stochastic Euler scheme is known to converge to the exact solution of a stochastic differential equation (SDE) with globally Lipschitz continuous drift and diffusion coefficients. Recent results extend this convergence to coefficients that grow, at most, linearly. For superlinearly growing coefficients, finite-time convergence in the strong mean-square sense remains. In this article, we answer this question to the negative and prove, for a large class of SDEs with non-globally Lipschitz continuous coefficients, that Euler{\textquoteright}s approximation converges neither in the strong mean-square sense nor in the numerically weak sense to the exact solution at a finite time point. Even worse, the difference of the exact solution and of the numerical approximation at a finite time point diverges to infinity in the strong mean-square sense and in the numerically weak sense.},
+  Journal                  = {Proceedings of the Royal Society of London A: Mathematical, Physical and Engineering Sciences},
+  Publisher                = {The Royal Society}
+}
+
+@Article{Hutzenthaler2010,
+  Title                    = {Strong and weak divergence in finite time of Euler's method for stochastic differential equations with non-globally Lipschitz continuous coefficients},
+  Author                   = {Hutzenthaler, M. and Jentzen, A. and Kloeden, P. E.},
+  Year                     = {2010},
+  Doi                      = {10.1098/rspa.2010.0348},
+  ISSN                     = {1364-5021},
+  Month                    = dec,
+  Number                   = {2130},
+  Pages                    = {1563--1576},
+  Url                      = {http://rspa.royalsocietypublishing.org/cgi/doi/10.1098/rspa.2010.0348},
+  Volume                   = {467},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Hutzenthaler, Jentzen, Kloeden/Proceedings of the Royal Society A Mathematical, Physical and Engineering Sciences/Hutzenthaler, Jentzen, Kloeden - 2010 - Strong and weak divergence in finite time of Euler's method for stochastic differential equation.pdf:pdf},
+  Journal                  = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Book{Keller1996,
+  Title                    = {Attractors and bifurcations of the stochastic Lorenz system},
+  Author                   = {Keller, Hannes},
+  Year                     = {1996},
+  Publisher                = {Citeseer},
+  Url                      = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.29.6849&rep=rep1&type=pdf}
+}
+
+@Incollection{Keller1999,
+  Title                    = {Numerical Approximation of Random Attractors},
+  Author                   = {Keller, Hannes and Ochs, Gunter},
+  Booktitle                = {Stochastic Dynamics},
+  Year                     = {1999},
+  Doi                      = {10.1007/0-387-22655-9_5},
+  ISBN                     = {978-0-387-98512-1},
+  Language                 = {English},
+  Pages                    = {93-115},
+  Publisher                = {Springer New York},
+  Url                      = {http://dx.doi.org/10.1007/0-387-22655-9_5}
+}
+
+@Book{Khasminskii2011,
+  Title                    = {Stochastic Stability of Differential Equations},
+  Author                   = {Khasminskii, R. and Milstein, G.N.},
+  Year                     = {2011},
+  ISBN                     = {9783642232800},
+  Publisher                = {Springer Berlin Heidelberg},
+  Series                   = {Stochastic Modelling and Applied Probability},
+
+  Owner                    = {saul},
+  Timestamp                = {2015.10.08}
+}
+
+@Incollection{kloeden1999towards,
+  Title                    = {Towards a Theory of Random Numerical Dynamics},
+  Author                   = {Kloeden, Peter E. and Keller, Hannes and Schmalfu{\ss}, Bj{\"o}rn},
+  Booktitle                = {Stochastic Dynamics},
+  Editor                   = {Crauel, Hans and Gundlach, Matthias},
+  Year                     = {1999},
+  ISBN                     = {978-0-387-98512-1},
+  Pages                    = {259--282},
+  Publisher                = {Springer New York}
+}
+
+@Book{Kloeden1992,
+  Title                    = {Numerical Solution of Stochastic Differential Equations},
+  Author                   = {Kloeden, Peter E. and Platen, Eckhard},
+  Year                     = {1992},
+  ISBN                     = {978-03-8754-062-7},
+  Publisher                = {Springer-Verlag},
+
+  Month                    = {Jan}
+}
+
+@Article{Lamba2007,
+  Title                    = {An adaptive Euler-Maruyama scheme for SDEs: Convergence and stability},
+  Author                   = {Lamba, H. and Mattingly, J. C. and Stuart, a. M.},
+  Year                     = {2007},
+  Doi                      = {10.1093/imanum/drl032},
+  Eprint                   = {0601029},
+  ISSN                     = {02724979},
+  Pages                    = {479--506},
+  Volume                   = {27},
+
+  Abstract                 = {The understanding of adaptive algorithms for stochastic differential equations (SDEs) is an open area, where many issues related to both convergence and stability (long-time behaviour) of algorithms are unresolved. This paper considers a very simple adaptive algorithm, based on controlling only the drift component of a time step. Both convergence and stability are studied. The primary issue in the convergence analysis is that the adaptive method does not necessarily drive the time steps to zero with the user-input tolerance. This possibility must be quantified and shown to have low probability. The primary issue in the stability analysis is ergodicity. It is assumed that the noise is nondegenerate, so that the diffusion process is elliptic, and the drift is assumed to satisfy a coercivity condition. The SDE is then geometrically ergodic (averages converge to statistical equilibrium exponentially quickly). If the drift is not linearly bounded, then explicit fixed time step approximations, such as the Euler-Maruyama scheme, may fail to be ergodic. In this work, it is shown that the simple adaptive time-stepping strategy cures this problem. In addition to proving ergodicity, an exponential moment bound is also proved, generalizing a result known to hold for the SDE itself.},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {math/0601029},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Lamba, Mattingly, Stuart/IMA Journal of Numerical Analysis/Lamba, Mattingly, Stuart - 2007 - An adaptive Euler-Maruyama scheme for SDEs Convergence and stability.pdf:pdf},
+  Journal                  = {IMA Journal of Numerical Analysis},
+  Keywords                 = {Adaptive time discretization,Convergence,Ergodicity,Exponential moment bounds,Stability,Stochastic differential equations},
+  Owner                    = {saul},
+  Primaryclass             = {math},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Lawlor2012,
+  Title                    = {A L'hospital's rule for multivariable functions},
+  Author                   = {Lawlor, Gary R},
+  Year                     = {2012},
+
+  Journal                  = {arXiv preprint arXiv:1209.0363}
+}
+
+@Incollection{Liang1999,
+  Title                    = {P-Bifurcations in the Noisy Duffing-van der Pol Equation},
+  Author                   = {Liang, Yan and Namachchivaya, N.Sri},
+  Booktitle                = {Stochastic Dynamics},
+  Year                     = {1999},
+  Doi                      = {10.1007/0-387-22655-9_3},
+  ISBN                     = {978-0-387-98512-1},
+  Language                 = {English},
+  Pages                    = {49-70},
+  Publisher                = {Springer New York},
+  Url                      = {http://dx.doi.org/10.1007/0-387-22655-9_3}
+}
+
+@Book{Liptser1989,
+  Title                    = {Theory of Martingales},
+  Author                   = {Liptser, Robert and Shiryayev, A. N.},
+  Year                     = {1989},
+  ISBN                     = {978-94-010-7600-5},
+  Publisher                = {Springer},
+
+  Identifiers              = {amazon:0792303954,isbn:9789401076005,google:2-E-ngEACAAJ},
+  Month                    = {Oct},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Liu2013d,
+  Title                    = {Asymptotic behavior of a stochastic nonautonomous Lotka-Volterra competitive system with impulsive perturbations},
+  Author                   = {Liu, Meng and Wang, Ke},
+  Year                     = {2013},
+  Doi                      = {10.1016/j.mcm.2012.09.019},
+  ISSN                     = {08957177},
+  Number                   = {3-4},
+  Pages                    = {909--925},
+  Url                      = {http://dx.doi.org/10.1016/j.mcm.2012.09.019},
+  Volume                   = {57},
+
+  Abstract                 = {This paper is concerned with an n-species stochastic nonautonomous Lotka-Volterra competitive system with impulsive effects. Some dynamical properties are investigated and the sufficient conditions for stochastic permanence, extinction and global stability are established. Moreover, the lower-growth rate and the upper-growth rate of the positive solution are studied. In addition, the limit of the average in time of the sample paths of solutions is estimated. ?? 2012 Elsevier Ltd.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Liu, Wang/Mathematical and Computer Modelling/Liu, Wang - 2013 - Asymptotic behavior of a stochastic nonautonomous Lotka-Volterra competitive system with impulsive perturbations.pdf:pdf},
+  Journal                  = {Mathematical and Computer Modelling},
+  Keywords                 = {Competitive system,Global attractivity,Impulsive effects,Stochastic permanence,Stochastic perturbations},
+  Publisher                = {Elsevier Ltd}
+}
+
+@Article{Liu2013a,
+  Title                    = {Strong convergence of the stopped Euler-Maruyama method for nonlinear stochastic differential equations},
+  Author                   = {Liu, Wei and Mao, Xuerong},
+  Year                     = {2013},
+  Doi                      = {10.1016/j.amc.2013.08.023},
+  ISSN                     = {00963003},
+  Pages                    = {389--400},
+  Url                      = {http://dx.doi.org/10.1016/j.amc.2013.08.023},
+  Volume                   = {223},
+
+  Abstract                 = {In this paper, numerical methods for the nonlinear stochastic differential equations (SDEs) with non-global Lipschitz drift coefficient are discussed. The existing known results have only so far shown that the classical (explicit) Euler-Maruyama (EM) approximate solutions converge to the true solution in probability [22,23]. More recently, the authors in [16] proved that the classical EM method will diverge in L2 sense for the underlying SDEs in this paper (and those SDEs with superlinearly growing coefficients). These strongly indicate that the classical EM method is not good enough for the highly nonlinear SDEs. However, in this paper, we introduce a modified EM method using stopping time and show successfully that the discrete version of the modified EM approximate solution converges to the true solution in the strong sense (namely in L2) with a order arbitrarily close to a half. © 2013 Elsevier Ltd. All rights reserved.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Liu, Mao/Applied Mathematics and Computation/Liu, Mao - 2013 - Strong convergence of the stopped Euler-Maruyama method for nonlinear stochastic differential equations.pdf:pdf},
+  Journal                  = {Applied Mathematics and Computation},
+  Keywords                 = {Euler-Maruyama method,Nonlinear,SDEs,Stopped,Stopping time,Strong convergence},
+  Owner                    = {saul},
+  Publisher                = {Elsevier Inc.},
+  Timestamp                = {2015.09.15}
+}
+
+@Article{Lowen1993,
+  Title                    = {Long-time self-diffusion coefficient in colloidal suspensions: theory versus simulation},
+  Author                   = {Lowen, H and Szamel, G},
+  Year                     = {1993},
+  Doi                      = {10.1088/0953-8984/5/15/003},
+  ISSN                     = {0953-8984},
+  Month                    = apr,
+  Number                   = {15},
+  Pages                    = {2295--2306},
+  Url                      = {http://iopscience.iop.org/0953-8984/5/15/003 http://stacks.iop.org/0953-8984/5/i=15/a=003?key=crossref.b20e8001a77af6b95b10e4510a9eab3b},
+  Volume                   = {5},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Lowen, Szamel/Journal of Physics Condensed Matter/Lowen, Szamel - 1993 - Long-time self-diffusion coefficient in colloidal suspensions theory versus simulation.pdf:pdf},
+  Journal                  = {Journal of Physics: Condensed Matter}
+}
+
+@Article{Mao2015,
+  Title                    = {The truncated Euler-Maruyama method for stochastic differential equations },
+  Author                   = {Xuerong Mao},
+  Year                     = {2015},
+  Doi                      = {http://dx.doi.org/10.1016/j.cam.2015.06.002},
+  ISSN                     = {0377-0427},
+  Pages                    = {370 - 384},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0377042715003210},
+  Volume                   = {290},
+
+  Journal                  = {Journal of Computational and Applied Mathematics },
+  Keywords                 = {Stochastic differential equation},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.29}
+}
+
+@Book{Mao2007,
+  Title                    = {Stochastic Differential Equations and Application},
+  Author                   = {Xuerong Mao},
+  Year                     = {2007},
+  ISBN                     = {978-19-0427-534-3},
+  Publisher                = {Horwood Pub.},
+
+  Identifiers              = {amazon:1904275346,isbn:9781904275343,google:vlaI\_vmm5QMC},
+  Month                    = {Dec},
+  Owner                    = {user-x},
+  Timestamp                = {2015.05.06}
+}
+
+@Book{Mao1994,
+  Title                    = {Exponential Stability of Stochastic Differential Equations},
+  Author                   = {Mao, Xuerong},
+  Year                     = {1994},
+  ISBN                     = {978-08-2479-080-6},
+  Publisher                = {CRC Press},
+
+  Identifiers              = {amazon:0824790804,isbn:9780824790806,google:KNiMPgAACAAJ},
+  Month                    = {May},
+  Owner                    = {user-x},
+  Timestamp                = {2015.05.06}
+}
+
+@Article{Mao2009,
+  Title                    = {Population dynamical behavior of non-autonomous Lotka-Volterra competitive system with random perturbation},
+  Author                   = {Mao, Xuerong and Li, Xiaoyue},
+  Year                     = {2009},
+  Doi                      = {10.3934/dcds.2009.24.523},
+  ISSN                     = {1078-0947},
+  Month                    = mar,
+  Number                   = {2},
+  Pages                    = {523--545},
+  Url                      = {http://www.aimsciences.org/journals/displayArticles.jsp?paperID=4025},
+  Volume                   = {24},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Mao, Li/Discrete and Continuous Dynamical Systems/Mao, Li - 2009 - Population dynamical behavior of non-autonomous Lotka-Volterra competitive system with random perturbation.pdf:pdf},
+  Journal                  = {Discrete and Continuous Dynamical Systems}
+}
+
+@Article{Mao2002,
+  Title                    = {Environmental Brownian noise suppresses explosions in population dynamics},
+  Author                   = {Mao, Xuerong and Marion, Glenn and Renshaw, Eric},
+  Year                     = {2002},
+  Doi                      = {10.1016/S0304-4149(01)00126-0},
+  ISSN                     = {03044149},
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {95--110},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0304414901001260},
+  Volume                   = {97},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Mao, Marion, Renshaw/Stochastic Processes and their Applications/Mao, Marion, Renshaw - 2002 - Environmental Brownian noise suppresses explosions in population dynamics.pdf:pdf},
+  Journal                  = {Stochastic Processes and their Applications},
+  Keywords                 = {boundedness,brownian motion,explosion,itˆ,stochastic di erential equation}
+}
+
+@Article{Mao2003,
+  Title                    = {Asymptotic behaviour of the stochastic Lotka-Volterra model},
+  Author                   = {Mao, Xuerong and Sabanis, Sotirios and Renshaw, Eric},
+  Year                     = {2003},
+  Doi                      = {10.1016/S0022-247X(03)00539-0},
+  ISSN                     = {0022247X},
+  Number                   = {1},
+  Pages                    = {141--156},
+  Volume                   = {287},
+
+  Abstract                 = {This paper examines the asymptotic behaviour of the stochastic extension of a fundamentally important population process, namely the Lotka-Volterra model. The stochastic version of this process appears to have far more intriguing properties than its deterministic counterpart. Indeed, the fact that a potential deterministic population explosion can be prevented by the presence of even a tiny amount of environmental noise shows the high level of difference which exists between these two representations. ?? 2003 Elsevier Inc. All rights reserved.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Mao, Sabanis, Renshaw/Journal of Mathematical Analysis and Applications/Mao, Sabanis, Renshaw - 2003 - Asymptotic behaviour of the stochastic Lotka-Volterra model.pdf:pdf},
+  Journal                  = {Journal of Mathematical Analysis and Applications},
+  Keywords                 = {Asymptotic behaviour,Brownian motion,Lotka-Volterra model,Moment boundedness,Stochastic differential equation}
+}
+
+@Article{Mao2013,
+  Title                    = {Strong convergence and stability of implicit numerical methods for stochastic differential equations with non-globally Lipschitz continuous coefficients},
+  Author                   = {Mao, Xuerong and Szpruch, Lukasz},
+  Year                     = {2013},
+  Doi                      = {10.1016/j.cam.2012.08.015},
+  ISSN                     = {03770427},
+  Month                    = jan,
+  Pages                    = {14--28},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0377042712003378 http://strathprints.strath.ac.uk/13892/},
+  Volume                   = {238},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Mao, Szpruch/Journal of Computational and Applied Mathematics/Mao, Szpruch - 2013 - Strong convergence and stability of implicit numerical methods for stochastic differential equations with non-glob.pdf:pdf},
+  Journal                  = {Journal of Computational and Applied Mathematics},
+  Owner                    = {saul},
+  Publisher                = {Elsevier B.V.},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Mao2013a,
+  Title                    = {Strong convergence rates for backward Euler-Maruyama method for non-linear dissipative-type stochastic differential equations with super-linear diffusion coefficients},
+  Author                   = {Mao, Xuerong and Szpruch, Lukasz},
+  Year                     = {2013},
+  Doi                      = {10.1080/17442508.2011.651213},
+  ISSN                     = {1744-2508},
+  Month                    = feb,
+  Number                   = {1},
+  Pages                    = {144--171},
+  Url                      = {http://www.tandfonline.com/doi/abs/10.1080/17442508.2011.651213},
+  Volume                   = {85},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Mao, Szpruch/Stochastics An International Journal of Probability and Stochastic Processes/Mao, Szpruch - 2013 - Strong convergence rates for backward Euler–Maruyama method for non-linear dissipative-type stochastic different.pdf:pdf},
+  Journal                  = {Stochastics An International Journal of Probability and Stochastic Processes},
+  Owner                    = {user-x},
+  Timestamp                = {2015.05.06}
+}
+
+@Article{Matus2005,
+  Title                    = {Exact Difference Schemes for Time-dependent Problems},
+  Author                   = {Matus, P and Irkhin, U. and Lapinska-Chrzczonowicz, M.},
+  Year                     = {2005},
+  Doi                      = {10.2478/cmam-2005-0020},
+  ISSN                     = {1609-4840},
+  Number                   = {4},
+  Pages                    = {422--448},
+  Url                      = {http://old.cmam.info/issues/?Vol=5&Num=4&ItID=133&Type=pdf&Aid=133 http://www.degruyter.com/view/j/cmam.2005.5.issue-4/cmam-2005-0020/cmam-2005-0020.xml},
+  Volume                   = {5},
+
+  Abstract                 = {By the example of the Cauchy problem for the nonlinear ordinary differential equation (ODE) exact, i.e., yn = y(tn) = u(tn) for each tn = n$\tau$, n = 0, 1, . . . On the basis of such an approach, for one-dimensional and multidimensional semi- linear transport equations of quite a general form with given initial data and boundary conditions the exact difference schemes (EDSs) are constructed. In the case of constant coefficients, such numerical methods can be created on rectangular grids, while in the case of variable coefficients -- on moving grids only. The questions of developing differ- ence schemes of arbitrary order for quasi-linear transport equations with a nonlinear right-hand side are discussed. In this paper, the EDSs are constructed also for certain classes of linear and quasi- linear parabolic equations, for convection-diffusion problems with a small parameter, as well as inhomogeneous wave equations with constant coefficient},
+  File                     = {:home/saul/Documents/Mendeley Desktop/problemsMatus/Computational Methods in Applied Mathematics/problemsMatus - 2005 - Exact difference schemes for time-dependent.pdf:pdf},
+  Journal                  = {Computational Methods in Applied Mathematics},
+  Keywords                 = {it is shown that the difference scheme with specif}
+}
+
+@Book{may2001stability,
+  Title                    = {Stability and Complexity in Model Ecosystems},
+  Author                   = {May, R.M.C.},
+  Year                     = {2001},
+  ISBN                     = {9780691088617},
+  Publisher                = {Princeton University Press},
+  Series                   = {Landmarks in Biology Series}
+}
+
+@Article{McKane2005,
+  Title                    = {Predator-Prey Cycles from Resonant Amplification of Demographic Stochasticity},
+  Author                   = {McKane, a. J. and Newman, T. J.},
+  Year                     = {2005},
+  Doi                      = {10.1103/PhysRevLett.94.218102},
+  ISSN                     = {0031-9007},
+  Month                    = jun,
+  Number                   = {21},
+  Pages                    = {218102},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.94.218102},
+  Volume                   = {94},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/McKane, Newman/Physical Review Letters/McKane, Newman - 2005 - Predator-Prey Cycles from Resonant Amplification of Demographic Stochasticity.pdf:pdf},
+  Journal                  = {Physical Review Letters}
+}
+
+@Article{Mickens2003,
+  Title                    = {A nonstandard finite-difference scheme for the Lotka-Volterra system},
+  Author                   = {Mickens, Ronald E.},
+  Year                     = {2003},
+  Doi                      = {10.1016/S0168-9274(02)00223-4},
+  ISSN                     = {01689274},
+  Month                    = may,
+  Number                   = {2-3},
+  Pages                    = {309--314},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0168927402002234},
+  Volume                   = {45},
+
+  Journal                  = {Applied Numerical Mathematics}
+}
+
+@Article{Milstein1998a,
+  Title                    = {Balanced implicit methods for stiff stochastic systems},
+  Author                   = {Milstein, GN and Platen, E and Schurz, H},
+  Year                     = {1998},
+  Number                   = {3},
+  Pages                    = {1010--1019},
+  Url                      = {http://www.jstor.org/stable/2587119 http://epubs.siam.org/doi/pdf/10.1137/S0036142994273525},
+  Volume                   = {35},
+
+  Abstract                 = {This paper introduces some implicitness in stochastic terms of numerical methods for solving stiff stochastic differential equations and especially a class of fully implicit methods, the balanced methods. Their order of strong convergence is proved. Numerical experiments compare the stability properties of these schemes with explicit one},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Milstein, Platen, Schurz/SIAM Journal on Numerical Analysis/Milstein, Platen, Schurz - 1998 - Balanced implicit methods for stiff stochastic systems.pdf:pdf},
+  ISBN                     = {0036142994273},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Keywords                 = {stochastic differential}
+}
+
+@Book{Milstein2004,
+  Title                    = {Stochastic Numerics for Mathematical Physics},
+  Author                   = {Milstein, G.N. and Tretyakov, M.V.},
+  Year                     = {2004},
+  ISBN                     = {9783540211105},
+  Publisher                = {Springer Berlin Heidelberg},
+  Series                   = {Scientific Computation},
+
+  Lccn                     = {2004103618},
+  Owner                    = {saul},
+  Timestamp                = {2015.10.04}
+}
+
+@Article{Milstein2003,
+  Title                    = {Quasi-symplectic methods for Langevin-type equations},
+  Author                   = {Milstein, G. N.},
+  Year                     = {2003},
+  Doi                      = {10.1093/imanum/23.4.593},
+  ISSN                     = {0272-4979},
+  Month                    = oct,
+  Number                   = {4},
+  Pages                    = {593--626},
+  Url                      = {http://imanum.oupjournals.org/cgi/doi/10.1093/imanum/23.4.593},
+  Volume                   = {23},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Milstein/IMA Journal of Numerical Analysis/Milstein - 2003 - Quasi-symplectic methods for Langevin-type equations.pdf:pdf},
+  Journal                  = {IMA Journal of Numerical Analysis},
+  Keywords                 = {langevin equations; mean-square and weak schemes; stochastic hamiltonian systems; symplectic and quasi-; symplectic numerical methods}
+}
+
+@Article{Nelson2000,
+  Title                    = {A model of HIV-1 pathogenesis that includes an intracellular delay},
+  Author                   = {Nelson, Patrick W. and Murray, James D. and Perelson, Alan S.},
+  Year                     = {2000},
+  Doi                      = {10.1016/S0025-5564(99)00055-3},
+  ISSN                     = {00255564},
+  Number                   = {2},
+  Pages                    = {201--215},
+  Volume                   = {163},
+
+  Abstract                 = {Mathematical modeling combined with experimental measurements have yielded important insights into HIV-1 pathogenesis. For example, data from experiments in which HIV-infected patients are given potent antiretroviral drugs that perturb the infection process have been used to estimate kinetic parameters underlying HIV infection. Many of the models used to analyze data have assumed drug treatments to be completely efficacious and that upon infection a cell instantly begins producing virus. We consider a model that allows for less then perfect drug effects and which includes a delay in the initiation of virus production. We present detailed analysis of this delay differential equation model and compare the results to a model without delay. Our analysis shows that when drug efficacy is less than 100\%, as may be the case in vivo, the predicted rate of decline in plasma virus concentration depends on three factors: the death rate of virus producing cells, the efficacy of therapy, and the length of the delay. Thus, previous estimates of infected cell loss rates can be improved upon by considering more realistic models of viral infection. (C) 2000 Elsevier Science Inc.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Nelson, Murray, Perelson/Mathematical Biosciences/Nelson, Murray, Perelson - 2000 - A model of HIV-1 pathogenesis that includes an intracellular delay.pdf:pdf},
+  ISBN                     = {0025-5564 (Print)$\backslash$r0025-5564 (Linking)},
+  Journal                  = {Mathematical Biosciences},
+  Keywords                 = {Delay,HIV,T-cells,Viral life cycle},
+  Pmid                     = {10701304}
+}
+
+@Article{Nowak1997,
+  Title                    = {Anti-viral drug treatment: dynamics of resistance in free virus and infected cell populations.},
+  Author                   = {Nowak, M a and Bonhoeffer, S and Shaw, G M and May, R M},
+  Year                     = {1997},
+  Doi                      = {10.1006/jtbi.1996.0307},
+  ISSN                     = {0022-5193},
+  Number                   = {2},
+  Pages                    = {203--217},
+  Volume                   = {184},
+
+  Abstract                 = {Anti-viral drug treatment of infections with the human immunodeficiency virus type I (HIV-1) usually leads to a rapid decline in the abundance of plasma virus. The effect of single drug therapy, however, is often only short-lived as the virus readily develops drug-resistant mutants. In this paper we provide analytic approximations for the rate of emergence of resistant virus. We study the decline of wildtype virus and the rise of resistant mutant virus in different compartments of the virus population such as free plasma virus, cells infected with actively replicating virus, long-lived infected cells and cells carrying defective provirus. The model results are compared with data on the rise of drug-resistant virus in three HIV-1 infected patients treated with neverapine (NVP). We find that the half-life of latently infected cells is between 10 and 20 days, whereas the half-life of cells with defective provirus is about 80 days. We also provide a crude estimate for the basic reproductive ratio of HIV-1 during NVP therapy.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Nowak et al/Journal of theoretical biology/Nowak et al. - 1997 - Anti-viral drug treatment dynamics of resistance in free virus and infected cell populations.pdf:pdf},
+  ISBN                     = {0022-5193},
+  Journal                  = {Journal of theoretical biology},
+  Pmid                     = {9059598}
+}
+
+@Article{Pasquali2001,
+  Title                    = {The stochastic logistic equation : stationary solutions and their stability},
+  Author                   = {Pasquali, S},
+  Year                     = {2001},
+  Pages                    = {165--183},
+  Url                      = {http://eudml.org/doc/108561 https://eudml.org/doc/108561},
+  Volume                   = {106},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Pasquali/Rendiconti del Seminario Matematico della Universit{\`a} di Padova/Pasquali - 2001 - The stochastic logistic equation stationary solutions and their stability.pdf:pdf},
+  Journal                  = {Rendiconti del Seminario Matematico della Universit{\`a} di Padova}
+}
+
+@Book{Resnick2003,
+  Title                    = {A Probability Path},
+  Author                   = {Resnick, S.},
+  Year                     = {2003},
+  ISBN                     = {9780817640552},
+  Publisher                = {Birkh{\"a}user Boston},
+  Series                   = {A Probability Path},
+
+  Lccn                     = {98217499},
+  Owner                    = {saul},
+  Timestamp                = {2015.10.04}
+}
+
+@Article{Robinson2002,
+  Title                    = {Stability of random attractors under perturbation and approximation},
+  Author                   = {Robinson, James C.},
+  Year                     = {2002},
+  Doi                      = {10.1016/S0022-0396(02)00038-4},
+  ISSN                     = {00220396},
+  Month                    = dec,
+  Number                   = {2},
+  Pages                    = {652--669},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0022039602000384},
+  Volume                   = {186},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Robinson/Journal of Differential Equations/Robinson - 2002 - Stability of random attractors under perturbation and approximation.pdf:pdf},
+  Journal                  = {Journal of Differential Equations}
+}
+
+@Article{Rudnicki2007,
+  Title                    = {Influence of stochastic perturbation on prey-predator systems},
+  Author                   = {Rudnicki, Ryszard and Pich\'{o}r, Katarzyna},
+  Year                     = {2007},
+  Doi                      = {10.1016/j.mbs.2006.03.006},
+  ISSN                     = {00255564},
+  Number                   = {1},
+  Pages                    = {108--119},
+  Volume                   = {206},
+
+  Abstract                 = {We analyse the influence of various stochastic perturbations on prey-predator systems. The prey-predator model is described by stochastic versions of a deterministic Lotka-Volterra system. We study long-time behaviour of both trajectories and distributions of the solutions. We indicate the differences between the deterministic and stochastic models. © 2006 Elsevier Inc. All rights reserved.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Rudnicki, Pich\'{o}r/Mathematical Biosciences/Rudnicki, Pich\'{o}r - 2007 - Influence of stochastic perturbation on prey-predator systems.pdf:pdf},
+  Journal                  = {Mathematical Biosciences},
+  Keywords                 = {Asymptotic stability,Diffusion process,Markov semigroups,Prey-predator model},
+  Pmid                     = {16624335}
+}
+
+@Unpublished{Sabanis2015,
+  Title                    = {Euler approximations with varying coefficients : the case of superlinearly growing diffusion coefficients},
+  Author                   = {Sabanis, Sotirios},
+  Year                     = {2015},
+  Note                     = {To appear in Annals of Applied Probability},
+  Pubstate                 = {To appear in Annals of Applied Probability},
+
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {arXiv:1308.1796v2},
+  Eprint                   = {arXiv:1308.1796v2},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Sabanis/Annals of Applied Probability/Sabanis - 2015 - Euler approximations with varying coefficients the case of superlinearly growing diffusion coefficients.pdf:pdf},
+  Journal                  = {Annals of Applied Probability},
+  Keywords                 = {explicit euler approximations,local lipschitz condition,mono-,rate of convergence},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.24}
+}
+
+@Article{Sabanis2013,
+  Title                    = {A note on tamed Euler approximations},
+  Author                   = {Sabanis, Sotirios},
+  Year                     = {2013},
+  Doi                      = {10.1214/ECP.v18-2824},
+  ISSN                     = {1083-589X},
+  Month                    = jun,
+  Number                   = {47},
+  Pages                    = {1--10},
+  Url                      = {http://ecp.ejpecp.org/article/view/2824},
+  Volume                   = {18},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Sabanis/Electronic Communications in Probability/Sabanis - 2013 - A note on tamed Euler approximations.pdf:pdf},
+  Journal                  = {Electronic Communications in Probability},
+  Keywords                 = {euler approximations,local lipschitz condition,monotonicity,rate of convergence},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.16}
+}
+
+@Misc{SaiotoPreprint,
+  Title                    = {Stability analysis of numerical methods for stochastic systems with additive noise},
+  Author                   = {Saito, Yoshihiro},
+  Note                     = {http://www.shotoku.ac.jp/data/facilities/library/publication/education-keizai08\_2\_06.pdf},
+  Type                     = {eprint}
+}
+
+@Article{Saito1996a,
+  Title                    = {Stability Analysis of Numerical Schemes for Stochastic Differential Equations},
+  Author                   = {Saito, Yoshihiro and Mitsui, Taketomo},
+  Year                     = {1996},
+  Doi                      = {10.1137/S0036142992228409},
+  ISSN                     = {0036-1429},
+  Month                    = dec,
+  Number                   = {6},
+  Pages                    = {2254--2267},
+  Url                      = {http://epubs.siam.org/doi/abs/10.1137/S0036142992228409},
+  Volume                   = {33},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Saito, Mitsui/SIAM Journal on Numerical Analysis/Saito, Mitsui - 1996 - Stability analysis of numerical schemes for stochastic differential equations.pdf:pdf},
+  Journal                  = {SIAM Journal on Numerical Analysis}
+}
+
+@Article{Schenk-Hoppe1996a,
+  Title                    = {Bifurcation scenarios of the noisy duffing-van der pol oscillator},
+  Author                   = {Schenk-Hopp\'{e}, K.R.},
+  Year                     = {1996},
+  Doi                      = {10.1007/BF00120720},
+  ISSN                     = {0924-090X},
+  Language                 = {English},
+  Number                   = {3},
+  Pages                    = {255-274},
+  Url                      = {http://dx.doi.org/10.1007/BF00120720},
+  Volume                   = {11},
+
+  Journal                  = {Nonlinear Dynamics},
+  Keywords                 = {Stochastic bifurcation; invariant measures; Lyapunov exponents; stochastic numerics; random dynamical systems; Duffing-van der Pol oscillator},
+  Publisher                = {Kluwer Academic Publishers}
+}
+
+@Article{Schenk-Hoppe1996,
+  Title                    = {Deterministic and stochastic Duffing-van der Pol oscillators are non-explosive},
+  Author                   = {Schenk-Hopp\'{e}, Klaus Reiner},
+  Year                     = {1996},
+  Doi                      = {10.1007/BF00915273},
+  ISSN                     = {0044-2275},
+  Month                    = sep,
+  Number                   = {5},
+  Pages                    = {740--759},
+  Url                      = {http://link.springer.com/10.1007/BF00915273},
+  Volume                   = {47},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Schenk-Hopp\'{e}/ZAMP Zeitschrift fur angewandte Mathematik und Physik/Schenk-Hopp\'{e} - 1996 - Deterministic and stochastic Duffing-van der Pol oscillators are non-explosive:},
+  Journal                  = {ZAMP Zeitschrift fur angewandte Mathematik und Physik}
+}
+
+@Article{Schenk-Hoppe1996b,
+  Title                    = {Stochastic Hopf bifurcation: An example},
+  Author                   = {Schenk-Hopp\'{e}, K. R.},
+  Year                     = {1996},
+  Doi                      = {10.1016/0020-7462(96)00030-3},
+  ISSN                     = {00207462},
+  Number                   = {5 SPEC. ISS.},
+  Pages                    = {685--692},
+  Volume                   = {31},
+
+  Abstract                 = {The stochastic Hopf bifurcation behavior of the noisy Duffing-van der Pol oscillator ẍ = ($\alpha$ + $\sigma$W) x + $\beta$ẋ - x2ẋ - x3, (A) is studied numerically, ($\alpha$, $\beta$ are bifurcation parameters, W is white noise, and $\sigma$ is an intensity parameter.) When the qualitative change of the stationary solution of the Fokker-Planck equation is considered, the stochastic Hopf bifurcation appears as a change from a Dirac measure to a crater-like density. Unfortunately, this behavior is not related to the sample stability of the trivial solution zero. To capture all the stochastic dynamics of the equation, it is necessary to investigate the change of stability of invariant measures and the occurrence of new invariant measures for the generated random dynamical system. Copyright © 1996 Elsevier Science Ltd.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Schenk-Hopp\'{e}/International Journal of Non-Linear Mechanics/Schenk-Hopp\'{e} - 1996 - Stochastic Hopf bifurcation An example.pdf:pdf},
+  Journal                  = {International Journal of Non-Linear Mechanics},
+  Keywords                 = {Invariant measures,Lyapunov exponents,Random dynamical systems,Stochastic Hopf bifurcation},
+  Pmid                     = {9964255}
+}
+
+@Article{Schurz2007,
+  Title                    = {Modeling, analysis and discretization of stochastic logistic equations},
+  Author                   = {Schurz, Henri},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {178--197},
+  Url                      = {http://www.math.ualberta.ca/ijnam/Volume-4-2007/No-2-07/2007-02-02.pdf},
+  Volume                   = {4},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Schurz/International Journal of Numerical Analysis and Modeling/Schurz - 2007 - Modeling, analysis and discretization of stochastic logistic equations.pdf:pdf},
+  Journal                  = {International Journal of Numerical Analysis and Modeling},
+  Keywords                 = {balanced implicit methods; boundedness; conver-; gence; logistic growth; lutions; monotonicity; numerical methods; properties of so-; stability; stochastic logistic equation}
+}
+
+@Article{Schurz2003,
+  Title                    = {General theorems for numerical approximation of stochastic processes on the Hilbert Space},
+  Author                   = {Schurz, Henri},
+  Year                     = {2003},
+  Pages                    = {50--69},
+  Url                      = {http://www.emis.ams.org/journals/ETNA/vol.16.2003/pp50-69.dir/pp50-69.pdf},
+  Volume                   = {16},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Schurz/Electronic Transactions on Numerical Analysis/Schurz - 2003 - General theorems for numerical approximation of stochastic processes on the Hilbert Space.pdf:pdf},
+  Journal                  = {Electronic Transactions on Numerical Analysis},
+  Keywords                 = {1,34f05,37h10,60h10,65c20,65c30,65c50,ams subject classifications,balanced implicit methods,drift-implicit euler methods,in deterministic numerical analysis,introduction and examples,numerical methods,of well-posed dif-,ordinary stochastic differential equa-,stochastic lax-theorem,stochastic-numerical approximation,tions},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Seesselberg1994,
+  Title                    = {Simulation of one-dimensional noisy Hamiltonian systems and their application to particle storage rings},
+  Author                   = {See\ss elberg, M. and Breuer, H. P. and Mais, H. and Petruccione, F. and Honerkamp, J.},
+  Year                     = {1994},
+  Doi                      = {10.1007/BF01559525},
+  ISSN                     = {01709739},
+  Number                   = {1},
+  Pages                    = {63--73},
+  Volume                   = {62},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/See\ss elberg et al/Zeitschrift f\"{u}r Physik C Particles and Fields/See\ss elberg et al. - 1994 - Simulation of one-dimensional noisy Hamiltonian systems and their application to particle storage rings.pdf:pdf},
+  Journal                  = {Zeitschrift f\"{u}r Physik C Particles and Fields}
+}
+
+@Article{SerghiniMounim2004,
+  Title                    = {A note on Mickens' finite-difference scheme for the Lotka-Volterra system},
+  Author                   = {{Serghini Mounim}, Abdellatif and de Dormale, Bernard M.},
+  Year                     = {2004},
+  Doi                      = {10.1016/j.apnum.2004.06.014},
+  ISSN                     = {01689274},
+  Month                    = nov,
+  Number                   = {2-3},
+  Pages                    = {341--344},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0168927404001023},
+  Volume                   = {51},
+
+  Journal                  = {Applied Numerical Mathematics},
+  Keywords                 = {finite-difference,lotka,volterra}
+}
+
+@Article{Sun2008,
+  Title                    = {Stability analysis of a stochastic logistic model with nonlinear diffusion term},
+  Author                   = {Sun, Xiping and Wang, Yongji},
+  Year                     = {2008},
+  Doi                      = {10.1016/j.apm.2007.07.012},
+  ISSN                     = {0307904X},
+  Month                    = oct,
+  Number                   = {10},
+  Pages                    = {2067--2075},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0307904X07001746},
+  Volume                   = {32},
+
+  File                     = {:home/saul/Documents/Mendeley Desktop/Sun, Wang/Applied Mathematical Modelling/Sun, Wang - 2008 - Stability analysis of a stochastic logistic model with nonlinear diffusion term.pdf:pdf},
+  Journal                  = {Applied Mathematical Modelling},
+  Keywords                 = {a nonlinear diffusion term; asymptotic stability in distribution; classical probability method; stochastic logistic model with}
+}
+
+@Article{Takeuchi2006,
+  Title                    = {Evolution of predator-prey systems described by a Lotka-Volterra equation under random environment},
+  Author                   = {Takeuchi, Y. and Du, N. H. and Hieu, N. T. and Sato, K.},
+  Year                     = {2006},
+  Doi                      = {10.1016/j.jmaa.2005.11.009},
+  ISSN                     = {0022247X},
+  Number                   = {2},
+  Pages                    = {938--957},
+  Volume                   = {323},
+
+  Abstract                 = {In this paper, we consider the evolution of a system composed of two predator-prey deterministic systems described by Lotka-Volterra equations in random environment. It is proved that under the influence of telegraph noise, all positive trajectories of such a system always go out from any compact set of int R+ 2 with probability one if two rest points of the two systems do not coincide. In case where they have the rest point in common, the trajectory either leaves from any compact set of int R+ 2 or converges to the rest point. The escape of the trajectories from any compact set means that the system is neither permanent nor dissipative. ?? 2005 Elsevier Inc. All rights reserved.},
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Takeuchi et al/Journal of Mathematical Analysis and Applications/Takeuchi et al. - 2006 - Evolution of predator-prey systems described by a Lotka-Volterra equation under random environment.pdf:pdf},
+  Journal                  = {Journal of Mathematical Analysis and Applications},
+  Keywords                 = {Lotka-Volterra equation,Predator-prey model,Telegraph noise}
+}
+
+@Book{Timan1963,
+  Title                    = {Theory of Approximation of Functions of a Real Variable},
+  Author                   = {Timan, A. F.},
+  Year                     = {1963},
+  ISBN                     = {978-04-8667-830-6},
+  Publisher                = {Dover Publications},
+
+  Month                    = {Feb}
+}
+
+@Article{Tornatore2005,
+  Title                    = {Stability of a stochastic \{SIR\} system },
+  Author                   = {Elisabetta Tornatore and Stefania Maria Buccellato and Pasquale Vetro},
+  Year                     = {2005},
+  Doi                      = {http://dx.doi.org/10.1016/j.physa.2005.02.057},
+  ISSN                     = {0378-4371},
+  Pages                    = {111 - 126},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0378437105001093},
+  Volume                   = {354},
+
+  Abstract                 = {We propose a stochastic \{SIR\} model with or without distributed time delay and we study the stability of disease-free equilibrium. The numerical simulation of the stochastic \{SIR\} model shows that the introduction of noise modifies the threshold of system for an epidemic to occur and the threshold stochastic value is found. },
+  Journal                  = {Physica A: Statistical Mechanics and its Applications },
+  Keywords                 = {\{SIR\} model},
+  Owner                    = {saul},
+  Timestamp                = {2015.10.02}
+}
+
+@Article{Tretyakov2013,
+  Title                    = {A fundamental mean-square convergence theorem for SDEs with locally Lipschitz coefficients and its applications},
+  Author                   = {Tretyakov, M V and Zhang, Z},
+  Year                     = {2013},
+  Doi                      = {10.1137/120902318},
+  Eprint                   = {arXiv:1212.1352v1},
+  ISSN                     = {0036-1429},
+  Pages                    = {3135--3162},
+  Volume                   = {51},
+
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {arXiv:1212.1352v1},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Tretyakov, Zhang/SIAM Journal on Numerical Analysis/Tretyakov, Zhang - 2013 - A fundamental mean-square convergence theorem for SDEs with locally Lipschitz coefficients and its application.pdf:pdf},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Keywords                 = {almost sure,balanced methods,coefficients,fully implicit methods,in,numerical integration of sdes,sdes with nonglobally lipschitz,strong convergence,the mean-square sense},
+  Owner                    = {saul},
+  Timestamp                = {2015.05.07}
+}
+
+@Article{Tretyakov2013b,
+  Title                    = {A Fundamental Mean-Square Convergence Theorem for SDEs with Locally Lipschitz Coefficients and Its Applications},
+  Author                   = {Tretyakov, M V and Zhang, Z},
+  Year                     = {2013},
+  Doi                      = {10.1137/120902318},
+  Eprint                   = {arXiv:1212.1352v1},
+  ISSN                     = {0036-1429},
+  Month                    = jan,
+  Number                   = {6},
+  Pages                    = {3135--3162},
+  Url                      = {http://epubs.siam.org/doi/abs/10.1137/120902318},
+  Volume                   = {51},
+
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {arXiv:1212.1352v1},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Tretyakov, Zhang/SIAM Journal on Numerical Analysis/Tretyakov, Zhang - 2013 - A Fundamental Mean-Square Convergence Theorem for SDEs with Locally Lipschitz Coefficients and Its Application.pdf:pdf},
+  Journal                  = {SIAM Journal on Numerical Analysis},
+  Keywords                 = {almost sure,balanced methods,coefficients,fully implicit methods,in,numerical integration of sdes,sdes with nonglobally lipschitz,strong convergence,the mean-square sense},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.16}
+}
+
+@Book{VanKampen1992,
+  Title                    = {Stochastic Processes in Physics and Chemistry},
+  Author                   = {{Van Kampen}, N.G.},
+  Year                     = {1992},
+  ISBN                     = {9780080571386},
+  Publisher                = {Elsevier Science},
+  Series                   = {North-Holland Personal Library}
+}
+
+@Article{Wang2011,
+  Title                    = {The tamed Milstein method for commutative stochastic differential equations with non-globally Lipschitz continuous coefficients},
+  Author                   = {Wang, Xiaojie and Gan, Siqing},
+  Year                     = {2013},
+  Doi                      = {10.1080/10236198.2012.656617},
+  Eprint                   = {1102.0662},
+  ISSN                     = {1023-6198},
+  Month                    = mar,
+  Number                   = {3},
+  Pages                    = {466--490},
+  Url                      = {http://arxiv.org/abs/1102.0662 http://www.tandfonline.com/doi/abs/10.1080/10236198.2012.656617},
+  Volume                   = {19},
+
+  Abstract                 = {For stochastic differential equations (SDEs) with a superlinearly growing and globally one-sided Lipschitz continuous drift coefficient, the explicit schemes fail to converge strongly to the exact solution. Recently, an explicit strongly convergent numerical scheme, called the tamed Euler method, is proposed in [Hutzenthaler, Jentzen, \& Kloeden (2010); Strong convergence of an explicit numerical method for SDEs with non-globally Lipschitz continuous coefficients, arXiv:1010.3756v1] for such SDEs. Motivated by their work, we here introduce a tamed version of the Milstein scheme for SDEs with commutative noise. The proposed method is also explicit and easily implementable. Moreover, it achieves higher strong order than the tamed Euler method. Note that new difficulties arise in recovering the strong convergence order one and new techniques are developed to overcome them. Finally, an illustrative example confirms the computational efficiency of this explicit numerical scheme compared to the tamed Euler method.},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {1102.0662},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Wang, Gan/Journal of Difference Equations and Applications/Wang, Gan - 2013 - The tamed Milstein method for commutative stochastic differential equations with non-globally Lipschitz continuous(3).pdf:pdf},
+  Journal                  = {Journal of Difference Equations and Applications},
+  Owner                    = {saul},
+  Timestamp                = {2015.09.15}
+}
+
+@Article{Wei1997,
+  Title                    = {Lyapunov exponent and chaos of Duffing's equation perturbed by white noise},
+  Author                   = {Wei, J.G. and Leng, G.},
+  Year                     = {1997},
+  Doi                      = {10.1016/S0096-3003(96)00307-4},
+  ISSN                     = {00963003},
+  Month                    = dec,
+  Number                   = {1},
+  Pages                    = {77--93},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0096300396003074},
+  Volume                   = {88},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Wei, Leng/Applied Mathematics and Computation/Wei, Leng - 1997 - Lyapunov exponent and chaos of Duffing's equation perturbed by white noise.pdf:pdf},
+  Journal                  = {Applied Mathematics and Computation}
+}
+
+@Article{Wiesenfeld1982,
+  Title                    = {Effect of noise on the dynamics of a nonlinear oscillator},
+  Author                   = {Wiesenfeld, K. A. and Knobloch, E.},
+  Year                     = {1982},
+  Doi                      = {10.1103/PhysRevA.26.2946},
+  Issue                    = {5},
+  Month                    = {Nov},
+  Pages                    = {2946--2953},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevA.26.2946},
+  Volume                   = {26},
+
+  Journal                  = {Phys. Rev. A},
+  Numpages                 = {0},
+  Publisher                = {American Physical Society}
+}
+
+@Book{Williams1991,
+  Title                    = {Probability with Martingales},
+  Author                   = {Williams, D.},
+  Year                     = {1991},
+  ISBN                     = {9781139642989},
+  Publisher                = {Cambridge University Press}
+}
+
+@Article{Yagi2011,
+  Title                    = {Dynamic of a stochastic predator-prey population},
+  Author                   = {Yagi, Atsushi and Ton, Ta Viet},
+  Year                     = {2011},
+  Doi                      = {10.1016/j.amc.2011.08.037},
+  ISSN                     = {00963003},
+  Month                    = dec,
+  Number                   = {7},
+  Pages                    = {3100--3109},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0096300311010770},
+  Volume                   = {218},
+
+  File                     = {:home/user-x/Documentos/Mendeley Desktop/Yagi, Ton/Applied Mathematics and Computation/Yagi, Ton - 2011 - Dynamic of a stochastic predator–prey population.pdf:pdf},
+  Journal                  = {Applied Mathematics and Computation},
+  Keywords                 = {predator model,stochastic prey}
+}
+
+@Article{Young1910,
+  Title                    = {On Indeterminate Forms},
+  Author                   = {Young, W. H.},
+  Year                     = {1910},
+  Doi                      = {10.1112/plms/s2-8.1.40},
+  Eprint                   = {http://plms.oxfordjournals.org/content/s2-8/1/40.full.pdf+html},
+  Number                   = {1},
+  Pages                    = {40-76},
+  Url                      = {http://plms.oxfordjournals.org/content/s2-8/1/40.short},
+  Volume                   = {s2-8},
+
+  Journal                  = {Proceedings of the London Mathematical Society}
+}
+
+@Article{Zong2014,
+  Title                    = {Convergence and stability of the semi-tamed Euler scheme for stochastic differential equations with non-Lipschitz continuous coefficients},
+  Author                   = {Zong, Xiaofeng and Wu, Fuke and Huang, Chengming},
+  Year                     = {2014},
+  Doi                      = {10.1016/j.amc.2013.11.100},
+  ISSN                     = {00963003},
+  Number                   = {2013},
+  Pages                    = {240--250},
+  Url                      = {http://dx.doi.org/10.1016/j.amc.2013.11.100},
+  Volume                   = {228},
+
+  Abstract                 = {Recently, explicit tamed schemes were proposed to approximate the SDEs with the non-Lipschitz continuous coefficients. This work proposes a semi-tamed Euler scheme, which is also explicit, to solve the SDEs with the drift coefficient equipped with the Lipschitz continuous part and non-Lipschitz continuous part. It is shown that the semi-tamed Euler converges strongly with the standard order one-half to the exact solution of the SDE. We also investigate the stability inheritance of the semi-tamed Euler schemes and reveal that this scheme does have advantage in reproducing the exponential mean square stability of the exact solution. Numerical experiments confirm the theoretical analysis. ?? 2013 Elsevier Inc. All rights reserved.},
+  File                     = {:home/saul/Documents/Mendeley Desktop/Zong, Wu, Huang/Applied Mathematics and Computation/Zong, Wu, Huang - 2014 - Convergence and stability of the semi-tamed Euler scheme for stochastic differential equations with non-Lipschi.pdf:pdf},
+  Journal                  = {Applied Mathematics and Computation},
+  Keywords                 = {Mean square stability,Semi-tamed Euler scheme,Stochastic differential equations,Strong convergence},
+  Owner                    = {saul},
+  Publisher                = {Elsevier Inc.},
+  Timestamp                = {2015.09.16}
+}
+

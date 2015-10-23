@@ -1,0 +1,46 @@
+	Consider SDE \eqref{eqn:SDE} on time interval $[0,T]$, we define a time
+partition of the time interval $\calP^{N}$ as a finite equidistant sequence of $N$ points 
+$t_k:=kh$, for $\quad 0\leq k\leq N$, taking the step size as $\quad h =T/N$.
+\begin{definition}[discrete approximation]\label{dfn:ATD}
+	We call a c\'adlag process $Y=\{Y(t),t\geq 0 \}$, a discrete approximation of the solution of SDE
+	\eqref{eqn:SDE} with step-size $h$ over a partition 
+	$\calP_{[0,T]}^N =\{0, h, 2h, \ldots, N h\} $ if $Y(t_k)$ is $\calF_{t_{k}}$-measurable and
+	$Y(t_{k+1})$ can be expressed as a function of 
+	$$Y(t_0)\ldots Y(t_k), 0,t_1, \ldots, t_k, t_{k+1}$$
+	and a finite number $l$ of measurable random variables $Z_{k+1,j}$, $j=1\ldots l$.
+\end{definition}
+%
+	We present some of the most known numerical  schemes which will be useful 
+to show the efficiency of our method. Here, and in the next Chapter we will suppose 
+\Cref{ass:ClassicExisAndUniqueness}.
+\subsection*{Euler-Maruyama}
+	The most easy implementable, popular and studied method is the \emph{Euler-Maruyama} (EM) scheme. Given the SDE 
+	\eqref{eqn:SDE} and a 
+	time step-size $h$ it is defined by taking  
+	\begin{equation}\label{eqn:EulerMaruyama}
+		Y_{k+1}= Y_k + h f(Y_k) + g(Y_k)\Delta W_k, \qquad Y_0=y_0,
+	\end{equation}
+	where $\Delta W_k =W_{t_{k+1}}-W_{t_k}$. 
+	If we consider a implicit approximation for the drift coefficient, we obtain  the \emph{backward Euler-Maruyama}
+	(BEM) \cite{Mao2013}, under the same notation as above, it has the recurrence:
+	\begin{equation}\label{eqn:BackwardEM}
+		Y_{k+1} = Y_k + h f(Y_{k+1}) + g(Y_k)\Delta W_k.
+	\end{equation}
+\subsection*{The $\theta$-Maruyama scheme}
+		This scheme generalizes the Euler-Maruyama algorithm in the sense that is based on using the parameter $\theta$ 
+	to weight contributions of the explicit and implicit approximations to the drift coefficient.  Its  recurrence 
+	is  
+	\begin{equation}\label{eqn:ThetaEM}
+		Y_{k+1} = Y_k + h(1-\theta)f(Y_{k}) + 
+		\theta f(Y_{k+1}) +
+		g(Y_k)\Delta W_k \qquad \theta \in [0,1].
+	\end{equation}
+	Note that if $\theta = 0$ we recover the explicit EM and if $\theta = 1$ we obtain the BEM.
+\subsection*{Split Step Backward Euler}
+	Also we will apply the split-step backward Euler method proposal by the authors in \cite{Higham2002b}. 
+	This scheme is defined by  
+	\begin{align}
+		Y_k^{\star} &= Y_k + hf(Y^{\star}_k), \qquad Y_0 = y_0,
+		\label{eqn:SSEM1}\\
+		Y_{k+1}	&= Y_k^{\star} + g(Y_k^{\star})\Delta W_k \label{eqn:SSEM2}. 
+	\end{align}
