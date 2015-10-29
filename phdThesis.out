@@ -7,7 +7,7 @@
 \BOOKMARK [0][-]{chapter.1}{1 Introduction and main results}{}% 7
 \BOOKMARK [1][-]{section.1.1}{1.1 Introduction}{chapter.1}% 8
 \BOOKMARK [1][-]{section.1.2}{1.2 Main Results}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.3}{1.3 Outline}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{1.3 Methodology}{chapter.1}% 10
 \BOOKMARK [0][-]{chapter.2}{2 Preliminaries}{}% 11
 \BOOKMARK [1][-]{section.2.1}{2.1 Probability theory and Stochastic Processes}{chapter.2}% 12
 \BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Stopping time}{section.2.1}% 13
@@ -34,14 +34,13 @@
 \BOOKMARK [2][-]{subsection.3.5.3}{3.5.3 Langevin equation in Brownian dynamics}{section.3.5}% 34
 \BOOKMARK [0][-]{chapter.4}{4 Steklov Method for SDEs with Non-Globally Lipschitz Continuous Drift}{}% 35
 \BOOKMARK [1][-]{section.4.1}{4.1 Introduction}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.2}{4.2 General Settings}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.3}{4.3 Construction of the LS Method}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.4}{4.4 Strong Convergence of LS}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.5}{4.5 Convergence Rate}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.6}{4.6 Almost Sure Stability}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.7}{4.7 Numerical Simulations}{chapter.4}% 42
-\BOOKMARK [0][-]{chapter.5}{5 Conclusions and future work}{}% 43
-\BOOKMARK [1][-]{section.5.1}{5.1 Conclusions}{chapter.5}% 44
-\BOOKMARK [0][-]{Appendix.a.A}{Appendix A Useful Inequalities}{}% 45
-\BOOKMARK [0][-]{equation.a.A.0.9}{Bibliography}{}% 46
-\BOOKMARK [1][-]{section*.32}{References}{equation.a.A.0.9}% 47
+\BOOKMARK [1][-]{section.4.2}{4.2 Construction of the LS Method}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.3}{4.3 Strong Convergence of LS}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{4.4 Convergence Rate}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.5}{4.5 Almost Sure Stability}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.6}{4.6 Numerical Simulations}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter.5}{5 Conclusions and future work}{}% 42
+\BOOKMARK [1][-]{section.5.1}{5.1 Conclusions}{chapter.5}% 43
+\BOOKMARK [0][-]{Appendix.a.A}{Appendix A Useful Inequalities}{}% 44
+\BOOKMARK [0][-]{equation.a.A.0.9}{Bibliography}{}% 45
+\BOOKMARK [1][-]{section*.37}{References}{equation.a.A.0.9}% 46

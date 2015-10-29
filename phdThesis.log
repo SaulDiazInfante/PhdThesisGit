@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.9)  22 OCT 2015 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.9)  28 OCT 2015 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2507,10 +2507,9 @@ Package: import 2009/03/23  v 5.1
 \c@lem=\count232
 \c@corollary=\count233
 \c@consequence=\count266
-\c@remark=\count267
-\c@pf=\count268
-\c@Proof=\count269
-\c@example=\count270
+\c@Proof=\count267
+\c@remark=\count268
+\c@example=\count269
 ) (./phdThesis.aux
 
 LaTeX Warning: Label `eqn:autonomousSDE' multiply defined.
@@ -2557,22 +2556,34 @@ LaTeX Warning: Label `cl@cref' multiply defined.
 
 ) (./papers/paperB/paperB.aux
 
-LaTeX Warning: Label `thm:MaoCoercive' multiply defined.
+LaTeX Warning: Label `ass:C1Functions' multiply defined.
 
 
-LaTeX Warning: Label `thm:MaoCoercive@cref' multiply defined.
+LaTeX Warning: Label `ass:C1Functions@cref' multiply defined.
+
+
+LaTeX Warning: Label `ass:MonotoneCondition' multiply defined.
+
+
+LaTeX Warning: Label `ass:MonotoneCondition@cref' multiply defined.
+
+
+LaTeX Warning: Label `eqn:MonotoneCondition' multiply defined.
+
+
+LaTeX Warning: Label `eqn:MonotoneCondition@cref' multiply defined.
+
+
+LaTeX Warning: Label `eqn:bDotProdBound' multiply defined.
+
+
+LaTeX Warning: Label `eqn:bDotProdBound@cref' multiply defined.
 
 
 LaTeX Warning: Label `rmk:PertrubedSDE' multiply defined.
 
 
 LaTeX Warning: Label `rmk:PertrubedSDE@cref' multiply defined.
-
-
-LaTeX Warning: Label `ass:MomentBounds' multiply defined.
-
-
-LaTeX Warning: Label `ass:MomentBounds@cref' multiply defined.
 
 ))
 \openout1 = `phdThesis.aux'.
@@ -2597,16 +2608,16 @@ File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 )
 (/home/saul/texlive2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count271
+\scratchcounter=\count270
 \scratchdimen=\dimen311
 \scratchbox=\box68
-\nofMPsegments=\count272
-\nofMParguments=\count273
+\nofMPsegments=\count271
+\nofMParguments=\count272
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count274
+\MPscratchCnt=\count273
 \MPscratchDim=\dimen312
-\MPnumerator=\count275
-\makeMPintoPDFobject=\count276
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
 \everyMPtoPDFconversion=\toks59
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -2665,7 +2676,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/home/saul/texlive2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count277
+\c@section@level=\count276
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
@@ -2757,7 +2768,7 @@ Dictionary: translator-basic-dictionary, Language: English
 (/home/saul/texlive2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count278
+\c__siunitx_mathsf_int=\count277
 LaTeX Font Info:    Try loading font information for OT1+pplx on input line 4.
 (/home/saul/texlive2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
@@ -2794,13 +2805,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 4.
-\c__siunitx_mathtt_int=\count279
+\c__siunitx_mathtt_int=\count278
 
 (./frontmatter/frontpage.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 13.
 
-<frontmatter/Logo.jpg, id=195, 190.7125pt x 266.9975pt>
+<frontmatter/Logo.jpg, id=191, 190.7125pt x 266.9975pt>
 File: frontmatter/Logo.jpg Graphic file (type jpg)
 
 <use frontmatter/Logo.jpg>
@@ -2877,7 +2888,10 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (./introduction/introduction.tex [1
 
 
-]) [2] [3] [4
+]
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 73.
+ [2]) [3] [4
 
 ]
 Chapter 2.
@@ -2896,12 +2910,11 @@ ne 64.
 (./Preliminaries/Background.tex
 Package hyperref Info: bookmark level for unknown dfn defaults to 0 on input li
 ne 3.
- [6])
-LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 8.
- (./Preliminaries/StoppingTimes.tex
+ [6]) (./Preliminaries/StoppingTimes.tex
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 1.
 Package hyperref Info: bookmark level for unknown lem defaults to 0 on input li
-ne 21.
+ne 22.
 )
 (./Preliminaries/ConditionalExpectation.tex [7] [8])
 (./Preliminaries/StochasticCalculus.tex [9]
@@ -2910,10 +2923,11 @@ Overfull \hbox (0.35435pt too wide) in paragraph at lines 64--64
  []
 
 ) (./Preliminaries/NumericalMethodsOfSDEs.tex [10]
-Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
-nput line 42.
-) [11]
-(./Preliminaries/ExplicitAndImplicitSchemes.tex
+Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on i
+nput line 44.
+ [11]
+(./papers/paperB/sections/ExistenceAndUniqueness.tex))
+(./Preliminaries/ExplicitAndImplicitSchemes.tex [12]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 12.50409pt on input line 29.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -2926,11 +2940,8 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 29.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 29.
- [12])
-(./Preliminaries/ApproximationPrperties.tex [13]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 54.
-
+)
+(./Preliminaries/ApproximationPrperties.tex [13] [14]
 (./papers/paperB/sections/HighamConvergenceTechnique.tex
 Package epstopdf Info: Source file: <papers/paperB/sections/ContinuousExtPy/Con
 tinuousExtension.eps>
@@ -2947,7 +2958,7 @@ ntinuousExtPy/ContinuousExtension.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <papers/paperB/sections/ContinuousExtPy/ContinuousExtension-eps-converted-to.pd
-f, id=636, 397.485pt x 245.91875pt>
+f, id=668, 397.485pt x 245.91875pt>
 File: papers/paperB/sections/ContinuousExtPy/ContinuousExtension-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -2970,33 +2981,35 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14] [15 <./papers/paperB/sections/ContinuousExtPy/ContinuousExtension-eps-conv
-erted-to.pdf>]) [16]
-<Preliminaries/figures/StabilityPlotsMultiplicativeEM.png, id=754, 361.35pt x 3
+Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
+nput line 43.
+[15]) [16 <./papers/paperB/sections/ContinuousExtPy/ContinuousExtension-eps-con
+verted-to.pdf>] [17]
+<Preliminaries/figures/StabilityPlotsMultiplicativeEM.png, id=777, 361.35pt x 3
 61.35pt>
 File: Preliminaries/figures/StabilityPlotsMultiplicativeEM.png Graphic file (ty
 pe png)
  <use Preliminaries/figures/StabilityPlotsMultiplicativeEM.png>
 Package pdftex.def Info: Preliminaries/figures/StabilityPlotsMultiplicativeEM.p
-ng used on input line 165.
+ng used on input line 164.
 (pdftex.def)             Requested size: 216.81168pt x 216.81168pt.
 
-[17] [18 <./Preliminaries/figures/StabilityPlotsMultiplicativeEM.png>] [19]))
-[20]
-Chapter 3.
-[21
+[18 <./Preliminaries/figures/StabilityPlotsMultiplicativeEM.png>] [19]))
+[20] [21] [22
 
 ]
+Chapter 3.
+[23]
 \openout2 = `papers/paperA/paperA.aux'.
 
  (./papers/paperA/paperA.tex (./papers/paperA/sections/introduction.tex)
-(./papers/paperA/sections/SteklovMethod.tex [22
+(./papers/paperA/sections/SteklovMethod.tex [24
 
 ]
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 86.
- [23] [24])
-(./papers/paperA/sections/StrongConsistencyConvergence.tex) [25]
+t line 87.
+ [25] [26])
+(./papers/paperA/sections/StrongConsistencyConvergence.tex) [27]
 (./papers/paperA/sections/LinearStability.tex
 Package hyperref Info: bookmark level for unknown pro defaults to 0 on input li
 ne 27.
@@ -3015,7 +3028,7 @@ bilityPlotMultiplicativeNoise.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./papers/paperA/figures/StabilityPlotMultiplicativeNoise-eps-converted-to.pdf,
- id=930, 257.96375pt x 159.59625pt>
+ id=954, 257.96375pt x 159.59625pt>
 File: ./papers/paperA/figures/StabilityPlotMultiplicativeNoise-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -3024,22 +3037,18 @@ pdf>
 Package pdftex.def Info: ./papers/paperA/figures/StabilityPlotMultiplicativeNoi
 se-eps-converted-to.pdf used on input line 61.
 (pdftex.def)             Requested size: 257.9631pt x 159.59584pt.
- [26] [27 <./papers/paperA/figures/StabilityPlotMultiplicativeNoise-eps-convert
-ed-to.pdf>] [28]) (./papers/paperA/sections/NonLinearStability.tex [29]
-[30]
+ [28] [29 <./papers/paperA/figures/StabilityPlotMultiplicativeNoise-eps-convert
+ed-to.pdf>] [30]) (./papers/paperA/sections/NonLinearStability.tex [31]
+[32]
 LaTeX Font Info:    Font shape `T1/pplx/bx/it' in size <10> not available
 (Font)              Font shape `T1/pplx/b/it' tried instead on input line 163.
- [31] [32]) (./papers/paperA/sections/NumericalResults.tex
+ [33]) (./papers/paperA/sections/NumericalResults.tex [34]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33]
 Package epstopdf Info: Source file: <./papers/paperA/figures/fig1.eps>
 (epstopdf)                    date: 2014-09-04 11:18:51
 (epstopdf)                    size: 152491 bytes
@@ -3052,7 +3061,7 @@ g1-eps-converted-to.pdf ./papers/paperA/figures/fig1.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperA/figures/fig1-eps-converted-to.pdf, id=1095, 397.485pt x 245.91
+<./papers/paperA/figures/fig1-eps-converted-to.pdf, id=1113, 397.485pt x 245.91
 875pt>
 File: ./papers/paperA/figures/fig1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3060,7 +3069,10 @@ File: ./papers/paperA/figures/fig1-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./papers/paperA/figures/fig1-eps-converted-to.pdf used
  on input line 124.
 (pdftex.def)             Requested size: 397.48402pt x 245.91814pt.
- [34]
+ [35]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <./papers/paperA/figures/short-longMSD.eps>
 
 (epstopdf)                    date: 2014-06-11 17:44:02
@@ -3074,7 +3086,7 @@ ort-longMSD-eps-converted-to.pdf ./papers/paperA/figures/short-longMSD.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperA/figures/short-longMSD-eps-converted-to.pdf, id=1111, 397.485pt
+<./papers/paperA/figures/short-longMSD-eps-converted-to.pdf, id=1129, 397.485pt
  x 245.91875pt>
 File: ./papers/paperA/figures/short-longMSD-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3083,23 +3095,23 @@ type pdf)
 Package pdftex.def Info: ./papers/paperA/figures/short-longMSD-eps-converted-to
 .pdf used on input line 160.
 (pdftex.def)             Requested size: 397.48402pt x 245.91814pt.
-)) [35 <./papers/paperA/figures/fig1-eps-converted-to.pdf>] [36 <./papers/paper
-A/figures/short-longMSD-eps-converted-to.pdf>]
+)) [36]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37 <./papers/paperA/figures/fig1-eps-converted-to.pdf>] [38 <./papers/paperA/f
+igures/short-longMSD-eps-converted-to.pdf>]
 Chapter 4.
-[37
+[39
 
 
 ]
 \openout2 = `papers/paperB/paperB.aux'.
 
  (./papers/paperB/paperB.tex (./papers/paperB/sections/Introduction.tex)
-(./papers/paperB/sections/GeneralSettings.tex [38
+(./papers/paperB/sections/GeneralSettings.tex [40
 
-]
-Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on i
-nput line 25.
-)
-(./papers/paperB/sections/ExistenceAndUniqueness.tex [39])
+])
 (./papers/paperB/sections/sssmConstruction.tex
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 25.92514pt on input line 13.
@@ -3113,248 +3125,25 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 21.61124pt on input line 13.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 13.
- [40] [41] [42] [43] [44]
-[45] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 733--733
-$[]\OML/zplm/m/it/10 '[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )
-\OML/zplm/m/it/10 ; u[]| \OT1/pplx/m/n/10 = [] ^^H(\OML/zplm/m/it/10 h; aj\OT1/
-pplx/m/n/10 )(\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 f[]\OT1/pp
-lx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 u[] 
- []
+ [41] [42] [43] [44]
 
+LaTeX Warning: Reference `ap' on page 45 undefined on input line 422.
 
-Underfull \hbox (badness 10000) in paragraph at lines 733--733
-\OMS/zplm/m/n/10 ^^T [] \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/i
-t/10 u[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[] []b\OT1/pp
-lx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 ; u[]| 
- []
+[45pdfTeX warning (ext4): destination with the same identifier (name{equation.4
+.2.21}) has been already used, duplicate ignored
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--733
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/1
-0 u\OMS/zplm/m/n/10 j\OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[]\OT1/pplx/m/n/10 (\
-OML/zplm/m/it/10  \OT1/pplx/m/n/10 + (\OML/zplm/m/it/10 L[] \OT1/pplx/m/n/10 +
- \OML/zplm/m/it/10 ^^L\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u\O
-MS/zplm/m/n/10 j[]\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 733
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/1
-0 u\OMS/zplm/m/n/10 j\OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[]\OT1/pplx/m/n/10 (\
-OML/zplm/m/it/10  \OT1/pplx/m/n/10 + (\OML/zplm/m/it/10 L[] \OT1/pplx/m/n/10 +
- \OML/zplm/m/it/10 ^^L\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u\O
-MS/zplm/m/n/10 j[]\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 733
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/1
-0 u\OMS/zplm/m/n/10 j\OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[]\OT1/pplx/m/n/10 (\
-OML/zplm/m/it/10  \OT1/pplx/m/n/10 + (\OML/zplm/m/it/10 L[] \OT1/pplx/m/n/10 +
- \OML/zplm/m/it/10 ^^L\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u\O
-MS/zplm/m/n/10 j[]\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 733
-\OMS/zplm/m/n/10 ^^T [] \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/i
-t/10 u[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[] []b\OT1/pp
-lx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 ; u[]| 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 733
-$[]\OML/zplm/m/it/10 '[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )
-\OML/zplm/m/it/10 ; u[]| \OT1/pplx/m/n/10 = [] ^^H(\OML/zplm/m/it/10 h; aj\OT1/
-pplx/m/n/10 )(\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 f[]\OT1/pp
-lx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 u[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--733
-$[]\OML/zplm/m/it/10 '[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )
-\OML/zplm/m/it/10 ; u[][] \OT1/pplx/m/n/10 = [] ^^H(\OML/zplm/m/it/10 h; aj\OT1
-/pplx/m/n/10 )(\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 f[]\OT1/p
-plx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 u[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--733
-\OMS/zplm/m/n/10 ^^T [] \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/i
-t/10 u[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[] []b\OT1/pp
-lx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 ; u[]| 
- []
-
-
-Underfull \hbox (badness 7326) in paragraph at lines 733--733
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/1
-0 u\OMS/zplm/m/n/10 j\OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[]\OT1/pplx/m/n/10 (\
-OML/zplm/m/it/10  \OT1/pplx/m/n/10 + (\OML/zplm/m/it/10 L[] \OT1/pplx/m/n/10 +
- \OML/zplm/m/it/10 ^^L\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u\O
-MS/zplm/m/n/10 j[]\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 :|$ 
- []
-
-
-Underfull \hbox (badness 7326) detected at line 733
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/1
-0 u\OMS/zplm/m/n/10 j\OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[]\OT1/pplx/m/n/10 (\
-OML/zplm/m/it/10  \OT1/pplx/m/n/10 + (\OML/zplm/m/it/10 L[] \OT1/pplx/m/n/10 +
- \OML/zplm/m/it/10 ^^L\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u\O
-MS/zplm/m/n/10 j[]\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 :|$ 
- []
-
-
-Underfull \hbox (badness 7326) detected at line 733
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/1
-0 u\OMS/zplm/m/n/10 j\OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[]\OT1/pplx/m/n/10 (\
-OML/zplm/m/it/10  \OT1/pplx/m/n/10 + (\OML/zplm/m/it/10 L[] \OT1/pplx/m/n/10 +
- \OML/zplm/m/it/10 ^^L\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u\O
-MS/zplm/m/n/10 j[]\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 733
-\OMS/zplm/m/n/10 ^^T [] \OML/zplm/m/it/10 L[]L[]\OMS/zplm/m/n/10 j\OML/zplm/m/i
-t/10 u[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 L[] []b\OT1/pp
-lx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 ; u[]| 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 733
-$[]\OML/zplm/m/it/10 '[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )
-\OML/zplm/m/it/10 ; u[][] \OT1/pplx/m/n/10 = [] ^^H(\OML/zplm/m/it/10 h; aj\OT1
-/pplx/m/n/10 )(\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 f[]\OT1/p
-plx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 u[] 
- []
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 814--814
-$\OML/zplm/m/it/10 F[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 ) =
- \OML/zplm/m/it/10 e[]u[] |  \OT1/pplx/m/n/10 + \OML/zplm/m/it/10 h\OT1/pplx/m/
-n/10 ^^H(\OML/zplm/m/it/10 h; a[]\OT1/pplx/m/n/10 )(\OML/zplm/m/it/10 u\OT1/ppl
-x/m/n/10 )\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m
-/n/10 )\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/1
-0 ) |  + \OML/zplm/m/it/10 hb[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m
-/n/10 )\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/1
-0 ) 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--814
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 e[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u
-[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 hL[]\OMS/zplm/m/n/10
- j\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\
-OMS/zplm/m/n/10 j\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/
-pplx/m/n/10 ) + \OML/zplm/m/it/10 h\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 b[]\OT1/
-pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OT1/zplm/b
-/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/
-10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 814
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 e[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u
-[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 hL[]\OMS/zplm/m/n/10
- j\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\
-OMS/zplm/m/n/10 j\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/
-pplx/m/n/10 ) + \OML/zplm/m/it/10 h\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 b[]\OT1/
-pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OT1/zplm/b
-/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/
-10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 814
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 e[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u
-[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 hL[]\OMS/zplm/m/n/10
- j\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\
-OMS/zplm/m/n/10 j\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/
-pplx/m/n/10 ) + \OML/zplm/m/it/10 h\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 b[]\OT1/
-pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OT1/zplm/b
-/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/
-10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 814
-$\OML/zplm/m/it/10 F[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 ) =
- \OML/zplm/m/it/10 e[]u[] |  \OT1/pplx/m/n/10 + \OML/zplm/m/it/10 h\OT1/pplx/m/
-n/10 ^^H(\OML/zplm/m/it/10 h; a[]\OT1/pplx/m/n/10 )(\OML/zplm/m/it/10 u\OT1/ppl
-x/m/n/10 )\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m
-/n/10 )\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/1
-0 ) |  + \OML/zplm/m/it/10 hb[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m
-/n/10 )\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/1
-0 ) 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--814
-$[] \OT1/pplx/m/n/10 = \OML/zplm/m/it/10 e[]u[] |  \OT1/pplx/m/n/10 + \OML/zplm
-/m/it/10 h\OT1/pplx/m/n/10 ^^H(\OML/zplm/m/it/10 h; a[]\OT1/pplx/m/n/10 )(\OML/
-zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zpl
-m/m/it/10 u\OT1/pplx/m/n/10 )\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/
-it/10 u\OT1/pplx/m/n/10 ) |  + \OML/zplm/m/it/10 hb[]\OT1/pplx/m/n/10 (\OML/zpl
-m/m/it/10 u\OT1/pplx/m/n/10 )\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/
-it/10 u\OT1/pplx/m/n/10 ) 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--814
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 e[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u
-[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 hL[]\OMS/zplm/m/n/10
- j\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\
-OMS/zplm/m/n/10 j\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/
-pplx/m/n/10 ) + \OML/zplm/m/it/10 h\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 b[]\OT1/
-pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OT1/zplm/b
-/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/
-10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 814
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 e[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u
-[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 hL[]\OMS/zplm/m/n/10
- j\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\
-OMS/zplm/m/n/10 j\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/
-pplx/m/n/10 ) + \OML/zplm/m/it/10 h\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 b[]\OT1/
-pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OT1/zplm/b
-/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/
-10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 814
-\OMS/zplm/m/n/10 ^^T \OML/zplm/m/it/10 e[]\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 u
-[]\OMS/zplm/m/n/10 j | \OT1/pplx/m/n/10 +\OML/zplm/m/it/10 hL[]\OMS/zplm/m/n/10
- j\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\
-OMS/zplm/m/n/10 j\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/
-pplx/m/n/10 ) + \OML/zplm/m/it/10 h\OMS/zplm/m/n/10 j\OML/zplm/m/it/10 b[]\OT1/
-pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OMS/zplm/m/n/10 j\OT1/zplm/b
-/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/
-10 :|$ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 814
-$[] \OT1/pplx/m/n/10 = \OML/zplm/m/it/10 e[]u[] |  \OT1/pplx/m/n/10 + \OML/zplm
-/m/it/10 h\OT1/pplx/m/n/10 ^^H(\OML/zplm/m/it/10 h; a[]\OT1/pplx/m/n/10 )(\OML/
-zplm/m/it/10 u\OT1/pplx/m/n/10 )\OML/zplm/m/it/10 b[]\OT1/pplx/m/n/10 (\OML/zpl
-m/m/it/10 u\OT1/pplx/m/n/10 )\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/
-it/10 u\OT1/pplx/m/n/10 ) |  + \OML/zplm/m/it/10 hb[]\OT1/pplx/m/n/10 (\OML/zpl
-m/m/it/10 u\OT1/pplx/m/n/10 )\OT1/zplm/b/n/10 1[]\OT1/pplx/m/n/10 (\OML/zplm/m/
-it/10 u\OT1/pplx/m/n/10 ) 
- []
-
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.501 \end{equation}
+                    ] [46]
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 873.
-[48]) (./papers/paperB/sections/StrongConevergenceProof.tex
+ line 682.
+)
+(./papers/paperB/sections/StrongConevergenceProof.tex [47]
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
 put line 33.
-Package hyperref Info: bookmark level for unknown pf defaults to 0 on input lin
-e 38.
- [49] [50] [51]
-Overfull \hbox (29.31015pt too wide) in paragraph at lines 310--324
+ [48] [49]
+Overfull \hbox (29.31015pt too wide) in paragraph at lines 315--329
 \OT1/pplx/m/n/10 2)2\OML/zplm/m/it/10 A=\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 p^^
 N[]n[]\OT1/pplx/m/n/10 ) \OML/zplm/m/it/10 < ^^O=\OT1/pplx/m/n/10 3\OML/zplm/m/
 it/10 :$ \T1/pplx/m/n/10 More-over, we can take $\OML/zplm/m/it/10 h$ \T1/pplx/
@@ -3364,9 +3153,24 @@ T1/pplx/m/n/10 (\OML/zplm/m/it/10 h\OT1/pplx/m/n/10 ) [][][] \OML/zplm/m/it/10
 <
  []
 
-[52] [53] [54] [55]) (./papers/paperB/sections/ConvergenceRate.tex [56]
-[57] [58]) (./papers/paperB/sections/AlmosSureStability.tex [59] [60])
-(./papers/paperB/sections/NumericalSimulation.tex
+[50]
+
+Package hyperref Warning: Suppressing link with empty target on input line 426.
+
+
+[51]
+
+Package hyperref Warning: Suppressing link with empty target on input line 527.
+
+
+[52]
+
+Package hyperref Warning: Suppressing link with empty target on input line 647.
+
+
+[53]) (./papers/paperB/sections/ConvergenceRate.tex [54] [55] [56])
+(./papers/paperB/sections/AlmosSureStability.tex [57] [58])
+(./papers/paperB/sections/NumericalSimulation.tex [59]
 Package epstopdf Info: Source file: <papers/paperB/figures/ApplebyEx.eps>
 (epstopdf)                    date: 2015-09-24 23:44:45
 (epstopdf)                    size: 135304 bytes
@@ -3379,7 +3183,7 @@ ebyEx-eps-converted-to.pdf papers/paperB/figures/ApplebyEx.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<papers/paperB/figures/ApplebyEx-eps-converted-to.pdf, id=1693, 255.95625pt x 1
+<papers/paperB/figures/ApplebyEx-eps-converted-to.pdf, id=1663, 255.95625pt x 1
 58.5925pt>
 File: papers/paperB/figures/ApplebyEx-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3387,7 +3191,10 @@ df)
 Package pdftex.def Info: papers/paperB/figures/ApplebyEx-eps-converted-to.pdf u
 sed on input line 87.
 (pdftex.def)             Requested size: 255.95561pt x 158.59209pt.
- [61]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package epstopdf Info: Source file: <./papers/paperB/figures/Tretyakov.eps>
 (epstopdf)                    date: 2015-09-30 17:12:37
 (epstopdf)                    size: 450381 bytes
@@ -3400,7 +3207,7 @@ etyakov-eps-converted-to.pdf ./papers/paperB/figures/Tretyakov.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperB/figures/Tretyakov-eps-converted-to.pdf, id=1719, 270.00874pt x
+<./papers/paperB/figures/Tretyakov-eps-converted-to.pdf, id=1675, 270.00874pt x
  184.69pt>
 File: ./papers/paperB/figures/Tretyakov-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3409,10 +3216,8 @@ Package pdftex.def Info: ./papers/paperB/figures/Tretyakov-eps-converted-to.pdf
  used on input line 138.
 (pdftex.def)             Requested size: 270.00807pt x 184.68953pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[62 <./papers/paperB/figures/ApplebyEx-eps-converted-to.pdf>]
+[60] [61 <./papers/paperB/figures/ApplebyEx-eps-converted-to.pdf> <./papers/pap
+erB/figures/Tretyakov-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./papers/paperB/figures/TimeVsDimension.ep
 s>
 (epstopdf)                    date: 2015-09-21 00:15:24
@@ -3427,7 +3232,7 @@ meVsDimension-eps-converted-to.pdf ./papers/paperB/figures/TimeVsDimension.eps>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf, id=1749, 255.956
+<./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf, id=1727, 255.956
 25pt x 158.5925pt>
 File: ./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3436,7 +3241,7 @@ File: ./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: ./papers/paperB/figures/TimeVsDimension-eps-converted-
 to.pdf used on input line 215.
 (pdftex.def)             Requested size: 255.95561pt x 158.59209pt.
- [63 <./papers/paperB/figures/Tretyakov-eps-converted-to.pdf>]
+ [62]
 Package epstopdf Info: Source file: <./papers/paperB/figures/InternalHIVDynamic
 s.eps>
 (epstopdf)                    date: 2015-10-06 11:29:33
@@ -3451,7 +3256,7 @@ ics.eps>
 (epstopdf)             \includegraphics on input line 261.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf, id=1771, 397
+<./papers/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf, id=1741, 397
 .485pt x 245.91875pt>
 File: ./papers/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -3464,13 +3269,13 @@ ted-to.pdf used on input line 261.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[64 <./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf>] [65 <./pape
-rs/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf>])) [66]
+[63 <./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf>] [64 <./pape
+rs/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf>])) [65] [66
+
+
+]
 Chapter 5.
-(./Conclusions/Conclusions.tex) [67
-
-
-] [68
+(./Conclusions/Conclusions.tex) [67] [68
 
 ] [69] [70]
 Appendix A.
@@ -3558,10 +3363,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `phdThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0E9A0DA32BD335C0BAB45E7AD90F259E;3423.
+(rerunfilecheck)             Checksum: E2F6280963646EAC32340D1040ABF73F;3360.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3569,13 +3377,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 42800 strings out of 493089
- 954900 string characters out of 6135291
- 1074822 words of memory out of 5000000
- 44719 multiletter control sequences out of 15000+600000
+ 42762 strings out of 493089
+ 954333 string characters out of 6135291
+ 1076511 words of memory out of 5000000
+ 44695 multiletter control sequences out of 15000+600000
  91661 words of font info for 215 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 57i,18n,84p,10406b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,77p,10406b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/saul/texlive2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
 /home/saul/texlive2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</home/saul/texli
 ve2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/saul/texlive
@@ -3599,10 +3407,10 @@ ome/saul/texlive2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></home/saul
 /texlive2015/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></home/saul/texliv
 e2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/saul/texlive2015/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on phdThesis.pdf (93 pages, 1044872 bytes).
+Output written on phdThesis.pdf (93 pages, 1038004 bytes).
 PDF statistics:
- 2168 PDF objects out of 2487 (max. 8388607)
- 2005 compressed objects within 21 object streams
- 651 named destinations out of 1000 (max. 500000)
- 439 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2138 PDF objects out of 2487 (max. 8388607)
+ 1976 compressed objects within 20 object streams
+ 637 named destinations out of 1000 (max. 500000)
+ 431 words of extra memory for PDF output out of 10000 (max. 10000000)
 

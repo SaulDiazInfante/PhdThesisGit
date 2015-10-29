@@ -284,6 +284,95 @@ With this on mind, we additionally require the following.
 	\end{enumerate}	
 \end{hypothesis}
 %
+By \Cref{ass:ajBound} there is a unique linear Steklov approximation and by \Cref{ass:HypThmSingularities}
+we can apply  \Cref{thm:Lawlor} or \Cref{thm:Fine} to deals with possible singularities of the matrix function 
+$A^{(2)}$ defined on \eqref{eqn:SolutionFunctions}. Under the previous  assumptions 
+we will show that the explicit Linear  Steklov approximation \crefrange{eqn:SSLSM1}{eqn:SSLSM2}
+exists, the function $\varphi_f$ is bounded by the drift function $f$ and also the 
+coefficients $\varphi_f$  and $g$  satisfy a monotone condition. First, we will give the following lemma.
+\begin{lem}\label{l1}
+	Assume \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} hold. 
+	The function $\Phi_j(x)=\Phi(h, a_j)(x)$ 
+	defined by
+	\begin{equation}\label{eqn:ExpBound}
+		\Phi_j(x):=\frac{e^{ha_j(x)}-1}{ha_j(x)},
+	\end{equation}
+	is bounded  on $\R^d$ for each $j\in \{ 1,\dots, d\}$
+	by a positive constant $L_{\Phi}$, which could depend on $h$.
+\end{lem}
+\begin{proof}    By \Cref{ass:OSLC}, the operator $\Phi$ is continuous
+	on $E_j^c$, thus 
+	\begin{equation}\label{e0}
+	\lim_{h\to 0}
+	\frac{e^{ha_j(x)}-1}{ha_j}=1,
+	\end{equation}
+	for each fixed $\in E_j^c$. If $x^*\in E_j$ and fixing any $h$, by \Cref{ass:HypThmSingularities}, 
+	we obtain one of the following cases:
+	\begin{equation}\label{eqn:ajSingularityCasei}
+	\lim_{
+		\substack{
+			x \to x^*\\ 
+			x\in E_j^c
+		}
+	}
+	\Phi(h,a_j)(x) =
+	%
+	\lim_{
+		\substack{
+			x \to x^*\\ 
+			x\in E_j^c
+		}
+	}	
+	\frac{\frac{\partial a_j(x)}{\partial x^{(j)}} 
+		h e^{h a_j(x)} 
+	}{
+	h\frac{\partial a_j(x)}{\partial x^{(j)}}
+}=1,
+\end{equation}	
+or
+\begin{equation}\label{eqn:ajSingularityCaseii}
+\lim_{
+	\substack{
+		x \to x^*\\ 
+		x\in E_j^c
+	}
+}
+\Phi(h,a_j)(x) 
+=
+%
+\lim_{
+	\substack{
+		x \to x^*\\ 
+		x\in E_j^c
+	}
+}	
+\frac{
+	\left(
+	e^{h a_j(x)} - 1
+	\right)_{\alpha}
+}{
+\left(
+h a_j(x)
+\right)_{\alpha}
+}	=	1, \qquad \alpha = 0,\pi, 2\pi,\dots
+\end{equation}	
+From \eqref{e0}, \eqref{eqn:ajSingularityCasei} and \eqref{eqn:ajSingularityCaseii} we can deduce that 	
+\begin{equation}\label{eqn:PhiBound}
+	\left|\frac{e^{ha_j(x)}-1}{ha_j(x)}
+	\right|\leq\left|\frac{e^{hL_a}-1}{ha^*_j}
+	\right|,
+	\qquad \forall x \in \R^d,
+\end{equation}
+where $a^*_j:= \inf_{x\in E_j^c}\{|a_j(x)|\}$. So, for each $h$ fixed by inequality \eqref{eqn:PhiBound} we can 
+deduce that there a positive constant $L_{\Phi}=L_{\Phi}(h)$ such that
+$$
+	|\Phi_j(x)|\leq L_{\Phi}, \qquad \forall j\in \{1,\dots, d\}.	
+$$ 
+Finally, if $a^*_j=0$, then we can
+use an argument similar to \crefrange{eqn:ajSingularityCasei}{eqn:ajSingularityCaseii}.	
+\end{proof}
+
+Now we can state the following result.
 \begin{lem}\label{lem:PhiFhProp}
 	Let \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} holds, and $A^{(1)}$, $A^{(2)}$, $b$  
 	defined by 
@@ -325,563 +414,278 @@ With this on mind, we additionally require the following.
 \end{lem}
 %
 \begin{proof}
-	%\todo{Justify the uniform convergence of  $\varphi_{f_h}$ and $g_h$.}
-	Let us first, prove that \eqref{eqn:varphiEqnSolution} is solution of \Cref{eqn:varphiEquation}. To this end note 
-	that for each $j\in \{1,\dots, d\}$
-	\begin{equation*}
-		v^{(j)} = u^{(j)} + h \varphi_{f^{(j)}}(v)	
-	\end{equation*}
-	So, using in \Cref{eqn:varphiEqnSolution}  that
-	\begin{equation}
-		\varphi_{f^{(j)}}(v) =
-			\left(
-				\frac{1}{v^{(j)}-u^{(j)}}
-				\int 
-				%\limits
-				_{u^{(j)}}^{v^{(j)}}
-				\frac{dz}
-				{
-					a_{j}(u) z
-					+b_{j}(u^{(-j)})
-				}
-				\right)^{-1}.
-	\end{equation} 
-	After some algebraic manipulations we arrive at
-%	
-	\begin{equation}
-		v^{(j)}= \exp(h a_j(u)) u^{(j)} + 
-		\left[
-			\left(
-				\frac{\exp(ha_j(u))-1}{a_j(u)}
-			\right)
-			\1{E_j^c}
-			+h \1{E_j}
-		\right]b_{j}(u^{(-j)}),
-	\end{equation}	
-	for each $j\in \{1,\dots, d\}$, which is the $j$-component of the vector
-	$A^{(1)}(h,u)u +A^{(2)}(h,u) b(u)$.
-%From  the construction of the \SM method, we have
-%	\begin{align}\label{eqn:fracLog}
-%			v=u+\frac{(v - u) a(u)}{\log \left(a(u)v+b\right) - \log \left(a(u)u+b\right)}h.
-%	\end{align}
-%	%
-%	Solving for $v$ in \eqref{eqn:fracLog} gives
-%	\begin{equation*}
-%		v =\left(
-%			u + \frac{b}{a(u)}
-%			\right)\exp\left(ha(u)\right)
-%		- \frac{b}{a(u)}.
-%	\end{equation*}
-%	%
-	Next, we will prove the inequality \eqref{eqn:PhifhFbound}. Since 
-	$$
-		\varphi_{f_h}^{(j)}(u) = 
-			\frac{
-%				\displaystyle
-				F_h^{(j)}(u)-u^{(j)}
-			}%
-			{%				
-				\displaystyle
-				\int_{u^{(j)}}^{F_h^{(j)}(u)}
-				\frac{dz}{a_j(u)z + b_j(u^{(-j)})}
-			} \qquad.
-	$$
-	We first see that if $u\in E_j$, then 
-	$
-		\varphi_{f_h}^{(j)}(u) = b_j(u^{(-j)}) = f(u).
-	$
-	Then taking $C\geq 1$ we have the conclusion.
-	On the other hand, if $u\in E_j^c$, then
-	\begin{equation}\label{eqn:VarPhiEjc}
-		\varphi_{f_h}^{(j)}(u) =
-		\frac{
-				(F_h^{(j)}(u)-u^{(j)}) a_j(u)
-			}
-			{
-				\underbrace{
-				\ln \left(
-					a_j(u) F_h^{(j)}(u) + b_j(u^{(-j)})
-				\right)
-				}_{:=Ter1}
-				-
-				\ln \left(
-					a_j(u) u^{(j)} + b_j(u^{(-j)})
-				\right)
-			}		
-	\end{equation}
-	Now consider in \Cref{eqn:VarPhiEjc} the term labeled $Ter1$, and observe that
-	\begin{align}
-		Ter1&=
-			\ln\left\{
-				a_j(u)\left[
-					e^{ha_j(u)}u^{(j)} +
-					\left(
-						\frac{e^{ha_j(u)}-1}{a_j(u)}
-					\right) b_j(u^{(-j)})	
-				\right]
-				+b_j\left(u^{(-j)}\right)
-			\right\} \notag \\
-		&=h a_j(u) + \ln \left( f^{(j)}(u) \right).
-		\label{eqn:Ter1Simplification}		
-	\end{align}
-	Combining the relations \eqref{eqn:VarPhiEjc} and \eqref{eqn:Ter1Simplification},
-	after algebraic manipulations we arrive at 
-	\begin{equation}\label{eqn:VarPhiBound}
-		\varphi_{f_h}^{(j)}(u) =
-			\left(
-				\frac{e^{ha_j(u)}-1}{h a_j(u)}
-			\right)
-			f^{(j)}(u), \quad \forall u \in E_j^c.
-	\end{equation}
-	Hence, it remains to prove that 
-	\begin{equation}\label{eqn:ExpBound}
-		\Phi(h, a_j)(u):=\frac{e^{ha_j(u)}-1}{ha_j(u)},
-	\end{equation}
-	is bounded on $\R^d$ for each $j\in \{ 1,\dots, d\}$.
-	First wee see that under the \Cref{ass:OSLC} the operator $\Phi$ is continuous
-	on $E_j^c$. Furthermore, for each fixed $u\in E_j^c$
-	$$
-		\lim_{h\to 0}
-		\frac{e^{ha_j(u)}-1}{ha_j}=1.
-	$$ 
-	On the other hand, for each fixed $h$,  by \Cref{ass:HypThmSingularities} we obtain 
-	one of the following cases:
-	
-	\begin{enumerate}[C{A}SE I:]
-	% and \Cref{thm:} 
-		\item
-			\begin{equation}\label{eqn:ajSingularityCasei}
-				\lim_{
-					\substack{
-						u \to u^*\\ 
-						u\in E_j^c
-					}
-				}
-				\Phi(h,a_j)(u) =
-				%
-				\lim_{
-					\substack{
-						u \to u^*\\ 
-						u\in E_j^c
-					}
-				}	
-				\frac{\frac{\partial a_j(u)}{\partial u^{(j)}} 
-					h e^{h a_j(u)} 
-				}{
-					h\frac{\partial a_j(u)}{\partial u^{(j)}}
-				}=1.
-			\end{equation}	
-		\item
-			\begin{equation}\label{eqn:ajSingularityCaseii}
-			\lim_{
-				\substack{
-					u \to u^*\\ 
-					u\in E_j^c
-				}
-			}
-			\Phi(h,a_j)(u) 
-			=
-			%
-			\lim_{
-				\substack{
-					u \to u^*\\ 
-					u\in E_j^c
-				}
-			}	
-			\frac{
-				\left(
-					 e^{h a_j(u)} - 1
-				 \right)_{\alpha}
-			}{
-				\left(
-					h a_j(u)
-				\right)_{\alpha}
-			}	=	1, \qquad \alpha = 0,\pi, 2\pi,\dots
-		\end{equation}	
-	\end{enumerate}
-	%
-	%
-	%
-	So, under this situation, we can say for each $j$ that the function
-	\begin{equation*}
-		f^{(j)}(u) \1{E_j} +
-		\left(
-			\frac{e^{ha_j(u)}-1}{ha_j(u)}
+Let us first prove that \eqref{eqn:varphiEqnSolution} is solution 
+of equation \eqref{eqn:varphiEquation}.  Note that 
+\begin{equation}\label{e1}
+v^{(j)} = u^{(j)} + h \,\varphi_{f^{(j)}}(v),	
+\end{equation}
+for each $j\in \{1,\dots, d\}$ and using the linear Steklov function \eqref{ap}, 
+we can derive that
+\begin{equation}\label{r1}
+v^{(j)}= e^{h a_j(u)} u^{(j)} + 
+\left[
+h\Phi_j(u)
+\1{E_j^c}
++h \1{E_j}
+\right]b_{j}(u^{(-j)}),
+\end{equation}	
+which is the $j$-component of the vector
+$A^{(1)}u +A^{(2)} b(u)$. Now let us prove inequality \eqref{eqn:PhifhFbound}. Given that 
+$v =\varphi_{f}(F_h(u))$, 
+we can also rewrite \eqref{e1} as
+$$
+\varphi_{f_h}^{(j)}(u) = 
+\frac{
+	%				\displaystyle
+	F_h^{(j)}(u)-u^{(j)}
+}%
+{%				
+	\displaystyle
+	\int_{u^{(j)}}^{F_h^{(j)}(u)}
+	\frac{dz}{a_j(u)z + b_j(u^{(-j)})}
+}.
+$$
+If $u\in E_j$ then $\varphi_{f_h}^{(j)}(u) = b_j(u^{(-j)}) = f^{j}(u)$,
+so $L_{\Phi}\geq 1$ fulfills  \eqref{eqn:PhifhFbound}.
+On the other hand, if $u\in E_j^c$ then
+\begin{equation}\label{eqn:VarPhiEjc}
+\varphi_{f_h}^{(j)}(u) =
+\frac{
+	(F_h^{(j)}(u)-u^{(j)}) a_j(u)
+}
+{
+	\underbrace{
+		\ln \left(
+		a_j(u) F_h^{(j)}(u) + b_j(u^{(-j)})
 		\right)
-		f^{(j)}(u) \1{E_j^c}
-	\end{equation*}
-	is continuous on $\R^d$ and bounded on $E_j$.
-	Now, let
-		$$
-			a^*_j:= \inf_{u\in E_j^c}
-			\{
-				|a_j(u)|
-			\}.
-		$$
-	So, $a^*_j$ satisfy one of the two following cases:
-	\begin{enumerate}[C{A}SE a:]
-		\item
-			$
-				\displaystyle
-				0 < a_j^*\leq L_a. 
-			$
-		\item
-			$a_j^*=0$.
-	\end{enumerate}
-	In the first case we see that
-	\begin{align*}
-		\frac{e^{h a_j(u)}-1}{ha_j(u)}
-		& \leq
-			\frac{e^{h L_a}-1}{ha^*_j(u)} <\infty,
-		\qquad \forall h\in (0,\infty ).
-	\end{align*}
-	For CASE II, we can apply an argument similar as in \crefrange{eqn:ajSingularityCasei}{eqn:ajSingularityCaseii}.
-	Then there is  $L_{\Phi}>0$ such that
-	\begin{equation}\label{eqn:PhiBound}
-		\left|
-			\frac{e^{ha_j(u)}-1}{ha_j(u)}
-		\right| < L_{\Phi},
-		\qquad \forall u \in \R^d.
-	\end{equation}	
-%		
-	Combining this fact with \Cref{eqn:VarPhiBound}, we obtain
-	$$
-		|\varphi_{f_h^{(j)}}(u)|
-		\leq
-		\left|
-			\frac{e^{ha_j(u)}-1}{ha_j(u)}
-		\right||f^{(j)}(u)| < L_{\Phi} |f^{(j)}(u)|,
-		\qquad \forall u \in \R^d,
-	$$
-	which prove inequality \eqref{eqn:PhifhFbound}.
-	
-		No, we prove the $g_h$ is  a locally Lipschitz function. 
-	By (H-\ref{ass:C1Functions}) in \Cref{ass:OSLC},  $g$ is a globally Lipschitz function, so
-	\begin{align*}
-		g_h(x)
-		&=
-			g\left(F_h(x) \right),
-	\end{align*}
-	is the composition of a continuous bounded function and a globally Lipschitz function, furthermore, note that
-	\begin{align} \label{eqn:gLocalLipschitzArg} 
-		|g_h(u)-g_h(v)|^2 
-		&\leq
-			L_g|F_h(u)- F_h(v)|^2 \notag  \\
-		&\leq
-			2L_g \underbrace{
-				|A^{(1)}(h,u)u - A^{(1)}(h,v)v|^2 
-			}_{:=Ter_1} +
-			2L_g \underbrace{
-				|A^{(2)}(h,u)b(u) - A^{(2)}(h,v)b(v) |^2 
-			}_{:=Ter_2}.			
-	\end{align}
-	Now, we work with each term of the right hand of inequality \eqref{eqn:gLocalLipschitzArg}.
-	First note that $A^{(1)}$ is a continuous differentiable function on all $\R^d$ so by the mean value Theorem 
-	we have
-	\begin{equation*}
-		|A^{(1)}(h,u)u - A^{(1)}(h,v)v|^2 
-		\leq
-		\sup_{0\leq t \leq 1} 
-		|\partial A^{(1)}(h, u+t(v-u))|^2 |u-v|^2,	
-	\end{equation*}
-	then, there is a positive constant $L_{A^{(1)}} = L_{A^{(1)}}(h,n)$ such that
-	\begin{equation}\label{eqn:BoundTer1gh}
-		|A^{(1)}(h,u)u - A^{(1)}(h,v)v|^2 
-		\leq
-		L_{A^{(1)}}|u-v|^2, \quad u,v \in \R^d, \quad |u|\vee |v|\leq n.
-	\end{equation} 
-	In the other hand, 
-	\begin{dgroup*}
-		\begin{dmath*}
-			Ter_2 =
-				\sum_{j=1}^d
-				\left[	
-					\1{E_j^c}(u) \Phi(h,a_j)(u) b_j(u^{(-j)}) + h \1{E_j}(u) b_j(u^{(-j)}) 
-					-
-					\1{E_j^c}(v) \Phi(h,a_j)(v) b_j(u^{(-j)}) - h \1{E_j}(v) b_j(v^{(-j)})
-				\right]^2
-		\end{dmath*}
-		%
-		\begin{dmath*}
-			\leq
-			4\sum_{j=1}^d
-			\left[
-				\left(	
-					\1{E_j^c}(u) \Phi(h,a_j)(u) b_j(u^{(-j)})  
-				\right)^2
-				+
-				\left(
-					 h \1{E_j}(u) b_j(u^{(-j)})
-				\right)^2
-				+
-				\left(
-					\1{E_j^c}(v) \Phi(h,a_j)(v) b_j(v^{(-j)})
-				\right)^2
-				+
-				\left(
-					  h \1{E_j}(v) b_j(v^{(-j)}
-				\right)^2
-			\right]
-		\end{dmath*}
-		%
-		\begin{dmath}[label={eqn:BoundArgTer2}]
-			\leq
-			4\sum_{j=1}^d
-			\left[
-				\left(	
-					\1{E_j^c}(u) L_{\Phi} b_j(u^{(-j)})  
-				\right)^2
-				+
-				\left(
-					h \1{E_j}(u) b_j(u^{(-j)})
-				\right)^2
-				+
-				\left(
-					\1{E_j^c}(v) L_{\Phi} b_j(v^{(-j)})
-				\right)^2
-				+
-				\left(
-				 h \1{E_j}(v) b_j(v^{(-j)}
-				\right)^2
-			\right].
-		\end{dmath}		
-	\end{dgroup*}	
-	Since each $b^2_j(\cdot)$ function is of class $C^1(\R^d)$, there is a constant $M_b=M_b(n)$ such that
-	\begin{dmath}[label={eqn:Boundbju}]
-		|b_j(u)|^2 \leq M_b 
-		\condition{
-			$\forall u \in \R^d$,
-			\quad $|u| \vee |v| \leq n$,
-			\quad $j \in \{1,\cdots, d\}$
-		}.		
-	\end{dmath}
-	Putting this bound in inequality \eqref{eqn:BoundArgTer2}, we deduce that
-	\begin{dgroup*}
-		\begin{dmath*}
-			Ter_2 
-			\leq
-			4 \sum_{j=1}^d
-				\left[
-					2L_{\Phi} M_b +2h^2 M_b
-				\right] 
-		\end{dmath*}
-		\begin{dmath}[label={eqn:BoundL0Ter2gh}]
-			\leq
-			\underbrace{
-				8d M_b(n)(L_{\Phi}+h^2)
-			}_{:=L_0}
-			\condition{
-				$\forall u,v \in \R^d$,
-				\quad $|u|\vee|v| \leq n$.	
-			}
-		\end{dmath}
-	\end{dgroup*}
-	Then, combining inequalities \eqref{eqn:BoundTer1gh} and \eqref{eqn:BoundL0Ter2gh} we arrive at
-	\begin{dgroup*}
-		\begin{dmath*}
-			|g_h(u) - g_h(v)|^2
-			\leq
-			L_{A^{(1)}} |u - v|^2 + L_0.
-		\end{dmath*}
-		\begin{dsuspend}
-			So, taking $L_{g_h}=L_{g_h}(h,n) \geq n^2+1+L_0+ L_{A^{(1)}}$, we see that 
-		\end{dsuspend} 
-		\begin{dmath*}
-			|g_h(u) - g_h(v)|^2 \leq L_{g_h}(n) |u - v|^2 
-			\condition{
-				$\forall u,v \in \R^d$,
-				\quad $|u|\vee |v| \leq n$.
-			}
-		\end{dmath*}
-	\end{dgroup*}
-	Then $g_h(\cdot)$ is a locally Lipschitz function. Furthermore, note that under some modifications,
-	this argument also prove that $F_h(\cdot)$ is a Locally Lipschitz function, which also implies that
-	$\varphi_{f_{h}}$ is a locally Lipschitz function.
-	Finally, we prove the inequality \eqref{eqn:h-MonotoneCondition}. We first observe that by
-	\Cref{ass:OSLC,ass:ajBound}
-	\begin{dgroup*}
-		\begin{dmath*}
-			\innerprod{f(u)}{u}
-			=
-			\sum_{j=1}^d
-				a_j(u) \left( u^{(j)} \right)^2
-			+
-			\sum_{j=1}^d
-			b_j(u) u^{(j)}
-			\leq \alpha +\beta |u|^2,
-		\end{dmath*}
-		\begin{dsuspend}
-			then
-		\end{dsuspend}
-		\begin{dmath}[label = {eqn:bDotProdBound}]
-			\innerprod{b(u)}{u} \leq \alpha + (\beta + L_a)|u|^2.
-		\end{dmath}
-	\end{dgroup*}
-	With this on mind, and using the inequality \eqref{eqn:PhifhFbound}, we deduce that
-	\begin{dgroup*}
-		\begin{dmath*}
-			\innerprod{\varphi_{f_h}(u)}{u} 
-				=
-					\sum_{j=1}^d
-						\Phi(h,aj)(u) f^{(j)}(u) u^{(j)}
-				\leq
-					\sum_{j=1}^d
-						L_{\Phi}L_a|u^{(j)}|
-						+ L_{\Phi}\innerprod{b(u)}{u}
-				\leq
-					L_{\Phi} L_a|u| + L_{\Phi}(\alpha + (L_a + \beta)|u|^2).					
-		\end{dmath*}
-	\end{dgroup*}
-	
-	So, taking 
+	}_{:=R_1}
+	-
+	\ln \left(
+	a_j(u) u^{(j)} + b_j(u^{(-j)})
+	\right)
+}=\Phi_j(u)f^j(u),		
+\end{equation}
+where
+\begin{equation}\label{eqn:Ter1Simplification}	
+R_1=
+\ln\left\{
+a_j(u)\left[
+e^{ha_j(u)}u^{(j)} +
+h\Phi_j(u) b_j(u^{(-j)})	
+\right]
++b_j\left(u^{(-j)}\right)
+\right\} \notag \\
+=h a_j(u) + \ln \left( f^{(j)}(u) \right).		
+\end{equation}
+By lemma \ref{l1}, inequality \eqref{eqn:PhifhFbound} is satisfied 
+for all $u\in E_j \cup E_j^c$. 	As $g_h(x)=g\left(F_h(x) \right)$ 
+by \Cref{ass:OSLC}, then
+\begin{equation} \label{eqn:gLocalLipschitzArg} 
+|g_h(u)-g_h(v)|^2 \leq
+L_g|F_h(u)- F_h(v)|^2  \leq
+2L_g \underbrace{
+	|A^{(1)}u - A^{(1)}v|^2 
+}_{:=R_2} +
+2L_g \underbrace{
+	|A^{(2)}b(u) - A^{(2)}b(v) |^2 
+}_{:=R_3}.			
+\end{equation}
+Let us consider each term of the right hand of inequality \eqref{eqn:gLocalLipschitzArg}.
+First, note that $A^{(1)}$ is a continuous differentiable function on all 
+$\R^d$, so using the mean value theorem,
+we have
+\begin{equation}\label{eqn:BoundTer1gh}
+R_2
+\leq
+L_{A^{(1)}}|u-v|^2, \quad u,v \in \R^d, \quad |u|\vee |v|\leq n,
+\end{equation}
+for a positive constant $L_{A^{(1)}} \geq \sup_{0\leq t \leq 1} 
+|\partial A^{(1)}(h, u+t(v-u))|^2$. Meanwhile, 
+\begin{eqnarray}
+R_3 &=&\sum_{j=1}^d\Big[\1{E_j^c}(u) \Phi_j(u) b_j(u^{(-j)}) + h \1{E_j}(u) b_j(u^{(-j)}) 
+-\1{E_j^c}(v) \Phi_j(v) b_j(u^{(-j)})\nonumber \\ &-& h \1{E_j}(v) b_j(v^{(-j)})
+\Big]^2 
+\leq
+4\sum_{j=1}^d
+\Big[
+\left(	
+\1{E_j^c}(u) L_{\Phi} b_j(u^{(-j)})  
+\right)^2
++
+\left(
+h \1{E_j}(u) b_j(u^{(-j)})
+\right)^2
+\nonumber\\&+&
+\left(
+\1{E_j^c}(v) L_{\Phi} b_j(v^{(-j)})
+\right)^2
++
+\left(
+h \1{E_j}(v) b_j(v^{(-j)}
+\right)^2
+\Big].
+\label{eqn:BoundArgTer2}	
+\end{eqnarray}	
+Since  $b^2_j(\cdot)$ is a function of class $C^1(\R^d)$, there is a 
+constant $L_b=L_b(n)$ such that
+\begin{dmath}[label={eqn:Boundbju}]
+	|b_j(u)|^2 \leq L_b 
+	\condition{
+		$\forall u \in \R^d$,
+		\quad $|u| \vee |v| \leq n$,}		
+\end{dmath}
+for each $j \in \{1,\cdots, d\}$. Using this bound in  \eqref{eqn:BoundArgTer2}, we obtain
+\begin{equation}\label{eqn:BoundL0Ter2gh}
+R_3\leq
+4 \sum_{j=1}^d
+\left[
+2 L_{\Phi} L_b +2h^2 L_b
+\right] 
+\leq L_0, \qquad
+\forall u,v \in \R^d,
+\quad |u|\vee|v| \leq n,
+\end{equation}
+where $L_0=8d L_b(n)(L_{\Phi}+h^2)$.
+By inequalities \eqref{eqn:BoundTer1gh} and \eqref{eqn:BoundL0Ter2gh},  we get
+\begin{equation}
+|g_h(u) - g_h(v)|^2 \leq L_{g_h}(n) |u - v|^2, 
+\qquad	\forall u,v \in \R^d,
+\quad |u|\vee |v| \leq n,		
+\end{equation}
+where $L_{g_h}(n)\geq n^2+1+L_0+ L_{A^{(1)}}$. Then $g_h(\cdot)$ is a locally 
+Lipschitz function. Furthermore, note that under some modifications
+this argument can be used to prove that $F_h(\cdot)$ is also a locally Lipschitz 
+function, which implies that $\varphi_{f_{h}}$ is a locally Lipschitz function.
+Finally, we  will demonstrate inequality \eqref{eqn:h-MonotoneCondition}. 
+By \Cref{ass:OSLC,ass:ajBound}, we have
+\begin{equation*}\label{eqn:bDotProdBound}
+	\innerprod{f(u)}{u}
+	=
+	\sum_{j=1}^d
+	a_j(u) \left( u^{(j)} \right)^2
+	+
+	\sum_{j=1}^d
+	b_j(u) u^{(j)}
+	\leq \alpha +\beta |u|^2,
+\end{equation*}
+and
+\begin{equation*}\label{eqn:bDotProdBound}
+	\innerprod{b(u)}{u} \leq \alpha + (\beta + L_a)|u|^2.
+\end{equation*}
+Using these inequalities and \eqref{eqn:PhifhFbound}, we deduce that
+\begin{equation}\label{eqn:VarphifhDotProdBound}
+	\innerprod{\varphi_{f_h}(u)}{u} 
+		=\sum_{j=1}^d
+		\Phi_j(u) f^{(j)}(u) u^{(j)}
+		\leq L_{\Phi} L_a|u| +  L_{\Phi}(\alpha + (L_a + \beta)|u|^2) \leq
+		L_{\varphi_{f_h}} (1+|u|^2).					
+\end{equation}
+where
 	$
-		L_{\varphi_{f_h}} = L_{\varphi_{f_h}}(h) \geq 2 L_{\Phi} \cdot \max\{L_a, \alpha, \beta\} + 1,
+		L_{\varphi_{f_h}}\geq 2 L_{\Phi}\max\{L_a, \alpha, \beta\} + 1.
 	$ 
-	we obtain
-	\begin{equation}\label{eqn:VarphifhDotProdBound}
-		\innerprod{ \varphi_{f_h}(u)}{u}
-		\leq 
-			L_{\varphi_{f_h}} (1+|u|^2), \quad \forall u \in \R^d.
-	\end{equation}
-	On the other hand, since $g$ is globally Lipschitz it follows that
-	\begin{align}\label{eqn:GloballyLipg}
-		|g_h(u)|^2 
-		&\leq
-			2 |g(F_h(u)) - g(F_h(0)|^2  + 2 | g(F_h(0)|^2 \notag \\
-		&\leq 
-			2 L_g |F_h(u) - F_h(0)|^2  + 4 |g(F_h(0)) - g(0)|^2 + 4 |g(0)|^2 \notag\\ 
-		&\leq 
-			4 L_g |F_h(u)|^2  + 8 L_g |F_h(0)|^2  + 4 |g(0)|^2 .
-	\end{align}
-	Now we bound each term in the right hand side of inequality \eqref{eqn:GloballyLipg}.
-	Let us first observe that by the monotone condition in \Cref{ass:OSLC}
-	\begin{equation} \label{eqn:Boundgzero}
-		|g(0)|^2 \leq 2\alpha.
-	\end{equation}
-	On the other hand 
-	\begin{align*}
-		F_h^{(j)} (0) =
-			\frac{e^{h a_j(0)}-1}{a_j(0)} b_j(0) \1{E_j^c}(0) + hb_j(0) \1{E_j}(0).
-	\end{align*}
-	So, taking
-	\begin{align*}
-		a^*_0 := 
-			\min_{
-				\substack{
-					j \in \{1, \cdots, d \}\\
-					a_j(0) \neq 0
-				}
-			}
-			\left\{
-				|a_j(0)|
-			\right\},
-			\qquad
-		b^*_0 :=
-			\max_{
-				j\in {1,\cdots, d}
-			}
-			\left\{
-				|b_j(0)|
-			\right\}
-	\end{align*}
-	we can deduce that
-	\begin{equation*}
-		|F_h^{(j)}(0)| 
-			\leq
+Meanwhile, $g$ is globally Lipschitz then
+\begin{equation}\label{eqn:GloballyLipg}
+	|g_h(u)|^2 
+	\leq
+		2 |g(F_h(u)) - g(F_h(0))|^2  + 2 | g(F_h(0))|^2 \leq
+		4 L_g |F_h(u)|^2  + 8 L_g |F_h(0)|^2  + 4 |g(0)|^2 .
+\end{equation}
+Now, we bound each term on the right-hand side of  \eqref{eqn:GloballyLipg}.
+By the monotone condition \eqref{eqn:MonotoneCondition}, $|g(0)|^2 \leq 2\alpha$.
+Moreover,
+\begin{equation*}
+	|F_h^{(j)} (0) |=
+		h\Phi_j(0)\,| b_j(0)| \1{E_j^c}(0) + 
+		h\,|b_j(0)| \1{E_j}(0)
+		\leq
+		\frac{b_0^*}{a_0^*}
+		e^{h L_a} (1+h),
+	\quad
+	\forall j \in \{1, \cdots, d\}.
+\end{equation*}
+where
+	$a^*_0 := 
+	\min_{
+		\substack{
+			j \in \{1, \cdots, d \}\\
+			a_j(0) \neq 0
+		}
+	}
+	\left\{
+		|a_j(0)|
+	\right\}$
+and 
+	$b^*_0 :=
+		\max_{\substack{
+		j\in \{1,\cdots, d\}}
+	}
+	\left\{
+		|b_j(0)|
+	\right\}.$
+Then
+\begin{equation} \label{eqn:BoundFhZero}
+	|F_h(0)|^2 
+	\leq
+		d\left(
 			\frac{b_0^*}{a_0^*}
-			e^{h L_a} (1+h),
-			\quad
-			\forall j \in \{1, \cdots, d\}.  
-	\end{equation*}
-	Then
-	\begin{equation} \label{eqn:BoundFhZero}
-		|F_h(0)|^2 
-			\leq
-			d\left(
-				\frac{b_0^*}{a_0^*}
-			\right)^2
+		\right)^2
 		e^{2h L_a} (1+h)^2.
-	\end{equation}
-	In this line, since the operator $\Phi(h,a_j)$ is bounded, it follows that
-	\begin{dmath*}
-		F_h^{(j)}(u) 
-			=
-			e^{h a_j(u)} u^{(j)} +
-			h \Phi(h, a_j)(u) b_j(u) \1{E_j^c}(u) +h b_j(u) \1{E_j}(u)
-			\leq
-			e^{h a_j(u)} |u^{(j)}| +
-			h L_{\Phi} |b_j(u)| \1{E_j^c}(u) +h |b_j(u)| \1{E_j}(u).
-	\end{dmath*}
-	Then we deduce by \Cref{ass:ajBound} that
-	\begin{align*}
-		|F_h^{(j)}(u)|^2 
-		&\leq
-			3 e^{2h L_a }|u|^2 + (3 h^2 L_{\Phi}^2 L_b + 3h^ 2L_b) (1+|u|^2) \\
-		&\leq
-			3 h^2 L_b (1 + L_{\Phi}^2)   +
-			3 \left(
-				 e^{2 h L_a} + h^2 L_b (L_{\Phi}^2 + 1 ) 
-			\right)|u|^2.	
-	\end{align*}
-	So, taking 
-	$
-		L_F\geq 3 d \max\{ \exp(2h L_a),  h^2 L_b(L_{\Phi}^2+1)\}
-	$,
-	we obtain that
-	\begin{equation}\label{eqn:BoundFhu}
-		|F_h^{(j)}(u)|^2
-		\leq
-			L_F(1+|u|^2).	
-	\end{equation}
-	Then, combining bounds \eqref{eqn:Boundgzero},\eqref{eqn:BoundFhZero} and \eqref{eqn:BoundFhu} we arrive at
-	\begin{equation*}
-		|g_h(u)|^2 \leq
-			4 L_g L_F(1+|u|^2)
-			+ 8 L_g d
-			\left(
-				\frac{b_0^*}{a_0^*}
-			\right)^2
-			e^{2h L_a} (1+h)^2
-			+8 \alpha.
-	\end{equation*}
-	Therefore, if
-	$
-		 L_{g_h} 
-		 \geq 
-			  4 L_g L_F + 8 L_g d
-			  \left(
-				  \frac{b_0^*}{a_0^*}
-			  \right)^2
-			  e^{2h L_a} (1+h)^2
-			  +8 \alpha		  
-	$
-	wee see that
-	\begin{equation}\label{eqn:Boundghu}
-		|g_h(u)|^2
-		\leq
-			L_{g_h}(1+|u|^2)		
-	\end{equation}
-	Hence, from the inequalities \eqref{eqn:VarphifhDotProdBound} and \eqref{eqn:Boundghu} and taking
-	for each fixed $h>0$
-	$$
-		\alpha^* := L_{\varphi_{f_h}}\vee L_{g_h}, \qquad
-		\beta^* := 2\alpha^*
-	$$ 
-	 we have the desired conclusion.\qed
+\end{equation}
+Since $\Phi_j$ is bounded, from \eqref{r1} we get
+\begin{dmath*}
+	F_h^{(j)}(u) 
+	\leq
+	e^{h a_j(u)} |u^{(j)}| +
+	h L_{\Phi} |b_j(u)| \1{E_j^c}(u) +h |b_j(u)| \1{E_j}(u).
+\end{dmath*}
+And by \Cref{ass:ajBound},
+\begin{equation}\label{eqn:BoundFhu}
+	|F_h^{(j)}(u)|^2 
+		\leq 3 e^{2h L_a }|u|^2 + (3 h^2 L_{\Phi}^2 L_b + 3h^ 2L_b) (1+|u|^2) 
+		\leq L_F(1+|u|^2), 
+\end{equation}
+where $L_F\geq 3 d \max\{e^{2h L_a},  h^2 L_b(L_{\Phi}^2+1)\}$.
+Using \eqref{eqn:BoundFhZero} and \eqref{eqn:BoundFhu} in  inequality \eqref{eqn:GloballyLipg} yields
+\begin{equation*}
+	|g_h(u)|^2 \leq
+		4 L_g L_F(1+|u|^2)
+		+ 8 L_g d
+		\left(
+			\frac{b_0^*}{a_0^*}
+		\right)^2
+		e^{2h L_a} (1+h)^2
+		+8 \alpha.
+\end{equation*}
+Therefore, if
+$
+	L_{g_h} 
+	\geq 
+	4 L_g L_F + 8 L_g d
+	\left(
+		\frac{b_0^*}{a_0^*}
+	\right)^2
+	e^{2h L_a} (1+h)^2
+	+8 \alpha		  
+$
+then
+\begin{equation}\label{eqn:Boundghu}
+	|g_h(u)|^2
+	\leq
+		L_{g_h}(1+|u|^2).		
+\end{equation}
+Hence, from inequalities \eqref{eqn:VarphifhDotProdBound} and \eqref{eqn:Boundghu} 
+and taking for each fixed $h>0$, $\alpha^* := L_{\varphi_{f_h}}\vee L_{g_h}$ and
+$\beta^* := 2\alpha^*$, we obtain inequality  \eqref{eqn:h-MonotoneCondition}.
 \end{proof}
 %
 \begin{remark}\label{rmk:PertrubedSDE}
-	Note that if $b_j=0$ in (A-1) 
-	then Hypotheses \ref{ass:ajBound} and \ref{ass:HypThmSingularities} are unnecessary to 
-	prove \Cref{lem:PhiFhProp}. Several  applications  as some stochastic
-	Lotka-Volterra systems \cite{Mao2002,Mao2003},  
-	the Ginzburg-Landau SDE \cite{Kloeden1992} or
-	the damped Langevin Equations where the potential lacks of a constant term 
-	\cite{Hutzenthaler2012a} have this form. 
-	By other hand, if $bj\neq 0$ then SDE as 
-	the stochastic SIR \cite{Tornatore2005},
-	the noisy Duffing-Van der Pol Oscillator \cite{Schenk-Hoppe1996b}, the stochastic Lorenz equation
-	\cite{Gao2002}, among others follow this structure.
+	Note that if $b_j=0$, then \Cref{ass:ajBound} and \Cref{ass:HypThmSingularities} are unnecessary to 
+	prove \Cref{lem:PhiFhProp}which is the case for stochastic Lotka-Volterra systems \cite{Mao2002,Mao2003},  
+	the Ginzburg-Landau SDE \cite{Kloeden1992} or the damped Langevin equations where the potential lacks of a 
+	constant term \cite{Hutzenthaler2012a}. On the other hand, there are several applications with $b_j\neq 0$ 
+	among others the stochastic SIR \cite{Tornatore2005},the noisy Duffing-Van der Pol oscillator 
+	\cite{Schenk-Hoppe1996b} and the stochastic Lorenz equation \cite{Gao2002}.
 \end{remark}
 \begin{remark}\label{rmk:PertrubedSDE}
 	Note that by \Cref{lem:PhiFhProp}, we have that 

@@ -2,7 +2,7 @@
 partition of the time interval $\calP^{N}$ as a finite equidistant sequence of $N$ points 
 $t_k:=kh$, for $\quad 0\leq k\leq N$, taking the step size as $\quad h =T/N$.
 \begin{definition}[discrete approximation]\label{dfn:ATD}
-	We call a c\'adlag process $Y=\{Y(t),t\geq 0 \}$, a discrete approximation of the solution of SDE
+	We call a process $Y=\{Y(t),t\geq 0 \}$, a discrete approximation of the solution of SDE
 	\eqref{eqn:SDE} with step-size $h$ over a partition 
 	$\calP_{[0,T]}^N =\{0, h, 2h, \ldots, N h\} $ if $Y(t_k)$ is $\calF_{t_{k}}$-measurable and
 	$Y(t_{k+1})$ can be expressed as a function of 
@@ -21,7 +21,7 @@ to show the efficiency of our method. Here, and in the next Chapter we will supp
 		Y_{k+1}= Y_k + h f(Y_k) + g(Y_k)\Delta W_k, \qquad Y_0=y_0,
 	\end{equation}
 	where $\Delta W_k =W_{t_{k+1}}-W_{t_k}$. 
-	If we consider a implicit approximation for the drift coefficient, we obtain  the \emph{backward Euler-Maruyama}
+	If we consider a implicit approximation for the drift coefficient, we obtain  the \emph{Backward-Euler-Maruyama}
 	(BEM) \cite{Mao2013}, under the same notation as above, it has the recurrence:
 	\begin{equation}\label{eqn:BackwardEM}
 		Y_{k+1} = Y_k + h f(Y_{k+1}) + g(Y_k)\Delta W_k.

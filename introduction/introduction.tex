@@ -1,14 +1,14 @@
 \section{Introduction}
-		Stochastic differential modeling becomes  a  rapidly-growing
-	research area. It appears  as extension of deterministic models with over-idealized fluctuations, 
-	but, actually, modeling with stochastic differential equations (SDE)  permits to capture 
-	uncertainty in	almost all phenomena --- from price in markets until motion of particles \cite{Allen2007, 
-	Gardiner2009, VanKampen1992}. 
+	In the last decades, stochastic differential modeling has become a rapidly-growing research area. Historically, it 
+	appeared as an extension of the deterministic differential modeling of over-idealized situations with fluctuating 
+	behavior of the analyzed physical phenomenon.  Actually, it is an important research area by itself that describes 
+	important phenomena such as turbulent diffusion, spread of diseases, genetic regulation, motion of 
+	particles etc. \cite{Allen2007, Gardiner2009, VanKampen1992}. 
 
-		However, we can obtain the explicit solution of only few SDEs. So, developing accurate stochastic
-	numerical approximations, represents  the first option to study and confirm (by simulation) the nature of a 
-	stochastic model. Stochastic numerics allows the  analysis of some properties that are
-	difficult or impossible to measure experimentally in laboratories, for example,
+		We can obtain the explicit solution of only few SDEs, therefore developing accurate stochastic
+	numerical approximations represent  an option to analyze and confirm (by simulation) the nature of a 
+	stochastic model. Stochastic numerics allow the  analysis of some  model properties that are
+	difficult or impossible to measure experimentally in laboratories, for example its
 	long-time behavior. In this cases, we require that a numerical solvers
 	be able to reproduce asymptotic behavior like mean square stability \cite{Higham2000,Higham2000b,Saito1996a},
 	usually, a linear  analysis can be considered as the first step for understanding a method, but it is not 
@@ -16,36 +16,36 @@
 	work on asymptotic	stability has appeared for nonlinear SDEs \citet{Bokor2003} \citet{Buckwar2011a}.  
 	
 		The first methods for solving SDEs were stochastic extensions of deterministic algorithms,
-	for example schemes as the Eler-Maruyama, Taylor and Runge-Kutta \cite{Bokor2003,Burrage2004, Kloeden1992}.
-	Lamentably, sometimes their asymptotic stability conditions are very restrictive, for
-	example in Brownian Dynamics Simulations, the EM discretization, is known
-	as the Conventional method for Brownian Dynamics (CBD), because is the standard method to 
-	solve the Langevin equation that describe the motion of particles	\cite{Braanka1998, Bussi2007, Ermak1978}. 
+	for example schemes as the Euler-Maruyama, Taylor and Runge-Kutta \cite{Bokor2003,Burrage2004, Kloeden1992}.
+	Unfortunately, sometimes their asymptotic stability conditions are very restrictive, considers for
+	example the Brownian Dynamics Simulations, here the Euler-Maruyama discretization is the standard method to 
+	solve the Langevin equation that describe the motion of particles \cite{Braanka1998, Bussi2007, Ermak1978}. 
 	However, the operation time step size of this scheme has to be pint-size, otherwise the scheme becomes unstable. 
-	Now, the construction of methods focuses on structural or dynamic properties of a specific SDE.
+	Now, the construction of methods focus on structural or dynamic properties of a specific SDE.
 	Some examples are the balanced methods for stiff SDE \cite{Milstein1998a} the quasi-symplectic schemes for
 	stochastic Hamiltonian systems \cite{Milstein2003} and SDEs with small noise \cite{Buckwar2006b}.
 	
-		Even numerical convergence and stability are well understood on SDE with globally Lipschitz 
-	continuous coefficients, this setup discard  many important models from applications.
-	Moreover, \citeauthor*{Hutzenthaler2009} reports in \cite{Hutzenthaler2009} that if a SDE
+		Numerical convergence and stability are well understood for SDE with globally Lipschitz 
+	continuous coefficients, which discard  many important models from applications.
+	Moreover, \citeauthor*{Hutzenthaler2009} report in \cite{Hutzenthaler2009} that if a SDE
 	has drift or diffusion,	which grows faster that a linear function, then the EM diverges in strong and weak sense.
 	This result opens a new chapter on the design of numerical methods ---
 	stochastic models in applications as Finance, Biology and Physics use SDEs with locally Lipschitz 
-	coefficients. In addition, \citeauthor*{Giles2008} propose in \cite{Giles2008} a new variance reducing technique
-	that relies in strong numerical convergence, which optimize the traditional Monte Carlo simulation. Thus, developing
-	explicit schemes, which converges in strong sense under super-linear coefficients attracts the right now attention.
+	coefficients. In addition, \citeauthor*{Giles2008} proposes in \cite{Giles2008} a new variance reducing technique
+	that relies in strong numerical convergence, which optimizes the traditional Monte Carlo simulation. Thus, 
+	developing	explicit schemes, which converges in strong sense with super-linear coefficients attracts the right 
+	now attention.
 	
-		In this line, recently research has been focused on modifying the EM method to obtain strong convergence  under 
-	these conditions keeping its simple structure and  its low computational cost. Several methods have been developed 
-	in this direction:  the family of  Tamed schemes
+		Recently research has been focused on modifying the EM method to obtain strong convergence  under 
+	the previous conditions keeping its simple structure and  its low computational cost. Several methods have been 
+	developed in this direction:  the family of  Tamed schemes
 	\cite{Hutzenthaler2012a, Wang2011, Zong2014,Hutzenthaler2015}, 
 	a special type of balanced method \cite{Tretyakov2013},  the stopped scheme \cite{Liu2013a} .
-	For SDE with super-linear diffusion, \citeauthor{Mao2013a} provide results
-	for the strong convergence of Implicit methods as the BEM. However, the convergence of explicit schemes for
-	SDEs with super-linear growth is still under development, in this line appears the works of
+	For SDE with super-linear diffusion, \citeauthor{Mao2013a} provided results
+	for the strong convergence of implicit methods as the Backward-Euler-Maruyama. However, the convergence of explicit 
+	schemes for SDEs with super-linear growth is still under development. Works on this subject  are
 	\citeauthor{Mao2015} \cite{Mao2015} with the truncated Euler method and \cite{Sabanis2015} with a new kind of
-	tamed scheme. In these works, the strong convergence of the proposed method
+	tamed scheme. There, the strong convergence of the proposed method
 	is proved using the theory developed by in \citet*{Higham2002b} or by means of  the new 
 	approach given by  \citet{Hutzenthaler2015}.
 	Both techniques prove strong convergence by verifying boundedness moments of the numerical and 
@@ -54,32 +54,49 @@
 	non-globally Lipschitz coefficients.
 
 \section{Main Results}
-		Our main contribution follows two principal lines.  The first is to design a explicit numerical
+		Our main contribution follows two lines of research. The first one is to design an explicit numerical
 	scheme with good stability properties. We focus on explicit methods because we are interested on applications of 
-	Brownian Dynamics, so we want a simple complex and fast numerical solver. Also we want a stable scheme 
-	because we need simulation at long-time. For example in Brownian Dynamics, the self-diffusion
-	coefficient is an asymptotic property. In this line we propose the Steklov method, which is the stochastic 
+	Brownian Dynamics, so we seek a simple and fast numerical solver. Also we require a stable scheme 
+	in order to obtain  simulations for long periods of time. For example in Brownian Dynamics, the self-diffusion
+	coefficient is an asymptotic property. We propose the Steklov method, which is a stochastic 
 	extension of an exact deterministic numerical scheme. 
 		
-		The second line consist in generalize the above scheme to a multidimensional setup and under more general 
-	coefficients. In this direction, we propose the Linear Steklov scheme (LS). This explicit method puts together 
+		The second line consists in generalize the above scheme to a multidimensional setup and with more general 
+	coefficients. Thus, we propose the Linear Steklov (LS) scheme. This explicit method puts together 
 	ideas of implicit split schemes and a linear version of the Steklov average. We prove for this scheme a one-half 
-	order of convergence under a one sided Lipschitz condition and polynomial growth on the drift; and a globally 
-	Lipschitz condition on the diffusion. Also we provide numerical evidence that this method works of diffusion with 
-	super-linear growth, and in a specific example improves the Tamed Euler family of schemes. 
+	convergence order with a one sided Lipschitz condition and polynomial growth on the drift; and a globally 
+	Lipschitz condition on the diffusion. Also we provide numerical evidence that this method is suitable for problems 
+	with super-linear growth diffusion  where other methods have failed. 
 	 
-\section{Outline}
-		After this introduction we present an overview of results that we will need in order to discuss our 
-	results. So, in chapter 3 we deals with the construction of the Steklov method and prove that have competitive
-	stability properties.	This new solver put together ideas from exact numerical 
-	approximation \cite{Matus2005}, implicit schemes and the EM method. Since in deterministic context we know that
-	this schemes solves exactly the linear problem 
-	$
-		\frac{dx}{dt} = \lambda x,
-	$
-	we expect to produce a scheme with acceptable linear stability, in fact, we confirm this for the scalar case
-	and prove its strong convergence under classic globally Lipschitz conditions. 
-	In chapter 4 we propose an extension of the Steklov method in two directions:
-	a multidimensional setting and more general coefficient. Here we prove convergence rates and provide a 
-	numerical evidence that the scheme works for super-linear growth diffusions. 
-	Finally in Chapter 5 we discuss a possible future direction for our research.
+\section{Methodology}
+		
+	\subsection*{Chapter 2 --- Preliminaries}
+			
+			After the above introduction, in this chapter  we present an overview of results that we will need in order 
+		 discuss our results. Here we recall the basic foundations of Probability theory. Next we discuss the
+		 principal results from stochastic process and stochastic  calculus. Finally, we close this chapter with an 
+		 overview on the main properties of the numerics for stochastic differential equations.
+	
+	\subsection*{Chapter 3 --- Steklov method for scalar SDEs with Globally Lipschitz coefficients}
+	
+			The chapter contains our first contribution ---the Steklov method. 
+		Here we prove that this new solver converge and has competitive stability properties. This new solver is 
+		constructed with ideas from exact numerical approximation \cite{Matus2005}, implicit schemes and the EM method. 
+		Since in deterministic context we know that this schemes solves exactly the linear problem 
+		$
+			\frac{dx}{dt} = \lambda x,
+		$
+		we expect to produce a scheme with acceptable linear stability, in fact, we confirm this for the scalar case
+		and prove its strong convergence under classic globally Lipschitz conditions. 
+	
+	\subsection*{Chapter 4 --- Steklov Method for SDEs with Non-Globally Lipschitz Continuous Drift}
+	
+			In this chapter  we extend  the Steklov method in two directions:
+		a multidimensional setting and more general coefficient. Here we prove convergence rates and provide a 
+		numerical evidence that the scheme is suitable for stochastic differential equations with super-linear growth 
+		diffusions. 
+	
+	\subsection*{Chapter 5 --- Conclusions and future work}
+	
+			Finally, in this Chapter  we restate our contribution and discuss a possible future direction for our 
+			research.

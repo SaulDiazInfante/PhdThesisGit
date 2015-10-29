@@ -1,11 +1,11 @@
 	Applications of Monte Carlo type simulations \cite{Glasserman2004,Giles2008} as  Brownian Dynamics \cite{Cruz2012}
 require  fast numerical methods with low computational cost --- excluding the use of 
 implicit schemes in the majority of cases.
-The Euler-Maruyama (EM) method is the most popular in such  
+The EM method is the most popular in such  
 simulations due to its simple algebraic structure, cheap computational cost and acceptable convergence rate 
 under global Lipschitz conditions. 
-However, if the drift or diffusion coefficients of stochastic 
-differential equations (SDEs) are super-linear, then the EM approximation 
+However, if the drift or diffusion coefficient of stochastic 
+differential equation  is super-linear, then the EM approximation 
 diverges  in the mean square sense \cite{Hutzenthaler2009, Hutzenthaler2012b}. 
 In most applications, the coefficients of the stochastic  models in finances, biology or physics 
 have locally Lipschitz coefficients with super-linear growth. 
@@ -39,14 +39,4 @@ that  each component function $f^{(j)}$  can be written of the form
 \end{equation}
 where $a_j$ and	$b_{j}$ are two scalar 	functions in  $\R^d$ 
 and $x^{(-j)} = \left( x^{(1)},\dots,x^{(j-1)},x^{(j+1)},\dots x^{(d)}\right)$. 
-The paper is organized as follows: In section 2, we give known results that are essential
-for our purposes. In section 3, we construct the new explicit method and prove  
-the always existence of a succession of the Linear Steklov  approximation as well as 
-local Lipschitz conditions for its coefficients.  
-In section 4, we prove the strong convergence of the LS method 
-with one-half order using the Higham, Mao and 
-Mao (HMS) technique and in section 5, its  convergence rate is obtained. 
-In section 6, we analyze numerically  the accuracy and efficiency of the proposed method 
-applied to stochastic  differential equations with super-linear growth and locally Lipschitz coefficients. 
-Finally we give some conclusions.
 

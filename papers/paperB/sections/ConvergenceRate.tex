@@ -1,5 +1,5 @@
 	In this section we show that the explicit Linear Steklov method 
-\cref{eqn:SSLSM1,eqn:SSLSM2} converges  with a standard order of one-half. For that,
+\crefrange{eqn:SSLSM1}{eqn:SSLSM2} converges  with a standard order of one-half. For that,
 we use a similar procedure  as in  \cite{Higham2002b}. In addition 
 to \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} we also require the following.
  
@@ -80,7 +80,7 @@ to \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} we also require the follo
 	\end{align}
 \end{lem}
 
-\begin{pf}
+\begin{proof}
 	From inequality \eqref{eqn:PhifhFbound}, we have
 	\begin{equation*}
 		|\varphi_{f_h}(u) - \varphi_{f_h}(v)|^2
@@ -127,8 +127,7 @@ to \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} we also require the follo
 		\leq
 			2(1+L_{\Phi}) D(1+|u|^q) h^2. 
 	\end{equation*}
-	\qed
-\end{pf}
+\end{proof}
 %
 \begin{lem}\label{lem:yhyOh}
 	Assume \Cref{ass:PolynomialGrowth,ass:MomentBounds} hold then the solution $y_h(t)$ of 
@@ -141,7 +140,7 @@ to \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} we also require the follo
 		} = \mathcal{O}(h^2).
 	\end{equation}	
 \end{lem}
-\begin{pf}
+\begin{proof}
 	We define $e(t):= y(t)-y_h(t)$ where
 	\begin{eqnarray*}
 		y(t) &=& y_0 + \int_{0}^t f(y(s))ds + \int_{0}^t g(y(s))dW(s),  \nonumber\\
@@ -304,9 +303,9 @@ $$
 		}
 		\leq
 			L  \exp(LT) h^2 \leq C h^2. 
-	\end{equation*} 	\qed
+	\end{equation*} 
 		
-\end{pf}
+\end{proof}
 
 	We  can now obtain the convergence rate of the explicit Linear Steklov method.
 
@@ -322,8 +321,8 @@ $$
 		} = \mathcal{O}(h).	
 	\end{equation}
 \end{thm}
-\begin{pf} Using bound  \eqref{eqn:AfterTriangle} then by  lemma \ref{lem:yhyOh} and since
+\begin{proof} Using bound  \eqref{eqn:AfterTriangle} then by  lemma \ref{lem:yhyOh} and since
  the LS continuous-time extension \eqref{eqn:SSLSContinuousExtension} is equivalent to the EM continuous-time extension 
  \eqref{eqn:EMContinuousExtension}, 
- we can use \Cref{thm:EulerConvergenceRateHMS} and conclude that the \SM has order one-half. \qed
-\end{pf}
+ we can use \Cref{thm:EulerConvergenceRateHMS} and conclude that the \SM has order one-half. 
+\end{proof}

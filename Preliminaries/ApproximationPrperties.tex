@@ -1,5 +1,5 @@
 	It is always important in the construction of  new algorithms to study  the global
-discretization error and give an estimation of the speed of convergence. Here, they are
+discretization error and to give an estimation of the speed of convergence. Here, they are
 carried out with  the analysis of the properties of consistency and convergence, see
 \cite{Kloeden1992}. 
 Also we will study the stability of our numerical schemes. While convergence give us
@@ -76,17 +76,16 @@ Now, we state a theorem that connects both concepts.
 \end{definition}
 
 
-\subsection{Higham-Mao-Stuart proof convergence technique}
+\subsection{Higham-Mao-Stuart proof convergence technique} \label{sec:HMS-Technique}
 	\input{./papers/paperB/sections/HighamConvergenceTechnique}
-	However, if we are interested in simulating the  solution of the SDE \eqref{eqn:SDE} for large periods of time, 
-	we need to use stable methods. We can interpret the stability of a numerical method, in some sense, as its
+	Moreover, if we are interested in simulating the solution of the SDE \eqref{eqn:SDE} for large periods of time, 
+	we need to use stable methods. We can interpret the stability of a numerical scheme, in some sense, as its
 	capacity to preserve the  dynamical structure of the solution in that sense. Here we recall the topics that we will 
-	work in the next chapters.
+	work in the next chapter.
 \subsection{Numerical Stability}
-		Roughly speaking the aim of a numerical stability analysis answer the following.
-	For what choices of step-size does the a numerical method reproduce behavior of the underlying SDE?
-	The answer of this question is linked of course, whit the kind o behavior, for example in problems where know a 
-	priori that	each solution path tends to fixed point, or stay on a bounded set or reach an absorbent process.
+	With a numerical stability  one obtain  the step sizes for which a method reproduces  behavior of the solution 
+	for a SDE. Therefore, it is important to know some qualitative  information  about the  solution, for example: if 
+	all solution paths tend to a fixed point, or  if stay on a bounded set or reach an absorbent process.
 	Usually the first step in this direction is a linear stability analysis. This study mimics the deterministic 
 	context, which is based in the following steps:
 	\begin{enumerate}[\bfseries{Step} 1:]
