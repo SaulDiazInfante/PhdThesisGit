@@ -62,8 +62,8 @@
 	extension of an exact deterministic numerical scheme. 
 		
 		The second line consists in generalize the above scheme to a multidimensional setup and with more general 
-	coefficients. Thus, we propose the Linear Steklov (LS) scheme. This explicit method puts together 
-	ideas of implicit split schemes and a linear version of the Steklov average. We prove for this scheme a one-half 
+	coefficients. Thus, we propose the Linear Steklov (LS) scheme. This explicit method is based on  a linear version 
+	of the Steklov average with a split-step formulation. We prove for this scheme a one-half 
 	convergence order with a one sided Lipschitz condition and polynomial growth on the drift; and a globally 
 	Lipschitz condition on the diffusion. Also we provide numerical evidence that this method is suitable for problems 
 	with super-linear growth diffusion  where other methods have failed. 
@@ -72,31 +72,36 @@
 		
 	\subsection*{Chapter 2 --- Preliminaries}
 			
-			After the above introduction, in this chapter  we present an overview of results that we will need in order 
-		 discuss our results. Here we recall the basic foundations of Probability theory. Next we discuss the
-		 principal results from stochastic process and stochastic  calculus. Finally, we close this chapter with an 
-		 overview on the main properties of the numerics for stochastic differential equations.
+			After the above introduction, in this chapter  we present an overview of basic results from probability 
+		theory that we will need in order in order to set our framework.
+		Next we state useful concepts and theorems from stochastic process and stochastic  calculus. 
+		Finally, we give some important qualitative properties of numerical methods for stochastic differential 
+		equations.
 	
 	\subsection*{Chapter 3 --- Steklov method for scalar SDEs with Globally Lipschitz coefficients}
 	
 			The chapter contains our first contribution ---the Steklov method. 
-		Here we prove that this new solver converge and has competitive stability properties. This new solver is 
-		constructed with ideas from exact numerical approximation \cite{Matus2005}, implicit schemes and the EM method. 
-		Since in deterministic context we know that this schemes solves exactly the linear problem 
-		$
-			\frac{dx}{dt} = \lambda x,
-		$
-		we expect to produce a scheme with acceptable linear stability, in fact, we confirm this for the scalar case
-		and prove its strong convergence under classic globally Lipschitz conditions. 
+		First we develop a new numerical method with asymptotic stability properties for solving stochastic 
+		differential equations (SDEs). The foundations for the new solver are the Steklov mean and an exact 
+		discretization for the deterministic version of the SDEs. Second strong consistency and convergence properties 
+		are demonstrated for the proposed method. Moreover, a rigorous linear and nonlinear asymptotic stability 
+		analysis is carried out for the multiplicative case in a mean-square sense and for the additive case in a 
+		path-wise sense using the pullback limit. In order to emphasize the characteristics of the Steklov 
+		discretization we use as benchmarks the stochastic logistic equation and the Langevin equation with a nonlinear 
+		potential of the Brownian dynamics. We show that the Steklov method has mild stability requirements and allows 
+		long-time simulations in several applications.
 	
 	\subsection*{Chapter 4 --- Steklov Method for SDEs with Non-Globally Lipschitz Continuous Drift}
 	
-			In this chapter  we extend  the Steklov method in two directions:
-		a multidimensional setting and more general coefficient. Here we prove convergence rates and provide a 
-		numerical evidence that the scheme is suitable for stochastic differential equations with super-linear growth 
-		diffusions. 
+			In this chapter we present an explicit numerical method for solving stochastic differential equations with
+		non-globally Lipschitz coeffcients. A linear version of the Steklov average under a split-step formulation 
+		supports our new solver. The Linear Steklov method converges strongly with a standard
+		one-half order. Also, we present numerical evidence that the explicit Linear Steklov reproduces almost surely 
+		stability solutions with high-accuracy for diverse application models even
+		for stochastic differential systems with super-linear diffusion coefficients.
+		
 	
 	\subsection*{Chapter 5 --- Conclusions and future work}
 	
-			Finally, in this Chapter  we restate our contribution and discuss a possible future direction for our 
-			research.
+			Finally, in this Chapter  we restate our contribution followed by conclusions and discuss 
+		possible future directions for our research.

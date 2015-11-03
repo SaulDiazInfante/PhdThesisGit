@@ -1,7 +1,5 @@
 	It is always important in the construction of  new algorithms to study  the global
-discretization error and to give an estimation of the speed of convergence. Here, they are
-carried out with  the analysis of the properties of consistency and convergence, see
-\cite{Kloeden1992}. 
+discretization error and to give an estimation of the speed of convergence. 
 Also we will study the stability of our numerical schemes. While convergence give us
 information about behavior of a scheme on a fixed time interval letting the time-step small, the stability analysis
 allow us to understand behavior of the approximation for a fixed step size when the time interval expands to infinity.
@@ -9,37 +7,30 @@ For simplicity, we study these properties for a one-dimensional autonomous SDE
 \begin{equation}\label{eqn:autonomousSDE}
 	dy(t)=fy(t))dt+g(y(t))dW(t).
 \end{equation}
-As a fist step, we suppose that \Cref{ass:ClassicExisAndUniqueness} are fulfill. But in Chapter 5 we will work under
-more general setting. Let see the classic definitions of these concepts (see e.g. \cite{Kloeden1992}).
-
+	As a fist step, we suppose that \Cref{ass:ClassicExisAndUniqueness} is fulfilled. But in \Cref{ch:Chapter5} 
+we will work under a more general setting. Let us state the classic definitions of these concepts (see e.g. 
+\cite{Kloeden1992}).
 \subsection{Strong consistency and convergence}\label{sec3}
-		It is always important in the construction of  new algorithms to study  the global
-	discretization error and give an estimation of the speed of convergence. Here, they are
-	carried out with  the analysis of the properties of consistency and convergence, see
-	\cite{Kloeden1992}. For simplicity, we study these properties for a
-	one-dimensional autonomous SDE
-	\begin{equation}\label{eqn:autonomousSDE}
-		dy(t) = f(y(t))dt+g(y(t))dW(t),
-	\end{equation}
-	satisfying the necessary conditions of existence and uniqueness of solution.  We
-	give a general setting of these concepts.
+		As we mention above we  analyze the global discretization error and convergence. 
+	 Here, they are	carried out with  the study of the properties of consistency and convergence, see
+	\cite{Kloeden1992}. Here we state these concepts.
 	\begin{dfn}\label{dfn:Consistency}
-	A time discrete approximation $Y_n$ is strongly consistent if there is a nonnegative
-	function $c=c(h)$ such that the following conditions hold for all fixed values $Y_n=y$,
-	and $n=0,1,\dots, N$,
-	\begin{enumerate}%[(i)]
-		\item \label{eqn:DefConsitenceA}
-	$\displaystyle \lim_{h\rightarrow 0} c(h)=0$,
-		\item\label{eqn:DefConsitenceB}
-	$\displaystyle \mathbb{E} \left(\left| \mathbb{E} \left(
-			\frac{Y_{n+1}-Y_n}{h} \left|\mathcal{F}_{\tau_n}\right.
-		\right)-F\left( Y_n \right)\right|^2 \right)\leq c(h),$
-		\item \label{eqn:DefConsitenceC}
-	$ \displaystyle  \mathbb{E} \left(\frac{1}{h} \
-	\left|Y_{n+1}-Y_n-\mathbb{E}\left(Y_{n+1}-Y_n
-	\left| \mathcal{F}_{\tau_n}\right.\right)-G\left(Y_n\right)
-	\Delta B_n\right|^2 \right) \leq c(h)$.
-	\end{enumerate}
+		A time discrete approximation $Y_n$ is strongly consistent if there is a nonnegative
+		function $c=c(h)$ such that the following conditions hold for all fixed values $Y_n=y$,
+		and $n=0,1,\dots, N$,
+		\begin{enumerate}%[(i)]
+			\item \label{eqn:DefConsitenceA}
+		$\displaystyle \lim_{h\rightarrow 0} c(h)=0$,
+			\item\label{eqn:DefConsitenceB}
+		$\displaystyle \mathbb{E} \left(\left| \mathbb{E} \left(
+				\frac{Y_{n+1}-Y_n}{h} \left|\mathcal{F}_{\tau_n}\right.
+			\right)-F\left( Y_n \right)\right|^2 \right)\leq c(h),$
+			\item \label{eqn:DefConsitenceC}
+		$ \displaystyle  \mathbb{E} \left(\frac{1}{h} \
+		\left|Y_{n+1}-Y_n-\mathbb{E}\left(Y_{n+1}-Y_n
+		\left| \mathcal{F}_{\tau_n}\right.\right)-G\left(Y_n\right)
+		\Delta B_n\right|^2 \right) \leq c(h)$.
+		\end{enumerate}
 	\end{dfn}
 	On sake of clearness we define
 	$\displaystyle n_t:= \max_{n=1 \ldots N}\{n: t_n\leq t\}$.
@@ -51,8 +42,8 @@ more general setting. Let see the classic definitions of these concepts (see e.g
 		\mathbb{E}\left| y(T)-Y_{n_T}\right|=0.
 	\end{equation*}
 	\end{dfn}
-\todo{Put a paragraph abaout the importans of the convergence order}
-Now, we state a theorem that connects both concepts.
+
+Now, we give a theorem that connects both concepts.
 \begin{thm}[{\cite[Thm. 9.6.2]{Kloeden1992}}]\label{thm:ConsistencyConvergence}
 	If $Y_n$ is a strongly consistent time discrete approximation maximum step $h$ of the
 	solution  of the SDE \eqref{eqn:autonomousSDE} with $Y_0=y_0$. Then $Y_n$ converges
@@ -93,29 +84,28 @@ Now, we state a theorem that connects both concepts.
 			Expand in Taylor series around a fixed point the right hand side of a nonlinear ordinary differential 
 			equation $x'(t) = f(t,x)$.
 		\item
-			Form a linear system with the Jacobian of $f$ evaluated at the equilibrium
+			Take a linear system with the Jacobian matrix of $f$ evaluated at the equilibrium
 			$x'(t) = Ax(t)$.
 		\item
 			Diagonalize to decouples the linear system and study equations of the form
 			$x'(t) = \lambda x(t), \lambda \in \C$.
 	\end{enumerate}
-	If all eigenvalues of $A$ are different of zero, then the  theorem of Hartman justify the use of this last equation 
-	for study behavior around sufficient small neighborhood. So, ones 
-	seek conditions for assure that the numerical methods preserves the dynamics of underlying test. 
+	If all eigenvalues of $A$ are different from zero, then the  theorem of Hartman (see \cite{Hartman1960}) justifies 
+	the use of this last equation  to study the behavior around a sufficient small neighborhood. So, one 
+	seek conditions to assure that the numerical methods preserves the dynamics of underlying test. 
 		
-		In stochastic numerics, the history runs similar. But here, the usual test is a linear SDE with 
-	multiplicative noise. The advantage of this model is that has the same unique fixed point as its deterministic 
-	analogous, the origin \cite[]{Higham2000} . The other test equation is the linear SDE with additive noise. However, 
-	for these model the 
-	concepts of numerical stability was unclear. The first works with this test 
-	\cite{Hernandez1992,Milstein2004,Artemiev1997}, differs about the meaning of fixed point and stability. Recently, 
-	the works of \citeauthor*{CruzCancino2010}
-	\cite{CruzCancino2010} and \citeauthor*{Buckwar2011a} \cite{Buckwar2011a} analyze these model using the theory of
-	random dynamical systems, which in our opinion clarifies this issue.
+		In stochastic numerics, the linearization procedure is analogous  but here the linear SDE with multiplicative 
+	noise is the benchmark test. The advantage of this linear SDE is that has the same unique fixed point as its 
+	deterministic analogous, the origin \cite[]{Higham2000} .  Another benchmark equation is the linear SDE with 
+	additive noise. However, for these model the concepts of numerical stability were unclear. The first works with 
+	this test\cite{Hernandez1992,Milstein2004,Artemiev1997}, differs about the meaning of fixed point and stability. 
+	Recently, the works of \citeauthor*{CruzCancino2010} \cite{CruzCancino2010} and \citeauthor*{Buckwar2011a} 
+	\cite{Buckwar2011a} analyze the additive linear SDE using the theory of random dynamical systems, which in our 
+	opinion clarifies this issue.
 	
 		Naturally the nonlinear case, is even more complex. Although  Lyapunov theory is the usual approach in 
 	applications \cite{Khasminskii2011}, a more general novel approach based on the theory of random dynamical 
-	systems \cite{Arnold1998} attracts the now days attention. In the following we provide this notions. 
+	systems \cite{Arnold1998} is a current topic of interest. In the following we provide this notions. 
 		
 \section*{Linear Stability}
 	\subsection*{Multiplicative noise}
@@ -130,24 +120,24 @@ Now, we state a theorem that connects both concepts.
 		A solution that satisfies  the previous limit  is a \emph{mean-square stable} solution. 
 		Note that for $\xi = 0$ we have, $\Re(\lambda)<0$, which is the stability condition  for the deterministic case.
 			
-			Applying the EM method \eqref{eqn:EulerMaruyama} to test \eqref{eqn:SDEMultiplicativeNoise}, we obtain
+			Applying the EM method \eqref{eqn:EulerMaruyama} to \eqref{eqn:SDEMultiplicativeNoise}, we obtain
 		\begin{equation}\label{eqn:MS-EMRecurrence}
 			Y_{k+1} = \left(1 + h\lambda + \sqrt{h}\xi V_k\right)Y_k,
 		\end{equation}
 		where each $V_k$ is an independent $\calN(0,1)$ random variable. 
-		In order to study the stability properties of the EM, we must therefore study
+		In order to study the stability properties of the EM scheme, we must study
 		the long time behavior of random variables of the form \eqref{eqn:MS-EMRecurrence}.
 		Analogously, we will say that sequence \eqref{eqn:MS-EMRecurrence} is mean-square stable if 
 		$
 			\lim_{k \to  \infty}
 				\EX{|Y_k|^2} = 0.
 		$
-		Note that the EM depends upon the problem parameters $\lambda$ and  $\xi$, and the method
-		parameter $h$. Then for a particular choice of parameters, we will say that the EM is mean-square stable 
+		Note that the EM scheme depends upon the problem parameters $\lambda$ and  $\xi$, and the method
+		parameter $h$. Then for a particular choice of parameters, we will say that the EM scheme is mean-square stable 
 		if it produces a mean-square stable sequence. 
 		Our interest lies in finding the parameter values for which the EM method is stable, and comparing results
 		with the region $\Re(\lambda) + \frac{1}{2}|\xi|^2 < 0$ in \eqref{eqn:LinearMSEquivalence}
-		for the underlying SDE (see \Cref{fig:StabilityPlotsMultiplicativeEM}). In this line we have the following 
+		for the underlying SDE (see \Cref{fig:StabilityPlotsMultiplicativeEM}). There is the following 
 		result. 
 		\begin{thm}
 			Consider the EM method for the linear scalar SDE \eqref{eqn:SDEMultiplicativeNoise}. If the parameters 
@@ -223,7 +213,7 @@ Now, we state a theorem that connects both concepts.
 	for more details see the work of
 	\citet*{Buckwar2011a}.
 	
-\section*{Non-Linear Stabbility}	
+\section*{Non-Linear Stability}	
 	Now we discuss the nonlinear case for multiplicative and additive noise. 
 	\subsection*{Multiplicative Noise}
 	We start with a notion of stability	which emulates the continuity respect to initial conditions of deterministic 
@@ -287,7 +277,8 @@ enunciated it for the EM.
 		-L_1|u-v|^2\qquad \forall u,v\in \mathbb{R}^d.
 	\end{equation}
 Also the authors give sufficient conditions to assure an asymptotically stable stochastic stationary solution
-of \eqref{eqn:SemilinearSDE}. In this context establish the following result for the stability of $\theta$-EM scheme.
+of \eqref{eqn:SemilinearSDE}. In this context they establish the following result for the stability of $\theta$-EM 
+scheme.
 \begin{thm}[{\cite[Thm. 3.1]{Buckwar2011a}}]
 	Suppose that the drift coefficient satisfies a contractive one-sided Lipschitz condition, and that the vector field 
 	f satisfies a globally Lipschitz condition . Then the $\theta$-EM scheme has a unique stochastic stationary 

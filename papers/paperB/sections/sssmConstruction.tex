@@ -1,7 +1,6 @@
 %
-	For simplicity, we begin the construction of the Linear Steklov method (\SM) considering the scalar case of SDE 
+	For simplicity, we begin the construction of the Linear Steklov (\SM) method  considering the scalar case of SDE 
 \eqref{eqn:SDE1}, that is, when $d=m=1$, also, to shorten notation we use $a,b$ instead $a_j,b_j$. 
-Tough this ideas, we will generalize to higher dimensions.
 Let $0=t_0 < t_1< \cdots < t_N=T$ a partition of the interval $[0,T]$ with constant step-size $h=T/N$ and such that
 $t_k=kh$ for $k=0,\ldots, N$. The main idea of the  \SM approximation  consists in 
 estimating the drift coefficient of \eqref{eqn:SDE1}  by
@@ -45,14 +44,10 @@ with $Y_0=y_0$ and  $\varphi_{f}\left(Y_k^{\star}\right)$ defined by
 					a(Y_k)u
 					+b
 				}
-	\right)^{-1}
+	\right)^{-1},
 \end{equation}
-This scheme combines a split-step technique with a linear version of an exact deterministic 
-method see \cite{Diaz-Infante2015,Matus2005}. 
-In detail, first we compute the discrete value $Y^{\star}_k$ using the Linear Steklov approximation \eqref{eqn:SSLSM1},
-and next, $Y_{k+1}$ is obtained by adding the stochastic increment $g(Y_k^\star)\Delta W_k$.
-
-	To higher dimensions, we adapt the same split step scheme \crefrange{eqn:SSLSM1}{eqn:SSLSM2} as follows. 
+where $\varphi_{f}$ is the linearized Steklov average \cite{Diaz-Infante2015,Matus2005}. For higher dimensions, we 
+adapt the same split step scheme \crefrange{eqn:SSLSM1}{eqn:SSLSM2} as follows. 
 For each component equation $j\in\{1, \ldots,  d\}$, on the iteration $k\in\{1, \ldots,  N\}$ take
 \begin{align}
 	a_{j,k} &=
@@ -145,7 +140,6 @@ are limit points.
 		C=\{x \in \mathcal{N}: f(x)=g(x)=0 \},
 	$$
 	and suppose that $C$ is a smooth curve through $\mathbf{q}$.
-	
 	Suppose	there exist a vector $\mathbf{v}$ not tangent to $C$ at $\mathbf{q}$
 	such that the directional derivative $D_{\mathbf{v}}g$ of $g$ in the direction of $\mathbf{v}$ is never zero
 	within $\mathcal{N}$. Also we assume that $\mathbf{q}$ is a limit point of $\mathcal{N}\setminus C$. Then
@@ -158,11 +152,11 @@ are limit points.
 					(x,y)\in \mathcal{N} \setminus C
 				}
 		}
-		\frac{D_{\mathbf{v}} f }{D_{\mathbf{v}} g}
+		\frac{D_{\mathbf{v}} f }{D_{\mathbf{v}} g},
 	\end{equation*}
-	if the latter limit exist.
+	if the latter limit exists.
 \end{thm}
-For the second auxiliary we will need the following concepts.
+For the second theorem we will need the following concepts.
 \begin{dfn}[Directional derivative referred at a point]
 	Let $u,\mathbf{q}\in \R^2$ and $\alpha$ the positive angle respect to the $x$-axis and the segment
 	$\overline{u \mathbf{q}}$.	We denote by 

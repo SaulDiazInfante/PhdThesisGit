@@ -7,45 +7,45 @@ The style file: plainnat.bst
 Database file #1: bib/PhdThesisBib.bib
 Warning--empty journal in Beyn2010
 Warning--empty year in SaiotoPreprint
-You've used 73 entries,
+You've used 68 entries,
             2773 wiz_defined-function locations,
-            1231 strings with 22033 characters,
-and the built_in function-call counts, 34072 in all, are:
-= -- 3361
-> -- 1569
-< -- 50
-+ -- 539
-- -- 464
-* -- 2881
-:= -- 5347
-add.period$ -- 376
-call.type$ -- 73
-change.case$ -- 359
-chr.to.int$ -- 71
-cite$ -- 148
-duplicate$ -- 1499
-empty$ -- 2815
-format.name$ -- 587
-if$ -- 7143
+            1189 strings with 20960 characters,
+and the built_in function-call counts, 31440 in all, are:
+= -- 3110
+> -- 1410
+< -- 49
++ -- 486
+- -- 416
+* -- 2638
+:= -- 4932
+add.period$ -- 351
+call.type$ -- 68
+change.case$ -- 329
+chr.to.int$ -- 66
+cite$ -- 138
+duplicate$ -- 1395
+empty$ -- 2617
+format.name$ -- 532
+if$ -- 6599
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 85
-newline$ -- 523
-num.names$ -- 294
-pop$ -- 550
+missing$ -- 79
+newline$ -- 489
+num.names$ -- 274
+pop$ -- 504
 preamble$ -- 1
-purify$ -- 300
+purify$ -- 274
 quote$ -- 0
-skip$ -- 1054
+skip$ -- 977
 stack$ -- 0
-substring$ -- 1543
-swap$ -- 131
+substring$ -- 1427
+swap$ -- 126
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 733
+type$ -- 683
 warning$ -- 2
-while$ -- 323
+while$ -- 300
 width$ -- 0
-write$ -- 1244
+write$ -- 1161
 (There were 2 warnings)

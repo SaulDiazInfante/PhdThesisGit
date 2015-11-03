@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{68}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -80,15 +80,6 @@ R{\'o}zsa~Horv{\'a}th Bokor.
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/S0168927402001411}.
 
-\bibitem[Bonhoeffer et~al.(1997)Bonhoeffer, May, Shaw, and
-  Nowak]{Bonhoeffer1997}
-S~Bonhoeffer, R~M May, G~M Shaw, and M~a Nowak.
-\newblock Virus dynamics and drug therapy.
-\newblock \emph{Proceedings of the National Academy of Sciences of the United
-  States of America}, 94\penalty0 (13):\penalty0 6971--6976, 1997.
-\newblock ISSN 00278424.
-\newblock \doi{10.1073/pnas.94.13.6971}.
-
 \bibitem[Bra{\'n}ka and Heyes(1998)]{Braanka1998}
 AC~Bra{\'n}ka and DM~Heyes.
 \newblock Algorithms for brownian dynamics simulation.
@@ -137,14 +128,6 @@ Giovanni Bussi and Michele Parrinello.
 \newblock ISSN 1539-3755.
 \newblock \doi{10.1103/PhysRevE.75.056707}.
 \newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevE.75.056707}.
-
-\bibitem[Callaway and Perelson(2002)]{Callaway2002}
-Duncan~S Callaway and Alan~S Perelson.
-\newblock Hiv-1 infection and low steady state viral loads.
-\newblock \emph{Bulletin of mathematical biology}, 64\penalty0 (1):\penalty0
-  29--64, 2002.
-\newblock ISSN 00928240.
-\newblock \doi{10.1006/bulm.2001.0266}.
 
 \bibitem[Caraballo and Kloeden(2006)]{Caraballo2006}
 T.~Caraballo and P.E. Kloeden.
@@ -236,13 +219,6 @@ Michael~B. Giles.
 \newblock \emph{Operations Research}, 56\penalty0 (3):\penalty0 607--617, 2008.
 \newblock \doi{10.1287/opre.1070.0496}.
 
-\bibitem[Glasserman(2004)]{Glasserman2004}
-P.~Glasserman.
-\newblock \emph{Monte Carlo Methods in Financial Engineering}.
-\newblock Applications of mathematics : stochastic modelling and applied
-  probability. Springer, 2004.
-\newblock ISBN 9780387004518.
-
 \bibitem[Guo et~al.(2014)Guo, Li, and Zhu]{Guo2014}
 Qian Guo, Hongqun Li, and Ying Zhu.
 \newblock The improved split-step $\theta$ methods for stochastic differential
@@ -252,6 +228,17 @@ Qian Guo, Hongqun Li, and Ying Zhu.
 \newblock ISSN 01704214.
 \newblock \doi{10.1002/mma.2972}.
 \newblock URL \url{http://doi.wiley.com/10.1002/mma.2972}.
+
+\bibitem[Hartman(1960)]{Hartman1960}
+Philip Hartman.
+\newblock A lemma in the theory of structural stability of differential
+  equations.
+\newblock \emph{Proceedings of the American Mathematical Society}, 11\penalty0
+  (4):\penalty0 610--610, apr 1960.
+\newblock ISSN 0002-9939.
+\newblock \doi{10.1090/S0002-9939-1960-0121542-7}.
+\newblock URL \url{http://www.jstor.org/stable/2034720
+  http://www.ams.org/jourcgi/jour-getitem?pii=S0002-9939-1960-0121542-7}.
 
 \bibitem[Hernandez and Spigler(1992)]{Hernandez1992}
 Diego~Bricio Hernandez and Renato Spigler.
@@ -333,17 +320,6 @@ Martin Hutzenthaler, Arnulf Jentzen, and Peter~E. Kloeden.
 \newblock ISSN 1050-5164.
 \newblock \doi{10.1214/11-AAP803}.
 \newblock URL \url{http://projecteuclid.org/euclid.aoap/1344614205}.
-
-\bibitem[Hutzenthaler et~al.(2013)Hutzenthaler, Jentzen, and
-  Kloeden]{Hutzenthaler2012b}
-Martin Hutzenthaler, Arnulf Jentzen, and Peter~E Kloeden.
-\newblock Divergence of the multilevel monte carlo euler method for nonlinear
-  stochastic differential equations.
-\newblock \emph{The Annals of Applied Probability}, 23\penalty0 (5):\penalty0
-  1913--1966, October 2013.
-\newblock ISSN 1050-5164.
-\newblock \doi{10.1214/12-AAP890}.
-\newblock URL \url{http://projecteuclid.org/euclid.aoap/1377696302}.
 
 \bibitem[Khasminskii and Milstein(2011)]{Khasminskii2011}
 R.~Khasminskii and G.N. Milstein.
@@ -504,23 +480,6 @@ GN~Milstein, E~Platen, and H~Schurz.
   1010--1019, 1998.
 \newblock URL \url{http://www.jstor.org/stable/2587119
   http://epubs.siam.org/doi/pdf/10.1137/S0036142994273525}.
-
-\bibitem[Nelson et~al.(2000)Nelson, Murray, and Perelson]{Nelson2000}
-Patrick~W. Nelson, James~D. Murray, and Alan~S. Perelson.
-\newblock A model of hiv-1 pathogenesis that includes an intracellular delay.
-\newblock \emph{Mathematical Biosciences}, 163\penalty0 (2):\penalty0 201--215,
-  2000.
-\newblock ISSN 00255564.
-\newblock \doi{10.1016/S0025-5564(99)00055-3}.
-
-\bibitem[Nowak et~al.(1997)Nowak, Bonhoeffer, Shaw, and May]{Nowak1997}
-M~a Nowak, S~Bonhoeffer, G~M Shaw, and R~M May.
-\newblock Anti-viral drug treatment: dynamics of resistance in free virus and
-  infected cell populations.
-\newblock \emph{Journal of theoretical biology}, 184\penalty0 (2):\penalty0
-  203--217, 1997.
-\newblock ISSN 0022-5193.
-\newblock \doi{10.1006/jtbi.1996.0307}.
 
 \bibitem[Pasquali(2001)]{Pasquali2001}
 S~Pasquali.

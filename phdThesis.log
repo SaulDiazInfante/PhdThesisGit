@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.9)  28 OCT 2015 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.9)  2 NOV 2015 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2123,30 +2123,6 @@ Package tocbibind Note: Using section or other style headings.
 ) (/home/saul/texlive2015/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(/home/saul/texlive2015/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
-Package: todonotes 2012/07/25
-
-(/home/saul/texlive2015/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/home/saul/texlive2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/home/saul/texlive2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/home/saul/texlive2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks53
-\XKV@tempa@toks=\toks54
-)
-\XKV@depth=\count189
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/home/saul/texlive2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
-)
-\c@@todonotes@numberoftodonotes=\count190
-)
 (/home/saul/texlive2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -2187,15 +2163,15 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen294
-\Hy@linkcounter=\count191
-\Hy@pagecounter=\count192
+\Hy@linkcounter=\count189
+\Hy@pagecounter=\count190
 
 (/home/saul/texlive2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count193
+\Hy@SavedSpaceFactor=\count191
 
 (/home/saul/texlive2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -2207,7 +2183,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count194
+\c@Hy@tempcnt=\count192
 
 (/home/saul/texlive2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip22
@@ -2215,7 +2191,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen295
-\Fld@menulength=\count195
+\Fld@menulength=\count193
 \Field@Width=\dimen296
 \Fld@charsize=\dimen297
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -2227,17 +2203,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count196
-\c@Item=\count197
-\c@Hfootnote=\count198
+\Hy@abspage=\count194
+\c@Item=\count195
+\c@Hfootnote=\count196
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/home/saul/texlive2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count199
-\c@bookmark@seq@number=\count200
+\Fld@listcount=\count197
+\c@bookmark@seq@number=\count198
 
 (/home/saul/texlive2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -2276,30 +2252,30 @@ Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
 \l__siunitx_tmp_box=\box61
 \l__siunitx_tmp_dim=\dimen298
-\l__siunitx_tmp_int=\count201
+\l__siunitx_tmp_int=\count199
 Variant \prop_get:NVNT already defined; not changing it on line 380
 Variant \prop_get:NVNF already defined; not changing it on line 381
 Variant \prop_get:NVNTF already defined; not changing it on line 382
-\l__siunitx_number_mantissa_length_int=\count202
-\l__siunitx_number_uncert_length_int=\count203
-\l__siunitx_round_int=\count204
-\l__siunitx_process_decimal_int=\count205
-\l__siunitx_process_uncertainty_int=\count206
-\l__siunitx_process_fixed_int=\count207
-\l__siunitx_process_integer_min_int=\count208
-\l__siunitx_process_precision_int=\count209
-\l__siunitx_group_min_int=\count210
+\l__siunitx_number_mantissa_length_int=\count200
+\l__siunitx_number_uncert_length_int=\count201
+\l__siunitx_round_int=\count202
+\l__siunitx_process_decimal_int=\count203
+\l__siunitx_process_uncertainty_int=\count204
+\l__siunitx_process_fixed_int=\count205
+\l__siunitx_process_integer_min_int=\count206
+\l__siunitx_process_precision_int=\count207
+\l__siunitx_group_min_int=\count208
 \l__siunitx_angle_marker_box=\box62
 \l__siunitx_angle_unit_box=\box63
 \l__siunitx_angle_marker_dim=\dimen299
 \l__siunitx_angle_unit_dim=\dimen300
-\l__siunitx_unit_int=\count211
-\l__siunitx_unit_denominator_int=\count212
-\l__siunitx_unit_numerator_int=\count213
-\l__siunitx_unit_prefix_int=\count214
-\l__siunitx_unit_prefix_base_int=\count215
-\l__siunitx_unit_prefix_gram_int=\count216
-\l__siunitx_number_product_int=\count217
+\l__siunitx_unit_int=\count209
+\l__siunitx_unit_denominator_int=\count210
+\l__siunitx_unit_numerator_int=\count211
+\l__siunitx_unit_prefix_int=\count212
+\l__siunitx_unit_prefix_base_int=\count213
+\l__siunitx_unit_prefix_gram_int=\count214
+\l__siunitx_number_product_int=\count215
 \c__siunitx_one_fill_skip=\skip85
 \l__siunitx_table_unit_align_skip=\skip86
 \l__siunitx_table_exponent_dim=\dimen301
@@ -2443,31 +2419,31 @@ Package: translator 2010/06/12 ver 1.10
 age-mappings.tex)))
 (/home/saul/texlive2015/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count218
+\c@KVtest=\count216
 \sf@farskip=\skip89
 \sf@captopadj=\dimen310
 \sf@capskip=\skip90
 \sf@nearskip=\skip91
-\c@subfigure=\count219
-\c@subfigure@save=\count220
-\c@lofdepth=\count221
-\c@subtable=\count222
-\c@subtable@save=\count223
-\c@lotdepth=\count224
+\c@subfigure=\count217
+\c@subfigure@save=\count218
+\c@lofdepth=\count219
+\c@subtable=\count220
+\c@subtable@save=\count221
+\c@lotdepth=\count222
 \sf@top=\skip92
 \sf@bottom=\skip93
 )
 (/home/saul/texlive2015/texmf-dist/tex/latex/thmtools/thmtools.sty
 Package: thmtools 2014/04/21 v66
-\thmt@toks=\toks55
-\c@thmt@dummyctr=\count225
+\thmt@toks=\toks53
+\c@thmt@dummyctr=\count223
 
 (/home/saul/texlive2015/texmf-dist/tex/latex/thmtools/thm-patch.sty
 Package: thm-patch 2014/04/21 v66
 
 (/home/saul/texlive2015/texmf-dist/tex/latex/thmtools/parseargs.sty
 Package: parseargs 2014/04/21 v66
-\@parsespec=\toks56
+\@parsespec=\toks54
 ))
 (/home/saul/texlive2015/texmf-dist/tex/latex/thmtools/thm-kv.sty
 Package: thm-kv 2014/04/21 v66
@@ -2489,7 +2465,7 @@ Package: thm-restate 2014/04/21 v66
 )
 (/home/saul/texlive2015/texmf-dist/tex/latex/thmtools/thm-amsthm.sty
 Package: thm-amsthm 2014/04/21 v66
-\thmt@style@headstyle=\toks57
+\thmt@style@headstyle=\toks55
 ))
 (/home/saul/texlive2015/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -2498,25 +2474,19 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 Package: import 2009/03/23  v 5.1
 )
 (./setup/hyphenations.tex) (./setup/macros.tex
-\c@definition=\count226
-\c@dfn=\count227
-\c@assumption=\count228
-\c@hypothesis=\count229
-\c@thm=\count230
-\c@pro=\count231
-\c@lem=\count232
-\c@corollary=\count233
-\c@consequence=\count266
-\c@Proof=\count267
-\c@remark=\count268
-\c@example=\count269
+\c@definition=\count224
+\c@dfn=\count225
+\c@assumption=\count226
+\c@hypothesis=\count227
+\c@thm=\count228
+\c@pro=\count229
+\c@lem=\count230
+\c@corollary=\count231
+\c@consequence=\count232
+\c@Proof=\count233
+\c@remark=\count266
+\c@example=\count267
 ) (./phdThesis.aux
-
-LaTeX Warning: Label `eqn:autonomousSDE' multiply defined.
-
-
-LaTeX Warning: Label `eqn:autonomousSDE@cref' multiply defined.
-
 (./papers/paperA/paperA.aux
 
 LaTeX Warning: Label `eqn:autonomousSDE' multiply defined.
@@ -2608,17 +2578,17 @@ File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 )
 (/home/saul/texlive2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
+\scratchcounter=\count268
 \scratchdimen=\dimen311
 \scratchbox=\box68
-\nofMPsegments=\count271
-\nofMParguments=\count272
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count273
+\nofMPsegments=\count269
+\nofMParguments=\count270
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count271
 \MPscratchDim=\dimen312
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
-\everyMPtoPDFconversion=\toks59
+\MPnumerator=\count272
+\makeMPintoPDFobject=\count273
+\everyMPtoPDFconversion=\toks57
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -2676,7 +2646,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/home/saul/texlive2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count276
+\c@section@level=\count274
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
@@ -2768,7 +2738,7 @@ Dictionary: translator-basic-dictionary, Language: English
 (/home/saul/texlive2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count277
+\c__siunitx_mathsf_int=\count275
 LaTeX Font Info:    Try loading font information for OT1+pplx on input line 4.
 (/home/saul/texlive2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
@@ -2805,13 +2775,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 4.
-\c__siunitx_mathtt_int=\count278
+\c__siunitx_mathtt_int=\count276
 
 (./frontmatter/frontpage.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 13.
 
-<frontmatter/Logo.jpg, id=191, 190.7125pt x 266.9975pt>
+<frontmatter/Logo.jpg, id=187, 190.7125pt x 266.9975pt>
 File: frontmatter/Logo.jpg Graphic file (type jpg)
 
 <use frontmatter/Logo.jpg>
@@ -2870,16 +2840,9 @@ m/m/it/10 y[] \OT1/pplx/m/n/10 = ([][][]\OML/zplm/m/it/10 ; [][][]; [][][]:\OT1
 \tf@lot=\write7
 \openout7 = `phdThesis.lot'.
 
- [7] [8
+ (./frontmatter/thesis_details.tex [7] [8
 
-] (./phdThesis.tdo)
-\tf@tdo=\write8
-\openout8 = `phdThesis.tdo'.
-
-
-(./frontmatter/thesis_details.tex [9] [10
-
-]) [11] [12
+]) [9] [10
 
 ]
 Chapter 1.
@@ -2910,12 +2873,7 @@ ne 64.
 (./Preliminaries/Background.tex
 Package hyperref Info: bookmark level for unknown dfn defaults to 0 on input li
 ne 3.
- [6]) (./Preliminaries/StoppingTimes.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 1.
-Package hyperref Info: bookmark level for unknown lem defaults to 0 on input li
-ne 22.
-)
+ [6])
 (./Preliminaries/ConditionalExpectation.tex [7] [8])
 (./Preliminaries/StochasticCalculus.tex [9]
 Overfull \hbox (0.35435pt too wide) in paragraph at lines 64--64
@@ -2926,7 +2884,10 @@ Overfull \hbox (0.35435pt too wide) in paragraph at lines 64--64
 Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on i
 nput line 44.
  [11]
-(./papers/paperB/sections/ExistenceAndUniqueness.tex))
+(./papers/paperB/sections/ExistenceAndUniqueness.tex
+Package hyperref Info: bookmark level for unknown lem defaults to 0 on input li
+ne 53.
+))
 (./Preliminaries/ExplicitAndImplicitSchemes.tex [12]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 12.50409pt on input line 29.
@@ -2941,8 +2902,9 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 29.
 )
-(./Preliminaries/ApproximationPrperties.tex [13] [14]
+(./Preliminaries/ApproximationPrperties.tex [13]
 (./papers/paperB/sections/HighamConvergenceTechnique.tex
+(./Preliminaries/StoppingTimes.tex [14])
 Package epstopdf Info: Source file: <papers/paperB/sections/ContinuousExtPy/Con
 tinuousExtension.eps>
 (epstopdf)                    date: 2015-05-20 23:24:52
@@ -2958,7 +2920,7 @@ ntinuousExtPy/ContinuousExtension.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <papers/paperB/sections/ContinuousExtPy/ContinuousExtension-eps-converted-to.pd
-f, id=668, 397.485pt x 245.91875pt>
+f, id=642, 397.485pt x 245.91875pt>
 File: papers/paperB/sections/ContinuousExtPy/ContinuousExtension-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -2985,13 +2947,13 @@ Package hyperref Info: bookmark level for unknown assumption defaults to 0 on i
 nput line 43.
 [15]) [16 <./papers/paperB/sections/ContinuousExtPy/ContinuousExtension-eps-con
 verted-to.pdf>] [17]
-<Preliminaries/figures/StabilityPlotsMultiplicativeEM.png, id=777, 361.35pt x 3
+<Preliminaries/figures/StabilityPlotsMultiplicativeEM.png, id=757, 361.35pt x 3
 61.35pt>
 File: Preliminaries/figures/StabilityPlotsMultiplicativeEM.png Graphic file (ty
 pe png)
  <use Preliminaries/figures/StabilityPlotsMultiplicativeEM.png>
 Package pdftex.def Info: Preliminaries/figures/StabilityPlotsMultiplicativeEM.p
-ng used on input line 164.
+ng used on input line 154.
 (pdftex.def)             Requested size: 216.81168pt x 216.81168pt.
 
 [18 <./Preliminaries/figures/StabilityPlotsMultiplicativeEM.png>] [19]))
@@ -3028,7 +2990,7 @@ bilityPlotMultiplicativeNoise.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./papers/paperA/figures/StabilityPlotMultiplicativeNoise-eps-converted-to.pdf,
- id=954, 257.96375pt x 159.59625pt>
+ id=935, 257.96375pt x 159.59625pt>
 File: ./papers/paperA/figures/StabilityPlotMultiplicativeNoise-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -3061,7 +3023,7 @@ g1-eps-converted-to.pdf ./papers/paperA/figures/fig1.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperA/figures/fig1-eps-converted-to.pdf, id=1113, 397.485pt x 245.91
+<./papers/paperA/figures/fig1-eps-converted-to.pdf, id=1095, 397.485pt x 245.91
 875pt>
 File: ./papers/paperA/figures/fig1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3086,7 +3048,7 @@ ort-longMSD-eps-converted-to.pdf ./papers/paperA/figures/short-longMSD.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperA/figures/short-longMSD-eps-converted-to.pdf, id=1129, 397.485pt
+<./papers/paperA/figures/short-longMSD-eps-converted-to.pdf, id=1111, 397.485pt
  x 245.91875pt>
 File: ./papers/paperA/figures/short-longMSD-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3109,63 +3071,52 @@ Chapter 4.
 \openout2 = `papers/paperB/paperB.aux'.
 
  (./papers/paperB/paperB.tex (./papers/paperB/sections/Introduction.tex)
-(./papers/paperB/sections/GeneralSettings.tex [40
-
-])
+(./papers/paperB/sections/GeneralSettings.tex)
 (./papers/paperB/sections/sssmConstruction.tex
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 25.92514pt on input line 13.
+(Font)              scaled to size 25.92514pt on input line 12.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 21.61124pt on input line 13.
+(Font)              scaled to size 21.61124pt on input line 12.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 13.
+(Font)              scaled to size 15.0049pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 25.92514pt on input line 13.
+(Font)              scaled to size 25.92514pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 21.61124pt on input line 13.
+(Font)              scaled to size 21.61124pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 13.
- [41] [42] [43] [44]
+(Font)              scaled to size 15.0049pt on input line 12.
+ [40
 
-LaTeX Warning: Reference `ap' on page 45 undefined on input line 422.
+] [41] [42] [43] [44]
+
+LaTeX Warning: Reference `ap' on page 45 undefined on input line 416.
 
 [45pdfTeX warning (ext4): destination with the same identifier (name{equation.4
 .2.21}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.501 \end{equation}
-                    ] [46]
+l.530 \end{dmath}
+                 ] [46]
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 682.
-)
-(./papers/paperB/sections/StrongConevergenceProof.tex [47]
+ line 676.
+) (./papers/paperB/sections/StrongConevergenceProof.tex
+[47]
 Package hyperref Info: bookmark level for unknown corollary defaults to 0 on in
 put line 33.
- [48] [49]
-Overfull \hbox (29.31015pt too wide) in paragraph at lines 315--329
-\OT1/pplx/m/n/10 2)2\OML/zplm/m/it/10 A=\OT1/pplx/m/n/10 (\OML/zplm/m/it/10 p^^
-N[]n[]\OT1/pplx/m/n/10 ) \OML/zplm/m/it/10 < ^^O=\OT1/pplx/m/n/10 3\OML/zplm/m/
-it/10 :$ \T1/pplx/m/n/10 More-over, we can take $\OML/zplm/m/it/10 h$ \T1/pplx/
-m/n/10 suf-fi-ciently small such that $\OT1/pplx/m/n/10 4\OML/zplm/m/it/10 T\OT
-1/pplx/m/n/10 (\OML/zplm/m/it/10 T \OT1/pplx/m/n/10 + 4)\OML/zplm/m/it/10 K[]\O
-T1/pplx/m/n/10 (\OML/zplm/m/it/10 h\OT1/pplx/m/n/10 ) [][][] \OML/zplm/m/it/10 
-<
- []
+ [48] [49] [50]
 
-[50]
-
-Package hyperref Warning: Suppressing link with empty target on input line 426.
+Package hyperref Warning: Suppressing link with empty target on input line 424.
 
 
 [51]
 
-Package hyperref Warning: Suppressing link with empty target on input line 527.
+Package hyperref Warning: Suppressing link with empty target on input line 525.
 
 
 [52]
 
-Package hyperref Warning: Suppressing link with empty target on input line 647.
+Package hyperref Warning: Suppressing link with empty target on input line 645.
 
 
 [53]) (./papers/paperB/sections/ConvergenceRate.tex [54] [55] [56])
@@ -3180,21 +3131,18 @@ ted-to.pdf>
 (epstopdf)                    size: 25211 bytes
 (epstopdf)             Command: <repstopdf --outfile=papers/paperB/figures/Appl
 ebyEx-eps-converted-to.pdf papers/paperB/figures/ApplebyEx.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<papers/paperB/figures/ApplebyEx-eps-converted-to.pdf, id=1663, 255.95625pt x 1
+<papers/paperB/figures/ApplebyEx-eps-converted-to.pdf, id=1635, 255.95625pt x 1
 58.5925pt>
 File: papers/paperB/figures/ApplebyEx-eps-converted-to.pdf Graphic file (type p
 df)
  <use papers/paperB/figures/ApplebyEx-eps-converted-to.pdf>
 Package pdftex.def Info: papers/paperB/figures/ApplebyEx-eps-converted-to.pdf u
-sed on input line 87.
+sed on input line 85.
 (pdftex.def)             Requested size: 255.95561pt x 158.59209pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ [60 <./papers/paperB/figures/ApplebyEx-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./papers/paperB/figures/Tretyakov.eps>
 (epstopdf)                    date: 2015-09-30 17:12:37
 (epstopdf)                    size: 450381 bytes
@@ -3204,20 +3152,19 @@ erted-to.pdf>
 (epstopdf)                    size: 198759 bytes
 (epstopdf)             Command: <repstopdf --outfile=./papers/paperB/figures/Tr
 etyakov-eps-converted-to.pdf ./papers/paperB/figures/Tretyakov.eps>
-(epstopdf)             \includegraphics on input line 138.
+(epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperB/figures/Tretyakov-eps-converted-to.pdf, id=1675, 270.00874pt x
+<./papers/paperB/figures/Tretyakov-eps-converted-to.pdf, id=1664, 270.00874pt x
  184.69pt>
 File: ./papers/paperB/figures/Tretyakov-eps-converted-to.pdf Graphic file (type
  pdf)
  <use ./papers/paperB/figures/Tretyakov-eps-converted-to.pdf>
 Package pdftex.def Info: ./papers/paperB/figures/Tretyakov-eps-converted-to.pdf
- used on input line 138.
+ used on input line 136.
 (pdftex.def)             Requested size: 270.00807pt x 184.68953pt.
 
-[60] [61 <./papers/paperB/figures/ApplebyEx-eps-converted-to.pdf> <./papers/pap
-erB/figures/Tretyakov-eps-converted-to.pdf>]
+[61 <./papers/paperB/figures/Tretyakov-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./papers/paperB/figures/TimeVsDimension.ep
 s>
 (epstopdf)                    date: 2015-09-21 00:15:24
@@ -3229,19 +3176,18 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./papers/paperB/figures/Ti
 meVsDimension-eps-converted-to.pdf ./papers/paperB/figures/TimeVsDimension.eps>
 
-(epstopdf)             \includegraphics on input line 215.
+(epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf, id=1727, 255.956
+<./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf, id=1695, 255.956
 25pt x 158.5925pt>
 File: ./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use ./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf>
 Package pdftex.def Info: ./papers/paperB/figures/TimeVsDimension-eps-converted-
-to.pdf used on input line 215.
+to.pdf used on input line 213.
 (pdftex.def)             Requested size: 255.95561pt x 158.59209pt.
- [62]
 Package epstopdf Info: Source file: <./papers/paperB/figures/InternalHIVDynamic
 s.eps>
 (epstopdf)                    date: 2015-10-06 11:29:33
@@ -3253,31 +3199,35 @@ s-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./papers/paperB/figures/In
 ternalHIVDynamics-eps-converted-to.pdf ./papers/paperB/figures/InternalHIVDynam
 ics.eps>
-(epstopdf)             \includegraphics on input line 261.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
-<./papers/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf, id=1741, 397
+<./papers/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf, id=1700, 397
 .485pt x 245.91875pt>
 File: ./papers/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use ./papers/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf>
 Package pdftex.def Info: ./papers/paperB/figures/InternalHIVDynamics-eps-conver
-ted-to.pdf used on input line 261.
+ted-to.pdf used on input line 249.
 (pdftex.def)             Requested size: 397.48402pt x 245.91814pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[63 <./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf>] [64 <./pape
-rs/paperB/figures/InternalHIVDynamics-eps-converted-to.pdf>])) [65] [66
+[62]
+Overfull \vbox (5.13255pt too high) has occurred while \output is active []
 
 
-]
+[63 <./papers/paperB/figures/TimeVsDimension-eps-converted-to.pdf> <./papers/pa
+perB/figures/InternalHIVDynamics-eps-converted-to.pdf>])) [64]
 Chapter 5.
-(./Conclusions/Conclusions.tex) [67] [68
+(./Conclusions/Conclusions.tex) [65
 
-] [69] [70]
+
+] [66
+
+] [67] [68]
 Appendix A.
 (./papers/paperB/sections/AuxiliarResults.tex
 Package hyperref Info: bookmark level for unknown Holder defaults to 0 on input
@@ -3292,16 +3242,16 @@ Package hyperref Info: bookmark level for unknown Doobs defaults to 0 on input
 line 55.
 Package hyperref Info: bookmark level for unknown bdg defaults to 0 on input li
 ne 67.
- [71
+ [69
 
 ]
 Package hyperref Info: bookmark level for unknown Gronwall defaults to 0 on inp
 ut line 92.
 Package hyperref Info: bookmark level for unknown DiscreteGronwall defaults to 
 0 on input line 110.
-) [72] [73
+) [70] [71
 
-] [74]
+] [72]
 (./phdThesis.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 22.
  (/home/saul/texlive2015/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -3336,34 +3286,34 @@ Underfull \hbox (badness 3769) in paragraph at lines 56--65
 -ary 2010.  ISSN 1461-1570.  doi: $10 . 1112 /
  []
 
-[75]
-Underfull \hbox (badness 1067) in paragraph at lines 203--211
+[73]
+Underfull \hbox (badness 1067) in paragraph at lines 186--194
 []\T1/pplx/m/n/10 Donald L. Er-mak and J. a. Mc-Cam-mon.  Brow-n-ian dy-nam-ics
  with hy-dro-dy-namic in-ter-ac-
  []
 
-[76] [77]
-Underfull \hbox (badness 1824) in paragraph at lines 400--409
+[74] [75]
+Underfull \hbox (badness 1824) in paragraph at lines 376--385
 \T1/pplx/m/n/10 10 . 1088 / 0953-[]8984 / 5 / 15 / 003$.  URL [][]$\T1/cmtt/m/n
 /10 http : / / iopscience . iop . org / 0953-[]8984 / 5 / 15 / 003http : / /
  []
 
-[78]
-Underfull \hbox (badness 10000) in paragraph at lines 474--483
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 450--459
 \T1/cmtt/m/n/10 Type = pdf & Aid = 133http : / / www . degruyter . com / view /
  j / cmam . 2005 . 5 . issue-[]4 / cmam-[]2005-[]0020 /
  []
 
-[79] [80]) 
+[77]) 
 AED: lastpage setting LastPage
-[81]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+[78]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./phdThesis.aux (./papers/paperA/paperA.aux) (./papers/paperB/paperB.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `phdThesis.out' has not changed.
-(rerunfilecheck)             Checksum: E2F6280963646EAC32340D1040ABF73F;3360.
+(rerunfilecheck)             Checksum: 9E62FF310E684EB8CAAD6DA4481E42BB;3324.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3374,16 +3324,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 42762 strings out of 493089
- 954333 string characters out of 6135291
- 1076511 words of memory out of 5000000
- 44695 multiletter control sequences out of 15000+600000
- 91661 words of font info for 215 fonts, out of 8000000 for 9000
+ 42179 strings out of 493089
+ 942582 string characters out of 6135291
+ 1064452 words of memory out of 5000000
+ 44154 multiletter control sequences out of 15000+600000
+ 87873 words of font info for 209 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 57i,18n,77p,10406b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,77p,10406b,993s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/saul/texlive2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
 /home/saul/texlive2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</home/saul/texli
 ve2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/saul/texlive
@@ -3407,10 +3357,10 @@ ome/saul/texlive2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></home/saul
 /texlive2015/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></home/saul/texliv
 e2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/saul/texlive2015/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on phdThesis.pdf (93 pages, 1038004 bytes).
+Output written on phdThesis.pdf (88 pages, 1034442 bytes).
 PDF statistics:
- 2138 PDF objects out of 2487 (max. 8388607)
- 1976 compressed objects within 20 object streams
- 637 named destinations out of 1000 (max. 500000)
- 431 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2085 PDF objects out of 2487 (max. 8388607)
+ 1928 compressed objects within 20 object streams
+ 620 named destinations out of 1000 (max. 500000)
+ 423 words of extra memory for PDF output out of 10000 (max. 10000000)
 

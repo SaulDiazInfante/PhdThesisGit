@@ -1,12 +1,12 @@
 	Now we discuss a technique  reported  by  \citet*{Higham2002b} to prove strong convergence 
 of stochastic numerical methods under non-globally Lipschitz conditions.
-This kind of analysis is useful whenever moment bounds can be established for both, the EM scheme and 
-other method that can be shown to be "close" to it. A vast amount of literature has been used this 
-technique, some of these works are
+This kind of analysis is useful whenever moment bounds can be established for the EM scheme and 
+other method that can be shown to be "close" to it. Recently, several works have used this procedure to establish 
+strong convergence for some particular schem among others
 \cite{Beyn2010, Guo2014, Hutzenthaler2015, Hutzenthaler2012a,Hutzenthaler2010,Lamba2007,Mao2013,Tretyakov2013}, among
-others.
-
-	To review this technique, we recall two conveniently versions for the continuous extension of the EM 
+others. To review this technique, we recall the definition of stopping time. 
+\input{Preliminaries/StoppingTimes.tex}
+Now consider two conveniently versions for the continuous extension of the EM 
 scheme,
 \begin{align}\label{eqn:EMContinuousExtension}
 	\overline{Y}(t)&:=
@@ -34,12 +34,12 @@ So, with this notation we have $\overline{Y}(t_k)=Y_k$, see \Cref{fig:Continuous
 	\label{fig:ContinuousExtension}
 \end{figure}
 Using the continuous extension \eqref{eqn:EMContinuousExtension}
-and the uniform mean square norm, the authors work with a stronger version of the ms-error%, which is given by 
+and the uniform mean square norm, the authors use a stronger version of the ms-error%, which is given by 
 $$
 	\EX{\sup_{0\leq t \leq t}|y(t)-\overline{Y}(t)|^2}.
 $$
 %
-Then, in  order to prove strong convergence of the EM method, the authors require the following assumptions.
+In  order to prove strong convergence of the EM method, the following assumptions are required.
 \begin{assumption}\label{ass:HighamAssumption}
 	For each $R>0$ there is a positive constant $C_R$, depending only on $R$, such that
 	\begin{equation}\label{ass:LipschitzCondition}
@@ -56,7 +56,7 @@ Then, in  order to prove strong convergence of the EM method, the authors requir
 	\end{equation}
 \end{assumption}
 In \cite{Higham2002b}, the authors prove that the \Cref{ass:HighamAssumption} is sufficient to ensure strong 
-convergence for the EM scheme, namely 
+convergence for the EM scheme, namely: 
 \begin{thm}[
 	{\cite[Thm 2.2]{Higham2002b}}
 	]\label{thm:HighamMaoStuart}
@@ -70,8 +70,8 @@ convergence for the EM scheme, namely
 	\end{equation}
 \end{thm}
 	
-	Applying this result, the authors prove the strong convergence of an implicit split-step variant of the EM, the
-SSEM method. 
+	Applying this result, the strong convergence of an implicit split-step variant of the EM, the
+SSEM method is proved . 
 Their technique consist in proving each assertion of the following steps.
 \begin{enumerate}[\bf{Step} 1:]
 	\item

@@ -1,5 +1,5 @@
-	In this section we show that the explicit Linear Steklov method 
-\crefrange{eqn:SSLSM1}{eqn:SSLSM2} converges  with a standard order of one-half. For that,
+	In this section we show that the Linear Steklov method 
+\crefrange{eqn:SSLSM1}{eqn:SSLSM2} converges  with a standard one-half order. For that,
 we use a similar procedure  as in  \cite{Higham2002b}. In addition 
 to \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} we also require the following.
  
@@ -15,7 +15,7 @@ to \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} we also require the follo
  \end{hypothesis}
  
  \begin{hypothesis}\label[hypothesis]{ass:MomentBounds}
- 	The SDE \eqref{eqn:SDE1}  the EM solution and its continuous extension satisfy
+ 	The SDE \eqref{eqn:SDE1},  the EM solution and its continuous extension satisfy
  	\begin{equation}
  	\EX{
  		\sup_{0\leq t\leq T}
@@ -33,13 +33,13 @@ to \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} we also require the follo
  \end{hypothesis}
 
  \begin{thm}\label{thm:EulerConvergenceRateHMS}[{\citet[Thm 4.4]{Higham2002b}}]
- 	Under \Crefrange{ass:ajBound}{ass:PolynomialGrowth} the EM solution with continuous extension $\overline{X}$
- 	satisfies
+ 	Under \Crefrange{ass:ajBound}{ass:PolynomialGrowth} the EM solution with continuous extension 
+ 	\eqref{eqn:EMContinuousExtension} satisfies
  	\begin{equation}
- 	\EX{
- 		\sup_{0\leq t \leq T}
- 		|\overline{Y}(t)- y(t)|^2
- 	} = \mathcal{O}(h^2).
+	 	\EX{
+	 		\sup_{0\leq t \leq T}
+	 		|\overline{Y}(t)- y(t)|^2
+	 	} = \mathcal{O}(h^2).
  	\end{equation}
  \end{thm}
   
@@ -188,7 +188,7 @@ $$
 			\int_0^t
 				1 + |y_h(s)|^{q'} ds.
 	\end{align*}
-	Since $y_h(t)$  the has bonded moments, there exists a universal constant $L$ which does not depends on $h$ 
+	Since $y_h(t)$ has bonded moments, there exists a universal constant $L$ which does not depends on $h$ 
 	such that
 	\begin{equation}\label{eqn:I1Bound} 
 		 \EX{

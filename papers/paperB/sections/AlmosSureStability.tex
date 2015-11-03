@@ -1,6 +1,6 @@
 	In this section we study the globally almost surely asymptotic stability (as-stability) of the 
 Linear Steklov  method \crefrange{eqn:SSLSM1}{eqn:SSLSM2}, in the scalar case.
-For simplicity we assume that
+For simplicity we assume that the drift coefficient satisfies
 $$
 	f(x) = a(x)x,
 $$
@@ -10,7 +10,7 @@ First, we need sufficient conditions to characterize when the solution of the SD
 The following result deals with it.
 
 \begin{thm}[Mao and Szpruch {\cite[Thm. 2.2]{Mao2013}}]
-	Let \cref{ass:OSLC} hold and suppose that there exist a function $z\in \mathcal{C}(\mathbb{R}^d,\mathbb{R}_+)$
+	Let \cref{ass:OSLC} hold and suppose that there exists a function $z\in \mathcal{C}(\mathbb{R}^d,\mathbb{R}_+)$
 	such that
 	\begin{equation*}
 		\innerprod{x}{f(x)} +
@@ -34,8 +34,8 @@ The following result deals with it.
 \end{thm}
 
 	Next, %in\Cref{thm:AlmosSurleyStability}
-we prove that \SM method emulates the as-stability.
-The proof of this result hinges on the \Cref{lem:MartingaleConvergence} see for instance 
+we prove that \SM method verifies the as-stability.
+The proof of this result depends on the \Cref{lem:MartingaleConvergence} see for instance 
 \cite[Th. 7, pg. 139]{Liptser1989}.
 We will denote by  $\{Z\to\}$ the set of all $\omega \in \Omega$ for which the scalar process $Z$ has the property that
 $\lim_{k\to\infty} Z_k$ exists and is finite.
@@ -68,7 +68,7 @@ $\lim_{k\to\infty} Z_k$ exists and is finite.
 \end{equation*}
 \end{lem}
 \begin{thm}\label{thm:AlmosSurleyStability}
-		Let \Cref{ass:OSLC} holds. Suppose that there is a function 
+		Let \Cref{ass:OSLC} hold. Suppose that there is a function 
 		$z \in \calC(\R^n,\R_+)$ 
 		and a step size $h^*>0$ such that for all $x\in \R$ and for all $h$ in $(0,h^*)$,
 		\begin{align} 
@@ -154,7 +154,7 @@ In addition, if $z(x)=0$ only when $x=0$, then
 		\qquad
 		 j=0,\dots,N.
 	\end{equation*}
-	Given that the inequality \eqref{eqn:ConditionStability2} holds, we can deduce that
+	Given that inequality \eqref{eqn:ConditionStability2} holds, we can deduce that
 	$$
 		B_j\geq z(Y_j) \geq 0, \quad j=0,\ldots N.
 	$$

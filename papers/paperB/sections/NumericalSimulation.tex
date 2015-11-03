@@ -1,33 +1,31 @@
 Here we analyze the behavior of the explicit Linear Steklov method (\SM) for scalar and vector SDEs. 
 The tests confirm the convergence order 1/2 for stochastic differential systems with locally Lipschitz drift 
 and suggest that the \SM scheme reproduces almost surely stability (a.s.). We validate the efficiency of the new 
-method  by comparing with other actual methods like the Euler-Maruyama, Backward Euler (BEM) \cite{Mao2013} and 
-tamed 
-Euler (TEM) \cite{Hutzenthaler2012a}. All simulations are implemented in Python 2.7 and we use the Mersenne random 
-number generator with fixed seed 100.
+method  by comparing with other actual methods like the Euler-Maruyama, Backward-Euler-Maruyama (BEM) \cite{Mao2013} 
+and Tamed-Euler-Maruyama (TEM) \cite{Hutzenthaler2012a}. All simulations are implemented in Python 2.7 and we use the 
+Mersenne random number generator with fixed seed 100.
 	
 \begin{example}
 
 		Here we illustrate the stability \Cref{thm:AlmosSurleyStability} through an numerical example presented in 
-	\cite[sec 7, pg. 420]{Appleby2010}. Here, \citeauthor{Appleby2010}, had proved that the EM fails to preserve the 
-	almost 
-	sure stability of the test SDE
+	\cite[sec 7, pg. 420]{Appleby2010}. Here, \citeauthor{Appleby2010}, proved that the EM method does not satisfies 
+	the almost sure stability of the test SDE
 	\begin{equation}
 	dy(t)= -\beta y(t)|y(t)|^p dt +\sigma(t)|y(t)|^ {\rho} dW(t).
 	\end{equation}
-	That is, the EM approximation explodes to infinity on finite time when $p+1>2\rho$. But, with the same parameters
+	So, the EM approximation explodes to infinity on finite time when $p+1>2\rho$. But, with the same parameters
 	%it is known that 
 	$
 	\lim_{t \to \infty} y(t)=0 \quad \as
 	$, see \cite{Appleby2008, Appleby2010} for more details.
-	The authors consider 
+	In particular for  the following SDE 
 	\begin{equation}\label{eqn:ApplebyEY1}
 		dy(t) = -y^3 dt 
 		+ \frac{1}{\left[\log(t+1)\right]^{1.1}} dW_t, \qquad t>0,
 	\end{equation}
 	and deduce conditions for the step-size $h$ and initial condition $y(t_0)=y_0$ in order to claim with high 
 	probability
-	when the EM scheme for SDE \eqref{eqn:ApplebyEY1} is GASA-stable or diverge \cite[Cor 7.1 pg. 421]{Appleby2010}. 
+	when the EM scheme for SDE \eqref{eqn:ApplebyEY1} is as-stable or diverge \cite[Cor 7.1 pg. 421]{Appleby2010}. 
 	More specifically, given $h<\num{0.0384}$ and  the EM for SDE \eqref{eqn:ApplebyEY1}
 	\begin{equation}\label{eqn:EMRecurrenceApplbyEY1}
 		X_{k+1} = X_k -h X_k^3 
@@ -79,15 +77,15 @@ number generator with fixed seed 100.
 	\end{enumerate}
 	Thus we perform a simulation with step size $h=\num{0.2}$  using 
 	the EM, Tamed Euler-Maruyama (TEM) and the \SM schemes with unstable EM initial conditions. 
-	\Cref{fig:pathsAppleby} shows how the EM scheme produce spurious solutions. Meanwhile, the TEM ans \SM 
+	\Cref{fig:pathsAppleby} shows how the EM scheme produces spurious solutions. Meanwhile, the TEM ans \SM 
 	approximations
-	reproduce the asymptotic behavior, also we note a better initial precision for the \SM approximation. 
+	reproduce the asymptotic behavior, also we observe a better initial precision of the \SM approximation. 
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics{papers/paperB/figures/ApplebyEx}
 		\end{center}
 		\caption{Likening between the EM, TEM and \SM approximations with unstable EM conditions. Here "exact" means
-			a BEM solutions with step size $h=\num{2e-5}$.}
+			a BEM solution with step size $h=\num{2e-5}$.}
 		\label{fig:pathsAppleby}
 	\end{figure}
 \end{example}
@@ -102,7 +100,7 @@ number generator with fixed seed 100.
 		+
 		y^2(t) dW(t), \qquad y_0=0.
 	\end{equation}
-	\citeauthor{Tretyakov2013} shows via simulation of \eqref{eqn:SDETretyakov} that the increment-tamed scheme
+	\citeauthor{Tretyakov2013} show via simulation of \eqref{eqn:SDETretyakov} that the increment-tamed scheme
 	\cite[Eq(1.5)]{Hutzenthaler2015}
 	\begin{equation}\label{eqn:Increment-Tamed}
 		X_{k+1} = X_k + 
@@ -119,7 +117,7 @@ number generator with fixed seed 100.
 	\right)}
 	\end{equation}
 	produces spurious oscillations. \citeauthor{Hutzenthaler2015} prove the convergence of this scheme under
-	linear growth condition over diffusion. So, this suggest us that only certain kind of 
+	linear growth condition over diffusion. So, this suggests us that only certain kind of 
 	explicit schemes with convergence under globally Lipschitz and linear growth diffusion conditions	
 	%globally Lipschitz diffusion and linear growth 
 	can extended their convergence to a locally Lipschitz diffusion and other kind of growth bound.
@@ -131,7 +129,7 @@ number generator with fixed seed 100.
 		+Y_k^2\Delta W_k. 		
 	\end{equation}
 	\Cref{fig:Tretyakov} shows the numerical solution of SDE \eqref{eqn:SDETretyakov} with the Increment-Tamed (I-TEM) 
-	\eqref{eqn:Increment-Tamed}, \SM method \eqref{eqn:TreyakovLSMethod}, and the Tamed (TEM) scheme with. 
+	\eqref{eqn:Increment-Tamed}, \SM method \eqref{eqn:TreyakovLSMethod}, and the Tamed (TEM) scheme. 
 	We consider the implicit Midpoint scheme \cite[Eq.(5.3)]{Tretyakov2013} with $h=\num{e-4}$ 	as reference.
 	\begin{figure}[h!]
 		\centering
@@ -139,15 +137,15 @@ number generator with fixed seed 100.
 		\caption{
 			Numerical solution of SDE \eqref{eqn:SDETretyakov} using the I-TEM 
 			\eqref{eqn:Increment-Tamed}, \SM method \eqref{eqn:TreyakovLSMethod}  and TEM
-			with $h=\num{0.1}$, the reference solutions is a Midpoint rule approximation with $h=\num{e-4}$.
+			with $h=\num{0.1}$. The reference solution is a Midpoint rule approximation with $h=\num{e-4}$.
 		}
 		\label{fig:Tretyakov}
 	\end{figure}
 \end{example}
 
 \begin{example}
-	Now we compare the order of convergenceand the run time of the \SM method withthe TEM scheme as in 
-	\cite{Hutzenthaler2012a}. That is,we consider a  Langevin equation under  the $d$-dimensional potential 
+	Now we compare the order of convergence and the run time of the \SM method with the TEM scheme as in 
+	\cite{Hutzenthaler2012a}. That is, we consider a  Langevin equation under  the $d$-dimensional potential 
 	$U(x)= \frac{1}{4}|x|^4 - \frac{1}{2}|x|^2$, and $d$-dimensional Brownian additive noise. The corresponding
 	SDE reads
 	\begin{equation}\label{eqn:SDELangevinHutz}
@@ -158,7 +156,7 @@ number generator with fixed seed 100.
 		+ dW(t), \qquad y(0)=0.
 	\end{equation}
 	This model describes the motion of a Brownian particle of unit mass immersed on the potential $U(x)$. 
-	Taking $a_j(x):=1-|x|$ and $b_j=0$, $j\in 1\dots d$ we obtain the \SM method
+	Taking $a_j(x):=1-|x|$ and $b_j=0$, $j\in \{1,\dots, d\}$ we obtain the \SM method
 	\begin{equation}\label{eqn:LangevinLSMethod}
 		Y_{k+1} = \diag
 		\left[		
@@ -180,12 +178,12 @@ number generator with fixed seed 100.
 	\eqref{eqn:SDELangevinHutz} with dimension $d=10$.  We consider the TEM solution with step $h=2^{-19}$ as reference 
 	solution. 
 	In this experiment we confirm that the \SM method converges with standard order 1/2  and is almost equal accurate 
-	than the TEM.
+	as the TEM approximation.
 
-	In some application as in Browninan Dynamics Simulations \cite{Cruz2012}, the dimension of a SDE
-	increases considerable the complexity and computational cost --- this prohibits the use of implicit methods.
-	\Cref{fig:TimeVsDimension} supports this (for SDE\eqref{eqn:SDELangevinHutz}): the runtime of BEM depends on 
-	dimension in a quadratic way, while the \SM and TEM depends on linear form.     
+		In some applicationa as in Browninan Dynamics Simulations \cite{Cruz2012}, the dimension of a SDE
+	increases considerable the complexity and computational cost --- this excludes the use of implicit methods.
+	In \Cref{fig:TimeVsDimension}, we observe that the runtime of the BEM method grows quadratically depending
+	on the dimension, meanwhile the LS and TEM methods grow linearly. 
 	\begin{table}[t]
 		\centering
 		\begin{tabular}{lllllll}
@@ -222,18 +220,8 @@ number generator with fixed seed 100.
 \end{example}
 
 \begin{example}
-	\citeauthor{Hutzenthaler2012a} improve convergence of the Euler method by taming the drift increment term with 
-	the factor
-	$
-		\frac{1}{1 + h |f(Y_k)|},
-	$
-	as consequence, the norm of  
-	$
-	\frac{h f(Y_k)}{1 + h |f(Y_k)|},
-	$ is bounded by 1, which  controls the drift contribution of the TEM method at each step. This idea works very well
-	over SDEs with drift contribution and initial condition that are comparable with this bound. However, we observed
-	that on models where the	drift contribution has other scales, the TEM over damps the drift contribution. To fix
-	ideas, we consider the	stochastic model reported in \cite{Dalal2008},
+	Let us recall the following  stochastic model for internal 
+	HIV dynamics given by  \citeauthor{Dalal2008} in \cite{Dalal2008}:
 	\begin{align}\label{eqn:StochasticHIVDynamics}
 		dy_1(t) &=
 		\left(
@@ -282,7 +270,12 @@ number generator with fixed seed 100.
 		}
 		\label{fig:InternalHIVDynamics5e-1}
 	\end{figure} 
-	 Taking 
+	Under certain conditions \citeauthor{Dalal2008} prove 
+	that  system \eqref{eqn:StochasticHIVDynamics} has a unique 
+	almost surely exponential stability solution, that is,  $y=(y_1,y_2,y_3)$  tends 
+	exponentially to an equilibrium $(\bar{y}_1,0,0)$ with probability 1. 
+	Now, we want to verify if  the EM, TEM, TEM-Sabanis \cite{Sabanis2015} and LS approximations can reproduce this 
+	property of the solution. Taking 
 	\begin{align*}
 		E_1&:=\left\{
 			(x,y,z)^T \in \R^3:
@@ -294,12 +287,15 @@ number generator with fixed seed 100.
 		E_2:=	\emptyset,   \\
 		E_3&:=\left\{
 			(x,y,z)^T \in \R^3: 
-			x=0,
+			x=0
 			\text{ or }
 			x=
 			\frac{-\mu}{\beta(1-\gamma)}
 		\right\}
 	\end{align*}
+	 
+	The LS method for \eqref{eqn:StochasticHIVDynamics} is given by
+	
 	\begin{align}
 		a_{1}(Y_k)) &:= 
 		-\left(
@@ -376,14 +372,16 @@ number generator with fixed seed 100.
 	\end{pmatrix}.
 \end{align}
 %
-	\citeauthor{Dalal2008} in \cite[Thm 5.1]{Dalal2008} gives conditions over the parameter of SDE 
-	\eqref{eqn:StochasticHIVDynamics}, which assure a.s. exponential stability --- in the sense that
-	the infected cells ($y_2$) and virus particles ($y_3$) will tend to their equilibrium value 0 exponentially with 
-	probability 1---and verify this asymptotic behavior by
-	simulation %SDE \eqref{eqn:StochasticHIVDynamics} 
-	with parameters reported in published literature \cite{Bonhoeffer1997, Callaway2002, Nelson2000, Nowak1997}.
-	\Cref{fig:InternalHIVDynamics5e-1} shows a simulation path with same parameters with the \SM and TEM approximations.
-	We observe how the TEM oscillates around of initial condition while the \SM reproduce the underlying asymptotic
-	behavior.
+	\Cref{fig:InternalHIVDynamics5e-1} shows the  \SM, TEM and TEM-Sabanis approximations
+	with the parameters reported in \cite{Dalal2008}.  The EM approximation
+	blows up  so it is not drawn. We observe how the TEM approximation (components $y_2$ and $y_3$) oscillates about 
+	the initial condition and the 
+	TEM-Sabanis approximation (components $y_2$ and $y_3$) is constant and equal to the initial value, while the \SM 
+	method reproduces the asymptotic behaviour of the solution. It is important to remark that the Tamed family methods	
+	improve convergence of the Euler method by taming the drift increment term with 
+	the factor	$1/(1 + h |f(Y_k)|)$, bounding the norm of  $h f(Y_k)/(1 + h |f(Y_k)|)$ by 1. This norm   
+	controls the drift contribution of the Tamed methods  at each step. Such modification 
+	is recommended for SDEs with drift contributions and initial conditions with similar scales. We observe
+	that for models where such terms have different scales the TEM over damps the drift contribution. 
 \end{example}
 

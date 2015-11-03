@@ -27,7 +27,7 @@ to show the efficiency of our method. Here, and in the next Chapter we will supp
 		Y_{k+1} = Y_k + h f(Y_{k+1}) + g(Y_k)\Delta W_k.
 	\end{equation}
 \subsection*{The $\theta$-Maruyama scheme}
-		This scheme generalizes the Euler-Maruyama algorithm in the sense that is based on using the parameter $\theta$ 
+		This scheme generalizes the Euler-Maruyama algorithm using the parameter $\theta$ 
 	to weight contributions of the explicit and implicit approximations to the drift coefficient.  Its  recurrence 
 	is  
 	\begin{equation}\label{eqn:ThetaEM}
@@ -37,7 +37,7 @@ to show the efficiency of our method. Here, and in the next Chapter we will supp
 	\end{equation}
 	Note that if $\theta = 0$ we recover the explicit EM and if $\theta = 1$ we obtain the BEM.
 \subsection*{Split Step Backward Euler}
-	Also we will apply the split-step backward Euler method proposal by the authors in \cite{Higham2002b}. 
+	Also we will apply the split-step backward Euler (SSBE) method proposed by the authors in \cite{Higham2002b}. 
 	This scheme is defined by  
 	\begin{align}
 		Y_k^{\star} &= Y_k + hf(Y^{\star}_k), \qquad Y_0 = y_0,

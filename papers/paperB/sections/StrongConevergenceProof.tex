@@ -1,6 +1,6 @@
 	Here, we state and prove the main result of this chapter, the strong convergence of the \SM method
  \crefrange{eqn:SSLSM1}{eqn:SSLSM2} for the solution of SDE \eqref{eqn:SDE1}.
-The main idea of the proof consist in applying the technique discussed in \Cref{sec:HMS-Technique}.
+The main idea of the proof consists in applying the technique discussed in \Cref{sec:HMS-Technique}.
 We begin establishing the underlying convergence theorem.
 \begin{thm} %[Strong Convergence of the \SM method]
 %\begin{restatable}[Strong Convergence of the \SM]{theorem}{StrongConvergence}
@@ -108,9 +108,7 @@ independent on h which value could change in occurrences.
 		&\leq
 		\1{E_j^c}(u) R_n(L_{\Phi}+1), \quad \forall u \in \R^d, \quad |u|\leq n,
 	\end{align*}
-	for each $j\in \{1,\dots, d\}$.
-	
-	
+	for each $j\in \{1,\dots, d\}$. 
 	Moreover, we know by the proof of \Cref{lem:PhiFhProp} that
 	\begin{equation*}
 	 \lim_{
@@ -242,7 +240,7 @@ independent on h which value could change in occurrences.
 		\leq
 		\frac{2A}{n^p}.
 	\end{equation}
-	Now, using the inequality \eqref{eqn:SingleHolder} and \Cref{lem:MomentBound} we have
+	Now, using inequality \eqref{eqn:SingleHolder} and \Cref{lem:MomentBound} we have
 	\begin{equation} \label{eqn:ehMomentBound}
 		\EX{
 			\sup_{0\leq t \leq T}
@@ -259,7 +257,7 @@ independent on h which value could change in occurrences.
 		\leq 2^pA.
 	\end{equation}
 %
-	So, combining the bound \eqref{eqn:BoundProbTauRorRhoR} with \eqref{eqn:ehMomentBound}
+	So, combining  bound \eqref{eqn:BoundProbTauRorRhoR} with \eqref{eqn:ehMomentBound}
 	in inequality \eqref{eqn:AfterYoungIneq} we obtain
 	\begin{align}
 		\EX{
@@ -292,7 +290,7 @@ independent on h which value could change in occurrences.
 				-g_h(y_h(s))
 			\right]dW(s).
 	\end{align*}
-	Using the bounds \eqref{eqn:PhihGhKRhBound} and \eqref{eqn:f-gHRBound}, the Cauchy-Schwarz, and
+	Using bounds \eqref{eqn:PhihGhKRhBound} and \eqref{eqn:f-gHRBound}, the Cauchy-Schwarz, and
 	Doob martingale inequalities, we get
 	\begin{align*}
 		\EX{\sup_{0\leq t \leq \tau}|e_h(t\wedge\theta_n)|^2}
@@ -323,8 +321,8 @@ independent on h which value could change in occurrences.
 	$
 	Moreover, we can take $h$ sufficiently small such that
 	$
-		4T(T+4)K_n(h)\exp(4H_n(T+4)T) < \epsilon/3. 
-	$
+		4T(T+4)K_n(h)e^{4H_n(T+4)T} < \epsilon/3. 
+	$ 
 	It follows immediately that
 	$$
 		\EX{\sup_{0\leq t \leq T}|e_h(t)|^2}
@@ -605,14 +603,14 @@ since the constant C does not depend on $h$, the proof is complete.
 %                                                 STEP 4                                                              %
 %======================================================================================================================
 	
-	Since the \SM scheme has bounded moments, we now proceed whit Step 4, that is,  we will obtain a convenient 
+	Since the \SM scheme has bounded moments, we now proceed whit Step 4, that is,  we will obtain a
 continuous extension of the \SM method with bounded moments. 
 Let $\{Y_k\}$ denote the \SM solution of SDE \eqref{eqn:SDE1}.
 By \Cref{col:SSSMeEMmod}, we conveniently made a continuous extension for the \SM approximation, from the 
-time continuous extension of the EM \eqref{eqn:EMContinuousExtension}.
-Moreover, we prove that the  moments of this extension remains bounded.
+time continuous extension of the EM method \eqref{eqn:EMContinuousExtension}.
+Also, we prove that the  moments of the Linear Steklov extension remains bounded.
 \begin{corollary}\label{col:ContinuousExtBoundedMoments}
-	Let \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} holds and suppose  $0<h<1$ and $p\geq 
+	Let \Cref{ass:OSLC,ass:ajBound,ass:HypThmSingularities} hold and suppose  $0<h<1$ and $p\geq 
 	2$. Then there is a continuous extension $\overline{Y}(t)$ of $\{Y_k\}$  and a universal constant $C=C(T,p)$ such 
 	that
 	\begin{equation*}
@@ -644,8 +642,7 @@ Moreover, we prove that the  moments of this extension remains bounded.
 		%t&=t_k+s,  \qquad  \gamma = s/h\qquad s\in {[0,h)]}.\notag
 		\end{align}
 		%
-		Combining this relation with  the inequalities \eqref{eqn:YkStarBound} and \eqref{eqn:SingleHolder}, we arrive 
-		at
+		Combining this relation with  the inequalities \eqref{eqn:YkStarBound} and \eqref{eqn:SingleHolder}, we get
 		\begin{align}
 			|\overline{Y}(t_k+s) |^2 
 			&\leq
