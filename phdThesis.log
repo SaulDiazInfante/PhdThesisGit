@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.9)  2 NOV 2015 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.9)  4 NOV 2015 09:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2793,13 +2793,13 @@ Package pdftex.def Info: frontmatter/Logo.jpg used on input line 33.
 
 {/home/saul/texlive2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./frontm
 atter/Logo.jpg>]) (./frontmatter/colophon.tex
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 22.
 
-LaTeX Font Info:    No file OMSpplx.fd. on input line 21.
+LaTeX Font Info:    No file OMSpplx.fd. on input line 22.
 
 
 LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 21.
+(Font)              using `OMS/cmsy/m/n' instead on input line 22.
 
 [2
 
@@ -3359,7 +3359,7 @@ ome/saul/texlive2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></home/saul
 /texlive2015/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></home/saul/texliv
 e2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/saul/texlive2015/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on phdThesis.pdf (90 pages, 1035707 bytes).
+Output written on phdThesis.pdf (90 pages, 1035660 bytes).
 PDF statistics:
  2093 PDF objects out of 2487 (max. 8388607)
  1934 compressed objects within 20 object streams
