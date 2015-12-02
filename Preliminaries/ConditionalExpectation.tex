@@ -3,19 +3,22 @@
 foundation for the definitions of martingales and Markov processes. In fact, other areas of probability 
 as stochastic dynamics, conditioning permits to describe and to analyze dynamical systems with randomness.
 Roughly speaking, the conditional expectation is an average that considers only a portion of information.
-Assume $X\in L_1(\Omega,\calF,\P)$ and let $\calG \subset \calF$ a sub-$\sigma$-algebra. Then the
-conditional expectation of the random variable $X$ given $\calG$ is the new random variable 
-$Y = \cEX{X}{\calG}$ such that
-\begin{enumerate}[(i)]
-	\item
+\begin{definition}
+	Let $X\in L_1(\Omega,\calF,\P)$ and let $\calG \subset \calF$ a sub-$\sigma$-algebra. Then the
+	conditional expectation of the random variable $X$ given $\calG$ is the new random variable 
+	$Y = \cEX{X}{\calG}$ such that
+	\begin{enumerate}[(i)]
+		\item
 		$\cEX{X}{G}$ is $\calG$-measurable and integrable.
-	\item
+		\item
 		For all event $G\in \calG$ we have 
 		$
-			\displaystyle
-			\int_{G} X d\P = \int_{G} \cEX{X}{\calG}d\P.
+		\displaystyle
+		\int_{G} X d\P = \int_{G} \cEX{X}{\calG}d\P.
 		$
-\end{enumerate}
+	\end{enumerate}
+\end{definition}	
+
 	This new random variable is unique in the sense that if there is an other $\tilde{Y}$ satisfying
 the same two above properties, then $\P{[Y\neq \tilde{Y}]}=0$. In this case $\tilde{Y}$ is said to be 
 a version of the conditional expectation $\cEX{X}{\calG}$.

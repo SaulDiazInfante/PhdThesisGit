@@ -40,6 +40,6 @@
 \contentsline {section}{\numberline {4.6}Numerical Simulations}{59}{section.4.6}
 \contentsline {chapter}{\numberline {5}Conclusions and future work}{65}{chapter.5}
 \contentsline {section}{\numberline {5.1}Conclusions}{65}{section.5.1}
-\contentsline {chapter}{Appendix \numberline {A}Useful Inequalities}{69}{Appendix.a.A}
-\contentsline {chapter}{Bibliography}{70}{equation.a.A.0.9}
-\contentsline {section}{References}{73}{section*.34}
+\contentsline {chapter}{Appendix \numberline {A}Useful Inequalities}{67}{Appendix.a.A}
+\contentsline {chapter}{References}{68}{equation.a.A.0.9}
+\contentsline {section}{References}{71}{section*.34}

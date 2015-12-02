@@ -11,7 +11,7 @@
 	for $n=0,1,2,\dots,N$ and denote by $Y_n$  the numerical solution at $t_n$. Now we
 	approximate the stochastic integral of \eqref{integral} with the usual form:
 	\begin{equation}\label{discret} 
-		\int_{t_n}^{t_{n+1}}f(s,y(s)) dW(s)\approx g(t_n,Y_n)\Delta W_n, \qquad
+		\int_{t_n}^{t_{n+1}} g(s,y(s)) dW(s)\approx g(t_n,Y_n)\Delta W_n, \qquad
 		\Delta W_n:=(W(t_{n+1})-W(t_n))=\sqrt{h} V_n,
 	\end{equation} 
 	where $W(t_{n+1})-W(t_n)$ is a discrete standard Brownian motion such that $V_n\sim

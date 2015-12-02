@@ -4,7 +4,7 @@
 Let $0=t_0 < t_1< \cdots < t_N=T$ a partition of the interval $[0,T]$ with constant step-size $h=T/N$ and such that
 $t_k=kh$ for $k=0,\ldots, N$. The main idea of the  \SM approximation  consists in 
 estimating the drift coefficient of \eqref{eqn:SDE1}  by
-\begin{equation}
+\begin{equation}\label{eqn:LinerizedSteklovMean}
 	f(y(t)) \approx 
 		\varphi_{f}(y(t_{\eta_{+}(t)})) =
 		\left(
@@ -157,47 +157,6 @@ are limit points.
 	if the latter limit exists.
 \end{thm}
 For the second theorem we will need the following concepts.
-\begin{dfn}[Directional derivative referred at a point]
-	Let $u,\mathbf{q}\in \R^2$ and $\alpha$ the positive angle respect to the $x$-axis and the segment
-	$\overline{u \mathbf{q}}$.	We denote by 
-	\begin{align*}
-		f_{\alpha}(u) &= 
-			\cos(\alpha) 		
-			\frac{\partial f}{\partial u^{(1)}}(u) + 
-			\sin(\alpha)
-			\frac{\partial f}{\partial u^{(2)}}(u) 
-			= \frac{ \innerprod{q-u}{\nabla f(u)}}{|u-q|}			
-	\end{align*}
-	the \emph{directional derivative respect to the point $\mathbf{q}$ on $u$}.
-\end{dfn}
-\begin{dfn}[Star-like set]
-	A set $S\subset \R^2$ is \emph{star-like} with respect a point $\mathbf{q}$, if for each point $s \in S$ the open 
-	segment $\overline{s \mathbf{q}}$ is in $S$.
-\end{dfn}
-%
-Whit this in mine, second theorem give us a way to analyze isolated singularities.
-\begin{thm}\label{thm:Fine}
-	Let $\mathbf{q}\in \R^2$ and let $f$,$g$ be functions whose domains include a set $S\subset \R^2$ which is 
-	star-like 
-	with  respect to the point $\mathbf{q}$. Suppose that on $S$ the functions are differentiable and that
-	the directional derivative of $g$ with respect to $\mathbf{q}$ is never zero. With the understanding that all 
-	limits are taken from within on $S$ at $\mathbf{q}$ and if
-	\begin{enumerate}[(i)]
-		\item 
-			$f(\mathbf{q})=g(\mathbf{q})=0$,
-		\item
-			$
-				\displaystyle
-				\lim_{x \to \mathbf{q}}
-				\frac{f_{\alpha}(x)}{g_{\alpha}(x)} = L,	
-			$
-	\end{enumerate}
-	then
-	$$
-		\lim_{x \to \mathbf{q}}
-		\frac{f(x)}{g(x)} = L.
-	$$
-\end{thm}
 %
 With this on mind, we additionally require the following. 
 \begin{hypothesis}\label[hypothesis]{ass:ajBound} %\label{as:aiFunctions}
@@ -217,8 +176,8 @@ With this on mind, we additionally require the following.
 		a_{j}(x) \leq L_a, \qquad\forall x\in \R^d.
 		$$
 		\item Each function $b_j(\cdot)$ satisfies the linear growth condition
-		\begin{equation*}\label{eqn:bjLinearGrowthCondition}
-		|b_j(x^{(-j)})|^2 \leq L_{b}(1+|x|^2) , \qquad \forall x\in \R^d.
+		\begin{equation*}
+			|b_j(x^{(-j)})|^2 \leq L_{b}(1+|x|^2) , \qquad \forall x\in \R^d.
 		\end{equation*}
 	\end{enumerate}
 \end{hypothesis}
@@ -246,21 +205,7 @@ With this on mind, we additionally require the following.
 						\frac{\partial a_j(u)}{\partial u^{(j)}} \neq 0 ,\qquad 
 						\forall u \in B_r(q)
 						\setminus D.
-					$$	
-				%				
-				%				\item
-				%					The limit
-				%					$$
-				%						\lim_{
-				%							\substack{
-				%								u\to u^*\\ 
-				%								u \in B_r(q) \setminus D
-				%							}
-				%						}
-				%						\frac{e^{h a_j(h)} \frac{\partial a_j(u)}{\partial u^{(j)}}}{\frac{\partial a_j(u)}{\partial 
-				%						u^{(j)}}}
-				%					$$
-				%					
+					$$
 			\end{itemize}	
 		\item
 			All point $q \in E_j$ is a isolated zero of $a_j$ and:
@@ -408,21 +353,21 @@ Now we can state the following result.
 \end{lem}
 %
 \begin{proof}
-Let us first prove that \eqref{eqn:varphiEqnSolution} is solution 
-of equation \eqref{eqn:varphiEquation}.  Note that 
-\begin{equation}\label{e1}
-v^{(j)} = u^{(j)} + h \,\varphi_{f^{(j)}}(v),	
-\end{equation}
-for each $j\in \{1,\dots, d\}$ and using the linear Steklov function \eqref{ap}, 
-we can derive that
-\begin{equation}\label{r1}
-v^{(j)}= e^{h a_j(u)} u^{(j)} + 
-\left[
-h\Phi_j(u)
-\1{E_j^c}
-+h \1{E_j}
-\right]b_{j}(u^{(-j)}),
-\end{equation}	
+	Let us first prove that \eqref{eqn:varphiEqnSolution} is solution 
+	of equation \eqref{eqn:varphiEquation}.  Note that 
+	\begin{equation}\label{e1}
+	v^{(j)} = u^{(j)} + h \,\varphi_{f^{(j)}}(v),	
+	\end{equation}
+	for each $j\in \{1,\dots, d\}$ and using the linear Steklov function \eqref{eqn:LinerizedSteklovMean}, 
+	we can derive that
+	\begin{equation}\label{r1}
+		v^{(j)}= e^{h a_j(u)} u^{(j)} + 
+		\left[
+			h\Phi_j(u)
+			\1{E_j^c}
+			+h \1{E_j}
+		\right]b_{j}(u^{(-j)}),
+	\end{equation}	
 which is the $j$-component of the vector
 $A^{(1)}u +A^{(2)} b(u)$. Now let us prove inequality \eqref{eqn:PhifhFbound}. Given that 
 $v =\varphi_{f}(F_h(u))$, 

@@ -1,4 +1,4 @@
-Here we analyze the behavior of the explicit Linear Steklov method (\SM) for scalar and vector SDEs. 
+Here we analyze the behavior of the explicit \SM method for scalar and vector SDEs. 
 The tests confirm the convergence order 1/2 for stochastic differential systems with locally Lipschitz drift 
 and suggest that the \SM scheme reproduces almost surely stability (a.s.). We validate the efficiency of the new 
 method  by comparing with other actual methods like the Euler-Maruyama, Backward-Euler-Maruyama (BEM) \cite{Mao2013} 
@@ -151,7 +151,7 @@ Mersenne random number generator with fixed seed 100.
 	\begin{equation}\label{eqn:SDELangevinHutz}
 	dy(t) = 
 		\left(
-			y(t) - |y(t)| \cdot y(t)
+			y(t) - |y(t)|^2 \cdot y(t)
 		\right)dt
 		+ dW(t), \qquad y(0)=0.
 	\end{equation}
@@ -180,7 +180,7 @@ Mersenne random number generator with fixed seed 100.
 	In this experiment we confirm that the \SM method converges with standard order 1/2  and is almost equal accurate 
 	as the TEM approximation.
 
-		In some applicationa as in Browninan Dynamics Simulations \cite{Cruz2012}, the dimension of a SDE
+		In some applicationa as in Brownian Dynamics Simulations \cite{Cruz2012}, the dimension of a SDE
 	increases considerable the complexity and computational cost --- this excludes the use of implicit methods.
 	In \Cref{fig:TimeVsDimension}, we observe that the runtime of the BEM method grows quadratically depending
 	on the dimension, meanwhile the LS and TEM methods grow linearly. 
@@ -291,9 +291,8 @@ Mersenne random number generator with fixed seed 100.
 			\text{ or }
 			x=
 			\frac{-\mu}{\beta(1-\gamma)}
-		\right\}
+		\right\}.
 	\end{align*}
-	 
 	The LS method for \eqref{eqn:StochasticHIVDynamics} is given by
 	
 	\begin{align}
@@ -324,7 +323,7 @@ Mersenne random number generator with fixed seed 100.
 		N_0 \alpha Y_{k}^{(2)},
 		\notag			
 	\end{align}
-	the \SM method for the stochastic model \eqref{eqn:StochasticHIVDynamics} reads,
+	and its explicit form reads,
 	\begin{align}
 		Y_{k+1} &= A^{(1)}(h,Y_k) \,Y_k + A^{(2)}(h,Y_k)b(Y_k)+ g(Y_k)\, \Delta W_k,
 		\qquad \Delta W_k = \left(W_k^{(1)}, W_k^{(2)}\right)^T, 
@@ -376,9 +375,9 @@ Mersenne random number generator with fixed seed 100.
 	with the parameters reported in \cite{Dalal2008}.  The EM approximation
 	blows up  so it is not drawn. We observe how the TEM approximation (components $y_2$ and $y_3$) oscillates about 
 	the initial condition and the 
-	TEM-Sabanis approximation (components $y_2$ and $y_3$) is constant and equal to the initial value, while the \SM 
-	method reproduces the asymptotic behaviour of the solution. It is important to remark that the Tamed family methods	
-	improve convergence of the Euler method by taming the drift increment term with 
+	TEM-Sabanis approximation (components $y_2$ and $y_3$) is almost constant, while the 
+	\SM method reproduces the asymptotic behavior of the solution. It is important to remark that the Tamed family 
+	methods improve convergence of the Euler method by taming the drift increment term with 
 	the factor	$1/(1 + h |f(Y_k)|)$, bounding the norm of  $h f(Y_k)/(1 + h |f(Y_k)|)$ by 1. This norm   
 	controls the drift contribution of the Tamed methods  at each step. Such modification 
 	is recommended for SDEs with drift contributions and initial conditions with similar scales. We observe

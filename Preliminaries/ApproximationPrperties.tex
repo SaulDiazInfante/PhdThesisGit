@@ -165,12 +165,12 @@ Now, we give a theorem that connects both concepts.
 	\end{equation}
 	where $\lambda$, $\xi \in \mathbb{C}$ and $X_{t_0}$ is the initial value of the process
 	at time $t_0$. Equation \eqref{eqn:SDELinearAdditive}  has  the following  exact solution:
-	\begin{equation}\label{eqn:OUProcess}
+	\begin{equation}\label{eqn:IntroOUProcess}
 	y(t)=\exp(\lambda (t-t_0)) y(t_0)+\xi 
 	\exp(\lambda t)\int\limits_{t_0}^{t}\exp(-\lambda s)dW(s), 
 	\qquad t\geq t_0.
 	\end{equation}
-	The stochastic process $y(t)$ defined in \eqref{eqn:OUProcess} is known as 
+	The stochastic process $y(t)$ defined in \eqref{eqn:IntroOUProcess} is known as 
 	the {\it Ornstein-Uhlenbeck}'s (OU)  process. According to \cite{Hernandez1992},
 	the OU process  is {\it asymptotically mean stable} if
 	$ \lim_{t\to\infty}\m{y(t)}=0$ and is
@@ -264,7 +264,7 @@ enunciated it for the EM.
 	numerical  analysis given in \cite{kloeden1999towards} to the stochastic
 	case. They propose and justify the use of the following SDE as a test equation with additive noise:
 	\begin{equation}\label{eqn:SemilinearSDE}
-		dy(t)=\left(Ay(y)+f(y(t))\right)dt+\xi dW(t),
+		dy(t)=\left(Ay(ts)+f(y(t))\right)dt+\xi dW(t),
 	\end{equation}
 	where $A$ is a $d \times d$ stiff matrix and function $f : \R^d \to \R^d $ is a nonlinear and non-stiff function 
 	that satisfies, a
